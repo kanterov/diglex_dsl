@@ -38,9 +38,13 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="Stable">
+    <list default="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="Stable">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Diglex/Diglex.mpl" afterPath="$PROJECT_DIR$/languages/Diglex/Diglex.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Diglex/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/Diglex/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Diglex/languageModels/checkUtils.mps" afterPath="$PROJECT_DIR$/languages/Diglex/languageModels/checkUtils.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Diglex/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/Diglex/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/sampleXML.mpl" afterPath="$PROJECT_DIR$/languages/sampleXML/sampleXML.mpl" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="Diglex.iws" />
@@ -74,42 +78,94 @@
       <file leaf-file-name="mc_empty" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://jetbrains.mps.sampleXML.generator.template.main@generator/mc_empty">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+              <memento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DistantContextTemplate" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://Diglex.generator.template.main@generator/DistantContextTemplate">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+              <memento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="123" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://Diglex.generator.template.main@generator/123">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+              <memento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dictionary" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Dictionary" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://Diglex.structure/Dictionary">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="1" />
-                <tab index="0" />
-              </inner_tabs>
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento>
+                <selectedCell cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" id="8760462257934374004" />
+                </selectedCell>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="75" selStart="0" selEnd="0" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+              <node nodeId="8760462257934374004" modelId="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringSet" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Diglex.structure/StringSet">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+              <node nodeId="8760462257934193091" modelId="r:b4934b40-e0d5-4ba6-933f-ae3ef2f7ebb0(Diglex.behavior)" />
             </state>
           </provider>
         </entry>
@@ -117,7 +173,84 @@
       <file leaf-file-name="CheckDependencies" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://Diglex.checkUtils/CheckDependencies">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+              <memento>
+                <selectedCell cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node model="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(Diglex.checkUtils)" id="6991562784717698942" />
+                </selectedCell>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="79" selStart="0" selEnd="0" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="НГУ" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://Diglex.sandbox.sandbox/НГУ">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+              <memento>
+                <selectedCell cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934884561" />
+                </selectedCell>
+                <selectedStack />
+                <folded>
+                  <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                    <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934905451" />
+                  </foldedElement>
+                  <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                    <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859100" />
+                  </foldedElement>
+                  <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                    <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859095" />
+                  </foldedElement>
+                  <foldedElement cellId="Collection_nhnbvh_b0" cellNumber="0" isInList="false">
+                    <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934884561" />
+                  </foldedElement>
+                  <foldedElement cellId="Collection_dkxp4f_b0" cellNumber="0" isInList="false">
+                    <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859105" />
+                  </foldedElement>
+                </folded>
+                <textLine caretPosition="123" selStart="3" selEnd="3" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Diglex.structure/Block">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </memento>
+              <inspectorMemento>
+                <selectedStack />
+                <folded />
+                <textLine caretPosition="null" selStart="null" selEnd="null" />
+              </inspectorMemento>
+              <node nodeId="8760462257934208653" modelId="r:352a41b5-0b40-438b-ac6a-da8125978b2f(Diglex.editor)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckDependencies.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/languages/Diglex/source_gen/Diglex/checkUtils/CheckDependencies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="9" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0" />
           </provider>
         </entry>
       </file>
@@ -125,6 +258,7 @@
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -153,11 +287,6 @@
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
-      <option name="jetbrains.mps.analyzers.plugin.Analyzers_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
       <option name="jetbrains.mps.baseLanguage.collections.plugin.Collections_ProjectPlugin">
         <value>
           <PluginState />
@@ -227,16 +356,6 @@
               </list>
             </option>
           </PluginState>
-        </value>
-      </option>
-      <option name="jetbrains.mps.calculator.plugin.Calculator_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.debug.sampleLanguage.plugin.SampleLanguage_ProjectPlugin">
-        <value>
-          <PluginState />
         </value>
       </option>
       <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
@@ -313,21 +432,9 @@
           <PluginState />
         </value>
       </option>
-      <option name="jetbrains.mps.nanoc.plugin.Nanoc_ProjectPlugin">
+      <option name="jetbrains.mps.make.facet.plugin.Facet_ProjectPlugin">
         <value>
-          <PluginState>
-            <option name="myComponentsState">
-              <list>
-                <ComponentState>
-                  <option name="first" value="jetbrains.mps.nanoc.plugin.ProgramsLocationComponent_PreferencesComponent" />
-                  <params>
-                    <option name="myGDBLocation" />
-                    <option name="myGCCLocation" />
-                  </params>
-                </ComponentState>
-              </list>
-            </option>
-          </PluginState>
+          <PluginState />
         </value>
       </option>
       <option name="jetbrains.mps.quickQueryLanguage.plugin.QuickQueryLanguage_ProjectPlugin">
@@ -335,12 +442,37 @@
           <PluginState />
         </value>
       </option>
-      <option name="jetbrains.mps.samples.lambdaCalculus.plugin.LambdaCalculus_ProjectPlugin">
+      <option name="jetbrains.mps.ui.gwt.plugin.Gwt_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ui.modeling.plugin.Modeling_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ui.plugin.Ui_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ui.swing.plugin.Swing_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ui.swt.plugin.Swt_ProjectPlugin">
         <value>
           <PluginState />
         </value>
       </option>
       <option name="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.plugin.Vcs_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -368,18 +500,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="VCSRoots">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VCS Roots" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
-        </subPane>
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <PATH>
@@ -388,9 +508,9 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <selection />
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,6 +563,48 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex.checkUtils" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Diglex.sandbox" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -455,32 +617,26 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <selection>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Diglex" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="jetbrains.mps.sampleXML" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="structure" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-            </PATH>
-          </selection>
+        </subPane>
+      </pane>
+      <pane id="VCSRoots">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCS Roots" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="jetbrains.mps.nanoc.plugin.ProgramsLocationComponent_GDBLocation_PreferencesPage" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaApplication" factoryName="Java Application">
@@ -489,7 +645,7 @@
           <ConfigRunParameters>
             <option name="VMParameters" />
             <option name="alternativeJRE" />
-            <option name="make" value="false" />
+            <option name="make" value="true" />
             <option name="programParameters" />
             <option name="useAlternativeJRE" value="false" />
             <option name="workingDirectory" />
@@ -503,7 +659,7 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="LAST_MERGED_REVISION" />
@@ -513,6 +669,7 @@
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
     <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <configuration useDefault="true">C:\Users\Gleb\AppData\Roaming\Subversion</configuration>
@@ -531,31 +688,31 @@
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4939314" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.47968337" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49815303" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4712401" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21794195" sideWeight="0.7754881" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21794195" sideWeight="0.67099565" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286334" sideWeight="0.4849286" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21691974" sideWeight="0.7651715" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21691974" sideWeight="0.23113456" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.49973616" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.49604222" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21691974" sideWeight="0.7651715" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.49815303" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -580,6 +737,7 @@
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Stable" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -609,41 +767,162 @@
     </entry>
     <entry file="mps://jetbrains.mps.sampleXML.generator.template.main@generator/mc_empty">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+        </state>
       </provider>
     </entry>
     <entry file="mps://Diglex.generator.template.main@generator/DistantContextTemplate">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+        </state>
       </provider>
     </entry>
     <entry file="mps://Diglex.generator.template.main@generator/123">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.checkUtils/CheckDependencies">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+        </state>
       </provider>
     </entry>
     <entry file="mps://Diglex.structure/Dictionary">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-          </inner_tabs>
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento>
+            <selectedCell cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+              <node model="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" id="8760462257934374004" />
+            </selectedCell>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="75" selStart="0" selEnd="0" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+          <node nodeId="8760462257934374004" modelId="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Diglex.structure/StringSet">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+          <node nodeId="8760462257934193091" modelId="r:b4934b40-e0d5-4ba6-933f-ae3ef2f7ebb0(Diglex.behavior)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Diglex.structure/Block">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+          <node nodeId="8760462257934208653" modelId="r:352a41b5-0b40-438b-ac6a-da8125978b2f(Diglex.editor)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/Diglex/source_gen/Diglex/checkUtils/CheckDependencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="9" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="mps://Diglex.checkUtils/CheckDependencies">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento>
+            <selectedCell cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+              <node model="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(Diglex.checkUtils)" id="6991562784717698942" />
+            </selectedCell>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="79" selStart="0" selEnd="0" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Diglex.sandbox.sandbox/НГУ">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento>
+            <selectedCell cellId="property_name" cellNumber="0" isInList="false">
+              <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934884561" />
+            </selectedCell>
+            <selectedStack />
+            <folded>
+              <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934905451" />
+              </foldedElement>
+              <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859100" />
+              </foldedElement>
+              <foldedElement cellId="Collection_kw2rpr_b0" cellNumber="0" isInList="false">
+                <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859095" />
+              </foldedElement>
+              <foldedElement cellId="Collection_nhnbvh_b0" cellNumber="0" isInList="false">
+                <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934884561" />
+              </foldedElement>
+              <foldedElement cellId="Collection_dkxp4f_b0" cellNumber="0" isInList="false">
+                <node model="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(Diglex.sandbox.sandbox)" id="8760462257934859105" />
+              </foldedElement>
+            </folded>
+            <textLine caretPosition="123" selStart="3" selEnd="3" />
+          </memento>
+          <inspectorMemento>
+            <selectedStack />
+            <folded />
+            <textLine caretPosition="null" selStart="null" selEnd="null" />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
