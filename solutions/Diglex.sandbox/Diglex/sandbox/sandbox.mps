@@ -136,11 +136,13 @@
     <property name="id1:12" value="1828351101" />
     <property name="name:12" value="Шаблон1" />
     <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962771">
-      <node role="Items:12" type="Diglex.structure.TemplateReference:12" id="139994239248966734">
-        <link role="TemplateReference:12" targetNodeId="139994239248966731" resolveInfo="Шаблон2" />
-        <node role="Repeat:12" type="Diglex.structure.RepeatTimes:12" id="139994239248966735" />
-      </node>
       <node role="Items:12" type="Diglex.structure.IMatchCaseItem:12" id="139994239248962775" />
+      <node role="Precondition:12" type="Diglex.structure.MatchCaseCondition:12" id="6981093622810706346">
+        <node role="Items:12" type="Diglex.structure.TemplateReference:12" id="6981093622810706348">
+          <link role="TemplateReference:12" targetNodeId="139994239248966731" resolveInfo="Ш" />
+          <node role="Repeat:12" type="Diglex.structure.RepeatTimes:12" id="6981093622810706349" />
+        </node>
+      </node>
     </node>
   </node>
   <node type="Diglex.structure.Template:12" id="139994239248962947">
@@ -153,9 +155,7 @@
   <node type="Diglex.structure.Template:12" id="139994239248966731">
     <property name="id1:12" value="1711011515" />
     <property name="name:12" value="Шаблон2" />
-    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248966732">
-      <node role="Items:12" type="Diglex.structure.IMatchCaseItem:12" id="139994239248966733" />
-    </node>
+    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248966732" />
   </node>
 </model>
 
