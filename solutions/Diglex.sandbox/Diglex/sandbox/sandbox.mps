@@ -121,21 +121,20 @@
   <node type="Diglex.structure.Template:12" id="8760462257934783621">
     <property name="id1:12" value="124755962" />
     <property name="name:12" value="НГУ" />
-    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962942">
-      <node role="Items:12" type="Diglex.structure.Block:12" id="139994239248962944">
-        <link role="lexemType:12" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
-        <node role="Repeat:12" type="Diglex.structure.RepeatTimes:12" id="139994239248962945" />
-        <node role="Items:12" type="Diglex.structure.ExactString:12" id="139994239248962946">
-          <property name="Value:12" value="НГУ" />
-          <link role="lexemType:12" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
-        </node>
-      </node>
-    </node>
+    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962942" />
   </node>
   <node type="Diglex.structure.Template:12" id="139994239248962770">
     <property name="id1:12" value="1828351101" />
     <property name="name:12" value="Шаблон1" />
     <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962771">
+      <node role="Items:12" type="Diglex.structure.Block:12" id="6981093622810810822">
+        <link role="lexemType:12" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
+        <node role="Repeat:12" type="Diglex.structure.RepeatTimes:12" id="6981093622810810823" />
+        <node role="Items:12" type="Diglex.structure.ExactString:12" id="6981093622810810824">
+          <property name="Value:12" value="Wtf" />
+          <link role="lexemType:12" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
+        </node>
+      </node>
       <node role="Precondition:12" type="Diglex.structure.MatchCaseCondition:12" id="6981093622810706346">
         <node role="Items:12" type="Diglex.structure.TemplateReference:12" id="6981093622810706348">
           <link role="TemplateReference:12" targetNodeId="139994239248966731" resolveInfo="Ш" />
@@ -147,9 +146,7 @@
   <node type="Diglex.structure.Template:12" id="139994239248962947">
     <property name="id1:12" value="1501939278" />
     <property name="name:12" value="Университет" />
-    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962948">
-      <node role="Items:12" type="Diglex.structure.IMatchCaseItem:12" id="139994239248962949" />
-    </node>
+    <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962948" />
   </node>
   <node type="Diglex.structure.Template:12" id="139994239248966731">
     <property name="id1:12" value="1711011515" />
