@@ -39,6 +39,7 @@
       <property name="name:3" value="GetNotConnectedTemplates" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8760462257934915445" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934915446">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="8091464979568649038" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="8969923985672552699">
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="8969923985672552700">
             <property name="name:3" value="connectedTemplates" />
@@ -68,6 +69,7 @@
             </node>
           </node>
         </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="8091464979568649039" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement:7" id="8969923985672552758">
           <node role="variable:7" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable:7" id="8969923985672552759">
             <property name="name:7" value="template" />
