@@ -1351,6 +1351,9 @@
             </node>
           </node>
         </node>
+        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6981093622810708296">
+          <link role="includeTemplate:2" targetNodeId="8760462257934387157" resolveInfo="Template" />
+        </node>
       </node>
     </node>
     <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387375">

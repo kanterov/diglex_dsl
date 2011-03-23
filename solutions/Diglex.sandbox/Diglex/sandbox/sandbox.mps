@@ -136,7 +136,6 @@
     <property name="id1:12" value="1828351101" />
     <property name="name:12" value="Шаблон1" />
     <node role="MatchCases:12" type="Diglex.structure.MatchCase:12" id="139994239248962771">
-      <node role="Items:12" type="Diglex.structure.IMatchCaseItem:12" id="139994239248962775" />
       <node role="Precondition:12" type="Diglex.structure.MatchCaseCondition:12" id="6981093622810706346">
         <node role="Items:12" type="Diglex.structure.TemplateReference:12" id="6981093622810706348">
           <link role="TemplateReference:12" targetNodeId="139994239248966731" resolveInfo="Ш" />
