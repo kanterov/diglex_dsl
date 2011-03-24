@@ -8,7 +8,7 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="17" />
+  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="18" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
@@ -35,10 +35,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="17" />
+  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="18" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="8760462257934193060">
-    <link role="concept" targetNodeId="1.1794194610342760034:17" resolveInfo="AnySymbol" />
+    <link role="concept" targetNodeId="1.1794194610342760034:18" resolveInfo="AnySymbol" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="8760462257934306098">
       <property name="name" value="getFqName" />
       <link role="overriddenMethod" targetNodeId="2v.1213877404258" resolveInfo="getFqName" />
@@ -57,7 +57,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="8760462257934193074">
-    <link role="concept" targetNodeId="1.1794194610342760041:17" resolveInfo="ExactString" />
+    <link role="concept" targetNodeId="1.1794194610342760041:18" resolveInfo="ExactString" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="8760462257934193077">
       <property name="name" value="getFqName" />
       <link role="overriddenMethod" targetNodeId="2v.1213877404258" resolveInfo="getFqName" />
@@ -66,7 +66,7 @@
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8760462257934193086">
             <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="8760462257934193085" />
             <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="8760462257934193090">
-              <link role="property:16" targetNodeId="1.1794194610342760042:17" resolveInfo="Value" />
+              <link role="property:16" targetNodeId="1.1794194610342760042:18" resolveInfo="Value" />
             </node>
           </node>
         </node>
@@ -79,7 +79,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="8760462257934193091">
-    <link role="concept" targetNodeId="1.1794194610342760043:17" resolveInfo="StringSet" />
+    <link role="concept" targetNodeId="1.1794194610342760043:18" resolveInfo="StringSet" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="8760462257934193094">
       <property name="name" value="getFqName" />
       <link role="overriddenMethod" targetNodeId="2v.1213877404258" resolveInfo="getFqName" />
@@ -98,7 +98,7 @@
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8760462257934193104">
               <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="8760462257934193103" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="8760462257934193108">
-                <link role="link:16" targetNodeId="1.1794194610342760052:17" />
+                <link role="link:16" targetNodeId="1.1794194610342760052:18" />
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation:7" id="8760462257934193175">
@@ -118,7 +118,7 @@
                             <link role="variableDeclaration:3" targetNodeId="8760462257934193178" resolveInfo="it" />
                           </node>
                           <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="8760462257934193586">
-                            <link role="property:16" targetNodeId="1.1794194610342760051:17" resolveInfo="Value" />
+                            <link role="property:16" targetNodeId="1.1794194610342760051:18" resolveInfo="Value" />
                           </node>
                         </node>
                       </node>

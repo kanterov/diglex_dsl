@@ -200,6 +200,17 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="18">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameProperty" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="letter" conceptFQName="Diglex.structure.LexemSymbol" featureKind="PROPERTY" />
+          <value featureName="symbol" conceptFQName="Diglex.structure.LexemSymbol" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="bdafc912-c4d6-4e59-a78e-488eda416d0f(Diglex)" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
@@ -208,7 +219,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="17" />
+  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="18" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
@@ -232,7 +243,6 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(Diglex.structure)" version="17" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323831027">
     <property name="name:0" value="Template" />
@@ -242,7 +252,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="MatchCases" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="6282999055323947693:17" resolveInfo="MatchCase" />
+      <link role="target:0" targetNodeId="6282999055323947693:18" resolveInfo="MatchCase" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7612397494931191642">
       <property name="name:0" value="id1" />
@@ -250,7 +260,7 @@
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6282999055323831043">
       <property name="name:0" value="MatchMode" />
-      <link role="dataType:0" targetNodeId="6282999055323831039:17" resolveInfo="MatchMode" />
+      <link role="dataType:0" targetNodeId="6282999055323831039:18" resolveInfo="MatchMode" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6282999055323831028">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
@@ -281,18 +291,18 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6282999055323996060">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Postcondition" />
-      <link role="target:0" targetNodeId="6282999055323993270:17" resolveInfo="MatchCaseCondition" />
+      <link role="target:0" targetNodeId="6282999055323993270:18" resolveInfo="MatchCaseCondition" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6282999055323993274">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Precondition" />
-      <link role="target:0" targetNodeId="6282999055323993270:17" resolveInfo="MatchCaseCondition" />
+      <link role="target:0" targetNodeId="6282999055323993270:18" resolveInfo="MatchCaseCondition" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6282999055323947702">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Items" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="7612397494931065957:17" resolveInfo="IMatchCaseItem" />
+      <link role="target:0" targetNodeId="7612397494931065957:18" resolveInfo="IMatchCaseItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323947696">
@@ -302,10 +312,10 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Conditions" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="1794194610342687668:17" resolveInfo="DistantContextCondition" />
+      <link role="target:0" targetNodeId="1794194610342687668:18" resolveInfo="DistantContextCondition" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7612397494931065961">
-      <link role="intfc:0" targetNodeId="7612397494931065957:17" resolveInfo="IMatchCaseItem" />
+      <link role="intfc:0" targetNodeId="7612397494931065957:18" resolveInfo="IMatchCaseItem" />
     </node>
   </node>
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -330,7 +340,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Items" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="7612397494931065957:17" resolveInfo="IMatchCaseItem" />
+      <link role="target:0" targetNodeId="7612397494931065957:18" resolveInfo="IMatchCaseItem" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6282999055323993271">
       <property name="name:0" value="NotInclude" />
@@ -344,7 +354,7 @@
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="TemplateReference" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="6282999055323831027:17" resolveInfo="Template" />
+      <link role="target:0" targetNodeId="6282999055323831027:18" resolveInfo="Template" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1794194610342687670">
       <property name="name:0" value="NotInclude" />
@@ -357,26 +367,26 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1794194610342749178">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Tail" />
-      <link role="target:0" targetNodeId="1794194610342749173:17" resolveInfo="Tail" />
+      <link role="target:0" targetNodeId="1794194610342749173:18" resolveInfo="Tail" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1094196415547748690">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Items" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="1094196415547751543:17" resolveInfo="IBlockItem" />
+      <link role="target:0" targetNodeId="1094196415547751543:18" resolveInfo="IBlockItem" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1794194610342749171">
       <property name="name:0" value="CaseSensitive" />
       <link role="dataType:0" targetNodeId="2v.1082983657063:0" resolveInfo="boolean" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7612397494931065960">
-      <link role="intfc:0" targetNodeId="7612397494931065957:17" resolveInfo="IMatchCaseItem" />
+      <link role="intfc:0" targetNodeId="7612397494931065957:18" resolveInfo="IMatchCaseItem" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1094196415547836537">
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="lexemType" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="1794194610342749175:17" resolveInfo="LexemType" />
+      <link role="target:0" targetNodeId="1794194610342749175:18" resolveInfo="LexemType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342749173">
@@ -401,7 +411,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="symbolGroup" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="1380999598341939220:17" resolveInfo="LexemSymbolGroup" />
+      <link role="target:0" targetNodeId="1380999598341939220:18" resolveInfo="LexemSymbolGroup" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1094196415547805182">
       <property name="name:0" value="bulk" />
@@ -427,7 +437,7 @@
       <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1094196415547751546">
-      <link role="intfc:0" targetNodeId="1094196415547751543:17" resolveInfo="IBlockItem" />
+      <link role="intfc:0" targetNodeId="1094196415547751543:18" resolveInfo="IBlockItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342760041">
@@ -442,7 +452,7 @@
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1094196415547751547">
-      <link role="intfc:0" targetNodeId="1094196415547751543:17" resolveInfo="IBlockItem" />
+      <link role="intfc:0" targetNodeId="1094196415547751543:18" resolveInfo="IBlockItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342760043">
@@ -456,10 +466,10 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Items" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="1794194610342760048:17" resolveInfo="StringSetItem" />
+      <link role="target:0" targetNodeId="1794194610342760048:18" resolveInfo="StringSetItem" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1094196415547751548">
-      <link role="intfc:0" targetNodeId="1094196415547751543:17" resolveInfo="IBlockItem" />
+      <link role="intfc:0" targetNodeId="1094196415547751543:18" resolveInfo="IBlockItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342760048">
@@ -477,10 +487,10 @@
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="TemplateReference" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="6282999055323831027:17" resolveInfo="Template" />
+      <link role="target:0" targetNodeId="6282999055323831027:18" resolveInfo="Template" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7612397494931065962">
-      <link role="intfc:0" targetNodeId="7612397494931065957:17" resolveInfo="IMatchCaseItem" />
+      <link role="intfc:0" targetNodeId="7612397494931065957:18" resolveInfo="IMatchCaseItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7612397494931065957">
@@ -489,7 +499,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="sourceCardinality:0" value="1" />
       <property name="role:0" value="Repeat" />
-      <link role="target:0" targetNodeId="6282999055323947697:17" resolveInfo="RepeatTimes" />
+      <link role="target:0" targetNodeId="6282999055323947697:18" resolveInfo="RepeatTimes" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="1094196415547751543">
@@ -501,7 +511,7 @@
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="lexemType" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="1794194610342749175:17" resolveInfo="BlockLexemType" />
+      <link role="target:0" targetNodeId="1794194610342749175:18" resolveInfo="BlockLexemType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1094196415547805179">
@@ -512,7 +522,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lexemType" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="1794194610342749175:17" resolveInfo="LexemType" />
+      <link role="target:0" targetNodeId="1794194610342749175:18" resolveInfo="LexemType" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1094196415547805180">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
@@ -526,7 +536,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="dictionaryTemplate" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="8760462257934427241:17" resolveInfo="DictionaryTemplate" />
+      <link role="target:0" targetNodeId="8760462257934427241:18" resolveInfo="DictionaryTemplate" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="8760462257934387384">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
@@ -539,18 +549,14 @@
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="template" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="6282999055323831027:17" resolveInfo="Template" />
+      <link role="target:0" targetNodeId="6282999055323831027:18" resolveInfo="Template" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1380999598341906557">
     <property name="name:0" value="LexemSymbol" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1380999598341906559">
-      <property name="name:0" value="letter" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1380999598342017957">
-      <link role="intfc:0" targetNodeId="1380999598342017955:17" resolveInfo="ILexemSymbol" />
+      <link role="intfc:0" targetNodeId="1380999598342017955:18" resolveInfo="ILexemSymbol" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1380999598341939220">
@@ -560,7 +566,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="symbol" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="1380999598342017955:17" resolveInfo="ILexemSymbol" />
+      <link role="target:0" targetNodeId="1380999598342017955:18" resolveInfo="ILexemSymbol" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1380999598341989390">
@@ -571,7 +577,7 @@
       <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1380999598342017958">
-      <link role="intfc:0" targetNodeId="1380999598342017955:17" resolveInfo="ILexemSymbol" />
+      <link role="intfc:0" targetNodeId="1380999598342017955:18" resolveInfo="ILexemSymbol" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="1380999598342017955">
