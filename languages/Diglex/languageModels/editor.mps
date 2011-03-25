@@ -448,6 +448,15 @@
           </node>
         </node>
       </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="1926773284996300829">
+        <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="1926773284996300830" />
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="1926773284996300826">
+          <property name="text:32" value="По умолчанию?" />
+        </node>
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="1926773284996300832">
+          <link role="relationDeclaration:32" targetNodeId="1.1926773284996300823:18" resolveInfo="default" />
+        </node>
+      </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="1380999598341906562">
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="1380999598341906563" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="1094196415547805188">
@@ -1152,7 +1161,7 @@
           <property name="text:32" value="&quot;" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="1380999598341955667">
-          <link role="relationDeclaration:32" targetNodeId="1.1380999598341906559:18" resolveInfo="letter" />
+          <link role="relationDeclaration:32" targetNodeId="1.1380999598342017956:18" resolveInfo="symbol" />
           <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem:32" id="1380999598341955668">
             <property name="flag:32" value="true" />
           </node>

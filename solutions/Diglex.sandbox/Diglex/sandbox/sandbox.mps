@@ -779,6 +779,12 @@
     <node role="lexemType:18" type="Diglex.structure.LexemType:18" id="1380999598342057528">
       <property name="name:18" value="Неизвестный" />
       <property name="bulk:18" value="Unknown" />
+      <property name="default:18" value="true" />
+      <node role="symbolGroup:18" type="Diglex.structure.LexemSymbolGroup:18" id="1926773284996270954">
+        <node role="symbol:18" type="Diglex.structure.LexemSymbolCode:18" id="1926773284996270961">
+          <property name="code:18" value="0" />
+        </node>
+      </node>
     </node>
   </node>
   <node type="Diglex.structure.Template:18" id="8760462257934387296">

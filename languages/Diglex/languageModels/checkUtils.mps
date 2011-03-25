@@ -1185,6 +1185,15 @@
             </node>
           </node>
         </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1926773284996317506">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1926773284996317507">
+            <property name="name:3" value="defaultLexemType" />
+            <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="1926773284996317508">
+              <link role="concept:16" targetNodeId="1.1794194610342749175:18" resolveInfo="LexemType" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="1926773284996317531" />
+          </node>
+        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="3850314743293063755" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ForeachStatement:3" id="3850314743293087381">
           <node role="variable:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3850314743293087382">
@@ -1194,6 +1203,29 @@
             </node>
           </node>
           <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3850314743293087383">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="1926773284996317513">
+              <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1926773284996317514">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1926773284996317523">
+                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="1926773284996317525">
+                    <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1926773284996317528">
+                      <link role="variableDeclaration:3" targetNodeId="3850314743293087382" resolveInfo="lexemType" />
+                    </node>
+                    <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1926773284996317524">
+                      <link role="variableDeclaration:3" targetNodeId="1926773284996317507" resolveInfo="defaultLexemType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1926773284996317518">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1926773284996317517">
+                  <link role="variableDeclaration:3" targetNodeId="3850314743293087382" resolveInfo="lexemType" />
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="1926773284996317522">
+                  <link role="property:16" targetNodeId="1.1926773284996300823:18" resolveInfo="default" />
+                </node>
+              </node>
+            </node>
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="1926773284996317512" />
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3850314743293087389">
               <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3850314743293087390">
                 <property name="name:3" value="charSet" />
@@ -1239,7 +1271,9 @@
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="7413212514893039693">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="7413212514893039695" />
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1926773284996317529">
+            <link role="variableDeclaration:3" targetNodeId="1926773284996317507" resolveInfo="defaultLexemType" />
+          </node>
         </node>
       </node>
       <node role="returnType:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="7413212514893039619">

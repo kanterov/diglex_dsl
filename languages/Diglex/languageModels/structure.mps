@@ -407,6 +407,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342749175">
     <property name="name:0" value="LexemType" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1926773284996300823">
+      <property name="name:0" value="default" />
+      <link role="dataType:0" targetNodeId="2v.1082983657063:0" resolveInfo="boolean" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1380999598341906556">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="symbolGroup" />
