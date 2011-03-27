@@ -787,79 +787,15 @@
       </node>
     </node>
   </node>
-  <node type="Diglex.structure.Template:18" id="8760462257934387296">
-    <property name="id1:18" value="0" />
-    <property name="name:18" value="Новосибирск" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="8760462257934387297">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="8760462257934387299">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="8760462257934387305">
-          <property name="Value:18" value="Новосибирск" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="8760462257934387301" />
-      </node>
-    </node>
-  </node>
-  <node type="Diglex.structure.Dictionary:18" id="8760462257934427227">
-    <property name="name:18" value="Словарь" />
-    <node role="dictionaryTemplate:18" type="Diglex.structure.DictionaryTemplate:18" id="8760462257934467908">
-      <link role="template:18" targetNodeId="8760462257934387296" resolveInfo="Новосибирск" />
-    </node>
-    <node role="dictionaryTemplate:18" type="Diglex.structure.DictionaryTemplate:18" id="8760462257934517874">
-      <link role="template:18" targetNodeId="8760462257934783621" resolveInfo="НГУ" />
-    </node>
-    <node role="dictionaryTemplate:18" type="Diglex.structure.DictionaryTemplate:18" id="8760462257934520440">
-      <link role="template:18" targetNodeId="8760462257934520421" resolveInfo="НГУ2" />
-    </node>
-  </node>
-  <node type="Diglex.structure.Template:18" id="8760462257934520421">
-    <property name="id1:18" value="0" />
-    <property name="name:18" value="НГУ2" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="8760462257934520422">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="8760462257934520423">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="8760462257934520424">
-          <property name="Value:18" value="НГУ" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="8760462257934520425" />
-      </node>
-    </node>
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="8760462257934520426">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="8760462257934520427">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="8760462257934520428">
-          <property name="Value:18" value="Новосибирск" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="8760462257934520429" />
-        <node role="Tail:18" type="Diglex.structure.BlockTail:18" id="8760462257934520430" />
-      </node>
-      <node role="Items:18" type="Diglex.structure.Block:18" id="8760462257934520431">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="8760462257934520432">
-          <property name="Value:18" value="Государственн" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="8760462257934520433" />
-        <node role="Tail:18" type="Diglex.structure.BlockTail:18" id="8760462257934520434" />
-      </node>
-      <node role="Items:18" type="Diglex.structure.Block:18" id="8760462257934520435">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="8760462257934520436">
-          <property name="Value:18" value="Университет" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="8760462257934520437" />
-        <node role="Tail:18" type="Diglex.structure.BlockTail:18" id="8760462257934520438" />
-      </node>
-    </node>
-  </node>
   <node type="Diglex.structure.Template:18" id="8760462257934783621">
     <property name="id1:18" value="124755962" />
     <property name="name:18" value="НГУ" />
     <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="1926773284996246791">
+      <node role="Items:18" type="Diglex.structure.Block:18" id="7804553196909691979">
+        <link role="lexemType:18" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
+        <node role="Items:18" type="Diglex.structure.IBlockItem:18" id="7804553196909691980" />
+        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="7804553196909691981" />
+      </node>
       <node role="Items:18" type="Diglex.structure.Block:18" id="1926773284996258214">
         <link role="lexemType:18" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
         <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1926773284996258215" />
@@ -875,88 +811,6 @@
           <property name="Value:18" value="!" />
           <link role="lexemType:18" targetNodeId="1094196415547833139" resolveInfo="Знак препинания" />
         </node>
-      </node>
-    </node>
-  </node>
-  <node type="Diglex.structure.Template:18" id="139994239248962770">
-    <property name="id1:18" value="1828351101" />
-    <property name="name:18" value="Шаблон1" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="139994239248962771">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="1380999598342058910">
-        <link role="lexemType:18" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1380999598342058911" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="1380999598342058912">
-          <property name="Value:18" value="Wtf" />
-          <link role="lexemType:18" targetNodeId="1094196415547821181" resolveInfo="Английские буквы" />
-        </node>
-      </node>
-      <node role="Precondition:18" type="Diglex.structure.MatchCaseCondition:18" id="6981093622810706346">
-        <node role="Items:18" type="Diglex.structure.TemplateReference:18" id="6981093622810706348">
-          <link role="TemplateReference:18" targetNodeId="139994239248966731" resolveInfo="Ш" />
-          <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="6981093622810706349" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node type="Diglex.structure.Template:18" id="139994239248962947">
-    <property name="id1:18" value="1501939278" />
-    <property name="name:18" value="Университет" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="139994239248962948" />
-  </node>
-  <node type="Diglex.structure.Template:18" id="139994239248966731">
-    <property name="id1:18" value="1711011515" />
-    <property name="name:18" value="Шаблон2" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="139994239248966732" />
-  </node>
-  <node type="Diglex.structure.Template:18" id="1380999598341906469">
-    <property name="id1:18" value="1685799222" />
-    <property name="name:18" value="Норм. пацан" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="1380999598341906470">
-      <node role="Items:18" type="Diglex.structure.IMatchCaseItem:18" id="1380999598341906551" />
-    </node>
-  </node>
-  <node type="Diglex.structure.Template:18" id="1380999598341906483">
-    <property name="id1:18" value="1434553147" />
-    <property name="name:18" value="СО" />
-    <property name="MatchMode:18" value="RelativeMeaningful" />
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="1380999598341906494">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="1926773284996258220">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1926773284996258221" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="1926773284996258222">
-          <property name="Value:18" value="Сибирск" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Tail:18" type="Diglex.structure.BlockTail:18" id="1926773284996258223" />
-      </node>
-      <node role="Items:18" type="Diglex.structure.Block:18" id="1926773284996258224">
-        <link role="lexemType:18" targetNodeId="1094196415547833139" resolveInfo="Знак препинания" />
-        <node role="Items:18" type="Diglex.structure.AnySymbol:18" id="1926773284996258232">
-          <property name="TimesMinimum:18" value="1" />
-          <property name="TimesMaximum:18" value="3" />
-          <link role="lexemType:18" targetNodeId="1094196415547833139" resolveInfo="Знак препинания" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1926773284996258225" />
-      </node>
-      <node role="Items:18" type="Diglex.structure.Block:18" id="1926773284996258227">
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1926773284996258228" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="1926773284996258229">
-          <property name="Value:18" value="отделен" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Tail:18" type="Diglex.structure.BlockTail:18" id="1926773284996258230" />
-      </node>
-    </node>
-    <node role="MatchCases:18" type="Diglex.structure.MatchCase:18" id="1380999598341906484">
-      <node role="Items:18" type="Diglex.structure.Block:18" id="1380999598341906486">
-        <property name="CaseSensitive:18" value="true" />
-        <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        <node role="Items:18" type="Diglex.structure.ExactString:18" id="1380999598341906490">
-          <property name="Value:18" value="СО" />
-          <link role="lexemType:18" targetNodeId="1094196415547833135" resolveInfo="Русские буквы" />
-        </node>
-        <node role="Repeat:18" type="Diglex.structure.RepeatTimes:18" id="1380999598341906488" />
       </node>
     </node>
   </node>
@@ -979,6 +833,12 @@
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="3850314743292993058" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3850314743292993059" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3850314743292993060" />
+    </node>
+  </node>
+  <node type="Diglex.structure.Dictionary:18" id="8760462257934427227">
+    <property name="name:18" value="Словарь" />
+    <node role="dictionaryTemplate:18" type="Diglex.structure.DictionaryTemplate:18" id="8760462257934517874">
+      <link role="template:18" targetNodeId="8760462257934783621" resolveInfo="НГУ" />
     </node>
   </node>
 </model>
