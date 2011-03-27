@@ -111,5 +111,37 @@
       <link role="concept:3" targetNodeId="1.6282999055323831027:18" resolveInfo="Template" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="7804553196909682139">
+    <property name="name:3" value="CheckMatchCaseItemsNotEmpty" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7804553196909682140">
+      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="7804553196909682143">
+        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909682152">
+          <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909682147">
+            <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7804553196909682146">
+              <link role="applicableNode:3" targetNodeId="7804553196909682142" resolveInfo="matchCase" />
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="7804553196909682151">
+              <link role="link:16" targetNodeId="1.6282999055323947702:18" />
+            </node>
+          </node>
+          <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation:7" id="7804553196909682156" />
+        </node>
+        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7804553196909682145">
+          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="7804553196909682157">
+            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7804553196909682160">
+              <property name="value:3" value="Вариант шаблона должен содержать хотя бы 1 элемент" />
+            </node>
+            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7804553196909682161">
+              <link role="applicableNode:3" targetNodeId="7804553196909682142" resolveInfo="matchCase" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="7804553196909682142">
+      <property name="name:3" value="matchCase" />
+      <link role="concept:3" targetNodeId="1.6282999055323947693:18" resolveInfo="MatchCase" />
+    </node>
+  </node>
 </model>
 
