@@ -4,8 +4,6 @@
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="diglex.dsl" />
   </models>
   <accessoryModels>
-    <model modelUID="f:java_stub#com.intellij.openapi.project(com.intellij.openapi.project@java_stub)" />
-    <model modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" />
     <model modelUID="r:4986c884-cea8-40a3-bc91-c45acdb8f465(diglex.dsl.accessory)" />
     <model modelUID="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.utils)" />
   </accessoryModels>
