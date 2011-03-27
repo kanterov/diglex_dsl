@@ -9,7 +9,7 @@
       <solutionPath path="${project}/solutions/Diglex.sandbox/Diglex.sandbox.msd" />
     </projectSolutions>
     <projectLanguages>
-      <languagePath path="${project}/languages/Diglex/Diglex.mpl" />
+      <languagePath path="${project}/languages/diglex/diglex.mpl" />
       <languagePath path="${project}/languages/sampleXML/sampleXML.mpl" />
     </projectLanguages>
     <projectDevkits />

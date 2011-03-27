@@ -49,10 +49,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\editor.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\source\diglex\plugin\TemplateDebugHelper.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/plugin/TemplateDebugHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/sandbox/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\generator\template\main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\diglex_dsl\languages\Diglex\languageModels\Diglex\stubs.mps" afterPath="" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\typesystem.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\structure.metadata" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/MPS.xml" afterPath="$PROJECT_DIR$/.idea/libraries/MPS.xml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\structure.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\constraints.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/constraints.mps" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\diglex_dsl\languages\Diglex\languageModels\Diglex\stubs\plugin.mps" afterPath="" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\checkUtils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/checkUtils.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\Diglex.mpl" afterPath="$PROJECT_DIR$/languages/diglex/diglex.mpl" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\actions.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" />
+      <change type="MODIFICATION" beforePath="C:\Users\Gleb\diglex_dsl\languages\diglex\languageModels\behavior.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/behavior.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diglex_dsl.iml" afterPath="$PROJECT_DIR$/diglex_dsl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="Diglex.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,191 +98,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="НГУ" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://Diglex.sandbox.sandbox/НГУ">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchCase" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/MatchCase">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchCaseCondition" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/MatchCaseCondition">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="4">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="1" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnySymbol" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/AnySymbol">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="1" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBlockItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/IBlockItem">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Block" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/Block">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockTail" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/BlockTail">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepeatTimes" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/RepeatTimes">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMatchCaseItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Diglex.structure/IMatchCaseItem">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="5">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
@@ -296,11 +131,6 @@
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
-      <option name="Diglex.plugin.Diglex_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
       <option name="jetbrains.mps.analyzers.plugin.Analyzers_ProjectPlugin">
         <value>
           <PluginState />
@@ -516,7 +346,18 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="VCSRoots">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCS Roots" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="FileSystem">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
@@ -524,13 +365,18 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Diglex" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
+              <option name="myItemId" value="Modules Pool" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,7 +386,35 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains.mps.sampleXML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diglex.dsl" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diglex.dsl" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diglex.dsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -548,11 +422,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
+              <option name="myItemId" value="diglex.dsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,11 +432,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
+              <option name="myItemId" value="diglex.dsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="generator/Xml" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,11 +446,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
+              <option name="myItemId" value="diglex.dsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,7 +460,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex.sandbox" />
+              <option name="myItemId" value="diglex.dsl.sandbox" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -609,45 +475,15 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Diglex.sandbox" />
+                <option name="myItemId" value="diglex.dsl" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Diglex.sandbox" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="sandbox" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="НГУ" />
+                <option name="myItemId" value="all models" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
           </selection>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
-        </subPane>
-      </pane>
-      <pane id="VCSRoots">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VCS Roots" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
         </subPane>
       </pane>
       <pane id="Favorites" />
@@ -655,10 +491,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="jetbrains.mps.nanoc.plugin.ProgramsLocationComponent_GDBLocation_PreferencesPage" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Java Application.Unnamed">
     <configuration default="true" type="JavaApplication" factoryName="Java Application">
@@ -719,40 +555,39 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.49127445" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483731" sideWeight="0.38180858" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483731" sideWeight="0.38498148" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4918033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.45214173" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.44368058" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Wtf Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998413" sideWeight="0.6626898" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1861449" sideWeight="0.6626898" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4918033" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.47117928" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.607615" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5943945" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.38868323" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TemplateDebuggerHelper" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Wtf Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -761,12 +596,187 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="WtfTool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TemplateDebuggerHelper" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UsagesViewTool">
     <version id="0.9997" />
-    <tabs />
+    <tabs>
+      <tab>
+        <usage_view>
+          <buttons rerun="true" regenerate="true" close="true" />
+          <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+            <children>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
+                <finder class_name="jetbrains.mps.ide.findusages.findalgorithm.finders.specific.ModelUsagesFinder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+            </children>
+          </result_provider>
+          <query>
+            <scope scope_type="module_scope" module_id="diglex.dsl" />
+            <holder holder_class="jetbrains.mps.ide.findusages.model.holders.ModelHolder">
+              <model uid="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" />
+            </holder>
+          </query>
+          <tree_wrapper>
+            <node_representator />
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents>
+              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.MainNodeData" caption="" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                <role name="main root" />
+              </data>
+              <children>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" caption="Searched nodes" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="searched nodes" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Searched nodes&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="diglex.dsl" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="bdafc912-c4d6-4e59-a78e-488eda416d0f(diglex.dsl)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.structure" info="" excluded="false" expanded="false" isresult="true" results_section="false">
+                                <role name="model" />
+                                <model uid="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" />
+                              </data>
+                              <children />
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" caption="results" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="results" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;usages in imports&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="usages in imports" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="Diglex.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="124b6c53-da0b-4b65-b68c-aecc5c0e915d(Diglex.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.sandbox.sandbox" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:3dc7bb55-2958-4eb9-9746-3e1af3e859fe(diglex.dsl.sandbox.sandbox)" />
+                              </data>
+                              <children />
+                            </child>
+                          </children>
+                        </child>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="diglex.dsl" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="bdafc912-c4d6-4e59-a78e-488eda416d0f(diglex.dsl)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.actions" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:cfa8d0c8-6e7e-4cb0-b384-18abf86246cd(diglex.dsl.actions)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.behavior" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:b4934b40-e0d5-4ba6-933f-ae3ef2f7ebb0(diglex.dsl.behavior)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.checkUtils" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.checkUtils)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.constraints" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:2f353a23-6f0c-4b49-9a1f-81779dd48e42(diglex.dsl.constraints)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.editor" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:352a41b5-0b40-438b-ac6a-da8125978b2f(diglex.dsl.editor)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.plugin" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:3707297d-230e-4ba3-aaf2-36de0e55b298(diglex.dsl.plugin)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.typesystem" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:f4b85e2c-2701-4120-894e-38d23b925d75(diglex.dsl.typesystem)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="Diglex.stubs" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:5f578cd9-a47b-44cd-9ba7-40db8db535be(Diglex.stubs)" />
+                              </data>
+                              <children />
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="Diglex.stubs.plugin" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:58609567-c5e4-4116-ba99-8688ec85ecdb(Diglex.stubs.plugin)" />
+                              </data>
+                              <children />
+                            </child>
+                          </children>
+                        </child>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="diglex.dsl (generator/Xml)" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f896d228-e0c3-4d96-9351-e0328d349075(diglex.dsl#7612397494930932860)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="diglex.dsl.generator.template.main" info="" excluded="false" expanded="false" isresult="true" results_section="true">
+                                <role name="model" />
+                                <model uid="r:2b2906df-7ae5-4997-b529-30cebb582859(diglex.dsl.generator.template.main@generator)" />
+                              </data>
+                              <children />
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+              </children>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+        <usage_view_options />
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
@@ -807,238 +817,6 @@
     <MESSAGE value="Implemented protection against empty MatchCaseItems list" />
     <MESSAGE value="Implemented validation for ExactString value" />
     <MESSAGE value="Implemented proptection agains empty MatchCase or MatchCase with undefined elements" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="mps://Diglex.sandbox.sandbox/Базовый">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.sandbox.sandbox/Словарь">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.sandbox.sandbox/Универ">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/DistantContextCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/DistantContext">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.generator.template.main@generator/BlockItemSwitch">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/BlockTail">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/RepeatTimes">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/IBlockItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/AnySymbol">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/MatchCaseCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="4">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/Block">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/MatchCase">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.actions/AddBlockWithExactString">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.structure/IMatchCaseItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="5">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Diglex.sandbox.sandbox/НГУ">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
   </component>
 </project>
 
