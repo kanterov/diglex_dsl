@@ -834,6 +834,41 @@
           <property name="minimum:21" value="0" />
         </node>
       </node>
+      <node role="Precondition:21" type="Diglex.structure.MatchCaseCondition:21" id="7804553196909885541">
+        <node role="Items:21" type="Diglex.structure.Block:21" id="7804553196909886994">
+          <link role="lexemType:21" targetNodeId="1094196415547833136" resolveInfo="Цифры" />
+          <node role="Repeat:21" type="Diglex.structure.RepeatTimes:21" id="7804553196909886995">
+            <property name="minimum:21" value="1" />
+            <property name="maximum:21" value="1" />
+          </node>
+          <node role="Items:21" type="Diglex.structure.ExactString:21" id="7804553196909886996">
+            <property name="Value:21" value="123" />
+            <link role="lexemType:21" targetNodeId="1094196415547833136" resolveInfo="Цифры" />
+          </node>
+        </node>
+        <node role="Items:21" type="Diglex.structure.Block:21" id="7804553196909886997">
+          <link role="lexemType:21" targetNodeId="1094196415547833138" resolveInfo="Пробельный символ" />
+          <node role="Repeat:21" type="Diglex.structure.RepeatTimes:21" id="7804553196909886998">
+            <property name="minimum:21" value="1" />
+            <property name="maximum:21" value="1" />
+          </node>
+          <node role="Items:21" type="Diglex.structure.ExactString:21" id="7804553196909886999">
+            <property name="Value:21" value=" " />
+            <link role="lexemType:21" targetNodeId="1094196415547833138" resolveInfo="Пробельный символ" />
+          </node>
+        </node>
+        <node role="Items:21" type="Diglex.structure.Block:21" id="7804553196909887000">
+          <link role="lexemType:21" targetNodeId="1094196415547833136" resolveInfo="Цифры" />
+          <node role="Repeat:21" type="Diglex.structure.RepeatTimes:21" id="7804553196909887001">
+            <property name="minimum:21" value="1" />
+            <property name="maximum:21" value="1" />
+          </node>
+          <node role="Items:21" type="Diglex.structure.ExactString:21" id="7804553196909887002">
+            <property name="Value:21" value="123" />
+            <link role="lexemType:21" targetNodeId="1094196415547833136" resolveInfo="Цифры" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="Diglex.structure.Dictionary:21" id="8760462257934427227">
