@@ -26,9 +26,6 @@
     </generator>
   </generators>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">f896d228-e0c3-4d96-9351-e0328d349075(diglex.dsl#7612397494930932860)</dependency>
-  </dependencies>
   <usedLanguages>
     <usedLanguage>3304fc6e-7c6b-401e-a016-b944934bb21f(jetbrains.mps.baseLanguage.math)</usedLanguage>
     <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(jetbrains.mps.sampleXML)</usedLanguage>
