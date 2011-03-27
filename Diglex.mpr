@@ -10,7 +10,6 @@
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/diglex/diglex.mpl" />
-      <languagePath path="${project}/languages/sampleXML/sampleXML.mpl" />
     </projectLanguages>
     <projectDevkits />
     <genConfs />
@@ -24,7 +23,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
 
