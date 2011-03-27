@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="MPS">
+    <CLASSES>
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/platform" />
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/lib" />
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/core" />
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/lib/jetbrains-ideframework" />
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/plugins" />
+      <root url="file://C:/Program Files (x86)/JetBrains/MPS-6427/plugin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/core" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/lib" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/lib/jetbrains-ideframework" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/platform" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/plugin" recursive="false" />
+    <jarDirectory url="file://C:/Program Files (x86)/JetBrains/MPS-6427/plugins" recursive="false" />
+  </library>
+</component>
