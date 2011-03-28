@@ -36,28 +36,8 @@
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="22" />
   <import index="2" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="3" modelUID="r:4986c884-cea8-40a3-bc91-c45acdb8f465(diglex.dsl.accessory)" version="-1" />
-  <node type="diglex.dsl.structure.Template:22" id="8760462257934783621">
-    <property name="id1:22" value="124755962" />
-    <property name="name:22" value="НГУ" />
-    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="1926773284996246791">
-      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="1327539314895980897">
-        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
-        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="1327539314895980898">
-          <property name="minimum:22" value="1" />
-          <property name="maximum:22" value="1" />
-        </node>
-        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="1327539314895980899">
-          <property name="Value:22" value="Универ" />
-          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="diglex.dsl.structure.Dictionary:22" id="8760462257934427227">
     <property name="name:22" value="Словарь" />
-    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8760462257934517874">
-      <link role="template:22" targetNodeId="8760462257934783621" resolveInfo="НГУ" />
-    </node>
   </node>
   <node type="diglex.dsl.structure.SearchSettings:22" id="1327539314895981020">
     <property name="name:22" value="Настройки поиска" />
