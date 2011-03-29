@@ -259,6 +259,29 @@
         <node role="content" type="jetbrains.mps.sampleXML.structure.Text" id="7612397494931118301">
           <property name="name" value="1" />
           <property name="text" value="1234567890" />
+          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7096421670146225557">
+            <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="7096421670146225558">
+              <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7096421670146225559">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7096421670146225560">
+                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7096421670146225563">
+                    <link role="classConcept:3" targetNodeId="2.~String" resolveInfo="String" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="2.~String.valueOf(int):java.lang.String" resolveInfo="valueOf" />
+                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7096421670146225570">
+                      <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7096421670146225565">
+                        <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="7096421670146225564" />
+                        <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="7096421670146225569">
+                          <link role="link:16" targetNodeId="1.1794194610342714172:22" />
+                        </node>
+                      </node>
+                      <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="7096421670146225574">
+                        <link role="property:16" targetNodeId="1.7612397494931191642:22" resolveInfo="id1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931119500" />
@@ -290,6 +313,35 @@
     <link role="applicableConcept:2" targetNodeId="1.6282999055323947696:22" resolveInfo="DistantContext" />
     <node role="contentNode:2" type="jetbrains.mps.sampleXML.structure.Element" id="1094196415547746928">
       <property name="name" value="DistantContext" />
+      <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="7096421670146198169">
+        <property name="name" value="BasicMatchCaseNodes" />
+        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146198170">
+          <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
+        </node>
+      </node>
+      <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="7096421670146200312">
+        <property name="name" value="Conditions" />
+        <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="7096421670146200313">
+          <property name="name" value="Condition" />
+          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="7096421670146200315">
+            <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="7096421670146200316">
+              <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7096421670146200317">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7096421670146200989">
+                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7096421670146200991">
+                    <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="7096421670146200990" />
+                    <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="7096421670146222326">
+                      <link role="link:16" targetNodeId="1.8760462257934478881:22" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146222328">
+            <link role="includeTemplate:2" targetNodeId="7612397494931118168" resolveInfo="DistantContextConditionTemplate" />
+          </node>
+        </node>
+      </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547747472" />
     </node>
   </node>
