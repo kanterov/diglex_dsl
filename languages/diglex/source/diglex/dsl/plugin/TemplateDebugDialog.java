@@ -74,7 +74,8 @@ public class TemplateDebugDialog extends JDialog {
 
         process.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                byte []bytes = getSearchResult().getBytes();
+                String searchResult = getSearchResult();
+                byte[] bytes = searchResult.getBytes();
                 InputSource inputSource = new InputSource(new ByteInputStream(bytes, 0, bytes.length));
                 List<SearchResult> results = SearchResultDeserializer.getSearchResults(inputSource);
 
@@ -83,6 +84,9 @@ public class TemplateDebugDialog extends JDialog {
                 for (SearchResult result : results) {
                     dictionaryModel.addSearchResult(result);
                 }
+
+                resultTree.setModel(dictionaryModel.getTreeModel());
+                resultTree.invalidate();
 
                 tabs.setSelectedIndex(1); // Set active tab with results
 
@@ -127,6 +131,7 @@ public class TemplateDebugDialog extends JDialog {
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
             File temp = File.createTempFile("diglex", null);
+            tempFilePath = temp.getAbsolutePath();
             BufferedWriter writer = new BufferedWriter(new FileWriter(temp));
 
             writer.write(inputText.getText());
@@ -136,7 +141,7 @@ public class TemplateDebugDialog extends JDialog {
 
             cmd[0] = "cmd.exe";
             cmd[1] = "/C";
-            cmd[2] = "dp.exe \"" + xmlFilePath + "\" \""+tempFilePath+"\"";
+            cmd[2] = "dp.exe \"" + xmlFilePath + "\" \"" + tempFilePath + "\"";
 
             Runtime runtime = Runtime.getRuntime();
             Process process = runtime.exec(cmd);

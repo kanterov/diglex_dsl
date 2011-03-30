@@ -105,7 +105,9 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
     }
 
     public void clearSearchResults() {
-        templateModels.clear();
+        for (TemplateModel templateModel : templateModels) {
+            templateModel.clearObjects();
+        }
 
         // TODO send TreeModel event....
     }

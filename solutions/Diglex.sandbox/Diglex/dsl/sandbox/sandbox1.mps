@@ -48,7 +48,7 @@
     <link role="lexem:22" targetNodeId="3.1327539314895753170" resolveInfo="Базовый" />
   </node>
   <node type="diglex.dsl.structure.Template:22" id="4576914965857515127">
-    <property name="id1:22" value="2000000000" />
+    <property name="id1:22" value="0" />
     <property name="name:22" value="Университет" />
     <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="4576914965857515128">
       <node role="Items:22" type="diglex.dsl.structure.Block:22" id="4576914965857515130">
@@ -65,7 +65,7 @@
     </node>
   </node>
   <node type="diglex.dsl.structure.Template:22" id="4576914965857515133">
-    <property name="id1:22" value="2000000000" />
+    <property name="id1:22" value="1" />
     <property name="name:22" value="НГУ" />
     <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="7096421670146256483">
       <node role="Items:22" type="diglex.dsl.structure.TemplateReference:22" id="7096421670146256485">
@@ -214,7 +214,7 @@
     </node>
   </node>
   <node type="diglex.dsl.structure.Template:22" id="8770772348876361964">
-    <property name="id1:22" value="2000000000" />
+    <property name="id1:22" value="2" />
     <property name="name:22" value="Простой НГУ" />
     <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876361965">
       <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876361967">
@@ -289,6 +289,197 @@
   <node type="diglex.dsl.structure.Dictionary:22" id="8770772348876364011">
     <property name="name:22" value="Словарь2" />
     <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876364012">
+      <link role="template:22" targetNodeId="8770772348876361964" resolveInfo="Простой НГУ" />
+    </node>
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876377197">
+      <link role="template:22" targetNodeId="8770772348876371567" resolveInfo="СО" />
+    </node>
+  </node>
+  <node type="diglex.dsl.structure.Template:22" id="8770772348876371567">
+    <property name="id1:22" value="3" />
+    <property name="name:22" value="СО" />
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876378154">
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378156">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378157">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876378158">
+          <property name="Value:22" value="СО" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+      </node>
+    </node>
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876371568">
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876377187">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876377188">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876377189">
+          <property name="Value:22" value="Сибирское" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876377190">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        <node role="Items:22" type="diglex.dsl.structure.AnySymbol:22" id="8770772348876378190">
+          <property name="timesMinimum:22" value="0" />
+          <property name="timesMaximum:22" value="INF" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        </node>
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876377191">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876377193">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876377194">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876377195">
+          <property name="Value:22" value="отделение" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="diglex.dsl.structure.Template:22" id="8770772348876378159">
+    <property name="id1:22" value="4" />
+    <property name="name:22" value="РАН" />
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876378180">
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378182">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378183">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876378184">
+          <property name="Value:22" value="РАН" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+      </node>
+    </node>
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876378160">
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378162">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378163">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876378164">
+          <property name="Value:22" value="Российск" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+        <node role="Tail:22" type="diglex.dsl.structure.BlockTail:22" id="8770772348876378165">
+          <property name="minimumLength:22" value="0" />
+          <property name="maximumLength:22" value="INF" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378166">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        <node role="Items:22" type="diglex.dsl.structure.AnySymbol:22" id="8770772348876378186">
+          <property name="timesMinimum:22" value="0" />
+          <property name="timesMaximum:22" value="INF" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        </node>
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378167">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378169">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378170">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876378171">
+          <property name="Value:22" value="Академ" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+        <node role="Tail:22" type="diglex.dsl.structure.BlockTail:22" id="8770772348876378172">
+          <property name="minimumLength:22" value="0" />
+          <property name="maximumLength:22" value="INF" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378173">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        <node role="Items:22" type="diglex.dsl.structure.AnySymbol:22" id="8770772348876378188">
+          <property name="timesMinimum:22" value="0" />
+          <property name="timesMaximum:22" value="INF" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        </node>
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378174">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378176">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378177">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+        <node role="Items:22" type="diglex.dsl.structure.ExactString:22" id="8770772348876378178">
+          <property name="Value:22" value="Наук" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
+        </node>
+        <node role="Tail:22" type="diglex.dsl.structure.BlockTail:22" id="8770772348876378179">
+          <property name="minimumLength:22" value="0" />
+          <property name="maximumLength:22" value="INF" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="diglex.dsl.structure.Template:22" id="8770772348876378191">
+    <property name="id1:22" value="5" />
+    <property name="name:22" value="СО РАН" />
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876378192">
+      <node role="Items:22" type="diglex.dsl.structure.TemplateReference:22" id="8770772348876378194">
+        <link role="TemplateReference:22" targetNodeId="8770772348876371567" resolveInfo="СО" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378195">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876378197">
+        <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        <node role="Items:22" type="diglex.dsl.structure.AnySymbol:22" id="8770772348876378200">
+          <property name="timesMinimum:22" value="0" />
+          <property name="timesMaximum:22" value="INF" />
+          <link role="lexemType:22" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        </node>
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378199">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+      <node role="Items:22" type="diglex.dsl.structure.TemplateReference:22" id="8770772348876378202">
+        <link role="TemplateReference:22" targetNodeId="8770772348876378159" resolveInfo="РАН" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="8770772348876378203">
+          <property name="minimum:22" value="1" />
+          <property name="maximum:22" value="1" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="diglex.dsl.structure.Dictionary:22" id="8770772348876378204">
+    <property name="name:22" value="Dictionary" />
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378205">
+      <link role="template:22" targetNodeId="8770772348876371567" resolveInfo="СО" />
+    </node>
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378207">
+      <link role="template:22" targetNodeId="8770772348876378159" resolveInfo="РАН" />
+    </node>
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378209">
+      <link role="template:22" targetNodeId="8770772348876378191" resolveInfo="СО РАН" />
+    </node>
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="6508841401555669021">
       <link role="template:22" targetNodeId="8770772348876361964" resolveInfo="Простой НГУ" />
     </node>
   </node>
