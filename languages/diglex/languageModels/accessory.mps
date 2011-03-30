@@ -26,7 +26,6 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="22" />
   <node type="diglex.dsl.structure.LexemClassification:22" id="1327539314895753170">
     <property name="name:22" value="Базовый" />
     <node role="lexemType:22" type="diglex.dsl.structure.LexemType:22" id="1327539314895753171">

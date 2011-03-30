@@ -49,59 +49,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$7.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TestDialog.form" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog$7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\TestDialog$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\TestDialog.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/diglex.mpl" afterPath="$PROJECT_DIR$/languages/diglex/diglex.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" />
-      <change type="MOVED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source\diglex\dsl\plugin\debugger.png" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/ui/debugger.png" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" afterPath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\debugger.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$6.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionaryModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResult.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$DictionaryListModel.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\TestDialog$2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryItem.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/ui/DictionarySelectionDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.form" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$7.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$5.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/PluginTestUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\PluginTestUtil.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$4.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$4.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$1.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\TestDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$1.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/ui/DictionarySelectionDialog.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TestDialog.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\debugger.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$DictionaryListModel.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\TestDialog$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryListModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryListModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ObjectModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Util.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Util.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$2.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultHierarchyNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$3.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$3.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diglex_dsl.iml" afterPath="$PROJECT_DIR$/diglex_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\ui\DictionarySelectionDialog$DictionaryItem.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\out\production\diglex_dsl\diglex\dsl\plugin\DictionarySelectionDialog2$DictionaryItem.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$6.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -133,34 +163,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MatchMode" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/MatchMode">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diglex DSL" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin/Diglex DSL">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diglex.dsl" pinned="false" current="false" current-in-tab="false">
-        <entry file="mpslang://diglex.dsl">
-          <provider selected="true" editor-type-id="MPSLanguageFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DebugDictionary" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://diglex.dsl.plugin/DebugDictionary">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="НГУ" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -168,29 +170,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionarySelectionDialog" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin@java_stub/DictionarySelectionDialog">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDialog" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin@java_stub/TestDialog">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dsl_ApplicationPlugin" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin@java_stub/Dsl_ApplicationPlugin">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBlockItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/IBlockItem">
+      <file leaf-file-name="Template" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.structure/Template">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
               <inner_tabs>
@@ -204,15 +185,15 @@
                 <tab index="0" />
                 <tab index="0" />
                 <tab index="0" />
-                <tab index="0" />
+                <tab index="2" />
                 <tab index="0" />
               </inner_tabs>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Block" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/Block">
+      <file leaf-file-name="ExactString" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.structure/ExactString">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
               <inner_tabs>
@@ -226,10 +207,59 @@
                 <tab index="0" />
                 <tab index="0" />
                 <tab index="0" />
-                <tab index="0" />
+                <tab index="1" />
                 <tab index="0" />
               </inner_tabs>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Простой НГУ" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Простой НГУ">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mc_empty" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.sampleXML.generator.template.main@generator/mc_empty">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementCreator" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://jetbrains.mps.sampleXML.textGen/ElementCreator">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Словарь2" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь2">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Словарь" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Университет" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Университет">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Настройки поиска" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Настройки поиска">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
@@ -502,6 +532,44 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains.mps.sampleXML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains.mps.sampleXML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator/empty" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains.mps.sampleXML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textGen" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="diglex.dsl" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -587,6 +655,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="diglex.dsl.generator.template" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main@generator" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,19 +755,15 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Diglex.sandbox" />
+                <option name="myItemId" value="jetbrains.mps.sampleXML" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="diglex.dsl.sandbox" />
+                <option name="myItemId" value="textGen" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="sandbox1" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="НГУ" />
+                <option name="myItemId" value="ElementCreator" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
@@ -852,7 +920,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.49127445" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46529284" sideWeight="0.37005347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29718006" sideWeight="0.3604278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -862,15 +930,15 @@
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.43957785" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22352941" sideWeight="0.6572668" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22352941" sideWeight="0.69522774" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4918033" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.469064" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.335141" sideWeight="0.53422457" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.335141" sideWeight="0.5213904" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19631237" sideWeight="0.46203208" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29718006" sideWeight="0.63582885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10303687" sideWeight="0.49625668" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Sample" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11657754" sideWeight="0.6203905" order="3" side_tool="true" content_ui="tabs" />
@@ -1114,112 +1182,7 @@
     <MESSAGE value="Fixed DistantContext xml generation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Университет">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/DistantContext">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/DistantContextCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/MatchMode">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/IBlockItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/Block">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.plugin@java_stub/Diglex_DSL_ActionGroup">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
     <entry file="mps://diglex.dsl.plugin@java_stub/Dsl_ApplicationPlugin">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.plugin@java_stub/TestDialog">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
@@ -1234,17 +1197,112 @@
         <state />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
     <entry file="mps://diglex.dsl.plugin/Diglex DSL">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
     <entry file="mps://diglex.dsl.plugin/DebugDictionary">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.structure/Dictionary">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="1" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Университет">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Настройки поиска">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.structure/Template">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="2" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.structure/ExactString">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="1" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь2">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Простой НГУ">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.sampleXML.generator.template.main@generator/mc_empty">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.sampleXML.textGen/ElementCreator">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>

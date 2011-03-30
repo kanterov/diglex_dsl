@@ -10,6 +10,7 @@
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/diglex/diglex.mpl" />
+      <languagePath path="${project}/languages/sampleXML/sampleXML.mpl" />
     </projectLanguages>
     <projectDevkits />
     <genConfs />

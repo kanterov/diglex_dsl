@@ -900,6 +900,27 @@
           </node>
         </node>
       </node>
+      <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="8770772348876348410">
+        <property name="name" value="MatchMode" />
+        <node role="content" type="jetbrains.mps.sampleXML.structure.Text" id="8770772348876348413">
+          <property name="name" value="" />
+          <property name="text" value="AbsoluteMeaningful" />
+          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8770772348876348415">
+            <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8770772348876348416">
+              <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8770772348876348417">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8770772348876348418">
+                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8770772348876348420">
+                    <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="8770772348876348419" />
+                    <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="8770772348876348424">
+                      <link role="property:16" targetNodeId="1.6282999055323831043:22" resolveInfo="MatchMode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="8760462257934387170">
         <property name="name" value="Name" />
         <node role="content" type="jetbrains.mps.sampleXML.structure.Text" id="8760462257934387171">
