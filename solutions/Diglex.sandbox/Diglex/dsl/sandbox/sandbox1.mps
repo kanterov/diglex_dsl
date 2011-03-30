@@ -63,6 +63,15 @@
   <node type="diglex.dsl.structure.Template:22" id="4576914965857515133">
     <property name="id1:22" value="2000000000" />
     <property name="name:22" value="НГУ" />
+    <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="7096421670146256483">
+      <node role="Items:22" type="diglex.dsl.structure.TemplateReference:22" id="7096421670146256485">
+        <link role="TemplateReference:22" targetNodeId="4576914965857515127" resolveInfo="Университет" />
+        <node role="Repeat:22" type="diglex.dsl.structure.RepeatTimes:22" id="7096421670146256486">
+          <property name="minimum:22" value="0" />
+          <property name="maximum:22" value="42" />
+        </node>
+      </node>
+    </node>
     <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="4576914965857515134">
       <node role="Items:22" type="diglex.dsl.structure.Block:22" id="4576914965857515161">
         <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />

@@ -6,6 +6,7 @@
   <accessoryModels>
     <model modelUID="r:4986c884-cea8-40a3-bc91-c45acdb8f465(diglex.dsl.accessory)" />
     <model modelUID="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.utils)" />
+    <model modelUID="f:java_stub#diglex.dsl.plugin(diglex.dsl.plugin@java_stub)" />
   </accessoryModels>
   <generators>
     <generator name="Xml" generatorUID="diglex.dsl#7612397494930932860" uuid="f896d228-e0c3-4d96-9351-e0328d349075">
@@ -24,6 +25,9 @@
     </generator>
   </generators>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">f896d228-e0c3-4d96-9351-e0328d349075(diglex.dsl#7612397494930932860)</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguage>3304fc6e-7c6b-401e-a016-b944934bb21f(jetbrains.mps.baseLanguage.math)</usedLanguage>
     <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(jetbrains.mps.sampleXML)</usedLanguage>

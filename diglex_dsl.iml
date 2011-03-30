@@ -3,10 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/languages/sampleXML/source_gen" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/languages/diglex/source_gen" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/solutions/Diglex.sandbox/source_gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/languages/diglex/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/languages/diglex/source_gen" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
