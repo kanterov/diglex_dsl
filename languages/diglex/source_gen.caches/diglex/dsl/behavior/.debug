@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="7804553196909797809">
+    <nodeInfo nodeId="7804553196909797812" fileName="DistantContext_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="132" />
+    <nodeInfo nodeId="7804553196909797826" fileName="DistantContext_Behavior.java" startLine="12" startPosition="132" endLine="13" endPosition="99" />
+    <nodeInfo nodeId="7804553196909797844" fileName="DistantContext_Behavior.java" startLine="13" startPosition="99" endLine="14" endPosition="100" />
+    <scopeInfo nodeId="7804553196909797811" fileName="DistantContext_Behavior.java" startLine="11" startPosition="43" endLine="14" endPosition="100" />
+  </root>
+  <root nodeId="7804553196909797860">
+    <nodeInfo nodeId="7804553196909797863" fileName="Block_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="132" />
+    <nodeInfo nodeId="7804553196909808910" fileName="Block_Behavior.java" startLine="12" startPosition="132" endLine="13" endPosition="100" />
+    <nodeInfo nodeId="7804553196909808927" fileName="Block_Behavior.java" startLine="13" startPosition="100" endLine="14" endPosition="97" />
+    <scopeInfo nodeId="7804553196909797862" fileName="Block_Behavior.java" startLine="11" startPosition="43" endLine="14" endPosition="97" />
+  </root>
+  <root nodeId="7804553196909808944">
+    <nodeInfo nodeId="7804553196909808947" fileName="TemplateReference_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="132" />
+    <nodeInfo nodeId="7804553196909808962" fileName="TemplateReference_Behavior.java" startLine="12" startPosition="132" endLine="13" endPosition="100" />
+    <nodeInfo nodeId="7804553196909808979" fileName="TemplateReference_Behavior.java" startLine="13" startPosition="100" endLine="14" endPosition="97" />
+    <scopeInfo nodeId="7804553196909808946" fileName="TemplateReference_Behavior.java" startLine="11" startPosition="43" endLine="14" endPosition="97" />
+  </root>
+  <root nodeId="7804553196909821102">
+    <nodeInfo nodeId="7804553196909821111" fileName="BlockTail_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="63" />
+    <nodeInfo nodeId="7804553196909821123" fileName="BlockTail_Behavior.java" startLine="10" startPosition="63" endLine="11" endPosition="62" />
+    <scopeInfo nodeId="7804553196909821104" fileName="BlockTail_Behavior.java" startLine="9" startPosition="43" endLine="11" endPosition="62" />
+  </root>
+  <root nodeId="7804553196909838916">
+    <nodeInfo nodeId="7804553196909838932" fileName="Template_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="26" />
+    <nodeInfo nodeId="7804553196909838919" fileName="Template_Behavior.java" startLine="10" startPosition="26" endLine="11" endPosition="62" />
+    <scopeInfo nodeId="7804553196909838918" fileName="Template_Behavior.java" startLine="9" startPosition="43" endLine="11" endPosition="62" />
+  </root>
+  <root nodeId="8760462257934193060">
+    <nodeInfo nodeId="8760462257934306105" fileName="AnySymbol_Behavior.java" startLine="11" startPosition="72" endLine="12" endPosition="15" />
+    <scopeInfo nodeId="8760462257934193062" fileName="AnySymbol_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="8760462257934306101" fileName="AnySymbol_Behavior.java" startLine="11" startPosition="72" endLine="12" endPosition="15" />
+  </root>
+  <root nodeId="8760462257934193074">
+    <scopeInfo nodeId="8760462257934193076" fileName="ExactString_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="8760462257934193080" fileName="ExactString_Behavior.java" startLine="12" startPosition="72" endLine="13" endPosition="60" />
+  </root>
+  <root nodeId="8760462257934193091">
+    <nodeInfo nodeId="8760462257934193123" fileName="StringSet_Behavior.java" startLine="16" startPosition="72" endLine="17" endPosition="67" />
+    <nodeInfo nodeId="8760462257934193559" fileName="StringSet_Behavior.java" startLine="19" startPosition="35" endLine="20" endPosition="74" />
+    <nodeInfo nodeId="8760462257934193556" fileName="StringSet_Behavior.java" startLine="22" startPosition="7" endLine="23" endPosition="24" />
+    <nodeInfo nodeId="8760462257934193176" fileName="StringSet_Behavior.java" startLine="18" startPosition="111" endLine="22" endPosition="0" />
+    <nodeInfo nodeId="8760462257934193102" fileName="StringSet_Behavior.java" startLine="17" startPosition="67" endLine="22" endPosition="7" />
+    <scopeInfo nodeId="8760462257934193093" fileName="StringSet_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="8760462257934193177" fileName="StringSet_Behavior.java" startLine="19" startPosition="35" endLine="20" endPosition="74" />
+    <scopeInfo nodeId="8760462257934193176" fileName="StringSet_Behavior.java" startLine="18" startPosition="111" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="8760462257934193097" fileName="StringSet_Behavior.java" startLine="16" startPosition="72" endLine="23" endPosition="24">
+      <varInfo nodeId="8760462257934193124" varName="result" />
+    </scopeInfo>
+    <unitInfo nodeId="8760462257934193176" fileName="StringSet_Behavior.java" startLine="18" startPosition="92" endLine="22" endPosition="5" unitName="diglex.dsl.behavior.StringSet_Behavior$1" />
+  </root>
+</debugInfo>
+

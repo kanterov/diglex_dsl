@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="diglex.dsl.constraints.AnySymbol_timesMaximumInteger_PropertyConstraint" file="AnySymbol_timesMaximumInteger_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.BlockTail_maximumLengthInteger_PropertyConstraint" file="BlockTail_maximumLengthInteger_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.ConstraintsDescriptor" file="ConstraintsDescriptor.java">
+    <classNode dependClassName="diglex.dsl.constraints.AnySymbol_timesMaximumInteger_PropertyConstraint" />
+    <classNode dependClassName="diglex.dsl.constraints.BlockTail_maximumLengthInteger_PropertyConstraint" />
+    <classNode dependClassName="diglex.dsl.constraints.ExactString_Value_PropertyConstraint" />
+    <classNode dependClassName="diglex.dsl.constraints.LexemSymbolCode_symbol_PropertyConstraint" />
+    <classNode dependClassName="diglex.dsl.constraints.LexemType_DefaultSearchScope" />
+    <classNode dependClassName="diglex.dsl.constraints.RepeatTimes_maximumInteger_PropertyConstraint" />
+    <classNode dependClassName="diglex.dsl.constraints.Template_DefaultSearchScope" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.ExactString_Value_PropertyConstraint" file="ExactString_Value_PropertyConstraint.java">
+    <classNode dependClassName="diglex.dsl.utils.ExactStringBuilder" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.LexemSymbolCode_symbol_PropertyConstraint" file="LexemSymbolCode_symbol_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.LexemType_Constraints" file="LexemType_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.CanBeAChildContext" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.LexemType_DefaultSearchScope" file="LexemType_DefaultSearchScope.java">
+    <classNode dependClassName="diglex.dsl.utils.LexemTypeUtil" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.RepeatTimes_maximumInteger_PropertyConstraint" file="RepeatTimes_maximumInteger_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+  </dependency>
+  <dependency className="diglex.dsl.constraints.Template_DefaultSearchScope" file="Template_DefaultSearchScope.java">
+    <classNode dependClassName="diglex.dsl.utils.CheckDependencies" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+  </dependency>
+</dependenciesRoot>
+

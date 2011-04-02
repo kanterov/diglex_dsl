@@ -1,7 +1,6 @@
 .idea
 languages/diglex/runtime/
-*.caches
-*_gen*
+classes_gen*
 *.swp
 out
 

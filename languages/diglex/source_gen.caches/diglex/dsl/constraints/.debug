@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1380999598342017959">
+    <scopeInfo nodeId="1380999598342023786" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="31" startPosition="124" endLine="31" endPosition="124" />
+    <scopeInfo nodeId="1380999598342018655" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="77" />
+  </root>
+  <root nodeId="1380999598342057535">
+    <nodeInfo nodeId="1380999598342058103" fileName="ExactString_Value_PropertyConstraint.java" startLine="27" startPosition="192" endLine="28" endPosition="18" />
+    <nodeInfo nodeId="1926773284996267618" fileName="ExactString_Value_PropertyConstraint.java" startLine="29" startPosition="5" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="1926773284996270352" fileName="ExactString_Value_PropertyConstraint.java" startLine="30" startPosition="0" endLine="31" endPosition="148" />
+    <nodeInfo nodeId="1380999598342058087" fileName="ExactString_Value_PropertyConstraint.java" startLine="26" startPosition="130" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="1380999598342058088" fileName="ExactString_Value_PropertyConstraint.java" startLine="27" startPosition="192" endLine="28" endPosition="18" />
+    <scopeInfo nodeId="1380999598342057539" fileName="ExactString_Value_PropertyConstraint.java" startLine="26" startPosition="130" endLine="31" endPosition="148" />
+  </root>
+  <root nodeId="1926773284996316728">
+    <nodeInfo nodeId="1926773284996316744" fileName="LexemType_Constraints.java" startLine="15" startPosition="109" endLine="16" endPosition="123" />
+    <nodeInfo nodeId="1926773284996316809" fileName="LexemType_Constraints.java" startLine="16" startPosition="123" endLine="17" endPosition="33" />
+    <nodeInfo nodeId="1926773284996316808" fileName="LexemType_Constraints.java" startLine="17" startPosition="33" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="1926773284996316837" fileName="LexemType_Constraints.java" startLine="20" startPosition="81" endLine="21" endPosition="23" />
+    <nodeInfo nodeId="1926773284996316821" fileName="LexemType_Constraints.java" startLine="22" startPosition="9" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="1926773284996316814" fileName="LexemType_Constraints.java" startLine="24" startPosition="67" endLine="25" endPosition="28" />
+    <nodeInfo nodeId="1926773284996316753" fileName="LexemType_Constraints.java" startLine="28" startPosition="5" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="1926773284996316755" fileName="LexemType_Constraints.java" startLine="29" startPosition="0" endLine="30" endPosition="16" />
+    <nodeInfo nodeId="1926773284996316822" fileName="LexemType_Constraints.java" startLine="19" startPosition="121" endLine="22" endPosition="9" />
+    <nodeInfo nodeId="1926773284996316798" fileName="LexemType_Constraints.java" startLine="23" startPosition="0" endLine="26" endPosition="9" />
+    <nodeInfo nodeId="1926773284996316788" fileName="LexemType_Constraints.java" startLine="18" startPosition="0" endLine="27" endPosition="7" />
+    <nodeInfo nodeId="1926773284996316733" fileName="LexemType_Constraints.java" startLine="14" startPosition="114" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="1926773284996316823" fileName="LexemType_Constraints.java" startLine="20" startPosition="81" endLine="21" endPosition="23" />
+    <scopeInfo nodeId="1926773284996316800" fileName="LexemType_Constraints.java" startLine="24" startPosition="67" endLine="25" endPosition="28" />
+    <scopeInfo nodeId="1327539314895980217" fileName="LexemType_DefaultSearchScope.java" startLine="24" startPosition="132" endLine="25" endPosition="60" />
+    <scopeInfo nodeId="1926773284996316791" fileName="LexemType_Constraints.java" startLine="19" startPosition="121" endLine="26" endPosition="9" />
+    <scopeInfo nodeId="1926773284996316788" fileName="LexemType_Constraints.java" startLine="18" startPosition="0" endLine="27" endPosition="7" />
+    <scopeInfo nodeId="1926773284996316735" fileName="LexemType_Constraints.java" startLine="15" startPosition="109" endLine="27" endPosition="7">
+      <varInfo nodeId="1926773284996316745" varName="lexemClassification" />
+      <varInfo nodeId="1926773284996316810" varName="hasDefault" />
+    </scopeInfo>
+    <scopeInfo nodeId="1926773284996316732" fileName="LexemType_Constraints.java" startLine="14" startPosition="114" endLine="30" endPosition="16" />
+  </root>
+  <root nodeId="5809897118725498077">
+    <nodeInfo nodeId="5809897118725575571" fileName="Template_DefaultSearchScope.java" startLine="30" startPosition="132" endLine="31" endPosition="125" />
+    <nodeInfo nodeId="5809897118725575595" fileName="Template_DefaultSearchScope.java" startLine="31" startPosition="125" endLine="32" endPosition="160" />
+    <nodeInfo nodeId="5809897118725575586" fileName="Template_DefaultSearchScope.java" startLine="32" startPosition="160" endLine="33" endPosition="75" />
+    <scopeInfo nodeId="5809897118725498080" fileName="Template_DefaultSearchScope.java" startLine="30" startPosition="132" endLine="33" endPosition="75">
+      <varInfo nodeId="5809897118725575572" varName="template" />
+      <varInfo nodeId="5809897118725575596" varName="templates" />
+    </scopeInfo>
+  </root>
+  <root nodeId="7804553196909786347">
+    <nodeInfo nodeId="7804553196909786415" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="28" startPosition="71" endLine="29" endPosition="24" />
+    <nodeInfo nodeId="7804553196909786419" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="30" startPosition="5" endLine="31" endPosition="75" />
+    <nodeInfo nodeId="7804553196909786402" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="30" endPosition="5" />
+    <scopeInfo nodeId="7804553196909786399" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="34" startPosition="124" endLine="34" endPosition="124" />
+    <scopeInfo nodeId="7804553196909786404" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="28" startPosition="71" endLine="29" endPosition="24" />
+    <scopeInfo nodeId="7804553196909786397" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="31" endPosition="75" />
+  </root>
+  <root nodeId="7804553196909821135">
+    <nodeInfo nodeId="7804553196909821155" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="28" startPosition="77" endLine="29" endPosition="24" />
+    <nodeInfo nodeId="7804553196909821158" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="30" startPosition="5" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="7804553196909821160" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="31" startPosition="0" endLine="32" endPosition="81" />
+    <nodeInfo nodeId="7804553196909821142" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="30" endPosition="5" />
+    <scopeInfo nodeId="7804553196909821141" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="35" startPosition="124" endLine="35" endPosition="124" />
+    <scopeInfo nodeId="7804553196909821144" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="28" startPosition="77" endLine="29" endPosition="24" />
+    <scopeInfo nodeId="7804553196909821138" fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="32" endPosition="81" />
+  </root>
+  <root nodeId="7804553196909879546">
+    <nodeInfo nodeId="7804553196909879572" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="28" startPosition="76" endLine="29" endPosition="24" />
+    <nodeInfo nodeId="7804553196909879576" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="30" startPosition="5" endLine="31" endPosition="80" />
+    <nodeInfo nodeId="7804553196909879552" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="30" endPosition="5" />
+    <scopeInfo nodeId="7804553196909879551" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="34" startPosition="124" endLine="34" endPosition="124" />
+    <scopeInfo nodeId="7804553196909879554" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="28" startPosition="76" endLine="29" endPosition="24" />
+    <scopeInfo nodeId="7804553196909879549" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="31" endPosition="80" />
+  </root>
+</debugInfo>
+

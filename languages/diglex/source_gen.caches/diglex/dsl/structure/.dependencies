@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="diglex.dsl.structure.AnySymbol" file="AnySymbol.java">
+    <classNode dependClassName="diglex.dsl.structure.IBlockItem" />
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.Block" file="Block.java">
+    <classNode dependClassName="diglex.dsl.structure.BlockTail" />
+    <classNode dependClassName="diglex.dsl.structure.IBlockItem" />
+    <classNode dependClassName="diglex.dsl.structure.IMatchCaseItem" />
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="diglex.dsl.structure.RepeatTimes" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.BlockTail" file="BlockTail.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.Dictionary" file="Dictionary.java">
+    <classNode dependClassName="diglex.dsl.structure.DictionaryTemplate" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.DictionaryTemplate" file="DictionaryTemplate.java">
+    <classNode dependClassName="diglex.dsl.structure.Template" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.DistantContext" file="DistantContext.java">
+    <classNode dependClassName="diglex.dsl.structure.DistantContextCondition" />
+    <classNode dependClassName="diglex.dsl.structure.IMatchCaseItem" />
+    <classNode dependClassName="diglex.dsl.structure.RepeatTimes" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.DistantContextCondition" file="DistantContextCondition.java">
+    <classNode dependClassName="diglex.dsl.structure.Template" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.Dsl_Language" file="Dsl_Language.java">
+    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
+    <classNode dependClassName="jetbrains.mps.smodel.Language" />
+    <classNode dependClassName="jetbrains.mps.smodel.MPSModuleRepository" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.ExactString" file="ExactString.java">
+    <classNode dependClassName="diglex.dsl.structure.IBlockItem" />
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.IBlockItem" file="IBlockItem.java">
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.ILexemSymbol" file="ILexemSymbol.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.IMatchCaseItem" file="IMatchCaseItem.java">
+    <classNode dependClassName="diglex.dsl.structure.RepeatTimes" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.LexemClassification" file="LexemClassification.java">
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.LexemSymbol" file="LexemSymbol.java">
+    <classNode dependClassName="diglex.dsl.structure.ILexemSymbol" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.LexemSymbolCode" file="LexemSymbolCode.java">
+    <classNode dependClassName="diglex.dsl.structure.ILexemSymbol" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.LexemSymbolGroup" file="LexemSymbolGroup.java">
+    <classNode dependClassName="diglex.dsl.structure.ILexemSymbol" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.LexemType" file="LexemType.java">
+    <classNode dependClassName="diglex.dsl.structure.LexemSymbolGroup" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.MatchCase" file="MatchCase.java">
+    <classNode dependClassName="diglex.dsl.structure.IMatchCaseItem" />
+    <classNode dependClassName="diglex.dsl.structure.MatchCaseCondition" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.MatchCaseCondition" file="MatchCaseCondition.java">
+    <classNode dependClassName="diglex.dsl.structure.IMatchCaseItem" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.MatchMode" file="MatchMode.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.MatchMode_PropertySupport" file="MatchMode_PropertySupport.java">
+    <classNode dependClassName="diglex.dsl.structure.MatchMode" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.PositiveIntegerOrInfinity_PropertySupport" file="PositiveIntegerOrInfinity_PropertySupport.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.PropertySupport" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.RepeatTimes" file="RepeatTimes.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.SearchSettings" file="SearchSettings.java">
+    <classNode dependClassName="diglex.dsl.structure.LexemClassification" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.StringSet" file="StringSet.java">
+    <classNode dependClassName="diglex.dsl.structure.IBlockItem" />
+    <classNode dependClassName="diglex.dsl.structure.LexemType" />
+    <classNode dependClassName="diglex.dsl.structure.StringSetItem" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.StringSetItem" file="StringSetItem.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.Template" file="Template.java">
+    <classNode dependClassName="diglex.dsl.structure.MatchCase" />
+    <classNode dependClassName="diglex.dsl.structure.MatchMode" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+  <dependency className="diglex.dsl.structure.TemplateReference" file="TemplateReference.java">
+    <classNode dependClassName="diglex.dsl.structure.IMatchCaseItem" />
+    <classNode dependClassName="diglex.dsl.structure.RepeatTimes" />
+    <classNode dependClassName="diglex.dsl.structure.Template" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+  </dependency>
+</dependenciesRoot>
+
