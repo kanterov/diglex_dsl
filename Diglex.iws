@@ -54,72 +54,71 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/diglex.mpl" afterPath="$PROJECT_DIR$/languages/diglex/diglex.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResult.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" afterPath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$2.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" afterPath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$2.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResult.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/VerticalInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$4.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryItem.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/DimensionInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultHierarchyNode.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultHierarchyNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$3.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionaryModel$1.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionaryModel$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ObjectModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ObjectModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$5.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$1.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$1.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ObjectModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ObjectModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResultDeserializer.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResultDeserializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridConstraints.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$4.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/GridLayoutManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionaryModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionaryModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/LayoutState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionaryModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionaryModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$1.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.form" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResult.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResult.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/SearchResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryListModel.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$DictionaryListModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Spacer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Util.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/AbstractLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/TemplateDebugDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$2.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResultHierarchyNode.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResultHierarchyNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" afterPath="$PROJECT_DIR$/out/test/diglex_dsl/com/intellij/uiDesigner/core/Util.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$3.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResultHierarchyNode.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResultHierarchyNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diglex_dsl.iml" afterPath="$PROJECT_DIR$/diglex_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/com/intellij/uiDesigner/core/HorizontalInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$6.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/DictionarySelectionDialog$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/StreamGobbler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResult.class" afterPath="$PROJECT_DIR$/out/production/diglex_dsl/diglex/dsl/plugin/ISearchResult.class" />
     </list>
@@ -132,6 +131,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CodeStyleSettings">
+    <option name="fieldPrefix" value="" />
+    <option name="fieldSuffix" value="" />
+    <option name="localVariablePrefix" value="" />
+    <option name="localVariableSuffix" value="" />
+    <option name="parameterPrefix" value="" />
+    <option name="parameterSuffix" value="" />
+    <option name="staticFieldPrefix" value="" />
+    <option name="staticFieldSuffix" value="" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
     <option name="REVERSE_PATCH" value="false" />
@@ -581,6 +590,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diglex" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diglex.dsl" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugin" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -613,22 +636,6 @@
                 <option name="myItemId" value="diglex.dsl" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="generator/Xml" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="diglex.dsl.generator.template" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="main@generator" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="GiveIdsToTemplates" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
             </PATH>
           </selection>
         </subPane>
@@ -650,7 +657,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="jetbrains.mps.nanoc.plugin.ProgramsLocationComponent_GDBLocation_PreferencesPage" />
+    <property name="options.lastSelected" value="mps.persistence.settings" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -676,7 +683,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.49127445" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
@@ -690,7 +697,7 @@
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264642" sideWeight="0.43743315" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2262032" sideWeight="0.6572668" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2262032" sideWeight="0.6572668" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4918033" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />

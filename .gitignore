@@ -3,4 +3,5 @@ languages/diglex/runtime/
 *.caches
 *_gen*
 *.swp
+out
 
