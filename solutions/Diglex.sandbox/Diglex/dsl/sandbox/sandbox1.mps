@@ -215,7 +215,7 @@
   </node>
   <node type="diglex.dsl.structure.Template:22" id="8770772348876361964">
     <property name="id1:22" value="2" />
-    <property name="name:22" value="Простой НГУ" />
+    <property name="name:22" value="П" />
     <node role="MatchCases:22" type="diglex.dsl.structure.MatchCase:22" id="8770772348876361965">
       <node role="Items:22" type="diglex.dsl.structure.Block:22" id="8770772348876361967">
         <link role="lexemType:22" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />
@@ -478,9 +478,6 @@
     </node>
     <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378209">
       <link role="template:22" targetNodeId="8770772348876378191" resolveInfo="СО РАН" />
-    </node>
-    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="6508841401555669021">
-      <link role="template:22" targetNodeId="8770772348876361964" resolveInfo="Простой НГУ" />
     </node>
   </node>
 </model>

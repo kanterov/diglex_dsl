@@ -1,15 +1,12 @@
 package diglex.dsl.plugin;
 
-import diglex.dsl.structure.Template;
-import jetbrains.mps.ide.hierarchy.AbstractHierarchyTree;
-import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.baseLanguage.collections.structure.LinkedListCreator;
 
+import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by IntelliJ IDEA.
@@ -22,7 +19,16 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
     private List<TemplateModel> templateModels;
 
     // Very simple and dirty implementation
-    private TreeModel treeModel = new TreeModel() {
+    private DictionaryTreeModel treeModel = new DictionaryTreeModel() ;
+
+    private class DictionaryTreeModel implements TreeModel
+    {
+        private Set<TreeModelListener> treeModelListeners;
+
+        private DictionaryTreeModel() {
+            this.treeModelListeners = new HashSet<TreeModelListener>();
+        }
+
         public Object getRoot() {
             return DictionaryModel.this;
         }
@@ -80,17 +86,23 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
         }
 
         public void addTreeModelListener(TreeModelListener l) {
+            treeModelListeners.add(l);
         }
 
         public void removeTreeModelListener(TreeModelListener l) {
+            treeModelListeners.remove(l);
         }
-    };
+
+        public List<TreeModelListener> getTreeModelListeners() {
+            return Collections.unmodifiableList(new LinkedList(treeModelListeners));
+        }
+    }
 
     public DictionaryModel(List<TemplateModel> templates) {
         this.templateModels = new LinkedList<TemplateModel>(templates);
     }
 
-    public void addSearchResult(SearchResult searchResult) {
+    public void addSearchResult(ISearchResult searchResult) {
         for (TemplateModel templateModel : templateModels) {
             if (searchResult.getId() == templateModel.getId()) {
                 ObjectModel objectModel = new ObjectModel(searchResult.getBegin(),
@@ -101,7 +113,10 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
             }
         }
 
-        // TODO send TreeModel event...
+        List<TreeModelListener> listeners = treeModel.getTreeModelListeners();
+        for (TreeModelListener listener : listeners) {
+            listener.treeStructureChanged(new TreeModelEvent(treeModel, new Object[] { treeModel.getRoot() }));
+        }
     }
 
     public void clearSearchResults() {
@@ -109,7 +124,10 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
             templateModel.clearObjects();
         }
 
-        // TODO send TreeModel event....
+        List<TreeModelListener> listeners = treeModel.getTreeModelListeners();
+        for (TreeModelListener listener : listeners) {
+            listener.treeStructureChanged(new TreeModelEvent(treeModel, new Object[] { treeModel.getRoot() }));
+        }
     }
 
     public List<ISearchResult> getSearchResults() {

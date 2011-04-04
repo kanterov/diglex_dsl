@@ -24,11 +24,6 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <runtimeStubModels>
-    <stubModelEntry path="C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 10.0.2/lib/forms_rt.jar" include="false">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
-  </runtimeStubModels>
   <sourcePath>
     <source path="${language_descriptor}/source" />
   </sourcePath>

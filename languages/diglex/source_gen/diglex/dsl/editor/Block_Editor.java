@@ -381,7 +381,7 @@ public class Block_Editor extends DefaultNodeEditor {
     }
 
     public String getMatchingText() {
-      return "\u041b\u044e\u0431\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430";
+      return "\u0417\u0430\u0434\u0430\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430";
     }
 
     public boolean isCustomCreateChildNode() {

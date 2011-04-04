@@ -24,6 +24,10 @@ public class ObjectModel implements ISearchResult, ISearchResultHierarchyNode {
         this.selfListed.add(this);
     }
 
+    public int getId() {
+        return template.getId();
+    }
+
     public int getBegin() {
         return begin;
     }

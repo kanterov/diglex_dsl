@@ -1,0 +1,66 @@
+<project name="help-build" default="nothing">
+  <property name="executable.dir" value="/executable" />
+  <property name="data.dir" value="/data" />
+  <target name="nothing">
+    <echo>Doing nothing...</echo>
+  </target>
+  <target name="repack.sources">
+    <fail unless="input.dir" message="Property input.dir unspecified." />
+    <fail unless="output.dir" message="Property output.dir unspecified." />
+    <copy todir="${output.dir}">
+      <mapper type="regexp" from="(.*)(/|\\)(src|sources|source|source_gen|tests)(/|\\)(.*)" to="\5" />
+      <fileset dir="${input.dir}" />
+    </copy>
+  </target>
+  <target name="append.mps.version">
+    <property name="build.number.file" value="${input.dir}/build.number" />
+    <property name="prefix" value="jetbrains.mps." />
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <fail unless="output.dir" message="Property output.dir unspecified." />
+    <fail unless="input.dir" message="Property input.dir unspecified." />
+    <loadfile srcfile="${mps_home}/build.number" property="mps.buildinfo">
+      <filterchain>
+        <prefixlines prefix="${prefix}" />
+      </filterchain>
+    </loadfile>
+    <echo file="${build.number.file}">${mps.buildinfo}</echo>
+    <copy file="${build.number.file}" todir="${output.dir}" />
+  </target>
+  <target name="append.idea.version">
+    <property name="build.number.file" value="${input.dir}/build.number" />
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <fail unless="input.dir" message="Property input.dir unspecified." />
+    <fail unless="output.dir" message="Property output.dir unspecified." />
+    <property file="${mps_home}/build.number" prefix="repo" />
+    <echo file="${build.number.file}" append="true">${line.separator}idea.platform.build.number=${repo.idea.platform.build.number}</echo>
+    <copy file="${build.number.file}" todir="${output.dir}" />
+  </target>
+  <target name="unpack.buildtools.zip_a">
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <mkdir dir="${mps_home}/build" />
+    <unzip src="/home/ripper/MPS.artifacts/MPS-buildTools.zip" dest="${mps_home}/build" />
+  </target>
+  <target name="add.libraries_a">
+    <property name="mps.jar" value="${input.dir}/mps.jar" />
+    <property name="extracted.mps.jar" value="${input.dir}/mpsjar" />
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <fail unless="input.dir" message="Property input.dir unspecified." />
+    <fail unless="output.dir" message="Property output.dir unspecified." />
+    <unzip src="${mps.jar}" dest="${extracted.mps.jar}" />
+    <java classname="jetbrains.mps.library.BuiltInLibrariesIO" dir="${basedir}" fork="true">
+      <classpath>
+        <pathelement location="${mps.jar}" />
+        <pathelement location="${mps_home}/lib/jdom/jdom.jar" />
+        <pathelement location="${mps_home}/lib/log4j/log4j.jar" />
+      </classpath>
+      <arg value="${extracted.mps.jar}" />
+      <arg value="diglex=Diglex/" />
+    </java>
+    <jar destfile="${mps.jar}" update="true">
+      <fileset dir="${extracted.mps.jar}">
+        <include name="jetbrains/mps/library/CustomBuiltInLibraries.xml" />
+      </fileset>
+    </jar>
+    <move file="${mps.jar}" todir="${output.dir}" />
+  </target>
+</project>

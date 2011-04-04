@@ -8,7 +8,6 @@ package diglex.dsl.plugin;
  *  Modified by Gleb Kanterov
  */
 
-import java.util.*;
 import java.io.*;
 
 public class StreamGobbler extends Thread

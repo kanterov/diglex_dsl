@@ -42,11 +42,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xmlInternal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="22" />
   <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
   <import index="4" modelUID="f:java_stub#javax.swing.text(javax.swing.text@java_stub)" version="-1" />
+  <import index="5" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6282999055323831029">
     <link role="conceptDeclaration:32" targetNodeId="1.6282999055323831027:22" resolveInfo="Template" />
@@ -636,7 +637,6 @@
       </node>
     </node>
   </node>
-  <visible index="3" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="8760462257934208653">
     <link role="conceptDeclaration:32" targetNodeId="1.1794194610342749170:22" resolveInfo="Block" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="8760462257934217285">
@@ -656,14 +656,14 @@
                 <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="8760462257934286055">
                   <property name="name:3" value="panel" />
                   <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="8760462257934286056">
-                    <link role="classifier:3" targetNodeId="3v.~JPanel" resolveInfo="JPanel" />
+                    <link role="classifier:3" targetNodeId="5.~JPanel" resolveInfo="JPanel" />
                   </node>
                   <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="8760462257934286059">
                     <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator:3" id="8760462257934286060">
                       <node role="cls:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClass:3" id="8760462257934286061">
                         <property name="nonStatic:3" value="true" />
-                        <link role="classifier:3" targetNodeId="3v.~JPanel" resolveInfo="JPanel" />
-                        <link role="baseMethodDeclaration:3" targetNodeId="3v.~JPanel.&lt;init&gt;()" resolveInfo="JPanel" />
+                        <link role="classifier:3" targetNodeId="5.~JPanel" resolveInfo="JPanel" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="5.~JPanel.&lt;init&gt;()" resolveInfo="JPanel" />
                         <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8760462257934286062" />
                       </node>
                     </node>
@@ -685,11 +685,11 @@
                     <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="8760462257934306113">
                       <property name="name:3" value="textField" />
                       <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="8760462257934306114">
-                        <link role="classifier:3" targetNodeId="3v.~JTextField" resolveInfo="JTextField" />
+                        <link role="classifier:3" targetNodeId="5.~JTextField" resolveInfo="JTextField" />
                       </node>
                       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="8760462257934306117">
                         <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="8760462257934306118">
-                          <link role="baseMethodDeclaration:3" targetNodeId="3v.~JTextField.&lt;init&gt;(java.lang.String)" resolveInfo="JTextField" />
+                          <link role="baseMethodDeclaration:3" targetNodeId="5.~JTextField.&lt;init&gt;(java.lang.String)" resolveInfo="JTextField" />
                           <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8760462257934306119">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="8760462257934306120">
                               <link role="variable:7" targetNodeId="8760462257934287936" resolveInfo="item" />
@@ -904,7 +904,7 @@
               </node>
               <node role="elementMenuDescriptor:32" type="jetbrains.mps.lang.editor.structure.CellMenuDescriptor:32" id="8760462257934678496">
                 <node role="cellMenuPart:32" type="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceChild_Item:32" id="8760462257934783642">
-                  <property name="matchingText:32" value="Любая строка" />
+                  <property name="matchingText:32" value="Заданная строка" />
                   <node role="createFunction:32" type="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceChild_Item_Create:32" id="8760462257934783643">
                     <node role="body:32" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934783644">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="8760462257934783661">

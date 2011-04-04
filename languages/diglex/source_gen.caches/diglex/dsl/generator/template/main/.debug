@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="20" startPosition="0" endLine="190" endPosition="0" unitName="diglex.dsl.generator.template.main.QueriesGenerated" />
   <root nodeId="1094196415547746920">
     <scopeInfo nodeId="7096421670146200317" fileName="QueriesGenerated.java" startLine="142" startPosition="155" endLine="143" endPosition="78" />
   </root>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="Template_Behavior.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="diglex.dsl.behavior.Template_Behavior" />
+  <unitInfo fileName="BlockTail_Behavior.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="diglex.dsl.behavior.BlockTail_Behavior" />
+  <unitInfo fileName="TemplateReference_Behavior.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="diglex.dsl.behavior.TemplateReference_Behavior" />
+  <unitInfo fileName="Block_Behavior.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="diglex.dsl.behavior.Block_Behavior" />
+  <unitInfo fileName="DistantContext_Behavior.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="diglex.dsl.behavior.DistantContext_Behavior" />
+  <unitInfo fileName="AnySymbol_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="diglex.dsl.behavior.AnySymbol_Behavior" />
+  <unitInfo fileName="ExactString_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="diglex.dsl.behavior.ExactString_Behavior" />
+  <unitInfo fileName="StringSet_Behavior.java" startLine="12" startPosition="0" endLine="26" endPosition="0" unitName="diglex.dsl.behavior.StringSet_Behavior" />
   <root nodeId="7804553196909797809">
     <nodeInfo nodeId="7804553196909797812" fileName="DistantContext_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="132" />
     <nodeInfo nodeId="7804553196909797826" fileName="DistantContext_Behavior.java" startLine="12" startPosition="132" endLine="13" endPosition="99" />

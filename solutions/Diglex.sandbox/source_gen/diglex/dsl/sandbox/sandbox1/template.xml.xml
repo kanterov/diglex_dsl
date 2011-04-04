@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+  <Id>5</Id>
+  <MatchMode>AbsoluteMeaningful</MatchMode>
+  <Name>СО РАН</Name>
+  <MatchCases>
+    <MatchCase>
+      <Items>
+        <MatchCaseItem type="TemplateReference">
+          <TemplateReference>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <ReferencesId>3</ReferencesId>
+          </TemplateReference>
+        </MatchCaseItem>
+        <MatchCaseItem type="Block">
+          <Block>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>SpaceSymbol</LexemType>
+            <Items>
+              <BlockItem type="AnySymbol">
+                <AnySymbol>
+                  <LexemType>SpaceSymbol</LexemType>
+                  <TimesMinimum>0</TimesMinimum>
+                  <TimesMaximum>2000000000</TimesMaximum>
+                </AnySymbol>
+              </BlockItem>
+            </Items>
+          </Block>
+        </MatchCaseItem>
+        <MatchCaseItem type="TemplateReference">
+          <TemplateReference>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <ReferencesId>4</ReferencesId>
+          </TemplateReference>
+        </MatchCaseItem>
+      </Items>
+    </MatchCase>
+  </MatchCases>
+</Template>
+

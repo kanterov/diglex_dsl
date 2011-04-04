@@ -12,19 +12,13 @@ import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import jetbrains.mps.workbench.MPSDataKeys;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import diglex.dsl.structure.Dictionary;
-import java.util.List;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class DebugDictionary_Action extends GeneratedAction {
   private static final Icon ICON = null;
@@ -35,7 +29,7 @@ public class DebugDictionary_Action extends GeneratedAction {
   private Component component;
 
   public DebugDictionary_Action() {
-    super("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 \u0441\u043b\u043e\u0432\u0430\u0440\u044f", "", ICON);
+    super("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 \u0421\u043b\u043e\u0432\u0430\u0440\u044f", "", ICON);
     this.setIsAlwaysVisible(true);
     this.setExecuteOutsideCommand(false);
   }
@@ -85,76 +79,68 @@ public class DebugDictionary_Action extends GeneratedAction {
 
   public void doExecute(@NotNull final AnActionEvent event) {
     try {
-      LOG.info("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 \u0441\u043b\u043e\u0432\u0430\u0440\u044f...");
+      SNode dictionary = null;
+      String fileSeparator = System.getProperty("file.separator");
 
-      DictionarySelectionDialog dialog = null;
-
-      try {
-        dialog = new DictionarySelectionDialog(DebugDictionary_Action.this.model);
-      } catch (Exception e) {
-        LOG.error("\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0434\u0438\u0430\u043b\u043e\u0433\u0430", e.getMessage());
-        LOG.error(e.getMessage() + "", e);
-        LOG.error(e.getStackTrace().toString() + "", e);
+      // Select by default 
+      if (ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).count() == 1) {
+        dictionary = ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).getElement(0);
+      } else {
+        dictionary = DebugDictionary_Action.this.selectNode();
       }
 
-      LOG.info("dialog created");
+      if ((dictionary != null) && dictionary != null) {
+        String outputPath = DebugDictionary_Action.this.modelDescriptor.getModule().getOutputFor(DebugDictionary_Action.this.modelDescriptor);
+        String xmlPath = DebugDictionary_Action.this.modelDescriptor.getLongName().replace(".", fileSeparator) + fileSeparator + (SPropertyOperations.getString(dictionary, "name").toString()) + ".xml";
 
-      dialog.pack();
-      dialog.setLocationRelativeTo(DebugDictionary_Action.this.component);
-      dialog.setVisible(true);
+        String xmlFullPath = outputPath + fileSeparator + xmlPath;
 
-      LOG.info("dialog opened");
-
-      if (dialog.getSelectedDictionaryNode() != null) {
-        final SNode dictionary = SNodeOperations.as(dialog.getSelectedDictionaryNode(), "diglex.dsl.structure.Dictionary");
         LOG.info("Selected Dictionary " + SPropertyOperations.getString(dictionary, "name"));
-        String xmlPath = DebugDictionary_Action.this.modelDescriptor.getModule().getOutputFor(DebugDictionary_Action.this.modelDescriptor) + "\\" + "diglex\\dsl\\sandbox\\sandbox1\\" + SPropertyOperations.getString(dictionary, "name") + ".xml";
-        LOG.info("xml path: " + xmlPath);
-        LOG.info(((Dictionary) SNodeOperations.getAdapter(dictionary)).getNode().getNodePath(dictionary));
-        final List<TemplateModel> templateModels = ListSequence.fromList(new LinkedList<TemplateModel>());
+        LOG.info("xml full path: " + xmlFullPath);
 
-        LOG.info(DebugDictionary_Action.this.modelDescriptor.getModule().getModuleNamespace() + "");
-        LOG.info(DebugDictionary_Action.this.modelDescriptor.getModelFile().getAbsolutePath() + "");
-        LOG.info(DebugDictionary_Action.this.modelDescriptor.getModelFile().getPath() + "");
+        ITemplateReader templateReader = new TemplateReader(((Dictionary) SNodeOperations.getAdapter(dictionary)));
+        ISearchResultsProvider searchResultsProvider = new SearchResultsProvider(xmlFullPath);
 
+        // here is id giving. TODO: get it to external utility 
         final Wrappers._int id = new Wrappers._int(0);
 
         ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Template")).visitAll(new IVisitor<SNode>() {
           public void visit(SNode it) {
-
             SPropertyOperations.set(it, "id1", "" + id.value);
             id.value++;
           }
         });
 
-        ModelAccess.instance().runReadAction(new Runnable() {
-          public void run() {
-            ListSequence.fromList(SLinkOperations.getTargets(dictionary, "dictionaryTemplate", true)).where(new IWhereFilter<SNode>() {
-              public boolean accept(SNode it) {
-                return (SLinkOperations.getTarget(it, "template", false) != null);
-              }
-            }).select(new ISelector<SNode, SNode>() {
-              public SNode select(SNode it) {
-                return SLinkOperations.getTarget(it, "template", false);
-              }
-            }).visitAll(new IVisitor<SNode>() {
-              public void visit(SNode it) {
-
-                TemplateModel model = new TemplateModel(SPropertyOperations.getInteger(it, "id1"), SPropertyOperations.getString(it, "name"));
-                LOG.info(String.format("\u0428\u0430\u0431\u043b\u043e\u043d id=%d name=%s", SPropertyOperations.getInteger(it, "id1"), SPropertyOperations.getString(it, "name")));
-                ListSequence.fromList(templateModels).addElement(model);
-              }
-            });
-          }
-        });
-
-
-        TemplateDebugDialog templateDialog = new TemplateDebugDialog(templateModels, xmlPath);
-        templateDialog.pack();
+        TemplateDebugDialog templateDialog = new TemplateDebugDialog(templateReader, searchResultsProvider, SPropertyOperations.getString(dictionary, "name"));
+        templateDialog.setSize(800, 600);
         templateDialog.setVisible(true);
       }
     } catch (Throwable t) {
       LOG.error("User's action execute method failed. Action:" + "DebugDictionary", t);
     }
+  }
+
+  private SNode selectNode() {
+
+    try {
+      DictionarySelectionDialog dialog = null;
+
+      dialog = new DictionarySelectionDialog(DebugDictionary_Action.this.model);
+
+      dialog.pack();
+      dialog.setLocationRelativeTo(DebugDictionary_Action.this.component);
+      dialog.setVisible(true);
+
+      return SNodeOperations.as(dialog.getSelectedDictionaryNode(), "diglex.dsl.structure.Dictionary");
+    } catch (Exception e) {
+      LOG.error("\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0434\u0438\u0430\u043b\u043e\u0433\u0430", e.getMessage());
+      LOG.error(e.getMessage() + "", e);
+
+      for (StackTraceElement element : e.getStackTrace()) {
+        LOG.error(element.toString(), e);
+      }
+    }
+
+    return null;
   }
 }

@@ -1,19 +1,14 @@
 package diglex.dsl.plugin;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
 import javax.swing.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.awt.*;
-import java.io.IOException;
+import java.io.ByteArrayInputStream;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -98,7 +93,7 @@ public class SearchResultDeserializer {
             "</Objects>";
 
         byte []bytes = xml.getBytes();
-        List<SearchResult> results = getSearchResults(new InputSource(new ByteInputStream(bytes, 0, bytes.length)));
+        List<SearchResult> results = getSearchResults(new InputSource(new ByteArrayInputStream(bytes, 0, bytes.length)));
 
         assert results.size() == 3;
 

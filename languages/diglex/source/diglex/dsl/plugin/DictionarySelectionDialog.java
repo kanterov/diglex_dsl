@@ -113,6 +113,8 @@ public class DictionarySelectionDialog extends JDialog {
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
 
+        setTitle("Выберите словарь");
+
         buttonOK.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onOK();
@@ -186,6 +188,10 @@ public class DictionarySelectionDialog extends JDialog {
 
     public SNode getSelectedDictionaryNode() {
         return selectedDictionaryNode;
+    }
+
+    public Dictionary getSelectedDictionary() {
+        return selectedDictionary;
     }
 
     private void onOK() {

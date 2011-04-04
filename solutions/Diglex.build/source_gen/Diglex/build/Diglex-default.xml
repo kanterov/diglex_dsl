@@ -1,0 +1,361 @@
+<project name="Diglex-default" default="main" basedir="..">
+  <property file="${ant.file}/../Diglex.properties" />
+  <property file="${mps_home}/build.number" />
+  <fail unless="build.number" message="Property build.number unspecified." />
+  <fail unless="revision.number" message="Property revision.number unspecified." />
+  <fail unless="version" message="Property version unspecified." />
+  <fail unless="configuration.name" message="Property configuration.name unspecified." />
+  <import file="${ant.file}/../Diglex-compile.xml" />
+  <import file="${ant.file}/../Diglex-languages.xml" />
+  <import file="${ant.file}/../help-build.xml" />
+  <target name="main" depends="compile,clean.before,folders.create,do.the.job,clean.after" />
+  <target name="compile">
+    <antcall target="compile.all" />
+  </target>
+  <target name="clean.before" depends="compile">
+    <delete dir="${deploy.dir}" />
+    <tstamp />
+  </target>
+  <target name="folders.create" depends="clean.before">
+    <mkdir dir="${deploy.dir}" />
+    <mkdir dir="${deploy.dir}/MPS/bin" />
+    <mkdir dir="${deploy.dir}/MPS/lib/beansbinding" />
+    <mkdir dir="${deploy.dir}/MPS/lib/ant-1.7.0" />
+    <mkdir dir="${deploy.dir}/MPS/lib/asm" />
+    <mkdir dir="${deploy.dir}/MPS/lib/commons-codec" />
+    <mkdir dir="${deploy.dir}/MPS/lib/commons-collections" />
+    <mkdir dir="${deploy.dir}/MPS/lib/commons-lang" />
+    <mkdir dir="${deploy.dir}/MPS/lib/commons-logging" />
+    <mkdir dir="${deploy.dir}/MPS/lib/commons-net" />
+    <mkdir dir="${deploy.dir}/MPS/lib/eclipse-compiler" />
+    <mkdir dir="${deploy.dir}/MPS/lib/javahelp" />
+    <mkdir dir="${deploy.dir}/MPS/lib/jdom" />
+    <mkdir dir="${deploy.dir}/MPS/lib/jgoodies" />
+    <mkdir dir="${deploy.dir}/MPS/lib/jetbrains-ideframework" />
+    <mkdir dir="${deploy.dir}/MPS/lib/jna" />
+    <mkdir dir="${deploy.dir}/MPS/lib/jmock2.4" />
+    <mkdir dir="${deploy.dir}/MPS/lib/joda-time" />
+    <mkdir dir="${deploy.dir}/MPS/lib/junit4" />
+    <mkdir dir="${deploy.dir}/MPS/lib/log4j" />
+    <mkdir dir="${deploy.dir}/MPS/lib/microba" />
+    <mkdir dir="${deploy.dir}/MPS/lib/nanoxml" />
+    <mkdir dir="${deploy.dir}/MPS/lib/oromatcher" />
+    <mkdir dir="${deploy.dir}/MPS/lib/picocontainer" />
+    <mkdir dir="${deploy.dir}/MPS/lib/trove4j" />
+    <mkdir dir="${deploy.dir}/MPS/lib/xmlrpc" />
+    <mkdir dir="${deploy.dir}/MPS/lib/xstream" />
+    <mkdir dir="${deploy.dir}/MPS/lib/yjp" />
+    <mkdir dir="${deploy.dir}/MPS/lib/httpclient" />
+    <mkdir dir="${deploy.dir}/MPS/lib/tools" />
+    <mkdir dir="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
+    <mkdir dir="${deploy.dir}/MPS/lib" />
+    <mkdir dir="${deploy.dir}/MPS/license" />
+    <mkdir dir="${deploy.dir}/MPS/plugins" />
+    <mkdir dir="${deploy.dir}/MPS/core/baseLanguage" />
+    <mkdir dir="${deploy.dir}/MPS/core/languageDesign" />
+    <mkdir dir="${deploy.dir}/MPS/core/devkits" />
+    <mkdir dir="${deploy.dir}/MPS/core" />
+    <mkdir dir="${deploy.dir}/MPS/platform" />
+    <mkdir dir="${deploy.dir}/MPS/plugin" />
+    <mkdir dir="${deploy.dir}/MPS/workbench" />
+    <mkdir dir="${deploy.dir}/MPS/help-build.append.mps.version" />
+    <mkdir dir="${deploy.dir}/MPS/Diglex" />
+    <mkdir dir="${deploy.dir}/MPS" />
+    <mkdir dir="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
+  </target>
+  <target name="do.the.job" depends="folders.create">
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <copy todir="${deploy.dir}/MPS/bin">
+      <fileset dir="${mps_home}/bin" excludes="**/*.hprof, **/*.iml, **/*.iws" />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/beansbinding">
+      <fileset dir="${mps_home}/lib/beansbinding" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/ant-1.7.0">
+      <fileset dir="${mps_home}/lib/ant-1.7.0" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/asm">
+      <fileset dir="${mps_home}/lib/asm" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/commons-codec">
+      <fileset dir="${mps_home}/lib/commons-codec" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/commons-collections">
+      <fileset dir="${mps_home}/lib/commons-collections" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/commons-lang">
+      <fileset dir="${mps_home}/lib/commons-lang" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/commons-logging">
+      <fileset dir="${mps_home}/lib/commons-logging" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/commons-net">
+      <fileset dir="${mps_home}/lib/commons-net" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/eclipse-compiler">
+      <fileset dir="${mps_home}/lib/eclipse-compiler" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/javahelp">
+      <fileset dir="${mps_home}/lib/javahelp" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/jdom">
+      <fileset dir="${mps_home}/lib/jdom" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/jgoodies">
+      <fileset dir="${mps_home}/lib/jgoodies" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/jetbrains-ideframework">
+      <fileset dir="${mps_home}/lib/jetbrains-ideframework" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/jna">
+      <fileset dir="${mps_home}/lib/jna" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/jmock2.4">
+      <fileset dir="${mps_home}/lib/jmock2.4" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/joda-time">
+      <fileset dir="${mps_home}/lib/joda-time" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/junit4">
+      <fileset dir="${mps_home}/lib/junit4" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/log4j">
+      <fileset dir="${mps_home}/lib/log4j" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/microba">
+      <fileset dir="${mps_home}/lib/microba" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/nanoxml">
+      <fileset dir="${mps_home}/lib/nanoxml" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/oromatcher">
+      <fileset dir="${mps_home}/lib/oromatcher" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/picocontainer">
+      <fileset dir="${mps_home}/lib/picocontainer" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/trove4j">
+      <fileset dir="${mps_home}/lib/trove4j" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/xmlrpc">
+      <fileset dir="${mps_home}/lib/xmlrpc" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/xstream">
+      <fileset dir="${mps_home}/lib/xstream" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/yjp">
+      <fileset dir="${mps_home}/lib/yjp" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/httpclient">
+      <fileset dir="${mps_home}/lib/httpclient" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/tools">
+      <fileset dir="${mps_home}/lib/tools" excludes="**/*.zip, **/*.iml, **/*.iws" includes="**/*.jar, **/*.class, **/*.png, **/*.xml, **/*.txt, **/*.html, " />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib">
+      <fileset dir="${mps_home}/lib" includes="MPS-src.zip" />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib">
+      <fileset dir="${mps_home}/lib" includes="IDEA-src.zip" />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib">
+      <fileset dir="${mps_home}/lib" includes="idea-patch.jar" />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/lib/help-build.add.libraries_a">
+      <fileset dir="${mps_home}/lib" includes="mps.jar" />
+    </copy>
+    <antcall target="help-build.add.libraries_a" inheritall="true">
+      <param name="deploy.dir" value="${deploy.dir}" />
+      <param name="input.dir" value="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
+      <param name="output.dir" value="${deploy.dir}/MPS/lib" />
+      <param name="basedir" value="${basedir}" />
+    </antcall>
+    <delete dir="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
+    <mkdir dir="${deploy.dir}/MPS/lib" />
+    <copy todir="${deploy.dir}/MPS/license">
+      <fileset dir="${mps_home}/license" excludes="**/*.iml, **/*.iws" />
+    </copy>
+    <copy todir="${deploy.dir}/MPS/plugins">
+      <fileset dir="${mps_home}/plugins" excludes="**/*.zip, **/*.iml, **/*.iws" />
+    </copy>
+    <copy file="${mps_home}/samples.zip" tofile="${deploy.dir}/MPS/samples.zip" />
+    <copy file="${mps_home}/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" />
+    <copy file="${mps_home}/core/baseLanguage/closures.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/closures.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" />
+    <copy file="${mps_home}/core/baseLanguage/collections.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/collections.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/collections_trove.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/collections_trove.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/collections_samples.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/collections_samples.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" tofile="${deploy.dir}/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" />
+    <mkdir dir="${deploy.dir}/MPS/core/baseLanguage" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mpslite.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mpslite.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" />
+    <copy file="${mps_home}/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" tofile="${deploy.dir}/MPS/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" />
+    <mkdir dir="${deploy.dir}/MPS/core/languageDesign" />
+    <copy file="${mps_home}/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" tofile="${deploy.dir}/MPS/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" />
+    <copy file="${mps_home}/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" tofile="${deploy.dir}/MPS/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" />
+    <mkdir dir="${deploy.dir}/MPS/core/devkits" />
+    <copy file="${mps_home}/core/jetbrains.mps.debug.api.info.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.debug.api.info.mpsarch.jar" />
+    <copy file="${mps_home}/core/jetbrains.mps.debug.evaluation.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.debug.evaluation.mpsarch.jar" />
+    <copy file="${mps_home}/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" />
+    <copy file="${mps_home}/core/jetbrains.mps.debug.customViewers.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.debug.customViewers.mpsarch.jar" />
+    <copy file="${mps_home}/core/jetbrains.mps.kernel.mpsarch.jar" tofile="${deploy.dir}/MPS/core/jetbrains.mps.kernel.mpsarch.jar" />
+    <mkdir dir="${deploy.dir}/MPS/core" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.uiLanguage.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.uiLanguage.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.buildlanguage.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.buildlanguage.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.buildlanguage.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.buildlanguage.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.custommps.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.custommps.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.distrib.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.distrib.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.generictasks.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.generictasks.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.packaging.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.packaging.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.packaging.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.packaging.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.dependency.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.dependency.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.build.property.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.build.property.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xml.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xml.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xmlQuery.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xmlQuery.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xmlInternal.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xmlInternal.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xmlSchema.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xmlSchema.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.xmlUnitTest.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.xmlUnitTest.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" />
+    <copy file="${mps_home}/platform/ypath.main.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/ypath.main.mpsarch.jar" />
+    <copy file="${mps_home}/platform/ypath.test.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/ypath.test.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.ypath.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.ypath.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.ypath.runtime.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.ypath.runtime.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.bash.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.bash.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.gwt.client.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.gwt.client.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.gtext.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.gtext.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.analyzers.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.analyzers.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" />
+    <copy file="${mps_home}/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" tofile="${deploy.dir}/MPS/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" />
+    <copy todir="${deploy.dir}/MPS/platform">
+      <fileset dir="${mps_home}/platform" includes="generate.ant.task.jar" />
+    </copy>
+    <mkdir dir="${deploy.dir}/MPS/platform" />
+    <copy todir="${deploy.dir}/MPS/plugin">
+      <fileset dir="${mps_home}/plugin" excludes="**/*.java, **/*.iml, **/*.iws" />
+    </copy>
+    <copy file="${mps_home}/workbench/jetbrains.mps.ide.mpsarch.jar" tofile="${deploy.dir}/MPS/workbench/jetbrains.mps.ide.mpsarch.jar" />
+    <mkdir dir="${deploy.dir}/MPS/workbench" />
+    <echo file="${deploy.dir}/MPS/help-build.append.mps.version/build.number">date=${DSTAMP}</echo>
+    <antcall target="help-build.append.mps.version" inheritall="true">
+      <param name="deploy.dir" value="${deploy.dir}" />
+      <param name="input.dir" value="${deploy.dir}/MPS/help-build.append.mps.version" />
+      <param name="output.dir" value="${deploy.dir}/MPS" />
+      <param name="basedir" value="${basedir}" />
+    </antcall>
+    <delete dir="${deploy.dir}/MPS/help-build.append.mps.version" />
+    <copy file="${mps_home}/readme.txt" tofile="${deploy.dir}/MPS/readme.mps.txt" />
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">This package contains JetBrains MPS ${version} packaged with libraries:${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">library diglex in folder Diglex/${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">    diglex.dsl${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">    jetbrains.mps.sampleXML${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">${line.separator}</echo>
+    <copy file="${mps_home}/releaseNotes.txt" tofile="${deploy.dir}/MPS/releaseNotes.txt" />
+    <copy file="${mps_home}/about.txt" tofile="${deploy.dir}/MPS/about.txt" />
+    <antcall target="Diglex-languages.pack.diglex.dsl_a41a" />
+    <antcall target="Diglex-languages.pack.jetbrains.mps.sampleXML_b41a" />
+    <mkdir dir="${deploy.dir}/MPS/Diglex" />
+    <mkdir dir="${deploy.dir}/MPS" />
+    <antcall target="help-build.unpack.buildtools.zip_a" inheritall="true">
+      <param name="deploy.dir" value="${deploy.dir}" />
+      <param name="input.dir" value="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
+      <param name="output.dir" value="${deploy.dir}/" />
+      <param name="basedir" value="${basedir}" />
+    </antcall>
+    <delete dir="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
+  </target>
+  <target name="clean.after" depends="do.the.job">
+    <delete dir="${deploy.dir}/MPS/lib/MPS-src.zip.tmp" />
+    <delete dir="${deploy.dir}/MPS/lib/idea-patch.jar.tmp" />
+    <delete dir="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp" />
+    <delete dir="${deploy.dir}/MPS/platform/generate.ant.task.jar.tmp" />
+  </target>
+  <target name="replace_a7a0fb1a">
+    <fail unless="mps_home" message="Property mps_home unspecified." />
+    <copy file="${mps_home}/core/kernel/classes/idea/MPSApplicationInfo.xml" tofile="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_NUMBER__" value="${build.number}" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_DATE__" value="${DSTAMP}" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__VERSION__" value="${version}" />
+  </target>
+</project>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="32" endPosition="0" unitName="diglex.dsl.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="CheckMatchCasreConditionItemsNotEmpty_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="43" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCasreConditionItemsNotEmpty_NonTypesystemRule" />
+  <unitInfo fileName="CheckMatchCaseItemsNotEmpty_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="43" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseItemsNotEmpty_NonTypesystemRule" />
+  <unitInfo fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule" />
+  <unitInfo fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseItemsAreDefined_NonTypesystemRule" />
+  <unitInfo fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="diglex.dsl.typesystem.CheckTemplateNameUniqueness_NonTypesystemRule" />
   <root nodeId="7804553196909644693">
     <nodeInfo nodeId="7804553196909647680" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="30" startPosition="7" endLine="31" endPosition="55" />
     <nodeInfo nodeId="7804553196909647680" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="31" startPosition="55" endLine="32" endPosition="57" />

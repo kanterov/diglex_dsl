@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="LexemType_DefaultSearchScope.java" startLine="12" startPosition="0" endLine="32" endPosition="0" unitName="diglex.dsl.constraints.LexemType_DefaultSearchScope" />
+  <unitInfo fileName="LexemType_Constraints.java" startLine="13" startPosition="0" endLine="33" endPosition="0" unitName="diglex.dsl.constraints.LexemType_Constraints" />
+  <unitInfo fileName="ExactString_Value_PropertyConstraint.java" startLine="14" startPosition="0" endLine="34" endPosition="0" unitName="diglex.dsl.constraints.ExactString_Value_PropertyConstraint" />
+  <unitInfo fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="diglex.dsl.constraints.LexemSymbolCode_symbol_PropertyConstraint" />
+  <unitInfo fileName="Template_DefaultSearchScope.java" startLine="18" startPosition="0" endLine="40" endPosition="0" unitName="diglex.dsl.constraints.Template_DefaultSearchScope" />
+  <unitInfo fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="diglex.dsl.constraints.AnySymbol_timesMaximumInteger_PropertyConstraint" />
+  <unitInfo fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="diglex.dsl.constraints.RepeatTimes_maximumInteger_PropertyConstraint" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="diglex.dsl.constraints.ConstraintsDescriptor" />
+  <unitInfo fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="diglex.dsl.constraints.BlockTail_maximumLengthInteger_PropertyConstraint" />
   <root nodeId="1380999598342017959">
     <scopeInfo nodeId="1380999598342023786" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="31" startPosition="124" endLine="31" endPosition="124" />
     <scopeInfo nodeId="1380999598342018655" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="77" />

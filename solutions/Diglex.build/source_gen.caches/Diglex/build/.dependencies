@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="Diglex.build.Diglex-compile" file="Diglex-compile.xml" />
+  <dependency className="Diglex.build.Diglex-default-dist" file="Diglex-default-dist.xml" />
+  <dependency className="Diglex.build.Diglex-default" file="Diglex-default.xml" />
+  <dependency className="Diglex.build.Diglex-languages" file="Diglex-languages.xml" />
+  <dependency className="Diglex.build.Diglex" file="Diglex.properties" />
+  <dependency className="Diglex.build.Info" file="Info.plist" />
+  <dependency className="Diglex.build.help-build" file="help-build.xml" />
+  <dependency className="Diglex.build.installer" file="installer.nsi" />
+  <dependency className="Diglex.build.mps" file="mps.bat" />
+  <dependency className="Diglex.build.mps" file="mps.sh" />
+  <dependency className="Diglex.build.mps" file="mps.vmoptions" />
+</dependenciesRoot>
+

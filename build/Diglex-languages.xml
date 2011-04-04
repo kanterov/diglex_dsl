@@ -1,0 +1,23 @@
+<project name="Diglex-languages" default="pack.diglex.dsl_a41a">
+  <fail unless="deploy.dir" message="Property deploy.dir unspecified." />
+  <target name="pack.diglex.dsl_a41a">
+    <mkdir dir="languages/diglex/classes_gen" />
+    <mkdir dir="languages/diglex/source_gen.caches" />
+    <jar destfile="${deploy.dir}/MPS/Diglex/diglex.dsl.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/diglex/diglex.mpl" prefix="module" />
+      <zipfileset dir="languages/diglex/source_gen.caches" prefix="source_gen.caches" />
+      <zipfileset dir="languages/diglex" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/diglex/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.jetbrains.mps.sampleXML_b41a">
+    <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
+    <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" />
+    <jar destfile="${deploy.dir}/MPS/Diglex/jetbrains.mps.sampleXML.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/sampleXML.mpl" prefix="module" />
+      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" prefix="source_gen.caches" />
+      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
+    </jar>
+  </target>
+</project>

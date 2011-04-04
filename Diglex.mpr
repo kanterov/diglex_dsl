@@ -7,6 +7,7 @@
   <component name="MPSProject">
     <projectSolutions>
       <solutionPath path="${project}/solutions/Diglex.sandbox/Diglex.sandbox.msd" />
+      <solutionPath path="${project}/solutions/Diglex.build/Diglex.build.msd" />
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/diglex/diglex.mpl" />

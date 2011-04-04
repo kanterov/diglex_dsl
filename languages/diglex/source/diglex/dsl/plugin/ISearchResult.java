@@ -10,6 +10,7 @@ package diglex.dsl.plugin;
 
 public interface ISearchResult
 {
+    int getId();
     int getBegin();
     int getEnd();
 }

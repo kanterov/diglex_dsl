@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="IMatchCaseItem.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="diglex.dsl.structure.IMatchCaseItem" />
+  <unitInfo fileName="ILexemSymbol.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="diglex.dsl.structure.ILexemSymbol" />
+  <unitInfo fileName="IBlockItem.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="diglex.dsl.structure.IBlockItem" />
+  <unitInfo fileName="Dsl_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="diglex.dsl.structure.Dsl_Language" />
+  <unitInfo fileName="PositiveIntegerOrInfinity_PropertySupport.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="diglex.dsl.structure.PositiveIntegerOrInfinity_PropertySupport" />
+  <unitInfo fileName="DictionaryTemplate.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="diglex.dsl.structure.DictionaryTemplate" />
+  <unitInfo fileName="StringSetItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="diglex.dsl.structure.StringSetItem" />
+  <unitInfo fileName="DistantContextCondition.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="diglex.dsl.structure.DistantContextCondition" />
+  <unitInfo fileName="LexemSymbolGroup.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.structure.LexemSymbolGroup" />
+  <unitInfo fileName="MatchMode_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="diglex.dsl.structure.MatchMode_PropertySupport" />
+  <unitInfo fileName="RepeatTimes.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="diglex.dsl.structure.RepeatTimes" />
+  <unitInfo fileName="BlockTail.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="diglex.dsl.structure.BlockTail" />
+  <unitInfo fileName="MatchCaseCondition.java" startLine="13" startPosition="0" endLine="58" endPosition="0" unitName="diglex.dsl.structure.MatchCaseCondition" />
+  <unitInfo fileName="LexemSymbol.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="diglex.dsl.structure.LexemSymbol" />
+  <unitInfo fileName="MatchMode.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="diglex.dsl.structure.MatchMode" />
+  <unitInfo fileName="MatchCase.java" startLine="13" startPosition="0" endLine="67" endPosition="0" unitName="diglex.dsl.structure.MatchCase" />
+  <unitInfo fileName="TemplateReference.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="diglex.dsl.structure.TemplateReference" />
+  <unitInfo fileName="LexemSymbolCode.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="diglex.dsl.structure.LexemSymbolCode" />
+  <unitInfo fileName="SearchSettings.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="diglex.dsl.structure.SearchSettings" />
+  <unitInfo fileName="ExactString.java" startLine="11" startPosition="0" endLine="80" endPosition="0" unitName="diglex.dsl.structure.ExactString" />
+  <unitInfo fileName="DistantContext.java" startLine="13" startPosition="0" endLine="85" endPosition="0" unitName="diglex.dsl.structure.DistantContext" />
+  <unitInfo fileName="Dictionary.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="diglex.dsl.structure.Dictionary" />
+  <unitInfo fileName="LexemClassification.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="diglex.dsl.structure.LexemClassification" />
+  <unitInfo fileName="StringSet.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="diglex.dsl.structure.StringSet" />
+  <unitInfo fileName="AnySymbol.java" startLine="11" startPosition="0" endLine="98" endPosition="0" unitName="diglex.dsl.structure.AnySymbol" />
+  <unitInfo fileName="LexemType.java" startLine="14" startPosition="0" endLine="104" endPosition="0" unitName="diglex.dsl.structure.LexemType" />
+  <unitInfo fileName="Template.java" startLine="14" startPosition="0" endLine="106" endPosition="0" unitName="diglex.dsl.structure.Template" />
+  <unitInfo fileName="Block.java" startLine="13" startPosition="0" endLine="112" endPosition="0" unitName="diglex.dsl.structure.Block" />
+</debugInfo>
 

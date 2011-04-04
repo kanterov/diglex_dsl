@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Templates>
+  <Template>
+    <Id>3</Id>
+    <MatchMode>AbsoluteMeaningful</MatchMode>
+    <Name>СО</Name>
+    <MatchCases>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>СО</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>Сибирское</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>SpaceSymbol</LexemType>
+              <Items>
+                <BlockItem type="AnySymbol">
+                  <AnySymbol>
+                    <LexemType>SpaceSymbol</LexemType>
+                    <TimesMinimum>0</TimesMinimum>
+                    <TimesMaximum>2000000000</TimesMaximum>
+                  </AnySymbol>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>отделение</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+    </MatchCases>
+  </Template>
+  <Template>
+    <Id>4</Id>
+    <MatchMode>AbsoluteMeaningful</MatchMode>
+    <Name>РАН</Name>
+    <MatchCases>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>РАН</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <Tail>
+                <MaximumLength>2000000000</MaximumLength>
+                <MinimumLength>0</MinimumLength>
+              </Tail>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>Российск</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>SpaceSymbol</LexemType>
+              <Items>
+                <BlockItem type="AnySymbol">
+                  <AnySymbol>
+                    <LexemType>SpaceSymbol</LexemType>
+                    <TimesMinimum>0</TimesMinimum>
+                    <TimesMaximum>2000000000</TimesMaximum>
+                  </AnySymbol>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <Tail>
+                <MaximumLength>2000000000</MaximumLength>
+                <MinimumLength>0</MinimumLength>
+              </Tail>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>Академ</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>SpaceSymbol</LexemType>
+              <Items>
+                <BlockItem type="AnySymbol">
+                  <AnySymbol>
+                    <LexemType>SpaceSymbol</LexemType>
+                    <TimesMinimum>0</TimesMinimum>
+                    <TimesMaximum>2000000000</TimesMaximum>
+                  </AnySymbol>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <Tail>
+                <MaximumLength>2000000000</MaximumLength>
+                <MinimumLength>0</MinimumLength>
+              </Tail>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>RussianLetter</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>Наук</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+    </MatchCases>
+  </Template>
+  <Template>
+    <Id>5</Id>
+    <MatchMode>AbsoluteMeaningful</MatchMode>
+    <Name>СО РАН</Name>
+    <MatchCases>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="TemplateReference">
+            <TemplateReference>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <ReferencesId>3</ReferencesId>
+            </TemplateReference>
+          </MatchCaseItem>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
+              <LexemType>SpaceSymbol</LexemType>
+              <Items>
+                <BlockItem type="AnySymbol">
+                  <AnySymbol>
+                    <LexemType>SpaceSymbol</LexemType>
+                    <TimesMinimum>0</TimesMinimum>
+                    <TimesMaximum>2000000000</TimesMaximum>
+                  </AnySymbol>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+          <MatchCaseItem type="TemplateReference">
+            <TemplateReference>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <ReferencesId>4</ReferencesId>
+            </TemplateReference>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+    </MatchCases>
+  </Template>
+</Templates>
+
