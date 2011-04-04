@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Template>
-  <Id>5</Id>
+  <Id>6</Id>
   <MatchMode>AbsoluteMeaningful</MatchMode>
-  <Name>СО РАН</Name>
+  <Name>Шаблон</Name>
   <MatchCases>
     <MatchCase>
       <Items>
-        <MatchCaseItem type="TemplateReference">
-          <TemplateReference>
+        <MatchCaseItem type="Block">
+          <Block>
             <Repeat>
               <Minimum>1</Minimum>
               <Maximum>1</Maximum>
             </Repeat>
-            <ReferencesId>3</ReferencesId>
-          </TemplateReference>
+            <Tail>
+              <MaximumLength>2000000000</MaximumLength>
+              <MinimumLength>0</MinimumLength>
+            </Tail>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>RussianLetter</LexemType>
+            <Items>
+              <BlockItem type="ExactString">
+                <ExactString>
+                  <LexemType>RussianLetter</LexemType>
+                  <Value>А</Value>
+                </ExactString>
+              </BlockItem>
+            </Items>
+          </Block>
+        </MatchCaseItem>
+        <MatchCaseItem type="Block">
+          <Block>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>RussianLetter</LexemType>
+            <Items>
+              <BlockItem type="ExactString">
+                <ExactString>
+                  <LexemType>RussianLetter</LexemType>
+                  <Value>Ершова</Value>
+                </ExactString>
+              </BlockItem>
+            </Items>
+          </Block>
         </MatchCaseItem>
         <MatchCaseItem type="Block">
           <Block>
@@ -24,24 +55,68 @@
             <CaseSensitive>false</CaseSensitive>
             <LexemType>SpaceSymbol</LexemType>
             <Items>
-              <BlockItem type="AnySymbol">
-                <AnySymbol>
+              <BlockItem type="ExactString">
+                <ExactString>
                   <LexemType>SpaceSymbol</LexemType>
-                  <TimesMinimum>0</TimesMinimum>
-                  <TimesMaximum>2000000000</TimesMaximum>
-                </AnySymbol>
+                  <Value> </Value>
+                </ExactString>
               </BlockItem>
             </Items>
           </Block>
         </MatchCaseItem>
-        <MatchCaseItem type="TemplateReference">
-          <TemplateReference>
+        <MatchCaseItem type="Block">
+          <Block>
             <Repeat>
               <Minimum>1</Minimum>
               <Maximum>1</Maximum>
             </Repeat>
-            <ReferencesId>4</ReferencesId>
-          </TemplateReference>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>RussianLetter</LexemType>
+            <Items>
+              <BlockItem type="ExactString">
+                <ExactString>
+                  <LexemType>RussianLetter</LexemType>
+                  <Value>СО</Value>
+                </ExactString>
+              </BlockItem>
+            </Items>
+          </Block>
+        </MatchCaseItem>
+        <MatchCaseItem type="Block">
+          <Block>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>SpaceSymbol</LexemType>
+            <Items>
+              <BlockItem type="ExactString">
+                <ExactString>
+                  <LexemType>SpaceSymbol</LexemType>
+                  <Value> </Value>
+                </ExactString>
+              </BlockItem>
+            </Items>
+          </Block>
+        </MatchCaseItem>
+        <MatchCaseItem type="Block">
+          <Block>
+            <Repeat>
+              <Minimum>1</Minimum>
+              <Maximum>1</Maximum>
+            </Repeat>
+            <CaseSensitive>false</CaseSensitive>
+            <LexemType>RussianLetter</LexemType>
+            <Items>
+              <BlockItem type="ExactString">
+                <ExactString>
+                  <LexemType>RussianLetter</LexemType>
+                  <Value>РАН</Value>
+                </ExactString>
+              </BlockItem>
+            </Items>
+          </Block>
         </MatchCaseItem>
       </Items>
     </MatchCase>

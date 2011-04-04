@@ -649,12 +649,6 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="8760462257934217286" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="8760462257934226219">
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="8760462257934226220" />
-        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="8760462257934217289">
-          <property name="text:32" value="Блок" />
-          <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem:32" id="8760462257934217291">
-            <property name="color:32" value="DARK_MAGENTA" />
-          </node>
-        </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_JComponent:32" id="8760462257934226227">
           <node role="componentProvider:32" type="jetbrains.mps.lang.editor.structure.QueryFunction_JComponent:32" id="8760462257934226228">
             <node role="body:32" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934226229">
@@ -840,17 +834,9 @@
                 </node>
               </node>
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="5910725786822988327" />
-              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5910725786823049332">
-                <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5910725786823049334">
-                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5910725786823049333">
-                    <link role="variableDeclaration:3" targetNodeId="8760462257934286055" resolveInfo="panel" />
-                  </node>
-                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5910725786823049339">
-                    <link role="baseMethodDeclaration:3" targetNodeId="2.~Container.add(java.awt.Component):java.awt.Component" resolveInfo="add" />
-                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5910725786823049340">
-                      <link role="variableDeclaration:3" targetNodeId="5910725786823029834" resolveInfo="button" />
-                    </node>
-                  </node>
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.SingleLineComment:3" id="1922820112741906134">
+                <node role="commentPart:3" type="jetbrains.mps.baseLanguage.structure.TextCommentPart:3" id="1922820112741906143">
+                  <property name="text:3" value="panel.add(button);" />
                 </node>
               </node>
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="5910725786823049331" />

@@ -6,32 +6,33 @@
   <unitInfo fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule" />
   <unitInfo fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseItemsAreDefined_NonTypesystemRule" />
   <unitInfo fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="diglex.dsl.typesystem.CheckTemplateNameUniqueness_NonTypesystemRule" />
-  <unitInfo fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="62" endPosition="0" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule" />
+  <unitInfo fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="60" endPosition="0" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule" />
   <root nodeId="5910725786823190421">
-    <nodeInfo nodeId="5910725786823190451" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="28" startPosition="96" endLine="29" endPosition="79" />
-    <nodeInfo nodeId="5910725786823190472" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="29" startPosition="79" endLine="30" endPosition="77" />
-    <nodeInfo nodeId="5910725786823190450" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="30" startPosition="77" endLine="31" endPosition="0" />
-    <nodeInfo nodeId="5910725786823200013" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="31" startPosition="0" endLine="32" endPosition="57" />
-    <nodeInfo nodeId="5910725786823200012" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="32" startPosition="57" endLine="33" endPosition="0" />
-    <nodeInfo nodeId="5910725786823190985" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="43" startPosition="41" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="5910725786823190989" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="45" endPosition="66" />
-    <nodeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="34" startPosition="127" endLine="38" endPosition="0" />
-    <nodeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="38" startPosition="45" endLine="42" endPosition="0" />
-    <nodeInfo nodeId="5910725786823190525" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="42" startPosition="39" endLine="47" endPosition="0" />
-    <nodeInfo nodeId="5910725786823190425" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="35" startPosition="39" endLine="36" endPosition="74" />
-    <scopeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="39" startPosition="37" endLine="40" endPosition="64" />
-    <scopeInfo nodeId="5910725786823190526" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="43" startPosition="41" endLine="45" endPosition="66" />
-    <scopeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="34" startPosition="127" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="38" startPosition="45" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="5910725786823190525" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="42" startPosition="39" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="5910725786823190422" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="28" startPosition="96" endLine="47" endPosition="7">
-      <varInfo nodeId="5910725786823190473" varName="dictionaryIds" />
-      <varInfo nodeId="5910725786823190452" varName="ids" />
+    <nodeInfo nodeId="1922820112741841158" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="27" startPosition="96" endLine="28" endPosition="94" />
+    <nodeInfo nodeId="1922820112741847380" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="28" startPosition="94" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="1922820112741867220" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="33" startPosition="39" endLine="34" endPosition="0" />
+    <nodeInfo nodeId="1922820112741867256" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="36" startPosition="15" endLine="37" endPosition="63" />
+    <nodeInfo nodeId="1922820112741867256" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="37" startPosition="63" endLine="38" endPosition="65" />
+    <nodeInfo nodeId="1922820112741867256" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="38" startPosition="65" endLine="39" endPosition="500" />
+    <nodeInfo nodeId="1922820112741867256" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="35" startPosition="88" endLine="40" endPosition="15" />
+    <nodeInfo nodeId="1922820112741867222" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="34" startPosition="0" endLine="41" endPosition="13" />
+    <nodeInfo nodeId="1922820112741867216" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="32" startPosition="160" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="1922820112741867194" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="31" startPosition="49" endLine="43" endPosition="11" />
+    <nodeInfo nodeId="1922820112741863951" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="30" startPosition="57" endLine="44" endPosition="7" />
+    <nodeInfo nodeId="1922820112741841169" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="1922820112741867256" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="36" startPosition="15" endLine="39" endPosition="500" />
+    <scopeInfo nodeId="1922820112741867223" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="35" startPosition="88" endLine="40" endPosition="15" />
+    <scopeInfo nodeId="1922820112741867217" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="33" startPosition="39" endLine="41" endPosition="13" />
+    <scopeInfo nodeId="1922820112741867216" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="32" startPosition="160" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1922820112741863953" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="31" startPosition="49" endLine="43" endPosition="11" />
+    <scopeInfo nodeId="1922820112741841170" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="30" startPosition="57" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="1922820112741863951" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="30" startPosition="57" endLine="44" endPosition="7">
+      <varInfo nodeId="1922820112741863952" varName="missingId" />
     </scopeInfo>
-    <unitInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="34" startPosition="104" endLine="38" endPosition="5" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule$1" />
-    <unitInfo nodeId="5910725786823190432" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="38" startPosition="18" endLine="42" endPosition="5" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule$2" />
-    <unitInfo nodeId="5910725786823190525" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="42" startPosition="20" endLine="47" endPosition="5" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule$3" />
+    <scopeInfo nodeId="5910725786823190422" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="27" startPosition="96" endLine="45" endPosition="5">
+      <varInfo nodeId="1922820112741841159" varName="missingIds" />
+    </scopeInfo>
+    <unitInfo nodeId="1922820112741867216" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="32" startPosition="141" endLine="43" endPosition="9" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule$1" />
   </root>
   <root nodeId="7804553196909644693">
     <nodeInfo nodeId="7804553196909647680" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="30" startPosition="7" endLine="31" endPosition="55" />

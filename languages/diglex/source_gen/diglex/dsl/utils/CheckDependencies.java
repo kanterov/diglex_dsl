@@ -16,6 +16,7 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
+import diglex.dsl.structure.Template;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
@@ -110,9 +111,11 @@ public class CheckDependencies {
     return isConnected;
   }
 
-  public static List<Integer> GetDictionaryMissingDependencyIds(SNode dictionary) {
-    final List<Integer> dependOnIds = ListSequence.fromList(new LinkedList<Integer>());
-    final Set<Integer> presentIds = SetSequence.fromSet(new HashSet<Integer>());
+  public static List<String> GetDictionaryMissingDependencyIds(SNode dictionary) {
+    final List<String> dependOnIds = ListSequence.fromList(new LinkedList<String>());
+    List<String> missingIds = ListSequence.fromList(new LinkedList<String>());
+    final Set<String> presentIds = SetSequence.fromSet(new HashSet<String>());
+
 
     ListSequence.fromList(SLinkOperations.getTargets(dictionary, "dictionaryTemplate", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -125,14 +128,20 @@ public class CheckDependencies {
     }).visitAll(new IVisitor<SNode>() {
       public void visit(SNode template) {
         AddTemplateDependencyIds(template, dependOnIds);
-        SetSequence.fromSet(presentIds).addElement(SPropertyOperations.getInteger(template, "id1"));
+        SetSequence.fromSet(presentIds).addElement(((Template) SNodeOperations.getAdapter(template)).getId());
       }
     });
 
-    return dependOnIds;
+    for (String dependOnId : ListSequence.fromList(dependOnIds)) {
+      if (!(SetSequence.fromSet(presentIds).contains(dependOnId))) {
+        ListSequence.fromList(missingIds).addElement(dependOnId);
+      }
+    }
+
+    return missingIds;
   }
 
-  public static void AddTemplateDependencyIds(SNode template, final List<Integer> ids) {
+  public static void AddTemplateDependencyIds(SNode template, final List<String> ids) {
     AddMatchCaseItemDependencyIds(ListSequence.fromList(SLinkOperations.getTargets(template, "MatchCases", true)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return SLinkOperations.getTargets(it, "Items", true);
@@ -166,7 +175,7 @@ public class CheckDependencies {
     });
   }
 
-  public static void AddMatchCaseItemDependencyIds(Iterable<SNode> matchCaseItems, final List<Integer> ids) {
+  public static void AddMatchCaseItemDependencyIds(Iterable<SNode> matchCaseItems, final List<String> ids) {
     Sequence.fromIterable(matchCaseItems).visitAll(new IVisitor<SNode>() {
       public void visit(SNode item) {
         if (SNodeOperations.isInstanceOf(item, "diglex.dsl.structure.DistantContext")) {
@@ -181,12 +190,12 @@ public class CheckDependencies {
             }
           }).visitAll(new IVisitor<SNode>() {
             public void visit(SNode condition) {
-              ListSequence.fromList(ids).addElement(SPropertyOperations.getInteger(condition, "id1"));
+              ListSequence.fromList(ids).addElement(((Template) SNodeOperations.getAdapter(condition)).getId());
             }
           });
         }
         if (SNodeOperations.isInstanceOf(item, "diglex.dsl.structure.TemplateReference")) {
-          int id = SPropertyOperations.getInteger(SLinkOperations.getTarget((SNodeOperations.as(item, "diglex.dsl.structure.TemplateReference")), "TemplateReference", false), "id1");
+          String id = ((Template) SNodeOperations.getAdapter(SLinkOperations.getTarget((SNodeOperations.as(item, "diglex.dsl.structure.TemplateReference")), "TemplateReference", false))).getId();
           ListSequence.fromList(ids).addElement(id);
         }
       }

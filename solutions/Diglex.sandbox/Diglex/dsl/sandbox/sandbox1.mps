@@ -470,10 +470,10 @@
   </node>
   <node type="diglex.dsl.structure.Dictionary:22" id="8770772348876378204">
     <property name="name:22" value="Dictionary" />
-    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378205">
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="1922820112741874203">
       <link role="template:22" targetNodeId="8770772348876371567" resolveInfo="СО" />
     </node>
-    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378207">
+    <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="1922820112741855229">
       <link role="template:22" targetNodeId="8770772348876378159" resolveInfo="РАН" />
     </node>
     <node role="dictionaryTemplate:22" type="diglex.dsl.structure.DictionaryTemplate:22" id="8770772348876378209">

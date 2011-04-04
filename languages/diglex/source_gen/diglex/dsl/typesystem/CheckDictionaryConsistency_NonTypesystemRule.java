@@ -7,18 +7,17 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import java.util.List;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
-import diglex.dsl.utils.IdUtil;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.internal.collections.runtime.ISelector;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
 import diglex.dsl.utils.CheckDependencies;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
+import diglex.dsl.structure.Template;
+import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.typesystem.inference.IErrorTarget;
+import jetbrains.mps.typesystem.inference.NodeErrorTarget;
+import jetbrains.mps.nodeEditor.IErrorReporter;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class CheckDictionaryConsistency_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
@@ -26,25 +25,24 @@ public class CheckDictionaryConsistency_NonTypesystemRule extends AbstractNonTyp
   }
 
   public void applyRule(final SNode dictionary, final TypeCheckingContext typeCheckingContext) {
-    final List<Integer> ids = ListSequence.fromList(new LinkedList<Integer>());
-    Set<Integer> dictionaryIds = SetSequence.fromSet(new HashSet<Integer>());
+    List<String> missingIds = CheckDependencies.GetDictionaryMissingDependencyIds(dictionary);
 
-    IdUtil.GiveIds(SNodeOperations.getModel(dictionary));
+    if (ListSequence.fromList(missingIds).isNotEmpty()) {
+      for (final String missingId : missingIds) {
+        ListSequence.fromList(SModelOperations.getNodes(SNodeOperations.getModel(dictionary), "diglex.dsl.structure.Template")).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode it) {
 
-    ListSequence.fromList(SLinkOperations.getTargets(dictionary, "dictionaryTemplate", true)).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return (SLinkOperations.getTarget(it, "template", false) != null);
+            if (((Template) SNodeOperations.getAdapter(it)).getId().equals(missingId)) {
+              {
+                BaseIntentionProvider intentionProvider = null;
+                IErrorTarget errorTarget = new NodeErrorTarget();
+                IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(dictionary, "\u0421\u043b\u043e\u0432\u0430\u0440\u044c \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0448\u0430\u0431\u043b\u043e\u043d\u0430 " + SPropertyOperations.getString(it, "name") + ", \u043d\u043e \u043e\u043d \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d", "r:f4b85e2c-2701-4120-894e-38d23b925d75(diglex.dsl.typesystem)", "1922820112741867256", intentionProvider, errorTarget);
+              }
+            }
+          }
+        });
       }
-    }).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return SLinkOperations.getTarget(it, "template", false);
-      }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode template) {
-
-        CheckDependencies.AddTemplateDependencyIds(template, ids);
-      }
-    });
+    }
   }
 
   public String getApplicableConceptFQName() {

@@ -69,8 +69,7 @@ public class Block_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_kw2rpr_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kw2rpr_a0");
-    editorCell.addEditorCell(this.createConstant_kw2rpr_a0a(editorContext, node));
-    editorCell.addEditorCell(this.createJComponent_kw2rpr_b0a(editorContext, node));
+    editorCell.addEditorCell(this.createJComponent_kw2rpr_a0a(editorContext, node));
     return editorCell;
   }
 
@@ -134,17 +133,6 @@ public class Block_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_kw2rpr_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u0411\u043b\u043e\u043a");
-    editorCell.setCellId("Constant_kw2rpr_a0a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_kw2rpr_a0b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u0420\u0435\u0433\u0438\u0441\u0442\u0440");
     editorCell.setCellId("Constant_kw2rpr_a0b0");
@@ -199,9 +187,9 @@ public class Block_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createJComponent_kw2rpr_b0a(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Block_Editor._QueryFunction_JComponent_kw2rpr_a1a0(node, editorContext), "_kw2rpr_b0a");
-    editorCell.setCellId("JComponent_kw2rpr_b0a");
+  private EditorCell createJComponent_kw2rpr_a0a(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Block_Editor._QueryFunction_JComponent_kw2rpr_a0a0(node, editorContext), "_kw2rpr_a0a");
+    editorCell.setCellId("JComponent_kw2rpr_a0a");
     return editorCell;
   }
 
@@ -291,7 +279,7 @@ public class Block_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static JComponent _QueryFunction_JComponent_kw2rpr_a1a0(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_kw2rpr_a0a0(SNode node, EditorContext editorContext) {
     final EditorContext _editorContext = editorContext;
     final SNode _node = node;
 
@@ -310,7 +298,7 @@ public class Block_Editor extends DefaultNodeEditor {
       }
     });
 
-    panel.add(button);
+    // panel.add(button); 
 
     return panel;
   }

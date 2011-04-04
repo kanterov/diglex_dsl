@@ -54,215 +54,522 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseCondition_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseCondition_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/mps_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/mps_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/xml-apis.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/xml-apis.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/actions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemType_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemType_Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/structure.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/mps.bat" afterPath="$PROJECT_DIR$/build/mps.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex-compile.xml" afterPath="$PROJECT_DIR$/build/Diglex-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-ant.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-ant.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Block_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Block_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-scp.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-scp.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/Block_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/Block_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/log4j_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/log4j_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/TemplateReference_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/TemplateReference_Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-collections_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-collections_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolCode.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolCode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckTemplateNameUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckTemplateNameUniqueness_NonTypesystemRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/BlockTail.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/BlockTail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/objenesis-1.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/objenesis-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/junit4/junit-4.1-src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/junit4/junit-4.1-src.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCase.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/FoldingUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ObjectModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ObjectModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultsProvider.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultsProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/JNA-LICENSE" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/JNA-LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemSymbolCode_symbol_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemSymbolCode_symbol_PropertyConstraint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.hash.-5djjhrm2u4a029sl6fcgv125thp0xue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/readme.mps.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/readme.mps.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS-28-linux.tar.gz" afterPath="$PROJECT_DIR$/artifacts/MPS-28-linux.tar.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jetbrains-ideframework_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jetbrains-ideframework_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/ypath.main.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/ypath.main.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/platform-api.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/platform-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jsch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jsch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateObserver.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/beansbinding/beansbinding-1.2.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/beansbinding/beansbinding-1.2.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsNotEmpty_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsNotEmpty_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IBlockItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IBlockItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryTemplate_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryTemplate_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.hash.-3vrmtx4xh4m659n15zyg4sekb9tzfj5" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.hash.-3vrmtx4xh4m659n15zyg4sekb9tzfj5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/xmlrpc_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/xmlrpc_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/eclipse-compiler/ecj.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/eclipse-compiler/ecj.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/beansbinding_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/beansbinding_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-launcher.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-launcher.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/ypath.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/ypath.test.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/xstream/xstream.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/xstream/xstream.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/SearchSettings_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/SearchSettings_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jna_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jna_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-logging/commons-logging-1.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-logging/commons-logging-1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/template.xml.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/template.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/SEQUENCE-LICENSE" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/SEQUENCE-LICENSE" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\editor\.hash.dt1qfntqzhwf3q51tlnekcexjpx4s0c" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-junit4-2.3.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-junit4-2.3.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ILexemSymbol.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ILexemSymbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS-28.zip" afterPath="$PROJECT_DIR$/artifacts/MPS-28.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/joda-time/joda-time-1.6.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/joda-time/joda-time-1.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/smartcvs-src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/smartcvs-src.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolGroup.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/javahelp/jh.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/javahelp/jh.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/focuskiller64.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/focuskiller64.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.-8wgsh3j8uvrtok2utmleebfsswug5tn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-junit.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-junit.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/trilead-ssh2.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/trilead-ssh2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.debug" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex-default-dist.xml" afterPath="$PROJECT_DIR$/build/Diglex-default-dist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/jna.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/jna.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/idea-patch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/idea-patch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-javamail.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-javamail.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCaseCondition.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCaseCondition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/workbench/jetbrains.mps.ide.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/workbench/jetbrains.mps.ide.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/resources_en.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/resources_en.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-swing.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-swing.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/log4j/log4j.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/log4j/log4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/icons.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/icons.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.-2vmgvnhpvsoqfhedgmknmwfhrp7j2a3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolCode_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolCode_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/nanoxml_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/nanoxml_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/IdUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/IdUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-logging/commons-logging-1.1-src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-logging/commons-logging-1.1-src.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jdepend.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jdepend.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/Diglex/build.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.build/Diglex/build.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-logging_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-logging_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Info.plist" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/nanoxml/nanoxml-2.2.3.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/nanoxml/nanoxml-2.2.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jna/jna.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jna/jna.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/forms_rt.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/forms_rt.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcher64.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcher64.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-lang/commons-lang-2.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-lang/commons-lang-2.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/yjpagent.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/yjpagent.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/picoContainer_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/picoContainer_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/cglib-2.1_3-src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/cglib-2.1_3-src.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/microba/microba.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/microba/microba.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\typesystem\.hash.dbcxszl7a0ojd80r9bcq3h466pztkq4" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcherNT.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcherNT.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSet.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContext.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.property.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.property.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/junit_license.html" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/junit_license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mpslite.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mpslite.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" afterPath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSetItem_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSetItem_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/resources.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/resources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-cipher.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-cipher.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/help-build.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/help-build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/git4idea.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/git4idea.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Словарьxml&quot;" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gtext.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gtext.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-net.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-net.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/cvsIntegration.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/cvsIntegration.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-antlr.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-antlr.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.hash.-7r32dwmdy4x6mvc5hkvp2z72owz6nnx" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.hash.-7r32dwmdy4x6mvc5hkvp2z72owz6nnx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/FoldingUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/FoldingUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/mps.sh" afterPath="$PROJECT_DIR$/build/mps.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/tools/tools.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/tools/tools.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-commons-logging.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-commons-logging.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/mps.exe.vmoptions" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/mps.exe.vmoptions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IMatchCaseItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IMatchCaseItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default-dist.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default-dist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSet_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSet_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/help-build.xml" afterPath="$PROJECT_DIR$/build/help-build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/svnkit.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/svnkit.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/structure.metadata" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.dependency.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.dependency.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsNotEmpty_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsNotEmpty_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/mps.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/mps.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateReader.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/xercesImpl.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/xercesImpl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/asm_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/asm_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateReference.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/hamcrest-library-1.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/hamcrest-library-1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/annotations.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/annotations.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.-3pwm4y30ye4vegfh6uyhf4bt0rj0jcy" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.-3pwm4y30ye4vegfh6uyhf4bt0rj0jcy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jmf.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jmf.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/xmlrpc/xmlrpc-2.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/xmlrpc/xmlrpc-2.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xml.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xml.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/javahelp_license.html" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/javahelp_license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.az8i7v8rmnlghnfwqayy8lbjbjld761" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.az8i7v8rmnlghnfwqayy8lbjbjld761" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/DistantContext_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/DistantContext_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-sftp.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-sftp.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/XStream_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/XStream_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/etc/ant-bootstrap.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/etc/ant-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.bash.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.bash.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolGroup_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolGroup_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/looks-2.2.2.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/looks-2.2.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.hash.-ddaugcqqiklmsa9bm1pq7gp8tny04ej" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.hash.-ddaugcqqiklmsa9bm1pq7gp8tny04ej" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/trilead.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/trilead.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/AnySymbol.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/AnySymbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlQuery.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlQuery.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-bcel.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-bcel.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-languages.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-languages.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.hash.dyf02apavbhdpo7lazuxkni1syidxjf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/ant_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/ant_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/htmlparser_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/htmlparser_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.evaluation.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.evaluation.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateReader.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/about.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/about.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/javacvs-src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/javacvs-src.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.generictasks.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.generictasks.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/RepeatTimes_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/RepeatTimes_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j_src.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j_src.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dsl_Language.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dsl_Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/README.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-collections/commons-collections.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-collections/commons-collections.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-testutil.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-testutil.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/BlockTail_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/BlockTail_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/generate.ant.task.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/generate.ant.task.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckDictionaryConsistency_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckDictionaryConsistency_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/BlockTail_maximumLengthInteger_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/BlockTail_maximumLengthInteger_PropertyConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jmock_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jmock_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/mps.sh" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/mps.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/extensions.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/extensions.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections_trove.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections_trove.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSetItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSetItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ProjectPlugin.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ProjectPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/samples.zip" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/samples.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/StringSet_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/StringSet_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/xmlunit_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/xmlunit_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/Diglex/diglex.dsl.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/Diglex/diglex.dsl.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.bat" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.bat" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;languages\diglex\source_gen\diglex\dsl\accessory\Базовый" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/cvs_util.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/cvs_util.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/textGen.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.hash.-1af2h6o2ncp6ak25mga0h81ki7hki71" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.hash.-1af2h6o2ncp6ak25mga0h81ki7hki71" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/changelog.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.packaging.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.packaging.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcher2K.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/FileWatcher2K.dll" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Настройкипоиска" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ApplicationPlugin.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ApplicationPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/gwt_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/gwt_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/resources_en.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/resources_en.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.buildlanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.buildlanguage.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-junit3-2.3.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-junit3-2.3.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/hamcrest-core-1.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/hamcrest-core-1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemType_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemType_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/build.number" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/build.number" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.kernel.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.kernel.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-resolver.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-resolver.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/httpclient/httpclient.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/httpclient/httpclient.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ypath.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ypath.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlInternal.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/Diglex/jetbrains.mps.sampleXML.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/Diglex/jetbrains.mps.sampleXML.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/BlockTail.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/BlockTail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/asm/asm.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/asm/asm.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.packaging.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.packaging.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-netrexx.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-netrexx.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/resources_en.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/resources_en.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/Dictionary.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/Dictionary.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/yjp/yjp-controller-api-redist.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/yjp/yjp-controller-api-redist.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Info.plist" afterPath="$PROJECT_DIR$/build/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultsProvider.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultsProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemSymbolCode_symbol_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemSymbolCode_symbol_PropertyConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/trove_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/trove_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-compile.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-net/commons-net-1.4.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-net/commons-net-1.4.1.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionaryModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionaryModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckDictionaryConsistency_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/TRILEAD-LICENSE" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/TRILEAD-LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/TypesystemDescriptor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/TypesystemDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.buildlanguage.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.buildlanguage.runtime.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.hash.-4eumo643rl24mpec17kd7flm99rpiif" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.hash.-4eumo643rl24mpec17kd7flm99rpiif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/trilead-ssh2-build213.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/trilead-ssh2-build213.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-codec_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-codec_license.txt" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\utils\.hash.-cs8un5u0dd2vbjylxn64lt5roz0fnph" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.form" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/accessory.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/oromatcher_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/oromatcher_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateDebugDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateObserver.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateObserver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IBlockItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IBlockItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsNotEmpty_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsNotEmpty_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/mps.vmoptions" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/mps.vmoptions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryTemplate_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryTemplate_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.hash.-3vrmtx4xh4m659n15zyg4sekb9tzfj5" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.hash.-3vrmtx4xh4m659n15zyg4sekb9tzfj5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-zlib.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-zlib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/platform.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/platform.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemClassification.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemClassification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex.sandbox.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\plugin\.hash.d4vmriqhez7u88rhf7d2vmatqvcl7a9" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-ssh1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-ssh1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/yjp_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/yjp_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/PositiveIntegerOrInfinity_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/PositiveIntegerOrInfinity_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/junit4/junit-4.1.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/junit4/junit-4.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-2.3.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-2.3.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.hash.dbcxszl7a0ojd80r9bcq3h466pztkq4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\editor\.hash.8i6t2ystd93qq3473zucudtzluwd57j" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/restarter.exe" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/restarter.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/plugin/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.-cs8un5u0dd2vbjylxn64lt5roz0fnph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/readme.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.hash.-2x9uh6zk5h1r5jrcwmxghml9ad1hjln" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.hash.-2x9uh6zk5h1r5jrcwmxghml9ad1hjln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/SearchSettings_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/SearchSettings_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.uiLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.uiLanguage.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/ecj_license.html" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/ecj_license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jfcunit_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jfcunit_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex-languages.xml" afterPath="$PROJECT_DIR$/build/Diglex-languages.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/template.xml.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/template.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.hash.dt1qfntqzhwf3q51tlnekcexjpx4s0c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-commons-net.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-commons-net.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-log4j.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-log4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/libyjpagent.jnilib" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/libyjpagent.jnilib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResult.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ILexemSymbol.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ILexemSymbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.customViewers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.customViewers.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gwt.client.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.gwt.client.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/JAVAHL-LICENSE" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/JAVAHL-LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DictionaryTemplate.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DictionaryTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolGroup.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbolGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS-28-macos.zip" afterPath="$PROJECT_DIR$/artifacts/MPS-28-macos.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContextCondition.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContextCondition.java" />
       <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Словарь.xml&quot;" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/oromatcher/oromatcher.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/oromatcher/oromatcher.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex-default.xml" afterPath="$PROJECT_DIR$/build/Diglex-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultHierarchyNode.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResultHierarchyNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/cglib-nodep-2.1_3.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/cglib-nodep-2.1_3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.vmoptions" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.vmoptions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/AnySymbol_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/AnySymbol_Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.debug" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/installer.nsi" afterPath="$PROJECT_DIR$/build/installer.nsi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Template_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Template_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex-default-dist.xml" afterPath="$PROJECT_DIR$/build/Diglex-default-dist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCaseCondition.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchCaseCondition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/releaseNotes.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/releaseNotes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/plugin.mps" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\typesystem\.hash.-bgnkfgvcous9xq4eng74qdypvs74obn" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-sftp.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-sftp.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-legacy-2.3.0.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jmock2.4/jmock-legacy-2.3.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/RepeatTimes_maximumInteger_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/RepeatTimes_maximumInteger_PropertyConstraint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/StreamGobbler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolCode_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolCode_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.hash.9mdgvtzh5t3vj3jk0gn3qht2mw1fkz7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jgoodies_looks_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jgoodies_looks_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-starteam.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-starteam.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.sh" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/Diglex/build.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.build/Diglex/build.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-codec/commons-codec-1.3.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/commons-codec/commons-codec-1.3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Info.plist" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ypath.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.ypath.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultsProvider.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultsProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diglex_dsl.iml" afterPath="$PROJECT_DIR$/diglex_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Block.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Block.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diglex_dsl.iml" afterPath="$PROJECT_DIR$/diglex_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbol.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemSymbol.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContext.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DistantContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSet.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.api.info.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/jetbrains.mps.debug.api.info.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/diglex.mpl" afterPath="$PROJECT_DIR$/languages/diglex/diglex.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-regexp.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-regexp.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResult.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ISearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" afterPath="$PROJECT_DIR$/solutions/diglex.dsl.build/diglex/dsl/build.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/Template_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/Template_Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSetItem_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSetItem_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/BlockTail_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/BlockTail_Behavior.java" />
-      <change type="MOVED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen\diglex\dsl\typesystem\CheckMatchCasreConditionItemsNotEmpty_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseConditionItemsNotEmpty_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-util.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-util.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j_changes.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/trove4j/trove4j_changes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/Template_DefaultSearchScope.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/Template_DefaultSearchScope.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/help-build.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/help-build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/typesystem.mps.12.38.27.2.2011.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/log4j.dtd" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/log4j.dtd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections_samples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/collections_samples.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlUnitTest.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlUnitTest.runtime.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.dependencies" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen.caches/Diglex/build/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/AnySymbol_timesMaximumInteger_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/AnySymbol_timesMaximumInteger_PropertyConstraint.java" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Словарьxml&quot;" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/picocontainer/picocontainer.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/picocontainer/picocontainer.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/boot.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/boot.jar" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\solutions\Diglex.sandbox\source_gen.caches\diglex\dsl\sandbox\sandbox1\.hash.8hp9qcmsviaemmmgs14ys42glyprigu" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.hash.-7r32dwmdy4x6mvc5hkvp2z72owz6nnx" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.hash.-7r32dwmdy4x6mvc5hkvp2z72owz6nnx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jdom/jdom.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jdom/jdom.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-oro.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-oro.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContext_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContext_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/mps.sh" afterPath="$PROJECT_DIR$/build/mps.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/COPYING" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/COPYING" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.dependencies" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IMatchCaseItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/IMatchCaseItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSet_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/StringSet_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default-dist.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-default-dist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/help-build.xml" afterPath="$PROJECT_DIR$/build/help-build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-weblogic.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-weblogic.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbol_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbol_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.8hp9qcmsviaemmmgs14ys42glyprigu" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.8hp9qcmsviaemmmgs14ys42glyprigu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/structure.metadata" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateReader.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/ITemplateReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jgoodies_forms_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jgoodies_forms_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/log.xml" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/log.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateReference.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jgoodies/jgoodies-forms.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jgoodies/jgoodies-forms.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/mps.vmoptions" afterPath="$PROJECT_DIR$/build/mps.vmoptions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.-3pwm4y30ye4vegfh6uyhf4bt0rj0jcy" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.-3pwm4y30ye4vegfh6uyhf4bt0rj0jcy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-ssh2.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/maverick-ssh2.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/RepeatTimes.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/RepeatTimes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/Diglex.build.msd" afterPath="$PROJECT_DIR$/solutions/Diglex.build/Diglex.build.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.az8i7v8rmnlghnfwqayy8lbjbjld761" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.az8i7v8rmnlghnfwqayy8lbjbjld761" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/DistantContext_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/DistantContext_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlSchema.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.xmlSchema.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/joda_time_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/joda_time_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/constraints.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Template.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Template.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/generator/template/main/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.hash.cv4vio4d9oj074oqos3x4icgdwdwxq0" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.hash.cv4vio4d9oj074oqos3x4icgdwdwxq0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolGroup_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemSymbolGroup_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/installer.nsi" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/installer.nsi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/scripts.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.hash.-ddaugcqqiklmsa9bm1pq7gp8tny04ej" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.hash.-ddaugcqqiklmsa9bm1pq7gp8tny04ej" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/AnySymbol.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/AnySymbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/libyjpagent.so" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/libyjpagent.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/svn4idea.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/svn4idea.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-publickey.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/cvsIntegration/lib/sshtools-publickey.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugin/MPSPlugin.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugin/MPSPlugin.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/CheckDependencies.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/CheckDependencies.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-trax.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-trax.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/SearchSettings.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/SearchSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-languages.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex-languages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jakarta-regexp_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jakarta-regexp_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.hash.9mdgvtzh5t3vj3jk0gn3qht2mw1fkz7" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.hash.9mdgvtzh5t3vj3jk0gn3qht2mw1fkz7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/ExactString_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/ExactString_Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/SearchResultDeserializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-lang_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-lang_license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ExactString.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ExactString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateReader.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jai.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-jai.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.hash.bv5z38k83uoyg6mau38v1fgonfycgzv" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.hash.bv5z38k83uoyg6mau38v1fgonfycgzv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/RepeatTimes_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/RepeatTimes_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/jdom_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/jdom_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-net_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/commons-net_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jna/jna-utils.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jna/jna-utils.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/bootstrap.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dsl_Language.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dsl_Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/closures.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/closures.runtime.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex.properties" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/Diglex.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/BlockTail_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/BlockTail_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/BlockTail_maximumLengthInteger_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/BlockTail_maximumLengthInteger_PropertyConstraint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/MPS-src.zip" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/MPS-src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/mps.bat" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/mps.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/util.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/jetbrains-ideframework/util.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-nodeps.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-nodeps.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemType.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/LexemType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/fetch.xml" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/fetch.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-bsf.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-apache-bsf.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/IdUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex.properties" afterPath="$PROJECT_DIR$/build/Diglex.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/GANYMED-LICENSE" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/svn4idea/lib/GANYMED-LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.custommps.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.custommps.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/IDEA-src.zip" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/IDEA-src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-stylebook.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/lib/ant-stylebook.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/TemplateModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSetItem.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/StringSetItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ProjectPlugin.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ProjectPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Diglex.properties" afterPath="$PROJECT_DIR$/build/Diglex.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.distrib.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.build.distrib.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ConstraintsDescriptor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ConstraintsDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/StringSet_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/StringSet_Behavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemClassification_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/LexemClassification_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/focuskiller.dll" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/focuskiller.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.bat" afterPath="$PROJECT_DIR$/solutions/Diglex.build/source_gen/Diglex/build/mps.bat" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;languages\diglex\source_gen\diglex\dsl\accessory\Базовый" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/sampleXML/languageModels/textGen.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\utils\.hash.b2gh7rlga2wl5bsrlx9033ag3rkzdly" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.hash.-1af2h6o2ncp6ak25mga0h81ki7hki71" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.hash.-1af2h6o2ncp6ak25mga0h81ki7hki71" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/resources_en.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/plugins/git4idea/lib/resources_en.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/http_client_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/http_client_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/get-m2.xml" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/lib/ant-1.7.0/get-m2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" afterPath="$PROJECT_DIR$/languages/diglex/source/diglex/dsl/plugin/DictionarySelectionDialog.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_Constraints.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_Constraints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ApplicationPlugin.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Dsl_ApplicationPlugin.java" />
-      <change type="DELETED" beforePath="C:\Users\Gleb\git\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Настройкипоиска" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/bin/idea.properties" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/bin/idea.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/sampleXML/sampleXML.mpl" afterPath="$PROJECT_DIR$/languages/sampleXML/sampleXML.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/diglex.dsl/stubs.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/license/microba_license.txt" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/license/microba_license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/foo/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" />
     </list>
     <ignored path="Diglex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -303,29 +610,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="НГУ" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="РАН" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="РАН" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://diglex.dsl.sandbox.sandbox1/РАН">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Настройки поиска" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.sandbox.sandbox1/Настройки поиска">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckDictionaryConsistency" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.typesystem/CheckDictionaryConsistency">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
@@ -338,22 +624,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckDependencies" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.utils/CheckDependencies">
+      <file leaf-file-name="Block" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://diglex.dsl.structure/Block">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+              <inner_tabs>
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+                <tab index="0" />
+              </inner_tabs>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="НГУ" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdUtil" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.utils/IdUtil">
+      <file leaf-file-name="ExactStringBuilder" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.utils/ExactStringBuilder">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchCaseCondition" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/MatchCaseCondition">
+      <file leaf-file-name="Словарь" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dictionary" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.structure/Dictionary">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="4">
               <inner_tabs>
@@ -374,15 +689,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diglex DSL" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin/Diglex DSL">
+      <file leaf-file-name="Dictionary" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Dictionary">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugDictionary" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.plugin/DebugDictionary">
+      <file leaf-file-name="CheckDependencies" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.utils/CheckDependencies">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdUtil" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.utils/IdUtil">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
@@ -840,10 +1162,6 @@
                 <option name="myItemId" value="Diglex" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="diglex.dsl" />
-                <option name="myItemType" value="" />
-              </PATH_ELEMENT>
             </PATH>
           </selection>
         </subPane>
@@ -876,6 +1194,23 @@
       </MyState>
       <method />
     </configuration>
+    <configuration default="true" type="BuildLanguage" factoryName="Build Language Project">
+      <MyState>
+        <option name="myJavaRunParameters">
+          <ConfigRunParameters>
+            <option name="VMParameters" />
+            <option name="alternativeJRE" />
+            <option name="make" value="false" />
+            <option name="programParameters" />
+            <option name="useAlternativeJRE" value="false" />
+            <option name="workingDirectory" />
+          </ConfigRunParameters>
+        </option>
+        <option name="nodeId" />
+        <option name="modelId" />
+      </MyState>
+      <method />
+    </configuration>
     <configuration default="true" type="CustomMPSConfigurationType" factoryName="Custom MPS Build Script">
       <MyState>
         <option name="myJavaRunParameters">
@@ -889,23 +1224,6 @@
           </ConfigRunParameters>
         </option>
         <option name="configurationId" />
-        <option name="nodeId" />
-        <option name="modelId" />
-      </MyState>
-      <method />
-    </configuration>
-    <configuration default="true" type="BuildLanguage" factoryName="Build Language Project">
-      <MyState>
-        <option name="myJavaRunParameters">
-          <ConfigRunParameters>
-            <option name="VMParameters" />
-            <option name="alternativeJRE" />
-            <option name="make" value="false" />
-            <option name="programParameters" />
-            <option name="useAlternativeJRE" value="false" />
-            <option name="workingDirectory" />
-          </ConfigRunParameters>
-        </option>
         <option name="nodeId" />
         <option name="modelId" />
       </MyState>
@@ -954,11 +1272,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.49127445" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29673913" sideWeight="0.352518" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29609543" sideWeight="0.352518" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -970,13 +1288,13 @@
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.6626898" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.7114979" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286334" sideWeight="0.7114979" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.469064" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.34934038" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.34775725" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.6469657" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.64854884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10303687" sideWeight="0.49625668" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1046,36 +1364,6 @@
     <MESSAGE value="Fixed DistantContext xml generation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Block_Editor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="4" selection-start="14757" selection-end="14757" vertical-scroll-proportion="0.17614679" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/DictionaryTemplate">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/СО">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
     <entry file="mps://diglex.dsl.structure/BlockTail">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
@@ -1096,57 +1384,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/Block">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
     <entry file="mps://diglex.dsl.sandbox.sandbox1/Настройки поиска">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
     <entry file="mps://diglex.dsl.typesystem/CheckDictionaryConsistency">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Пfffffffаааа">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.utils/CheckDependencies">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.utils/IdUtil">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
@@ -1184,6 +1427,81 @@
     <entry file="mps://diglex.dsl.sandbox.sandbox1/РАН">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.utils/ExactStringBuilder">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Словарь">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.utils/IdUtil">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.utils/CheckDependencies">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.structure/Dictionary">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="4">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Dictionary">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Пfffffffаааа">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/НГУ">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.structure/Block">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
       </provider>
     </entry>
   </component>
