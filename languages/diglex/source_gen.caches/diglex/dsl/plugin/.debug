@@ -3,83 +3,73 @@
   <unitInfo fileName="Dsl_ProjectPlugin.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ProjectPlugin" />
   <unitInfo fileName="Dsl_ApplicationPlugin.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ApplicationPlugin" />
   <unitInfo fileName="Diglex_DSL_ActionGroup.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="diglex.dsl.plugin.Diglex_DSL_ActionGroup" />
-  <unitInfo fileName="DebugDictionary_Action.java" startLine="23" startPosition="0" endLine="147" endPosition="0" unitName="diglex.dsl.plugin.DebugDictionary_Action" />
+  <unitInfo fileName="DebugDictionary_Action.java" startLine="22" startPosition="0" endLine="138" endPosition="0" unitName="diglex.dsl.plugin.DebugDictionary_Action" />
   <root nodeId="477404972780598073">
     <nodeInfo nodeId="477404972780598259" fileName="Diglex_DSL_ActionGroup.java" startLine="17" startPosition="9" endLine="18" endPosition="102" />
   </root>
   <root nodeId="477404972780598075">
-    <nodeInfo nodeId="477404972780598084" fileName="DebugDictionary_Action.java" startLine="26" startPosition="0" endLine="27" endPosition="23" />
-    <nodeInfo nodeId="477404972780598080" fileName="DebugDictionary_Action.java" startLine="27" startPosition="23" endLine="28" endPosition="43" />
-    <nodeInfo nodeId="8770772348876344120" fileName="DebugDictionary_Action.java" startLine="28" startPosition="43" endLine="29" endPosition="30" />
-    <nodeInfo nodeId="4474047895662017764" fileName="DebugDictionary_Action.java" startLine="81" startPosition="9" endLine="82" endPosition="30" />
-    <nodeInfo nodeId="4474047895662035607" fileName="DebugDictionary_Action.java" startLine="82" startPosition="30" endLine="83" endPosition="66" />
-    <nodeInfo nodeId="4474047895662017763" fileName="DebugDictionary_Action.java" startLine="83" startPosition="66" endLine="84" endPosition="0" />
-    <nodeInfo nodeId="4474047895662026561" fileName="DebugDictionary_Action.java" startLine="84" startPosition="0" endLine="85" endPosition="27" />
-    <nodeInfo nodeId="4474047895662017769" fileName="DebugDictionary_Action.java" startLine="86" startPosition="144" endLine="87" endPosition="154" />
-    <nodeInfo nodeId="4474047895662026544" fileName="DebugDictionary_Action.java" startLine="88" startPosition="14" endLine="89" endPosition="62" />
-    <nodeInfo nodeId="4474047895662017737" fileName="DebugDictionary_Action.java" startLine="90" startPosition="7" endLine="91" endPosition="0" />
-    <nodeInfo nodeId="4474047895662033581" fileName="DebugDictionary_Action.java" startLine="92" startPosition="55" endLine="93" endPosition="142" />
-    <nodeInfo nodeId="4474047895662033597" fileName="DebugDictionary_Action.java" startLine="93" startPosition="142" endLine="94" endPosition="201" />
-    <nodeInfo nodeId="4474047895662033596" fileName="DebugDictionary_Action.java" startLine="94" startPosition="201" endLine="95" endPosition="0" />
-    <nodeInfo nodeId="6508841401555420728" fileName="DebugDictionary_Action.java" startLine="95" startPosition="0" endLine="96" endPosition="66" />
-    <nodeInfo nodeId="4474047895662096235" fileName="DebugDictionary_Action.java" startLine="96" startPosition="66" endLine="97" endPosition="0" />
-    <nodeInfo nodeId="4474047895662096237" fileName="DebugDictionary_Action.java" startLine="97" startPosition="0" endLine="98" endPosition="93" />
-    <nodeInfo nodeId="6508841401555420749" fileName="DebugDictionary_Action.java" startLine="98" startPosition="93" endLine="99" endPosition="50" />
-    <nodeInfo nodeId="4474047895662026564" fileName="DebugDictionary_Action.java" startLine="99" startPosition="50" endLine="100" endPosition="0" />
-    <nodeInfo nodeId="853293316997263689" fileName="DebugDictionary_Action.java" startLine="100" startPosition="0" endLine="101" endPosition="115" />
-    <nodeInfo nodeId="4474047895662026569" fileName="DebugDictionary_Action.java" startLine="101" startPosition="115" endLine="102" endPosition="94" />
-    <nodeInfo nodeId="6508841401555544237" fileName="DebugDictionary_Action.java" startLine="102" startPosition="94" endLine="103" endPosition="0" />
-    <nodeInfo nodeId="4474047895662027856" fileName="DebugDictionary_Action.java" startLine="103" startPosition="0" endLine="104" endPosition="63" />
-    <nodeInfo nodeId="6508841401555672336" fileName="DebugDictionary_Action.java" startLine="104" startPosition="63" endLine="105" endPosition="54" />
-    <nodeInfo nodeId="6508841401555672335" fileName="DebugDictionary_Action.java" startLine="105" startPosition="54" endLine="106" endPosition="0" />
-    <nodeInfo nodeId="6508841401555672362" fileName="DebugDictionary_Action.java" startLine="108" startPosition="39" endLine="109" endPosition="62" />
-    <nodeInfo nodeId="6508841401555672374" fileName="DebugDictionary_Action.java" startLine="109" startPosition="62" endLine="110" endPosition="23" />
-    <nodeInfo nodeId="6508841401555672289" fileName="DebugDictionary_Action.java" startLine="112" startPosition="11" endLine="113" endPosition="0" />
-    <nodeInfo nodeId="4474047895662343798" fileName="DebugDictionary_Action.java" startLine="113" startPosition="0" endLine="114" endPosition="159" />
-    <nodeInfo nodeId="4474047895662343808" fileName="DebugDictionary_Action.java" startLine="114" startPosition="159" endLine="115" endPosition="41" />
-    <nodeInfo nodeId="4474047895662343814" fileName="DebugDictionary_Action.java" startLine="115" startPosition="41" endLine="116" endPosition="40" />
-    <nodeInfo nodeId="4474047895662026476" fileName="DebugDictionary_Action.java" startLine="123" startPosition="30" endLine="124" endPosition="0" />
-    <nodeInfo nodeId="4474047895662026538" fileName="DebugDictionary_Action.java" startLine="125" startPosition="9" endLine="126" endPosition="46" />
-    <nodeInfo nodeId="4474047895662026542" fileName="DebugDictionary_Action.java" startLine="126" startPosition="46" endLine="127" endPosition="0" />
-    <nodeInfo nodeId="4474047895662026479" fileName="DebugDictionary_Action.java" startLine="127" startPosition="0" endLine="128" endPosition="80" />
-    <nodeInfo nodeId="4474047895662026519" fileName="DebugDictionary_Action.java" startLine="128" startPosition="80" endLine="129" endPosition="0" />
-    <nodeInfo nodeId="4474047895662026521" fileName="DebugDictionary_Action.java" startLine="129" startPosition="0" endLine="130" endPosition="20" />
-    <nodeInfo nodeId="4474047895662026525" fileName="DebugDictionary_Action.java" startLine="130" startPosition="20" endLine="131" endPosition="74" />
-    <nodeInfo nodeId="4474047895662026532" fileName="DebugDictionary_Action.java" startLine="131" startPosition="74" endLine="132" endPosition="30" />
-    <nodeInfo nodeId="4474047895662092534" fileName="DebugDictionary_Action.java" startLine="132" startPosition="30" endLine="133" endPosition="0" />
-    <nodeInfo nodeId="4474047895662092570" fileName="DebugDictionary_Action.java" startLine="133" startPosition="0" endLine="134" endPosition="103" />
-    <nodeInfo nodeId="4474047895662026491" fileName="DebugDictionary_Action.java" startLine="135" startPosition="27" endLine="136" endPosition="183" />
-    <nodeInfo nodeId="4474047895662026496" fileName="DebugDictionary_Action.java" startLine="136" startPosition="183" endLine="137" endPosition="40" />
-    <nodeInfo nodeId="4474047895662026503" fileName="DebugDictionary_Action.java" startLine="137" startPosition="40" endLine="138" endPosition="0" />
-    <nodeInfo nodeId="4474047895662026508" fileName="DebugDictionary_Action.java" startLine="139" startPosition="59" endLine="140" endPosition="41" />
-    <nodeInfo nodeId="4474047895662031292" fileName="DebugDictionary_Action.java" startLine="142" startPosition="5" endLine="143" endPosition="0" />
-    <nodeInfo nodeId="4474047895662031294" fileName="DebugDictionary_Action.java" startLine="143" startPosition="0" endLine="144" endPosition="16" />
-    <nodeInfo nodeId="4474047895662026461" fileName="DebugDictionary_Action.java" startLine="88" startPosition="12" endLine="90" endPosition="7" />
-    <nodeInfo nodeId="4474047895662026504" fileName="DebugDictionary_Action.java" startLine="138" startPosition="0" endLine="141" endPosition="7" />
-    <nodeInfo nodeId="4474047895662017738" fileName="DebugDictionary_Action.java" startLine="85" startPosition="27" endLine="90" endPosition="7" />
-    <nodeInfo nodeId="6508841401555672355" fileName="DebugDictionary_Action.java" startLine="107" startPosition="157" endLine="112" endPosition="0" />
-    <nodeInfo nodeId="6508841401555672296" fileName="DebugDictionary_Action.java" startLine="106" startPosition="0" endLine="112" endPosition="11" />
-    <nodeInfo nodeId="4474047895662026477" fileName="DebugDictionary_Action.java" startLine="124" startPosition="0" endLine="142" endPosition="5" />
-    <nodeInfo nodeId="4474047895662026463" fileName="DebugDictionary_Action.java" startLine="122" startPosition="0" endLine="146" endPosition="0" />
-    <nodeInfo nodeId="8770772348876230146" fileName="DebugDictionary_Action.java" startLine="91" startPosition="0" endLine="117" endPosition="7" />
-    <scopeInfo nodeId="4474047895662017739" fileName="DebugDictionary_Action.java" startLine="86" startPosition="144" endLine="87" endPosition="154" />
-    <scopeInfo nodeId="4474047895662026462" fileName="DebugDictionary_Action.java" startLine="88" startPosition="14" endLine="89" endPosition="62" />
-    <scopeInfo nodeId="4474047895662026507" fileName="DebugDictionary_Action.java" startLine="139" startPosition="59" endLine="140" endPosition="41" />
-    <scopeInfo nodeId="6508841401555672356" fileName="DebugDictionary_Action.java" startLine="108" startPosition="39" endLine="110" endPosition="23" />
-    <scopeInfo nodeId="4474047895662026504" fileName="DebugDictionary_Action.java" startLine="138" startPosition="0" endLine="141" endPosition="7">
+    <nodeInfo nodeId="477404972780598084" fileName="DebugDictionary_Action.java" startLine="25" startPosition="0" endLine="26" endPosition="23" />
+    <nodeInfo nodeId="477404972780598080" fileName="DebugDictionary_Action.java" startLine="26" startPosition="23" endLine="27" endPosition="43" />
+    <nodeInfo nodeId="8770772348876344120" fileName="DebugDictionary_Action.java" startLine="27" startPosition="43" endLine="28" endPosition="30" />
+    <nodeInfo nodeId="4474047895662017764" fileName="DebugDictionary_Action.java" startLine="80" startPosition="9" endLine="81" endPosition="30" />
+    <nodeInfo nodeId="4474047895662035607" fileName="DebugDictionary_Action.java" startLine="81" startPosition="30" endLine="82" endPosition="66" />
+    <nodeInfo nodeId="4474047895662017763" fileName="DebugDictionary_Action.java" startLine="82" startPosition="66" endLine="83" endPosition="0" />
+    <nodeInfo nodeId="4474047895662026561" fileName="DebugDictionary_Action.java" startLine="83" startPosition="0" endLine="84" endPosition="27" />
+    <nodeInfo nodeId="4474047895662017769" fileName="DebugDictionary_Action.java" startLine="85" startPosition="144" endLine="86" endPosition="154" />
+    <nodeInfo nodeId="4474047895662026544" fileName="DebugDictionary_Action.java" startLine="87" startPosition="14" endLine="88" endPosition="62" />
+    <nodeInfo nodeId="4474047895662017737" fileName="DebugDictionary_Action.java" startLine="89" startPosition="7" endLine="90" endPosition="0" />
+    <nodeInfo nodeId="4474047895662033581" fileName="DebugDictionary_Action.java" startLine="91" startPosition="55" endLine="92" endPosition="142" />
+    <nodeInfo nodeId="4474047895662033597" fileName="DebugDictionary_Action.java" startLine="92" startPosition="142" endLine="93" endPosition="201" />
+    <nodeInfo nodeId="4474047895662033596" fileName="DebugDictionary_Action.java" startLine="93" startPosition="201" endLine="94" endPosition="0" />
+    <nodeInfo nodeId="6508841401555420728" fileName="DebugDictionary_Action.java" startLine="94" startPosition="0" endLine="95" endPosition="66" />
+    <nodeInfo nodeId="4474047895662096235" fileName="DebugDictionary_Action.java" startLine="95" startPosition="66" endLine="96" endPosition="0" />
+    <nodeInfo nodeId="4474047895662096237" fileName="DebugDictionary_Action.java" startLine="96" startPosition="0" endLine="97" endPosition="93" />
+    <nodeInfo nodeId="6508841401555420749" fileName="DebugDictionary_Action.java" startLine="97" startPosition="93" endLine="98" endPosition="50" />
+    <nodeInfo nodeId="4474047895662026564" fileName="DebugDictionary_Action.java" startLine="98" startPosition="50" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="853293316997263689" fileName="DebugDictionary_Action.java" startLine="99" startPosition="0" endLine="100" endPosition="115" />
+    <nodeInfo nodeId="4474047895662026569" fileName="DebugDictionary_Action.java" startLine="100" startPosition="115" endLine="101" endPosition="94" />
+    <nodeInfo nodeId="6508841401555544237" fileName="DebugDictionary_Action.java" startLine="101" startPosition="94" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="5910725786823199975" fileName="DebugDictionary_Action.java" startLine="102" startPosition="0" endLine="103" endPosition="58" />
+    <nodeInfo nodeId="6508841401555672289" fileName="DebugDictionary_Action.java" startLine="103" startPosition="58" endLine="104" endPosition="0" />
+    <nodeInfo nodeId="4474047895662343798" fileName="DebugDictionary_Action.java" startLine="104" startPosition="0" endLine="105" endPosition="159" />
+    <nodeInfo nodeId="4474047895662343808" fileName="DebugDictionary_Action.java" startLine="105" startPosition="159" endLine="106" endPosition="41" />
+    <nodeInfo nodeId="4474047895662343814" fileName="DebugDictionary_Action.java" startLine="106" startPosition="41" endLine="107" endPosition="40" />
+    <nodeInfo nodeId="4474047895662026476" fileName="DebugDictionary_Action.java" startLine="114" startPosition="30" endLine="115" endPosition="0" />
+    <nodeInfo nodeId="4474047895662026538" fileName="DebugDictionary_Action.java" startLine="116" startPosition="9" endLine="117" endPosition="46" />
+    <nodeInfo nodeId="4474047895662026542" fileName="DebugDictionary_Action.java" startLine="117" startPosition="46" endLine="118" endPosition="0" />
+    <nodeInfo nodeId="4474047895662026479" fileName="DebugDictionary_Action.java" startLine="118" startPosition="0" endLine="119" endPosition="80" />
+    <nodeInfo nodeId="4474047895662026519" fileName="DebugDictionary_Action.java" startLine="119" startPosition="80" endLine="120" endPosition="0" />
+    <nodeInfo nodeId="4474047895662026521" fileName="DebugDictionary_Action.java" startLine="120" startPosition="0" endLine="121" endPosition="20" />
+    <nodeInfo nodeId="4474047895662026525" fileName="DebugDictionary_Action.java" startLine="121" startPosition="20" endLine="122" endPosition="74" />
+    <nodeInfo nodeId="4474047895662026532" fileName="DebugDictionary_Action.java" startLine="122" startPosition="74" endLine="123" endPosition="30" />
+    <nodeInfo nodeId="4474047895662092534" fileName="DebugDictionary_Action.java" startLine="123" startPosition="30" endLine="124" endPosition="0" />
+    <nodeInfo nodeId="4474047895662092570" fileName="DebugDictionary_Action.java" startLine="124" startPosition="0" endLine="125" endPosition="103" />
+    <nodeInfo nodeId="4474047895662026491" fileName="DebugDictionary_Action.java" startLine="126" startPosition="27" endLine="127" endPosition="183" />
+    <nodeInfo nodeId="4474047895662026496" fileName="DebugDictionary_Action.java" startLine="127" startPosition="183" endLine="128" endPosition="40" />
+    <nodeInfo nodeId="4474047895662026503" fileName="DebugDictionary_Action.java" startLine="128" startPosition="40" endLine="129" endPosition="0" />
+    <nodeInfo nodeId="4474047895662026508" fileName="DebugDictionary_Action.java" startLine="130" startPosition="59" endLine="131" endPosition="41" />
+    <nodeInfo nodeId="4474047895662031292" fileName="DebugDictionary_Action.java" startLine="133" startPosition="5" endLine="134" endPosition="0" />
+    <nodeInfo nodeId="4474047895662031294" fileName="DebugDictionary_Action.java" startLine="134" startPosition="0" endLine="135" endPosition="16" />
+    <nodeInfo nodeId="4474047895662026461" fileName="DebugDictionary_Action.java" startLine="87" startPosition="12" endLine="89" endPosition="7" />
+    <nodeInfo nodeId="4474047895662026504" fileName="DebugDictionary_Action.java" startLine="129" startPosition="0" endLine="132" endPosition="7" />
+    <nodeInfo nodeId="4474047895662017738" fileName="DebugDictionary_Action.java" startLine="84" startPosition="27" endLine="89" endPosition="7" />
+    <nodeInfo nodeId="8770772348876230146" fileName="DebugDictionary_Action.java" startLine="90" startPosition="0" endLine="108" endPosition="7" />
+    <nodeInfo nodeId="4474047895662026477" fileName="DebugDictionary_Action.java" startLine="115" startPosition="0" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="4474047895662026463" fileName="DebugDictionary_Action.java" startLine="113" startPosition="0" endLine="137" endPosition="0" />
+    <scopeInfo nodeId="4474047895662017739" fileName="DebugDictionary_Action.java" startLine="85" startPosition="144" endLine="86" endPosition="154" />
+    <scopeInfo nodeId="4474047895662026462" fileName="DebugDictionary_Action.java" startLine="87" startPosition="14" endLine="88" endPosition="62" />
+    <scopeInfo nodeId="4474047895662026507" fileName="DebugDictionary_Action.java" startLine="130" startPosition="59" endLine="131" endPosition="41" />
+    <scopeInfo nodeId="4474047895662026504" fileName="DebugDictionary_Action.java" startLine="129" startPosition="0" endLine="132" endPosition="7">
       <varInfo nodeId="4474047895662026505" varName="element" />
     </scopeInfo>
-    <scopeInfo nodeId="6508841401555672355" fileName="DebugDictionary_Action.java" startLine="107" startPosition="157" endLine="112" endPosition="0" />
-    <scopeInfo nodeId="4474047895662026487" fileName="DebugDictionary_Action.java" startLine="135" startPosition="0" endLine="141" endPosition="7">
+    <scopeInfo nodeId="4474047895662026487" fileName="DebugDictionary_Action.java" startLine="126" startPosition="0" endLine="132" endPosition="7">
       <varInfo nodeId="4474047895662026488" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="4474047895662026490" fileName="DebugDictionary_Action.java" startLine="135" startPosition="27" endLine="141" endPosition="7" />
-    <scopeInfo nodeId="4474047895662026478" fileName="DebugDictionary_Action.java" startLine="125" startPosition="9" endLine="134" endPosition="103">
+    <scopeInfo nodeId="4474047895662026490" fileName="DebugDictionary_Action.java" startLine="126" startPosition="27" endLine="132" endPosition="7" />
+    <scopeInfo nodeId="4474047895662026478" fileName="DebugDictionary_Action.java" startLine="116" startPosition="9" endLine="125" endPosition="103">
       <varInfo nodeId="4474047895662026539" varName="dialog" />
     </scopeInfo>
-    <scopeInfo nodeId="4474047895662026465" fileName="DebugDictionary_Action.java" startLine="123" startPosition="30" endLine="144" endPosition="16" />
-    <scopeInfo nodeId="8770772348876230147" fileName="DebugDictionary_Action.java" startLine="92" startPosition="55" endLine="116" endPosition="40">
-      <varInfo nodeId="6508841401555672337" varName="id" />
+    <scopeInfo nodeId="8770772348876230147" fileName="DebugDictionary_Action.java" startLine="91" startPosition="55" endLine="107" endPosition="40">
       <varInfo nodeId="4474047895662033582" varName="outputPath" />
       <varInfo nodeId="6508841401555420729" varName="xmlFullPath" />
       <varInfo nodeId="4474047895662033598" varName="xmlPath" />
@@ -87,8 +77,8 @@
       <varInfo nodeId="4474047895662343799" varName="templateDialog" />
       <varInfo nodeId="4474047895662026570" varName="searchResultsProvider" />
     </scopeInfo>
-    <scopeInfo nodeId="4474047895662026463" fileName="DebugDictionary_Action.java" startLine="122" startPosition="0" endLine="146" endPosition="0" />
-    <unitInfo nodeId="6508841401555672355" fileName="DebugDictionary_Action.java" startLine="107" startPosition="138" endLine="112" endPosition="9" unitName="diglex.dsl.plugin.DebugDictionary_Action$1" />
+    <scopeInfo nodeId="4474047895662026465" fileName="DebugDictionary_Action.java" startLine="114" startPosition="30" endLine="135" endPosition="16" />
+    <scopeInfo nodeId="4474047895662026463" fileName="DebugDictionary_Action.java" startLine="113" startPosition="0" endLine="137" endPosition="0" />
   </root>
 </debugInfo>
 

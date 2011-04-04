@@ -89,17 +89,11 @@
                   </grid>
                 </constraints>
                 <properties>
-                  <dividerLocation value="150"/>
+                  <dividerLocation value="75"/>
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="64db0" class="javax.swing.JTree" binding="resultTree">
-                    <constraints>
-                      <splitpane position="left"/>
-                    </constraints>
-                    <properties/>
-                  </component>
-                  <scrollpane id="f1968">
+                  <scrollpane id="f1968" binding="resultTreeScrollPane">
                     <constraints>
                       <splitpane position="right"/>
                     </constraints>
@@ -112,6 +106,19 @@
                           <editable value="false"/>
                           <lineWrap value="true"/>
                         </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <scrollpane id="e1bf8">
+                    <constraints>
+                      <splitpane position="left"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="64db0" class="javax.swing.JTree" binding="resultTree">
+                        <constraints/>
+                        <properties/>
                       </component>
                     </children>
                   </scrollpane>

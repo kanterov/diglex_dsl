@@ -14,8 +14,8 @@ import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.nodeEditor.IErrorReporter;
 import jetbrains.mps.smodel.SModelUtil_new;
 
-public class CheckMatchCasreConditionItemsNotEmpty_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-  public CheckMatchCasreConditionItemsNotEmpty_NonTypesystemRule() {
+public class CheckMatchCaseConditionItemsNotEmpty_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
+  public CheckMatchCaseConditionItemsNotEmpty_NonTypesystemRule() {
   }
 
   public void applyRule(final SNode matchCaseCondition, final TypeCheckingContext typeCheckingContext) {

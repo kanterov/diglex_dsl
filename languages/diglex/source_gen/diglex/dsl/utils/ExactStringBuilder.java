@@ -59,7 +59,7 @@ public class ExactStringBuilder {
 
         // it adds tail if ... is mentioned 
         if (symbols.length - i >= 3) {
-          if (symbols[i] == '.' || symbols[i + 1] == '.' && symbols[i + 2] == '.') {
+          if (symbols[i] == '.' && symbols[i + 1] == '.' && symbols[i + 2] == '.') {
             SLinkOperations.setTarget(block, "Tail", SConceptOperations.createNewNode("diglex.dsl.structure.BlockTail", null), true);
 
             //  skip "..." 

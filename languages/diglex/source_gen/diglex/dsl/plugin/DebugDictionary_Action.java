@@ -17,8 +17,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import diglex.dsl.structure.Dictionary;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
+import diglex.dsl.utils.IdUtil;
 
 public class DebugDictionary_Action extends GeneratedAction {
   private static final Icon ICON = null;
@@ -101,15 +100,7 @@ public class DebugDictionary_Action extends GeneratedAction {
         ITemplateReader templateReader = new TemplateReader(((Dictionary) SNodeOperations.getAdapter(dictionary)));
         ISearchResultsProvider searchResultsProvider = new SearchResultsProvider(xmlFullPath);
 
-        // here is id giving. TODO: get it to external utility 
-        final Wrappers._int id = new Wrappers._int(0);
-
-        ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Template")).visitAll(new IVisitor<SNode>() {
-          public void visit(SNode it) {
-            SPropertyOperations.set(it, "id1", "" + id.value);
-            id.value++;
-          }
-        });
+        IdUtil.GiveIds(DebugDictionary_Action.this.model);
 
         TemplateDebugDialog templateDialog = new TemplateDebugDialog(templateReader, searchResultsProvider, SPropertyOperations.getString(dictionary, "name"));
         templateDialog.setSize(800, 600);
