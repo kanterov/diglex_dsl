@@ -7,17 +7,20 @@ import javax.swing.Icon;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelDescriptor;
-import java.awt.Component;
+import com.intellij.openapi.project.Project;
+import jetbrains.mps.smodel.IOperationContext;
+import java.util.List;
 import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import jetbrains.mps.workbench.MPSDataKeys;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import diglex.dsl.structure.Dictionary;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import diglex.dsl.utils.IdUtil;
 
 public class DebugDictionary_Action extends GeneratedAction {
   private static final Icon ICON = null;
@@ -25,12 +28,14 @@ public class DebugDictionary_Action extends GeneratedAction {
 
   private SModel model;
   private SModelDescriptor modelDescriptor;
-  private Component component;
+  private Project project;
+  private IOperationContext operationContext;
+  private List<SModelDescriptor> modelsList;
 
   public DebugDictionary_Action() {
     super("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 \u0421\u043b\u043e\u0432\u0430\u0440\u044f", "", ICON);
     this.setIsAlwaysVisible(true);
-    this.setExecuteOutsideCommand(false);
+    this.setExecuteOutsideCommand(true);
   }
 
   @NotNull
@@ -62,8 +67,16 @@ public class DebugDictionary_Action extends GeneratedAction {
     if (this.modelDescriptor == null) {
       return false;
     }
-    this.component = event.getData(MPSDataKeys.CONTEXT_COMPONENT);
-    if (this.component == null) {
+    this.project = event.getData(MPSDataKeys.PROJECT);
+    if (this.project == null) {
+      return false;
+    }
+    this.operationContext = event.getData(MPSDataKeys.OPERATION_CONTEXT);
+    if (this.operationContext == null) {
+      return false;
+    }
+    this.modelsList = event.getData(MPSDataKeys.MODELS);
+    if (this.modelsList == null) {
       return false;
     }
     return true;
@@ -73,38 +86,60 @@ public class DebugDictionary_Action extends GeneratedAction {
     super.cleanup();
     this.model = null;
     this.modelDescriptor = null;
-    this.component = null;
+    this.project = null;
+    this.operationContext = null;
+    this.modelsList = null;
   }
 
   public void doExecute(@NotNull final AnActionEvent event) {
     try {
-      SNode dictionary = null;
-      String fileSeparator = System.getProperty("file.separator");
+      final Wrappers._T<SNode> dictionary = new Wrappers._T<SNode>(null);
+      final String fileSeparator = System.getProperty("file.separator");
 
       // Select by default 
-      if (ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).count() == 1) {
-        dictionary = ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).getElement(0);
-      } else {
-        dictionary = DebugDictionary_Action.this.selectNode();
-      }
+      ModelAccess.instance().runReadAction(new Runnable() {
+        public void run() {
+          if (ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).count() == 1) {
+            dictionary.value = ListSequence.fromList(SModelOperations.getRoots(DebugDictionary_Action.this.model, "diglex.dsl.structure.Dictionary")).getElement(0);
+          } else {
+            dictionary.value = DebugDictionary_Action.this.selectNode();
+          }
+        }
+      });
 
-      if ((dictionary != null) && dictionary != null) {
-        String outputPath = DebugDictionary_Action.this.modelDescriptor.getModule().getOutputFor(DebugDictionary_Action.this.modelDescriptor);
-        String xmlPath = DebugDictionary_Action.this.modelDescriptor.getLongName().replace(".", fileSeparator) + fileSeparator + (SPropertyOperations.getString(dictionary, "name").toString()) + ".xml";
+      TextGenerationHelper generationHelper = new TextGenerationHelper(DebugDictionary_Action.this.project, DebugDictionary_Action.this.operationContext);
+      final String xml = generationHelper.getDictionaryXmlText(dictionary.value);
 
-        String xmlFullPath = outputPath + fileSeparator + xmlPath;
+      LOG.info("xml output: " + xml);
 
-        LOG.info("Selected Dictionary " + SPropertyOperations.getString(dictionary, "name"));
+      if ((dictionary.value != null) && dictionary.value != null) {
+        final Wrappers._T<String> outputPath = new Wrappers._T<String>();
+        final Wrappers._T<String> xmlPath = new Wrappers._T<String>();
+
+        ModelAccess.instance().runReadAction(new Runnable() {
+          public void run() {
+            outputPath.value = DebugDictionary_Action.this.modelDescriptor.getModule().getOutputFor(DebugDictionary_Action.this.modelDescriptor);
+            xmlPath.value = DebugDictionary_Action.this.modelDescriptor.getLongName().replace(".", fileSeparator) + fileSeparator + (SPropertyOperations.getString(dictionary.value, "name").toString()) + ".xml";
+          }
+        });
+
+        String xmlFullPath = outputPath.value + fileSeparator + xmlPath.value;
         LOG.info("xml full path: " + xmlFullPath);
 
-        ITemplateReader templateReader = new TemplateReader(((Dictionary) SNodeOperations.getAdapter(dictionary)));
-        ISearchResultsProvider searchResultsProvider = new SearchResultsProvider(xmlFullPath);
+        final Wrappers._T<ITemplateReader> templateReader = new Wrappers._T<ITemplateReader>(null);
+        final Wrappers._T<ISearchResultsProvider> searchResultsProvider = new Wrappers._T<ISearchResultsProvider>(null);
+        final Wrappers._T<TemplateDebugDialog> templateDialog = new Wrappers._T<TemplateDebugDialog>(null);
 
-        IdUtil.GiveIds(DebugDictionary_Action.this.model);
+        ModelAccess.instance().runReadAction(new Runnable() {
+          public void run() {
+            templateReader.value = new TemplateReader(((Dictionary) SNodeOperations.getAdapter(dictionary.value)));
+            searchResultsProvider.value = new DllSearchResultProvider(xml);
+            templateDialog.value = new TemplateDebugDialog(templateReader.value, searchResultsProvider.value, SPropertyOperations.getString(dictionary.value, "name"));
+          }
+        });
 
-        TemplateDebugDialog templateDialog = new TemplateDebugDialog(templateReader, searchResultsProvider, SPropertyOperations.getString(dictionary, "name"));
-        templateDialog.setSize(800, 600);
-        templateDialog.setVisible(true);
+        templateDialog.value.setSize(800, 600);
+        templateDialog.value.setVisible(true);
       }
     } catch (Throwable t) {
       LOG.error("User's action execute method failed. Action:" + "DebugDictionary", t);
@@ -119,7 +154,7 @@ public class DebugDictionary_Action extends GeneratedAction {
       dialog = new DictionarySelectionDialog(DebugDictionary_Action.this.model);
 
       dialog.pack();
-      dialog.setLocationRelativeTo(DebugDictionary_Action.this.component);
+      dialog.setLocationRelativeTo(null);
       dialog.setVisible(true);
 
       return SNodeOperations.as(dialog.getSelectedDictionaryNode(), "diglex.dsl.structure.Dictionary");
