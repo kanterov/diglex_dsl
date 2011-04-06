@@ -10,8 +10,10 @@ import org.jetbrains.annotations.NotNull;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.awt.image.SampleModel;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by IntelliJ IDEA.
@@ -45,11 +47,29 @@ public class TemplateReader implements ITemplateReader {
         ModelAccess.instance().runReadAction(new Runnable() {
             public void run() {
                 List<DictionaryTemplate> dictionaryTemplates = dictionary.getDictionaryTemplates();
+                boolean enableIdFixes = false;
+                Map<String, Integer> stringIdToInt = new HashMap<String, Integer>();
+                int id = 0;
+
+                // hack. fixes id problem
+                if (!dictionaryTemplates.isEmpty() && dictionaryTemplates.get(0).getTemplate().getId1() == 2000000000) {
+                    for (SNode root : dictionary.getModel().getRoots()) {
+                        if (root.getConceptShortName().equals("Template")) {
+                            stringIdToInt.put(root.getId(), id);
+                            id++;
+                        }
+                    }
+
+                    enableIdFixes = true;
+                }
 
                 for (DictionaryTemplate dictionaryTemplate : dictionaryTemplates ) {
                     Template template = dictionaryTemplate.getTemplate();
 
-                    templateModels.add(new TemplateModel(template.getId1(), template.getName()));
+                    if (enableIdFixes)
+                        templateModels.add(new TemplateModel(stringIdToInt.get(template.getId()), template.getName()));
+                    else
+                        templateModels.add(new TemplateModel(template.getId1(), template.getName()));
                 }
             }
         });

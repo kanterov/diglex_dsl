@@ -29,10 +29,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import javax.swing.JTextField;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import diglex.dsl.plugin.FoldingUtil;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -289,16 +285,6 @@ public class Block_Editor extends DefaultNodeEditor {
       textField.setEditable(false);
       panel.add(textField);
     }
-
-    JButton button = new JButton("\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0445\u043e\u0440\u043e\u0448\u043e");
-    button.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent p0) {
-        EditorCell rootEditorCell = _editorContext.getNodeEditorComponent().getRootCell();
-        FoldingUtil.FoldNodeEditor(_node, rootEditorCell);
-      }
-    });
-
-    // panel.add(button); 
 
     return panel;
   }

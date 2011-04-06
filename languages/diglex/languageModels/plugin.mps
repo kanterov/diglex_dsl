@@ -295,7 +295,7 @@
             </node>
           </node>
         </node>
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="4474047895662017763" />
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="1989560802100986407" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.SingleLineComment:3" id="4474047895662026561">
           <node role="commentPart:3" type="jetbrains.mps.baseLanguage.structure.TextCommentPart:3" id="4474047895662026562">
             <property name="text:3" value="Select by default" />

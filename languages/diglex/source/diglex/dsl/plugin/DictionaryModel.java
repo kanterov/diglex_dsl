@@ -103,6 +103,8 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
     }
 
     public void addSearchResult(ISearchResult searchResult) {
+        List<TemplateModel> changedModels = new LinkedList<TemplateModel>();
+
         for (TemplateModel templateModel : templateModels) {
             if (searchResult.getId() == templateModel.getId()) {
                 ObjectModel objectModel = new ObjectModel(searchResult.getBegin(),
@@ -110,12 +112,15 @@ public class DictionaryModel implements ISearchResultHierarchyNode {
                                                           templateModel);
 
                 templateModel.addObject(objectModel);
+                changedModels.add(templateModel);
             }
         }
 
         List<TreeModelListener> listeners = treeModel.getTreeModelListeners();
         for (TreeModelListener listener : listeners) {
-            listener.treeStructureChanged(new TreeModelEvent(treeModel, new Object[] { treeModel.getRoot() }));
+            for (TemplateModel templateModel : templateModels) {
+                listener.treeStructureChanged(new TreeModelEvent(treeModel, new Object[] { treeModel.getRoot(), templateModel }));
+            }
         }
     }
 

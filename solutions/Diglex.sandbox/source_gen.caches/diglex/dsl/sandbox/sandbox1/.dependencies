@@ -2,7 +2,5 @@
 <dependenciesRoot>
   <dependency className="diglex.dsl.sandbox.sandbox1.Dictionary" file="Dictionary.xml" />
   <dependency className="diglex.dsl.sandbox.sandbox1.template.xml" file="template.xml.xml" />
-  <dependency className="diglex.dsl.sandbox.sandbox1.Словарь" file="Словарь.xml" />
-  <dependency className="diglex.dsl.sandbox.sandbox1.Словарь2" file="Словарь2.xml" />
 </dependenciesRoot>
 

@@ -150,6 +150,9 @@ public class TemplateDebugDialog extends JDialog {
 
         resultTree.addTreeSelectionListener(new TreeSelectionListener() {
             public void valueChanged(TreeSelectionEvent e) {
+                if (e.getNewLeadSelectionPath() == null || e.getNewLeadSelectionPath().getLastPathComponent() == null)
+                    return;
+
                 Object last = e.getNewLeadSelectionPath().getLastPathComponent();
 
                 if (outputHighlighter == null)
