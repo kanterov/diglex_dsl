@@ -659,5 +659,15 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7855981724429830793">
+    <property name="name:0" value="ShortMatchCase" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7855981724429830794">
+      <property name="metaClass:0" value="reference" />
+      <property name="sourceCardinality:0" value="1" />
+      <property name="role:0" value="matchCase" />
+      <link role="target:0" targetNodeId="6282999055323947693:22" resolveInfo="MatchCase" />
+    </node>
+  </node>
 </model>
 

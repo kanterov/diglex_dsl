@@ -29,7 +29,7 @@ public class StringSetItem_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_s8wtqc_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Value");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435");
     editorCell.setCellId("Constant_s8wtqc_a0");
     editorCell.setDefaultText("");
     return editorCell;

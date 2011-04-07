@@ -6,7 +6,57 @@
     <Name>СО</Name>
     <MatchCases>
       <MatchCase>
+        <Precondition>
+          <NotInclude>true</NotInclude>
+          <Items>
+            <MatchCaseItem type="TemplateReference">
+              <TemplateReference>
+                <Repeat>
+                  <Minimum>1</Minimum>
+                  <Maximum>1</Maximum>
+                </Repeat>
+                <ReferencesId>2</ReferencesId>
+              </TemplateReference>
+            </MatchCaseItem>
+          </Items>
+        </Precondition>
         <Items>
+          <MatchCaseItem type="TemplateReference">
+            <TemplateReference>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <ReferencesId>2</ReferencesId>
+            </TemplateReference>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="TemplateReference">
+            <TemplateReference>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <ReferencesId>2</ReferencesId>
+            </TemplateReference>
+          </MatchCaseItem>
+          <MatchCaseItem type="DistantContext">
+            <DistantContext>
+              <Repeat>
+                <Minimum>0</Minimum>
+                <Maximum>2000000000</Maximum>
+              </Repeat>
+              <Conditions>
+                <Condition>
+                  <NotInclude>false</NotInclude>
+                  <NodeId>2</NodeId>
+                </Condition>
+              </Conditions>
+            </DistantContext>
+          </MatchCaseItem>
           <MatchCaseItem type="Block">
             <Block>
               <Repeat>
@@ -16,6 +66,19 @@
               <CaseSensitive>false</CaseSensitive>
               <LexemType>RussianLetter</LexemType>
               <Items>
+                <BlockItem type="AnySymbol">
+                  <AnySymbol>
+                    <LexemType>RussianLetter</LexemType>
+                    <TimesMinimum>1</TimesMinimum>
+                    <TimesMaximum>2</TimesMaximum>
+                  </AnySymbol>
+                </BlockItem>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>RussianLetter</LexemType>
+                    <Value>РАН</Value>
+                  </ExactString>
+                </BlockItem>
                 <BlockItem type="ExactString">
                   <ExactString>
                     <LexemType>RussianLetter</LexemType>
