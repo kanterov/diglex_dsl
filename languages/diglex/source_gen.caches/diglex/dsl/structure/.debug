@@ -21,6 +21,7 @@
   <unitInfo fileName="LexemSymbolCode.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="diglex.dsl.structure.LexemSymbolCode" />
   <unitInfo fileName="SearchSettings.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="diglex.dsl.structure.SearchSettings" />
   <unitInfo fileName="ExactString.java" startLine="11" startPosition="0" endLine="80" endPosition="0" unitName="diglex.dsl.structure.ExactString" />
+  <unitInfo fileName="AnonymousTemplate.java" startLine="13" startPosition="0" endLine="85" endPosition="0" unitName="diglex.dsl.structure.AnonymousTemplate" />
   <unitInfo fileName="DistantContext.java" startLine="13" startPosition="0" endLine="85" endPosition="0" unitName="diglex.dsl.structure.DistantContext" />
   <unitInfo fileName="Dictionary.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="diglex.dsl.structure.Dictionary" />
   <unitInfo fileName="LexemClassification.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="diglex.dsl.structure.LexemClassification" />

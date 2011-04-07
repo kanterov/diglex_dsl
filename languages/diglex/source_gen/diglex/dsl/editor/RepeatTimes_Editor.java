@@ -25,8 +25,18 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createCollection_ghz9c0_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ghz9c0_a");
+    editorCell.addEditorCell(this.createConstant_ghz9c0_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_ghz9c0_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_ghz9c0_c0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_ghz9c0_d0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_ghz9c0_a_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    editorCell.setCellId("Collection_ghz9c0_a_0");
     editorCell.addEditorCell(this.createCollection_ghz9c0_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_ghz9c0_b0(editorContext, node));
     return editorCell;
@@ -56,35 +66,17 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_ghz9c0_a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_ghz9c0_a_0");
-    editorCell.addEditorCell(this.createCollection_ghz9c0_a0_0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_ghz9c0_b0_0(editorContext, node));
+  private EditorCell createConstant_ghz9c0_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u043e\u0442");
+    editorCell.setCellId("Constant_ghz9c0_a0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createCollection_ghz9c0_a0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_ghz9c0_a0_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createConstant_ghz9c0_a0a_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_ghz9c0_b0a_0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_ghz9c0_b0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_ghz9c0_b0_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createConstant_ghz9c0_a1a_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_ghz9c0_b1a_0(editorContext, node));
+  private EditorCell createConstant_ghz9c0_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u0434\u043e");
+    editorCell.setCellId("Constant_ghz9c0_c0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
@@ -102,21 +94,7 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_ghz9c0_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041c\u0438\u043d\u0438\u043c\u0443\u043c");
-    editorCell.setCellId("Constant_ghz9c0_a0a_0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_ghz9c0_a1a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c");
-    editorCell.setCellId("Constant_ghz9c0_a1a_0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createProperty_ghz9c0_b0a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_ghz9c0_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minimum");
     provider.setNoTargetText("<no minimum>");
@@ -134,7 +112,7 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_ghz9c0_b1a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_ghz9c0_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("maximum");
     provider.setNoTargetText("<no maximum>");
@@ -152,7 +130,7 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_ghz9c0_b0a_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_ghz9c0_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minimum");
     provider.setNoTargetText("<no minimum>");
@@ -170,7 +148,7 @@ public class RepeatTimes_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_ghz9c0_b1a_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_ghz9c0_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("maximum");
     provider.setNoTargetText("<no maximum>");

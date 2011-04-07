@@ -35,12 +35,22 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
         List<MatchCase> matchCases = template.getMatchCaseses();
 
         for (MatchCase matchCase : matchCases) {
-            EditorCell_Collection matchCaseEditorCell_collection
-                    = EditorCell_Collection.createHorizontal(editorContext, templateNode);
-            List<IMatchCaseItem> matchCaseItems = new LinkedList<IMatchCaseItem>(matchCase.getItemses());
+            EditorCell editorCell = createMatchCaseShort(editorContext, matchCase.getNode(), true);
 
+            collection.addEditorCell(editorCell);
+        }
+
+        return collection;
+    }
+
+    private EditorCell createMatchCaseShort(EditorContext editorContext, SNode matchCaseNode, boolean drawStartingArrow) {
+        EditorCell_Collection matchCaseEditorCell_collection
+                = EditorCell_Collection.createHorizontal(editorContext, templateNode);
+        MatchCase matchCase = new MatchCase(matchCaseNode);
+        List<IMatchCaseItem> matchCaseItems = new LinkedList<IMatchCaseItem>(matchCase.getItemses());
+
+        if (drawStartingArrow) {
             EditorCell matchCaseEditorCell = new EditorCell_Constant(editorContext, matchCase.getNode(), "~>", false);
-            matchCaseEditorCell_collection.addEditorCell(matchCaseEditorCell);
 
             {
                 Style style = matchCaseEditorCell.getStyle();
@@ -48,47 +58,47 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
                 style.set(StyleAttributes.PADDING_RIGHT, new Padding(2, Measure.SPACES));
             }
 
-            // filter bad values
-            for (int i = 0; i < matchCaseItems.size(); i++) {
-                if (matchCaseItems.get(i) == null || !(matchCaseItems.get(i) instanceof IMatchCaseItem)) {
-                    matchCaseItems.remove(i);
-                    i--;
-                }
-            }
-
-            if (matchCase.getPrecondition() != null) {
-                SNode node = matchCase.getPrecondition().getNode();
-                EditorCell preconditionCell = createMatchCaseConditionCell(editorContext, node);
-
-                matchCaseEditorCell_collection.addEditorCell(preconditionCell);
-            }
-
-            for (IMatchCaseItem matchCaseItem : matchCaseItems) {
-                EditorCell editorCell = createMatchCaseItemShort(editorContext, matchCaseItem);
-                matchCaseEditorCell_collection.addEditorCell(editorCell);
-
-                // hack to have spaces
-                EditorCell space = new EditorCell_Constant(editorContext, null, "", false);
-                matchCaseEditorCell_collection.addEditorCell(space);
-                space.getStyle().set(StyleAttributes.SELECTABLE, false);
-            }
-
-            if (matchCase.getPostcondition() != null) {
-                SNode node = matchCase.getPostcondition().getNode();
-                EditorCell postconditionCell = createMatchCaseConditionCell(editorContext, node);
-
-                matchCaseEditorCell_collection.addEditorCell(postconditionCell);
-            }
-
-            {
-                Style style = matchCaseEditorCell_collection.getStyle();
-                style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(1 , Measure.SPACES));
-            }
-
-            collection.addEditorCell(matchCaseEditorCell_collection);
+            matchCaseEditorCell_collection.addEditorCell(matchCaseEditorCell);
         }
 
-        return collection;
+        // filter bad values
+        for (int i = 0; i < matchCaseItems.size(); i++) {
+            if (matchCaseItems.get(i) == null || !(matchCaseItems.get(i) instanceof IMatchCaseItem)) {
+                matchCaseItems.remove(i);
+                i--;
+            }
+        }
+
+        if (matchCase.getPrecondition() != null) {
+            SNode node = matchCase.getPrecondition().getNode();
+            EditorCell preconditionCell = createMatchCaseConditionCell(editorContext, node);
+
+            matchCaseEditorCell_collection.addEditorCell(preconditionCell);
+        }
+
+        for (IMatchCaseItem matchCaseItem : matchCaseItems) {
+            EditorCell editorCell = createMatchCaseItemShort(editorContext, matchCaseItem);
+            matchCaseEditorCell_collection.addEditorCell(editorCell);
+
+            // hack to have spaces
+            EditorCell space = new EditorCell_Constant(editorContext, null, "", false);
+            matchCaseEditorCell_collection.addEditorCell(space);
+            space.getStyle().set(StyleAttributes.SELECTABLE, false);
+        }
+
+        if (matchCase.getPostcondition() != null) {
+            SNode node = matchCase.getPostcondition().getNode();
+            EditorCell postconditionCell = createMatchCaseConditionCell(editorContext, node);
+
+            matchCaseEditorCell_collection.addEditorCell(postconditionCell);
+        }
+
+        {
+            Style style = matchCaseEditorCell_collection.getStyle();
+            style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(1 , Measure.SPACES));
+        }
+
+        return matchCaseEditorCell_collection;
     }
 
     private EditorCell createMatchCaseConditionCell(EditorContext editorContext, SNode conditionNode) {
@@ -150,7 +160,51 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
         if (matchCaseItem instanceof DistantContext)
             return createDistantContextShort(editorContext, matchCaseItem.getNode());
 
+        if (matchCaseItem instanceof AnonymousTemplate)
+            return createAnonymousTemplateShort(editorContext, matchCaseItem.getNode());
+
         return null;
+    }
+
+    private EditorCell createAnonymousTemplateShort(EditorContext editorContext, SNode node) {
+        EditorCell_Collection editorCell_collection = EditorCell_Collection.createHorizontal(editorContext, node);
+        EditorCell beginAnonymousTemplateReference = new EditorCell_Constant(editorContext, node, "{");
+        EditorCell endAnonymousTemplateReference = new EditorCell_Constant(editorContext, node, "}");
+
+        AnonymousTemplate anonymousTemplate = new AnonymousTemplate(node);
+
+        {
+        Style style = beginAnonymousTemplateReference.getStyle();
+        style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
+        }
+
+        {
+        Style style = endAnonymousTemplateReference.getStyle();
+        style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
+        }
+
+        editorCell_collection.addEditorCell(beginAnonymousTemplateReference);
+
+        for (int i = 0; i < anonymousTemplate.getMatchCasesCount(); i++) {
+            MatchCase matchCase = anonymousTemplate.getMatchCases().get(i);
+            EditorCell editorCell = createMatchCaseShort(editorContext, matchCase.getNode(), false);
+
+            editorCell_collection.addEditorCell(editorCell);
+
+            if (i != anonymousTemplate.getMatchCasesCount() - 1) {
+                EditorCell comma = new EditorCell_Constant(editorContext, null, ",");
+                Style style = comma.getStyle();
+
+                style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
+                style.set(StyleAttributes.SELECTABLE, false);
+
+                editorCell_collection.addEditorCell(comma);
+            }
+        }
+
+        editorCell_collection.addEditorCell(endAnonymousTemplateReference);
+
+        return editorCell_collection;
     }
 
     private EditorCell createTemplateReferenceShort(EditorContext editorContext, SNode templateReferenceNode) {

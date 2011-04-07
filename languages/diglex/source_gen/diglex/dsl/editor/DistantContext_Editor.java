@@ -153,7 +153,7 @@ public class DistantContext_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dkxp4f_a1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440");
     editorCell.setCellId("Constant_dkxp4f_a1b0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -183,7 +183,7 @@ public class DistantContext_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dkxp4f_a1b0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440");
     editorCell.setCellId("Constant_dkxp4f_a1b0_0");
     editorCell.setDefaultText("");
     return editorCell;

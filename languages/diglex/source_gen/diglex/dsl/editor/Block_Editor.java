@@ -230,7 +230,7 @@ public class Block_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kw2rpr_a3b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440");
     editorCell.setCellId("Constant_kw2rpr_a3b0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -265,7 +265,7 @@ public class Block_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kw2rpr_a3b0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u041f\u043e\u0432\u0442\u043e\u0440");
     editorCell.setCellId("Constant_kw2rpr_a3b0_0");
     editorCell.setDefaultText("");
     return editorCell;
