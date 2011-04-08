@@ -80,10 +80,12 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
             EditorCell editorCell = createMatchCaseItemShort(editorContext, matchCaseItem);
             matchCaseEditorCell_collection.addEditorCell(editorCell);
 
-            // hack to have spaces
-            EditorCell space = new EditorCell_Constant(editorContext, null, "", false);
-            matchCaseEditorCell_collection.addEditorCell(space);
-            space.getStyle().set(StyleAttributes.SELECTABLE, false);
+            // hack to have 2 spaces after all items excluding last
+            if (matchCaseItems.indexOf(matchCaseItem) != matchCaseItems.size() - 1) {
+                EditorCell space = new EditorCell_Constant(editorContext, null, "  ", false);
+                matchCaseEditorCell_collection.addEditorCell(space);
+                space.getStyle().set(StyleAttributes.SELECTABLE, false);
+            }
         }
 
         if (matchCase.getPostcondition() != null) {
@@ -95,7 +97,7 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
 
         {
             Style style = matchCaseEditorCell_collection.getStyle();
-            style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(1 , Measure.SPACES));
+            style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0 , Measure.SPACES));
         }
 
         return matchCaseEditorCell_collection;
@@ -104,21 +106,13 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
     private EditorCell createMatchCaseConditionCell(EditorContext editorContext, SNode conditionNode) {
         EditorCell_Collection editorCell_collection
                 = EditorCell_Collection.createHorizontal(editorContext, conditionNode);
-
+        EditorCell_Collection innerItems_collection
+                = EditorCell_Collection.createHorizontal(editorContext, conditionNode);
         EditorCell beginCondition = new EditorCell_Constant(editorContext, conditionNode, "(");
         EditorCell endCondition = new EditorCell_Constant(editorContext, conditionNode, ")");
 
         MatchCaseCondition condition = new MatchCaseCondition(conditionNode);
         List<IMatchCaseItem> items = condition.getItemses();
-
-        if (condition.getNotInclude()) {
-            EditorCell notIncludeCell = new EditorCell_Constant(editorContext, conditionNode, "не", false);
-            Style style = notIncludeCell.getStyle();
-            style.set(StyleAttributes.TEXT_COLOR, MPSColors.RED);
-
-            editorCell_collection.addEditorCell(notIncludeCell);
-        }
-
 
         // filter bad values
         for (int i = 0; i < items.size(); i++) {
@@ -138,16 +132,41 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
             style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         }
 
-        editorCell_collection.addEditorCell(beginCondition);
-
-        for (IMatchCaseItem item : items) {
+        for (int i = 0; i < items.size(); i++) {
+            IMatchCaseItem item = items.get(i);
             EditorCell editorCell = createMatchCaseItemShort(editorContext, item);
-            editorCell_collection.addEditorCell(editorCell);
+            innerItems_collection.addEditorCell(editorCell);
+
+            if (i != items.size() - 1) {
+                EditorCell space = new EditorCell_Constant(editorContext, null, "  ", false);
+                innerItems_collection.addEditorCell(space);
+                space.getStyle().set(StyleAttributes.SELECTABLE, false);
+            }
         }
 
+        if (condition.getNotInclude()) {
+            setStrikeOutRecursive(innerItems_collection, true);
+        }
+
+        editorCell_collection.addEditorCell(beginCondition);
+        editorCell_collection.addEditorCell(innerItems_collection);
         editorCell_collection.addEditorCell(endCondition);
 
         return editorCell_collection;
+    }
+
+    private void setStrikeOutRecursive(EditorCell editorCell, boolean value) {
+        if (editorCell instanceof EditorCell_Collection) {
+            EditorCell_Collection collection = (EditorCell_Collection) editorCell;
+
+            for (EditorCell childCell : collection) {
+                setStrikeOutRecursive(childCell, value);
+            }
+        }
+        else {
+            Style style = editorCell.getStyle();
+            style.set(StyleAttributes.STRIKE_OUT, value);
+        }
     }
 
     private EditorCell createMatchCaseItemShort(EditorContext editorContext, IMatchCaseItem matchCaseItem) {
@@ -174,6 +193,11 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
         AnonymousTemplate anonymousTemplate = new AnonymousTemplate(node);
 
         {
+            Style style = editorCell_collection.getStyle();
+            style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
+        }
+
+        {
         Style style = beginAnonymousTemplateReference.getStyle();
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         }
@@ -192,7 +216,7 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
             editorCell_collection.addEditorCell(editorCell);
 
             if (i != anonymousTemplate.getMatchCasesCount() - 1) {
-                EditorCell comma = new EditorCell_Constant(editorContext, null, ",");
+                EditorCell comma = new EditorCell_Constant(editorContext, null, ", ");
                 Style style = comma.getStyle();
 
                 style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
@@ -296,10 +320,13 @@ public class TemplateShortCellProvider extends AbstractCellProvider {
             EditorCell not = null;
 
             if (condition.getNotInclude()) {
-                not = new EditorCell_Constant(editorContext, node, "не");
+//                not = new EditorCell_Constant(editorContext, node, "не");
+//
+//                Style style = not.getStyle();
+//                style.set(StyleAttributes.TEXT_COLOR, Color.RED);
 
-                Style style = not.getStyle();
-                style.set(StyleAttributes.TEXT_COLOR, Color.RED);
+                Style style = template.getStyle();
+                style.set(StyleAttributes.STRIKE_OUT, true);
             }
 
             {

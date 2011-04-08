@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="diglex.dsl.sandbox.sandbox1.Dictionary" file="Dictionary.xml" />
-  <dependency className="diglex.dsl.sandbox.sandbox1.template.xml" file="template.xml.xml" />
 </dependenciesRoot>
 

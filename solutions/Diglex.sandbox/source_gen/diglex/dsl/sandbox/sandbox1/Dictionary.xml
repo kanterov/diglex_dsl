@@ -7,8 +7,20 @@
     <MatchCases>
       <MatchCase>
         <Precondition>
-          <NotInclude>true</NotInclude>
+          <NotInclude>false</NotInclude>
           <Items>
+            <MatchCaseItem type="DistantContext">
+              <DistantContext>
+                <Repeat>
+                  <Minimum>0</Minimum>
+                  <Maximum>2000000000</Maximum>
+                </Repeat>
+                <Conditions />
+              </DistantContext>
+            </MatchCaseItem>
+            <MatchCaseItem type="Unknown">
+              <DistantContext />
+            </MatchCaseItem>
             <MatchCaseItem type="TemplateReference">
               <TemplateReference>
                 <Repeat>
@@ -34,6 +46,9 @@
       </MatchCase>
       <MatchCase>
         <Items>
+          <MatchCaseItem type="Unknown">
+            <DistantContext />
+          </MatchCaseItem>
           <MatchCaseItem type="TemplateReference">
             <TemplateReference>
               <Repeat>
@@ -51,7 +66,7 @@
               </Repeat>
               <Conditions>
                 <Condition>
-                  <NotInclude>false</NotInclude>
+                  <NotInclude>true</NotInclude>
                   <NodeId>2</NodeId>
                 </Condition>
               </Conditions>

@@ -303,6 +303,14 @@
     <property name="name:0" value="Template" />
     <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828048">
+      <property name="value:0" value="Шаблон" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828050">
+      <property name="value:0" value="Шаблон" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6282999055323950944">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="MatchCases" />
@@ -343,6 +351,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323947693">
     <property name="name:0" value="MatchCase" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828032">
+      <property name="value:0" value="Вариант шаблона" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828034">
+      <property name="value:0" value="Вариант шаблона" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6282999055323996060">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Postcondition" />
@@ -363,6 +379,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323947696">
     <property name="name:0" value="DistantContext" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828018">
+      <property name="value:0" value="Дистантный контекст" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828020">
+      <property name="value:0" value="Дистантный контекст" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8760462257934478881">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Conditions" />
@@ -376,6 +400,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323947697">
     <property name="name:0" value="RepeatTimes" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828040">
+      <property name="value:0" value="Повтор" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828042">
+      <property name="value:0" value="Повтор" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7804553196909766296">
       <property name="name:0" value="minimum" />
       <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
@@ -392,6 +424,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6282999055323993270">
     <property name="name:0" value="MatchCaseCondition" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828036">
+      <property name="value:0" value="Условие варианта шаблона" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828038">
+      <property name="value:0" value="Условие варианта шаблона" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1794194610342678337">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Items" />
@@ -406,6 +446,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342687668">
     <property name="name:0" value="DistantContextCondition" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828022">
+      <property name="value:0" value="Условие дистантного контекста" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828024">
+      <property name="value:0" value="Условие дистантного контекста" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1794194610342714172">
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="TemplateReference" />
@@ -420,6 +468,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342749170">
     <property name="name:0" value="Block" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828002">
+      <property name="value:0" value="Блок" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828004">
+      <property name="value:0" value="Блок" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1794194610342749178">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="Tail" />
@@ -448,6 +504,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342749173">
     <property name="name:0" value="BlockTail" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828006">
+      <property name="value:0" value="Хвост" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828008">
+      <property name="value:0" value="Хвост" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7804553196909821105">
       <property name="name:0" value="minimumLength" />
       <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
@@ -464,6 +528,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342749175">
     <property name="name:0" value="LexemType" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828028">
+      <property name="value:0" value="Тип лексемы" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828030">
+      <property name="value:0" value="Тип лексемы" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1926773284996300823">
       <property name="name:0" value="default" />
       <link role="dataType:0" targetNodeId="2v.1082983657063:0" resolveInfo="boolean" />
@@ -485,8 +557,12 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342760034">
     <property name="name:0" value="AnySymbol" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510827998">
+      <property name="value:0" value="Любой символ" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8760462257934162883">
-      <property name="value:0" value="&quot;Любой символ&quot;" />
+      <property name="value:0" value="Любой символ" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1794194610342760036">
@@ -509,8 +585,12 @@
     <property name="name:0" value="ExactString" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8760462257934162885">
-      <property name="value:0" value="&quot;Любая строка&quot;" />
+      <property name="value:0" value="Заданная строка" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828026">
+      <property name="value:0" value="Заданная строка" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1794194610342760042">
       <property name="name:0" value="Value" />
@@ -523,8 +603,12 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1794194610342760043">
     <property name="name:0" value="StringSet" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828046">
+      <property name="value:0" value="Список строк" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8760462257934162887">
-      <property name="value:0" value="&quot;Множество строк&quot;" />
+      <property name="value:0" value="Список строк" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1794194610342760052">
@@ -597,6 +681,14 @@
     <property name="name:0" value="Dictionary" />
     <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828010">
+      <property name="value:0" value="Словарь" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828012">
+      <property name="value:0" value="Словарь" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8760462257934442846">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="dictionaryTemplate" />
@@ -610,6 +702,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8760462257934427241">
     <property name="name:0" value="DictionaryTemplate" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828014">
+      <property name="value:0" value="Шаблон словаря" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828016">
+      <property name="value:0" value="Шаблон словаря" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8760462257934427242">
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="template" />
@@ -683,6 +783,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7855981724430980336">
     <property name="name:0" value="AnonymousTemplate" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510822980">
+      <property name="value:0" value="Анонимный шаблон" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828000">
+      <property name="value:0" value="Анонимный шаблон" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7855981724430980337">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="matchCase" />

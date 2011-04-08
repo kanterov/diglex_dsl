@@ -94,7 +94,27 @@
         </node>
       </node>
       <node role="Precondition:23" type="diglex.dsl.structure.MatchCaseCondition:23" id="7855981724430284439">
-        <property name="NotInclude:23" value="true" />
+        <node role="Items:23" type="diglex.dsl.structure.DistantContext:23" id="2000376448510729483">
+          <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="2000376448510729484">
+            <property name="maximum:23" value="INF" />
+            <property name="minimum:23" value="0" />
+          </node>
+        </node>
+        <node role="Items:23" type="diglex.dsl.structure.AnonymousTemplate:23" id="2000376448510558786">
+          <node role="matchCase:23" type="diglex.dsl.structure.MatchCase:23" id="2000376448510558787">
+            <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="2000376448510558790">
+              <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
+              <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="2000376448510558791">
+                <property name="minimum:23" value="1" />
+                <property name="maximum:23" value="1" />
+              </node>
+            </node>
+          </node>
+          <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="2000376448510558789">
+            <property name="minimum:23" value="1" />
+            <property name="maximum:23" value="1" />
+          </node>
+        </node>
         <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724430284441">
           <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
           <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724430284442">
@@ -105,40 +125,24 @@
       </node>
     </node>
     <node role="MatchCases:23" type="diglex.dsl.structure.MatchCase:23" id="5434528035129232886">
-      <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724430012599">
-        <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
-        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724430012600">
+      <node role="Items:23" type="diglex.dsl.structure.AnonymousTemplate:23" id="2000376448510364761">
+        <node role="matchCase:23" type="diglex.dsl.structure.MatchCase:23" id="2000376448510364762">
+          <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="2000376448510364765">
+            <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
+            <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="2000376448510364766">
+              <property name="minimum:23" value="1" />
+              <property name="maximum:23" value="1" />
+            </node>
+          </node>
+        </node>
+        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="2000376448510364764">
           <property name="minimum:23" value="1" />
           <property name="maximum:23" value="1" />
         </node>
       </node>
-      <node role="Items:23" type="diglex.dsl.structure.AnonymousTemplate:23" id="7855981724431037467">
-        <node role="matchCase:23" type="diglex.dsl.structure.MatchCase:23" id="7855981724431037480">
-          <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724431133379">
-            <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
-            <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724431133380">
-              <property name="minimum:23" value="1" />
-              <property name="maximum:23" value="1" />
-            </node>
-          </node>
-        </node>
-        <node role="matchCase:23" type="diglex.dsl.structure.MatchCase:23" id="7855981724431037468">
-          <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724431037473">
-            <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
-            <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724431037474">
-              <property name="minimum:23" value="1" />
-              <property name="maximum:23" value="1" />
-            </node>
-          </node>
-          <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724431037476">
-            <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
-            <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724431037477">
-              <property name="minimum:23" value="1" />
-              <property name="maximum:23" value="1" />
-            </node>
-          </node>
-        </node>
-        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724431037470">
+      <node role="Items:23" type="diglex.dsl.structure.TemplateReference:23" id="7855981724430012599">
+        <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
+        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="7855981724430012600">
           <property name="minimum:23" value="1" />
           <property name="maximum:23" value="1" />
         </node>
@@ -149,6 +153,7 @@
           <property name="minimum:23" value="0" />
         </node>
         <node role="Conditions:23" type="diglex.dsl.structure.DistantContextCondition:23" id="7855981724430038009">
+          <property name="NotInclude:23" value="true" />
           <link role="TemplateReference:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
         </node>
       </node>

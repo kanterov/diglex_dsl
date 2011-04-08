@@ -20,11 +20,12 @@
   <unitInfo fileName="Block_Editor.java" startLine="563" startPosition="0" endLine="594" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$_Inline_kw2rpr_a1c1a_0" />
   <unitInfo fileName="LexemSymbolGroup_Editor.java" startLine="70" startPosition="0" endLine="107" endPosition="0" unitName="diglex.dsl.editor.LexemSymbolGroup_Editor$symbolListHandler_hnyj3a_b1a" />
   <unitInfo fileName="Dictionary_Editor.java" startLine="107" startPosition="0" endLine="144" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor$dictionaryTemplateListHandler_ytbb8b_b1a" />
-  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="129" startPosition="0" endLine="166" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1b0" />
   <unitInfo fileName="StringSet_Editor.java" startLine="160" startPosition="0" endLine="197" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor$ItemsListHandler_cixy8d_b0b0" />
   <unitInfo fileName="LexemType_Editor.java" startLine="171" startPosition="0" endLine="208" endPosition="0" unitName="diglex.dsl.editor.LexemType_Editor$symbolGroupListHandler_xsielh_b3a" />
   <unitInfo fileName="StringSet_Editor.java" startLine="198" startPosition="0" endLine="235" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor$ItemsListHandler_cixy8d_b0b0_0" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="206" startPosition="0" endLine="243" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1b0" />
   <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="210" startPosition="0" endLine="247" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_b1b0" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="244" startPosition="0" endLine="281" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1a" />
   <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="248" startPosition="0" endLine="285" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_b1b0_0" />
   <unitInfo fileName="DistantContext_Editor.java" startLine="264" startPosition="0" endLine="301" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b1a1a" />
   <unitInfo fileName="DistantContext_Editor.java" startLine="302" startPosition="0" endLine="339" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b1a1a_0" />
@@ -44,11 +45,11 @@
   <unitInfo fileName="SearchSettings_Editor.java" startLine="20" startPosition="0" endLine="125" endPosition="0" unitName="diglex.dsl.editor.SearchSettings_Editor" />
   <unitInfo fileName="Dictionary_Editor.java" startLine="26" startPosition="0" endLine="145" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor" />
   <unitInfo fileName="LexemClassification_Editor.java" startLine="26" startPosition="0" endLine="166" endPosition="0" unitName="diglex.dsl.editor.LexemClassification_Editor" />
-  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="27" startPosition="0" endLine="167" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor" />
   <unitInfo fileName="RepeatTimes_Editor.java" startLine="18" startPosition="0" endLine="169" endPosition="0" unitName="diglex.dsl.editor.RepeatTimes_Editor" />
   <unitInfo fileName="LexemType_Editor.java" startLine="26" startPosition="0" endLine="209" endPosition="0" unitName="diglex.dsl.editor.LexemType_Editor" />
   <unitInfo fileName="AnySymbol_Editor.java" startLine="19" startPosition="0" endLine="218" endPosition="0" unitName="diglex.dsl.editor.AnySymbol_Editor" />
   <unitInfo fileName="StringSet_Editor.java" startLine="23" startPosition="0" endLine="236" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="27" startPosition="0" endLine="282" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor" />
   <unitInfo fileName="DistantContextCondition_Editor.java" startLine="20" startPosition="0" endLine="277" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor" />
   <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="27" startPosition="0" endLine="286" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor" />
   <unitInfo fileName="TemplateReference_Editor.java" startLine="24" startPosition="0" endLine="318" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor" />

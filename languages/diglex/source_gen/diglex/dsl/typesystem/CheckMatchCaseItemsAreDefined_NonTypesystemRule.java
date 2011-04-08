@@ -23,7 +23,7 @@ public class CheckMatchCaseItemsAreDefined_NonTypesystemRule extends AbstractNon
   public void applyRule(final SNode matchCase, final TypeCheckingContext typeCheckingContext) {
     ListSequence.fromList(SLinkOperations.getTargets(matchCase, "Items", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        if ((it == null) || !((SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.DistantContext") || SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.Block") || SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.TemplateReference")))) {
+        if ((it == null) || !((SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.DistantContext") || SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.Block") || SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.TemplateReference")) || SNodeOperations.isInstanceOf(it, "diglex.dsl.structure.AnonymousTemplate"))) {
           {
             BaseIntentionProvider intentionProvider = null;
             IErrorTarget errorTarget = new NodeErrorTarget();

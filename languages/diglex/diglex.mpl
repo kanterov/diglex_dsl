@@ -15,7 +15,7 @@
       </models>
       <external-templates />
       <usedLanguages>
-        <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(jetbrains.mps.sampleXML)</usedLanguage>
+        <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(diglex.xml)</usedLanguage>
         <usedLanguage>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
@@ -35,7 +35,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>3304fc6e-7c6b-401e-a016-b944934bb21f(jetbrains.mps.baseLanguage.math)</usedLanguage>
-    <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(jetbrains.mps.sampleXML)</usedLanguage>
+    <usedLanguage>772f6dcd-8c0d-48f7-869c-908e036f7c8e(diglex.xml)</usedLanguage>
     <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
     <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
