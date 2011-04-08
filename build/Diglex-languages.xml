@@ -10,10 +10,10 @@
       <zipfileset dir="languages/diglex/classes_gen" />
     </jar>
   </target>
-  <target name="pack.jetbrains.mps.sampleXML_b41a">
+  <target name="pack.diglex.xml_b41a">
     <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
     <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" />
-    <jar destfile="${deploy.dir}/MPS/Diglex/jetbrains.mps.sampleXML.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+    <jar destfile="${deploy.dir}/MPS/Diglex/diglex.xml.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
       <zipfileset file="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/sampleXML.mpl" prefix="module" />
       <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" prefix="source_gen.caches" />
       <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />

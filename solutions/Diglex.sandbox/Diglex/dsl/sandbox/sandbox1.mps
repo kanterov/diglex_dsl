@@ -40,14 +40,8 @@
   </node>
   <node type="diglex.dsl.structure.Dictionary:23" id="8770772348876378204">
     <property name="name:23" value="Dictionary" />
-    <node role="dictionaryTemplate:23" type="diglex.dsl.structure.DictionaryTemplate:23" id="1922820112741874203">
-      <link role="template:23" targetNodeId="5434528035129232885" resolveInfo="СО" />
-    </node>
-    <node role="dictionaryTemplate:23" type="diglex.dsl.structure.DictionaryTemplate:23" id="1922820112741855229">
+    <node role="dictionaryTemplate:23" type="diglex.dsl.structure.DictionaryTemplate:23" id="2423555355234773269">
       <link role="template:23" targetNodeId="5434528035129232891" resolveInfo="РАН" />
-    </node>
-    <node role="dictionaryTemplate:23" type="diglex.dsl.structure.DictionaryTemplate:23" id="8770772348876378209">
-      <link role="template:23" targetNodeId="5434528035129217677" resolveInfo="СО РАН" />
     </node>
   </node>
   <node type="diglex.dsl.structure.Template:23" id="5434528035129217677">
@@ -182,6 +176,19 @@
   <node type="diglex.dsl.structure.Template:23" id="5434528035129232891">
     <property name="id1:23" value="2000000000" />
     <property name="name:23" value="РАН" />
+    <node role="MatchCases:23" type="diglex.dsl.structure.MatchCase:23" id="297920809389508068">
+      <node role="Items:23" type="diglex.dsl.structure.Block:23" id="297920809389508070">
+        <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="297920809389508071">
+          <property name="minimum:23" value="1" />
+          <property name="maximum:23" value="1" />
+        </node>
+        <node role="Items:23" type="diglex.dsl.structure.ExactString:23" id="297920809389508072">
+          <property name="Value:23" value=" " />
+          <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+        </node>
+      </node>
+    </node>
     <node role="MatchCases:23" type="diglex.dsl.structure.MatchCase:23" id="5434528035129232892">
       <node role="Items:23" type="diglex.dsl.structure.Block:23" id="5434528035129232894">
         <link role="lexemType:23" targetNodeId="3.1327539314895753276" resolveInfo="Русские буквы" />

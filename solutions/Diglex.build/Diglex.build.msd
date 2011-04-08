@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="Diglex.build" uuid="20374e75-d513-4ef4-b366-f3fe9323c52b" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="false">
+<solution name="Diglex.build" uuid="936bcf65-8782-4372-8a46-b27c90e8b877" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="false">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>

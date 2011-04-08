@@ -329,12 +329,12 @@
     <echo file="${deploy.dir}/MPS/readme.txt" append="true">${line.separator}</echo>
     <echo file="${deploy.dir}/MPS/readme.txt" append="true">library diglex in folder Diglex/${line.separator}</echo>
     <echo file="${deploy.dir}/MPS/readme.txt" append="true">    diglex.dsl${line.separator}</echo>
-    <echo file="${deploy.dir}/MPS/readme.txt" append="true">    jetbrains.mps.sampleXML${line.separator}</echo>
+    <echo file="${deploy.dir}/MPS/readme.txt" append="true">    diglex.xml${line.separator}</echo>
     <echo file="${deploy.dir}/MPS/readme.txt" append="true">${line.separator}</echo>
     <copy file="${mps_home}/releaseNotes.txt" tofile="${deploy.dir}/MPS/releaseNotes.txt" />
     <copy file="${mps_home}/about.txt" tofile="${deploy.dir}/MPS/about.txt" />
     <antcall target="Diglex-languages.pack.diglex.dsl_a41a" />
-    <antcall target="Diglex-languages.pack.jetbrains.mps.sampleXML_b41a" />
+    <antcall target="Diglex-languages.pack.diglex.xml_b41a" />
     <mkdir dir="${deploy.dir}/MPS/Diglex" />
     <mkdir dir="${deploy.dir}/MPS" />
     <antcall target="help-build.unpack.buildtools.zip_a" inheritall="true">

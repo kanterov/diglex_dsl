@@ -702,14 +702,6 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8760462257934427241">
     <property name="name:0" value="DictionaryTemplate" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828014">
-      <property name="value:0" value="Шаблон словаря" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2000376448510828016">
-      <property name="value:0" value="Шаблон словаря" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8760462257934427242">
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="template" />

@@ -1,113 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Templates>
   <Template>
-    <Id>1</Id>
-    <MatchMode>AbsoluteMeaningful</MatchMode>
-    <Name>СО</Name>
-    <MatchCases>
-      <MatchCase>
-        <Precondition>
-          <NotInclude>false</NotInclude>
-          <Items>
-            <MatchCaseItem type="DistantContext">
-              <DistantContext>
-                <Repeat>
-                  <Minimum>0</Minimum>
-                  <Maximum>2000000000</Maximum>
-                </Repeat>
-                <Conditions />
-              </DistantContext>
-            </MatchCaseItem>
-            <MatchCaseItem type="Unknown">
-              <DistantContext />
-            </MatchCaseItem>
-            <MatchCaseItem type="TemplateReference">
-              <TemplateReference>
-                <Repeat>
-                  <Minimum>1</Minimum>
-                  <Maximum>1</Maximum>
-                </Repeat>
-                <ReferencesId>2</ReferencesId>
-              </TemplateReference>
-            </MatchCaseItem>
-          </Items>
-        </Precondition>
-        <Items>
-          <MatchCaseItem type="TemplateReference">
-            <TemplateReference>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <ReferencesId>2</ReferencesId>
-            </TemplateReference>
-          </MatchCaseItem>
-        </Items>
-      </MatchCase>
-      <MatchCase>
-        <Items>
-          <MatchCaseItem type="Unknown">
-            <DistantContext />
-          </MatchCaseItem>
-          <MatchCaseItem type="TemplateReference">
-            <TemplateReference>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <ReferencesId>2</ReferencesId>
-            </TemplateReference>
-          </MatchCaseItem>
-          <MatchCaseItem type="DistantContext">
-            <DistantContext>
-              <Repeat>
-                <Minimum>0</Minimum>
-                <Maximum>2000000000</Maximum>
-              </Repeat>
-              <Conditions>
-                <Condition>
-                  <NotInclude>true</NotInclude>
-                  <NodeId>2</NodeId>
-                </Condition>
-              </Conditions>
-            </DistantContext>
-          </MatchCaseItem>
-          <MatchCaseItem type="Block">
-            <Block>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <CaseSensitive>false</CaseSensitive>
-              <LexemType>RussianLetter</LexemType>
-              <Items>
-                <BlockItem type="AnySymbol">
-                  <AnySymbol>
-                    <LexemType>RussianLetter</LexemType>
-                    <TimesMinimum>1</TimesMinimum>
-                    <TimesMaximum>2</TimesMaximum>
-                  </AnySymbol>
-                </BlockItem>
-                <BlockItem type="ExactString">
-                  <ExactString>
-                    <LexemType>RussianLetter</LexemType>
-                    <Value>РАН</Value>
-                  </ExactString>
-                </BlockItem>
-                <BlockItem type="ExactString">
-                  <ExactString>
-                    <LexemType>RussianLetter</LexemType>
-                    <Value>СО</Value>
-                  </ExactString>
-                </BlockItem>
-              </Items>
-            </Block>
-          </MatchCaseItem>
-        </Items>
-      </MatchCase>
-    </MatchCases>
-  </Template>
-  <Template>
     <Id>2</Id>
     <MatchMode>AbsoluteMeaningful</MatchMode>
     <Name>РАН</Name>
@@ -121,6 +14,28 @@
                 <Maximum>1</Maximum>
               </Repeat>
               <CaseSensitive>false</CaseSensitive>
+              <LexemType>SpaceSymbol</LexemType>
+              <Items>
+                <BlockItem type="ExactString">
+                  <ExactString>
+                    <LexemType>SpaceSymbol</LexemType>
+                    <Value>&#x20;</Value>
+                  </ExactString>
+                </BlockItem>
+              </Items>
+            </Block>
+          </MatchCaseItem>
+        </Items>
+      </MatchCase>
+      <MatchCase>
+        <Items>
+          <MatchCaseItem type="Block">
+            <Block>
+              <Repeat>
+                <Minimum>1</Minimum>
+                <Maximum>1</Maximum>
+              </Repeat>
+              <CaseSensitive>false</CaseSensitive>
               <LexemType>RussianLetter</LexemType>
               <Items>
                 <BlockItem type="ExactString">
@@ -131,54 +46,6 @@
                 </BlockItem>
               </Items>
             </Block>
-          </MatchCaseItem>
-        </Items>
-      </MatchCase>
-    </MatchCases>
-  </Template>
-  <Template>
-    <Id>0</Id>
-    <MatchMode>AbsoluteMeaningful</MatchMode>
-    <Name>СО РАН</Name>
-    <MatchCases>
-      <MatchCase>
-        <Items>
-          <MatchCaseItem type="TemplateReference">
-            <TemplateReference>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <ReferencesId>1</ReferencesId>
-            </TemplateReference>
-          </MatchCaseItem>
-          <MatchCaseItem type="Block">
-            <Block>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <CaseSensitive>false</CaseSensitive>
-              <LexemType>SpaceSymbol</LexemType>
-              <Items>
-                <BlockItem type="AnySymbol">
-                  <AnySymbol>
-                    <LexemType>SpaceSymbol</LexemType>
-                    <TimesMinimum>0</TimesMinimum>
-                    <TimesMaximum>2000000000</TimesMaximum>
-                  </AnySymbol>
-                </BlockItem>
-              </Items>
-            </Block>
-          </MatchCaseItem>
-          <MatchCaseItem type="TemplateReference">
-            <TemplateReference>
-              <Repeat>
-                <Minimum>1</Minimum>
-                <Maximum>1</Maximum>
-              </Repeat>
-              <ReferencesId>2</ReferencesId>
-            </TemplateReference>
           </MatchCaseItem>
         </Items>
       </MatchCase>
