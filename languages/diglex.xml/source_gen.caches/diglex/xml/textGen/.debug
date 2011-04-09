@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="Document_TextGen.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="diglex.xml.textGen.Document_TextGen" />
+  <unitInfo fileName="ElementCreator.java" startLine="16" startPosition="0" endLine="56" endPosition="0" unitName="diglex.xml.textGen.ElementCreator" />
+  <root nodeId="1236699935298">
+    <nodeInfo nodeId="1237981101372" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" />
+    <scopeInfo nodeId="1237981101372" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" />
+  </root>
+  <root nodeId="1236700479964">
+    <nodeInfo nodeId="1236700571834" fileName="ElementCreator.java" startLine="17" startPosition="72" endLine="18" endPosition="73" />
+    <nodeInfo nodeId="1236700571840" fileName="ElementCreator.java" startLine="18" startPosition="73" endLine="19" endPosition="68" />
+    <nodeInfo nodeId="1236700791060" fileName="ElementCreator.java" startLine="19" startPosition="68" endLine="20" endPosition="39" />
+    <nodeInfo nodeId="1236700818617" fileName="ElementCreator.java" startLine="20" startPosition="39" endLine="21" endPosition="36" />
+    <nodeInfo nodeId="1236700869045" fileName="ElementCreator.java" startLine="22" startPosition="9" endLine="23" endPosition="53" />
+    <nodeInfo nodeId="1236700887615" fileName="ElementCreator.java" startLine="23" startPosition="53" endLine="24" endPosition="57" />
+    <nodeInfo nodeId="1236700954189" fileName="ElementCreator.java" startLine="24" startPosition="57" endLine="25" endPosition="65" />
+    <nodeInfo nodeId="1236700987314" fileName="ElementCreator.java" startLine="25" startPosition="65" endLine="26" endPosition="58" />
+    <nodeInfo nodeId="1237463992006" fileName="ElementCreator.java" startLine="26" startPosition="58" endLine="27" endPosition="29" />
+    <nodeInfo nodeId="1236701106380" fileName="ElementCreator.java" startLine="28" startPosition="27" endLine="29" endPosition="48" />
+    <nodeInfo nodeId="1236700642827" fileName="ElementCreator.java" startLine="33" startPosition="85" endLine="34" endPosition="81" />
+    <nodeInfo nodeId="1236700642839" fileName="ElementCreator.java" startLine="36" startPosition="70" endLine="37" endPosition="129" />
+    <nodeInfo nodeId="1236700642859" fileName="ElementCreator.java" startLine="39" startPosition="5" endLine="40" endPosition="25" />
+    <nodeInfo nodeId="1236700642869" fileName="ElementCreator.java" startLine="43" startPosition="23" endLine="44" endPosition="34" />
+    <nodeInfo nodeId="1236700642876" fileName="ElementCreator.java" startLine="45" startPosition="9" endLine="46" endPosition="122" />
+    <nodeInfo nodeId="1236700642890" fileName="ElementCreator.java" startLine="48" startPosition="79" endLine="49" endPosition="125" />
+    <nodeInfo nodeId="1236700764875" fileName="ElementCreator.java" startLine="50" startPosition="7" endLine="51" endPosition="20" />
+    <nodeInfo nodeId="1236700775431" fileName="ElementCreator.java" startLine="52" startPosition="5" endLine="53" endPosition="18" />
+    <nodeInfo nodeId="1236700642837" fileName="ElementCreator.java" startLine="35" startPosition="84" endLine="38" endPosition="7" />
+    <nodeInfo nodeId="1236700642867" fileName="ElementCreator.java" startLine="42" startPosition="76" endLine="45" endPosition="9" />
+    <nodeInfo nodeId="1236700642888" fileName="ElementCreator.java" startLine="47" startPosition="7" endLine="50" endPosition="7" />
+    <nodeInfo nodeId="1236700642835" fileName="ElementCreator.java" startLine="34" startPosition="81" endLine="39" endPosition="5" />
+    <nodeInfo nodeId="1236700642865" fileName="ElementCreator.java" startLine="41" startPosition="77" endLine="47" endPosition="7" />
+    <nodeInfo nodeId="1236700827376" fileName="ElementCreator.java" startLine="21" startPosition="36" endLine="30" endPosition="5" />
+    <nodeInfo nodeId="1236700642863" fileName="ElementCreator.java" startLine="40" startPosition="25" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="1237463992006" fileName="ElementCreator.java" startLine="26" startPosition="58" endLine="27" endPosition="29" />
+    <scopeInfo nodeId="1236700827379" fileName="ElementCreator.java" startLine="28" startPosition="0" endLine="29" endPosition="48">
+      <varInfo nodeId="1236700827380" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="1236700827382" fileName="ElementCreator.java" startLine="28" startPosition="27" endLine="29" endPosition="48" />
+    <scopeInfo nodeId="1236700642838" fileName="ElementCreator.java" startLine="36" startPosition="70" endLine="37" endPosition="129" />
+    <scopeInfo nodeId="1236700642868" fileName="ElementCreator.java" startLine="43" startPosition="23" endLine="44" endPosition="34" />
+    <scopeInfo nodeId="1236700642889" fileName="ElementCreator.java" startLine="48" startPosition="79" endLine="49" endPosition="125" />
+    <scopeInfo nodeId="1236700642836" fileName="ElementCreator.java" startLine="35" startPosition="84" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="1236700642866" fileName="ElementCreator.java" startLine="42" startPosition="76" endLine="46" endPosition="122" />
+    <scopeInfo nodeId="1236700827377" fileName="ElementCreator.java" startLine="22" startPosition="9" endLine="27" endPosition="29">
+      <varInfo nodeId="1236700954190" varName="xmlOutputter" />
+      <varInfo nodeId="1236700987315" varName="output" />
+      <varInfo nodeId="1236700869046" varName="prettyFormat" />
+    </scopeInfo>
+    <scopeInfo nodeId="1236700642835" fileName="ElementCreator.java" startLine="34" startPosition="81" endLine="39" endPosition="5">
+      <varInfo nodeId="1236700642857" varName="attribute" />
+    </scopeInfo>
+    <scopeInfo nodeId="1236700642864" fileName="ElementCreator.java" startLine="41" startPosition="77" endLine="51" endPosition="20" />
+    <scopeInfo nodeId="1236700642863" fileName="ElementCreator.java" startLine="40" startPosition="25" endLine="52" endPosition="5">
+      <varInfo nodeId="1236700642901" varName="part" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

@@ -11,13 +11,13 @@
     </jar>
   </target>
   <target name="pack.diglex.xml_b41a">
-    <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
-    <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" />
+    <mkdir dir="languages/diglex.xml/classes_gen" />
+    <mkdir dir="languages/diglex.xml/source_gen.caches" />
     <jar destfile="${deploy.dir}/MPS/Diglex/diglex.xml.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset file="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/sampleXML.mpl" prefix="module" />
-      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen.caches" prefix="source_gen.caches" />
-      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
-      <zipfileset dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
+      <zipfileset file="languages/diglex.xml/diglex.xml.mpl" prefix="module" />
+      <zipfileset dir="languages/diglex.xml/source_gen.caches" prefix="source_gen.caches" />
+      <zipfileset dir="languages/diglex.xml" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/diglex.xml/classes_gen" />
     </jar>
   </target>
 </project>

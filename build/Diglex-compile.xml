@@ -1,6 +1,6 @@
 <project name="Diglex-compile" default="compile.all" basedir="..">
   <property name="diglex.dsl.classes" value="languages/diglex/classes_gen" />
-  <property name="diglex.xml.classes" value="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
+  <property name="diglex.xml.classes" value="languages/diglex.xml/classes_gen" />
   <path id="common.classpath">
     <path path="${mps_home}/lib/commons-lang/commons-lang-2.1.jar" />
     <path path="${mps_home}/lib/jdom/jdom.jar" />
@@ -19,7 +19,7 @@
     <path path="languages/diglex/source_gen" />
   </path>
   <path id="cycle.diglex.xml_a.src">
-    <path path="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen" />
+    <path path="languages/diglex.xml/source_gen" />
   </path>
   <path id="cycle.diglex.dsl_b.classpaths">
     <path path="languages/diglex/classes_gen" />
@@ -140,8 +140,7 @@
     <path refid="common.classpath" />
   </path>
   <path id="cycle.diglex.xml_a.classpaths">
-    <path path="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
-    <path path="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/classes_gen" />
+    <path path="languages/diglex.xml/classes_gen" />
     <path path="${mps_home}/core/baseLanguage/closures.runtime.mpsarch.jar" />
     <path path="${mps_home}/core/baseLanguage/collections.runtime.mpsarch.jar" />
     <path path="${mps_home}/core/baseLanguage/collections_trove.runtime.mpsarch.jar" />
@@ -223,6 +222,7 @@
     <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" />
     <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" />
     <path path="${mps_home}/core/languageDesign/runtime.mpsarch.jar" />
+    <path path="languages/diglex.xml/classes_gen" />
     <path path="${mps_home}/lib/asm/asm.jar" />
     <path path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" />
     <path path="${mps_home}/lib/commons-lang/commons-lang-2.1.jar" />
@@ -277,7 +277,7 @@
   </target>
   <target name="compile.cycle.diglex.xml_a">
     <property name="classes.dump" value="${diglex.xml.classes}.tmp" />
-    <mkdir dir="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen" />
+    <mkdir dir="languages/diglex.xml/source_gen" />
     <mkdir dir="${classes.dump}" />
     <mkdir dir="${diglex.xml.classes}" />
     <javac classpathref="cycle.diglex.xml_a.classpaths" destdir="${classes.dump}">
@@ -285,7 +285,7 @@
     </javac>
     <javac classpathref="cycle.diglex.xml_a.classpaths" classpath="${classes.dump}" destdir="${diglex.xml.classes}">
       <src>
-        <path path="/home/ripper/MPSSamples.EAP/sampleXML/languages/sampleXML/source_gen" />
+        <path path="languages/diglex.xml/source_gen" />
       </src>
     </javac>
     <delete dir="${classes.dump}" />
