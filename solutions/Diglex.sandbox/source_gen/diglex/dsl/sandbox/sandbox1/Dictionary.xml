@@ -29,7 +29,7 @@
                             <BlockItem type="ExactString">
                               <ExactString>
                                 <LexemType>SpaceSymbol</LexemType>
-                                <Value> </Value>
+                                <Value>&#x20;</Value>
                               </ExactString>
                             </BlockItem>
                           </Items>

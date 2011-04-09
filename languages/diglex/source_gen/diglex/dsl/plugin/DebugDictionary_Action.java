@@ -4,6 +4,8 @@ package diglex.dsl.plugin;
 
 import jetbrains.mps.plugins.pluginparts.actions.GeneratedAction;
 import javax.swing.Icon;
+import jetbrains.mps.ide.icons.IconManager;
+import jetbrains.mps.plugins.MacrosUtil;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelDescriptor;
@@ -23,7 +25,7 @@ import diglex.dsl.structure.Dictionary;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class DebugDictionary_Action extends GeneratedAction {
-  private static final Icon ICON = null;
+  private static final Icon ICON = IconManager.loadIcon(MacrosUtil.expandPath("/home/ripper/git/diglex_dsl/icons/toolbox.png", "diglex.dsl"), true);
   private static Logger LOG = Logger.getLogger(DebugDictionary_Action.class);
 
   private SModel model;
@@ -33,7 +35,7 @@ public class DebugDictionary_Action extends GeneratedAction {
   private List<SModelDescriptor> modelsList;
 
   public DebugDictionary_Action() {
-    super("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 \u0421\u043b\u043e\u0432\u0430\u0440\u044f", "", ICON);
+    super("\u041e\u0442\u043b\u0430\u0434\u043a\u0430 c\u043b\u043e\u0432\u0430\u0440\u044f", "", ICON);
     this.setIsAlwaysVisible(true);
     this.setExecuteOutsideCommand(true);
   }

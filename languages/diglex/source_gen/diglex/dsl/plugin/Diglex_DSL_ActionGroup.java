@@ -15,6 +15,7 @@ public class Diglex_DSL_ActionGroup extends GeneratedActionGroup {
     this.setIsInternal(false);
     this.setPopup(false);
     try {
+      Diglex_DSL_ActionGroup.this.addAction("diglex.dsl.plugin.CreateTemplate_Action", "diglex.dsl");
       Diglex_DSL_ActionGroup.this.addAction("diglex.dsl.plugin.DebugDictionary_Action", "diglex.dsl");
     } catch (Throwable t) {
       LOG.error("User group error", t);
@@ -23,5 +24,6 @@ public class Diglex_DSL_ActionGroup extends GeneratedActionGroup {
 
   public void adjust() {
     this.insertGroupIntoAnother(Tools_ActionGroup.ID, null);
+    this.insertGroupIntoAnother("MainToolBar", null);
   }
 }

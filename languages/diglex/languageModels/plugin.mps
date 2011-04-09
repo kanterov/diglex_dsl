@@ -37,7 +37,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <maxImportIndex value="25" />
+  <maxImportIndex value="29" />
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="23" />
   <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)" version="-1" />
@@ -58,13 +58,23 @@
   <import index="23" modelUID="f:java_stub#diglex.dsl.plugin(diglex.dsl.plugin@java_stub)" version="-1" />
   <import index="24" modelUID="f:java_stub#jetbrains.mps.plugins.projectplugins(jetbrains.mps.plugins.projectplugins@java_stub)" version="-1" />
   <import index="25" modelUID="f:java_stub#jetbrains.mps.ide.actions(jetbrains.mps.ide.actions@java_stub)" version="-1" />
+  <import index="26" modelUID="f:java_stub#jetbrains.mps.ide(jetbrains.mps.ide@java_stub)" version="-1" />
+  <import index="27" modelUID="f:java_stub#com.intellij.ide(com.intellij.ide@java_stub)" version="-1" />
+  <import index="28" modelUID="f:java_stub#com.intellij.openapi.ide(com.intellij.openapi.ide@java_stub)" version="-1" />
+  <import index="29" modelUID="f:java_stub#com.intellij.idea(com.intellij.idea@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
   <node type="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration:23" id="477404972780598073">
     <property name="name:23" value="Diglex DSL" />
     <node role="modifier:23" type="jetbrains.mps.lang.plugin.structure.ModificationStatement:23" id="477404972780633296">
       <link role="modifiedGroup:23" targetNodeId="2v.1204991238062" resolveInfo="Tools" />
     </node>
+    <node role="modifier:23" type="jetbrains.mps.lang.plugin.structure.ModificationStatement:23" id="2324373617398583300">
+      <link role="modifiedGroup:23" targetNodeId="2v.1087177419518270657" resolveInfo="IDEAToolBar" />
+    </node>
     <node role="contents:23" type="jetbrains.mps.lang.plugin.structure.ElementListContents:23" id="477404972780598087">
+      <node role="reference:23" type="jetbrains.mps.lang.plugin.structure.ActionInstance:23" id="2324373617398588620">
+        <link role="action:23" targetNodeId="2324373617398588616" resolveInfo="CreateTemplate" />
+      </node>
       <node role="reference:23" type="jetbrains.mps.lang.plugin.structure.ActionInstance:23" id="4102009836918334506">
         <link role="action:23" targetNodeId="477404972780598075" resolveInfo="DebugDictionary" />
       </node>
@@ -74,9 +84,10 @@
   <visible index="4" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.plugin.structure.ActionDeclaration:23" id="477404972780598075">
     <property name="name:23" value="DebugDictionary" />
-    <property name="caption:23" value="Отладка Словаря" />
+    <property name="caption:23" value="Отладка cловаря" />
     <property name="isAlwaysVisible:23" value="true" />
     <property name="outsideCommandExecution:23" value="true" />
+    <property name="iconPath:23" value="/home/ripper/git/diglex_dsl/icons/toolbox.png" />
     <node role="methodDeclaration:23" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration:0" id="4474047895662026463">
       <property name="name:0" value="selectNode" />
       <node role="body:0" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4474047895662026465">
@@ -704,6 +715,101 @@
                 <link role="variableDeclaration:3" targetNodeId="4474047895662017765" resolveInfo="dictionary" />
               </node>
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="4474047895662026557" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.plugin.structure.ActionDeclaration:23" id="2324373617398588616">
+    <property name="name:23" value="CreateTemplate" />
+    <property name="caption:23" value="Создать шаблон" />
+    <property name="iconPath:23" value="/home/ripper/git/diglex_dsl/icons/blueprint--plus.png" />
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration:23" id="2324373617398600265">
+      <property name="name:23" value="model" />
+      <node role="visibility:23" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="2324373617398600266" />
+      <node role="type:23" type="jetbrains.mps.lang.smodel.structure.SModelType:16" id="2324373617398600267" />
+    </node>
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration:23" id="2324373617398610654">
+      <property name="name:23" value="project" />
+      <link role="key:23" targetNodeId="4.~PlatformDataKeys.PROJECT" resolveInfo="PROJECT" />
+    </node>
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration:23" id="2324373617398689355">
+      <property name="name:23" value="operationContext" />
+      <link role="key:23" targetNodeId="8.~MPSDataKeys.OPERATION_CONTEXT" resolveInfo="OPERATION_CONTEXT" />
+    </node>
+    <node role="executeFunction:23" type="jetbrains.mps.lang.plugin.structure.ExecuteBlock:23" id="2324373617398588617">
+      <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2324373617398588618">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="2324373617398658083">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398658084">
+            <property name="name:3" value="template" />
+            <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2324373617398658085">
+              <link role="concept:16" targetNodeId="1.6282999055323831027:23" resolveInfo="Template" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2324373617398658086">
+              <node role="creator:3" type="jetbrains.mps.lang.smodel.structure.SNodeCreator:16" id="2324373617398658087">
+                <node role="createdType:16" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2324373617398658088">
+                  <link role="concept:16" targetNodeId="1.6282999055323831027:23" resolveInfo="Template" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2324373617398658090">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398658091">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398658092">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="2324373617398658093" />
+              <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation:23" id="2324373617398658094">
+                <link role="member:23" targetNodeId="2324373617398600265" resolveInfo="model" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Model_AddRootOperation:16" id="2324373617398658095">
+              <node role="nodeArgument:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398658096">
+                <link role="variableDeclaration:3" targetNodeId="2324373617398658084" resolveInfo="template" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2324373617398658097" />
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="2324373617398658098">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398658099">
+            <property name="name:3" value="selectTemplateTool" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2324373617398658100">
+              <link role="classifier:3" targetNodeId="23.~SelectTemplateTool" resolveInfo="SelectTemplateTool" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2324373617398658101">
+              <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="2324373617398658102">
+                <link role="baseMethodDeclaration:3" targetNodeId="23.~SelectTemplateTool.&lt;init&gt;(com.intellij.openapi.project.Project,jetbrains.mps.smodel.IOperationContext)" resolveInfo="SelectTemplateTool" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398658103">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="2324373617398658104" />
+                  <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation:23" id="2324373617398658105">
+                    <link role="member:23" targetNodeId="2324373617398610654" resolveInfo="project" />
+                  </node>
+                </node>
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398658106">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="2324373617398658107" />
+                  <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation:23" id="2324373617398689357">
+                    <link role="member:23" targetNodeId="2324373617398689355" resolveInfo="operationContext" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="2324373617398658109">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398658110">
+            <property name="name:3" value="result" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="2324373617398658111" />
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398658112">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398658113">
+                <link role="variableDeclaration:3" targetNodeId="2324373617398658099" resolveInfo="selectTemplateTool" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2324373617398658114">
+                <link role="baseMethodDeclaration:3" targetNodeId="23.~SelectTemplateTool.selectTemplate(jetbrains.mps.smodel.SNode):boolean" resolveInfo="selectTemplate" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398658115">
+                  <link role="variableDeclaration:3" targetNodeId="2324373617398658084" resolveInfo="template" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
