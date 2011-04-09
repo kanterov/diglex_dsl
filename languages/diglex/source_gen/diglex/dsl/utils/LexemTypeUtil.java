@@ -4,6 +4,7 @@ package diglex.dsl.utils;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -13,16 +14,16 @@ public class LexemTypeUtil {
   public LexemTypeUtil() {
   }
 
-  public static Iterable<SNode> getLexemTypes(SModel model) {
+  public static Iterable<SNode> getLexemTypes(SModel model, IScope scope) {
     if (ListSequence.fromList(SModelOperations.getRoots(model, "diglex.dsl.structure.SearchSettings")).count() == 1) {
       SNode searchSettings = ListSequence.fromList(SModelOperations.getRoots(model, "diglex.dsl.structure.SearchSettings")).getElement(0);
       return SLinkOperations.getTargets(SLinkOperations.getTarget(searchSettings, "lexem", false), "lexemType", true);
     } else {
-      if (ListSequence.fromList(SModelOperations.getNodes(model, "diglex.dsl.structure.LexemClassification")).count() != 1) {
+      if (ListSequence.fromList(SModelOperations.getNodesIncludingImported(model, scope, "diglex.dsl.structure.LexemClassification")).count() > 1) {
         throw new RuntimeException("Ambigous LexemClassification");
       }
 
-      return ListSequence.fromList(SModelOperations.getNodes(model, "diglex.dsl.structure.LexemClassification")).translate(new ITranslator2<SNode, SNode>() {
+      return ListSequence.fromList(SModelOperations.getNodesIncludingImported(model, scope, "diglex.dsl.structure.LexemClassification")).translate(new ITranslator2<SNode, SNode>() {
         public Iterable<SNode> translate(SNode it) {
           return SLinkOperations.getTargets(it, "lexemType", true);
         }

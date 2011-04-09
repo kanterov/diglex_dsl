@@ -997,6 +997,9 @@
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="8760462257934757303">
         <property name="attractsFocus:32" value="1" />
         <link role="relationDeclaration:32" targetNodeId="1.1794194610342760042:23" resolveInfo="Value" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem:32" id="6970827918925081196">
+          <property name="flag:32" value="true" />
+        </node>
       </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="8760462257934757299" />
     </node>
@@ -1010,6 +1013,9 @@
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="7855981724430166930">
         <property name="attractsFocus:32" value="1" />
         <link role="relationDeclaration:32" targetNodeId="1.1794194610342760042:23" resolveInfo="Value" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem:32" id="6970827918925081197">
+          <property name="flag:32" value="true" />
+        </node>
       </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="7855981724430166931" />
     </node>

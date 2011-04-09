@@ -22,7 +22,7 @@ public class LexemType_DefaultSearchScope extends BaseNodeReferenceSearchScopePr
   }
 
   public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferentConstraintContext _context) {
-    return LexemTypeUtil.getLexemTypes(_context.getModel());
+    return LexemTypeUtil.getLexemTypes(_context.getModel(), operationContext.getScope());
   }
 
   public SNodePointer getSearchScopeValidatorNodePointer() {

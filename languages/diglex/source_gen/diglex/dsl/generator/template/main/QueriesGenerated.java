@@ -36,6 +36,9 @@ public class QueriesGenerated {
     if (SNodeOperations.isInstanceOf(_context.getNode(), "diglex.dsl.structure.TemplateReference")) {
       return "TemplateReference";
     }
+    if (SNodeOperations.isInstanceOf(_context.getNode(), "diglex.dsl.structure.AnonymousTemplate")) {
+      return "AnonymousTemplateItem";
+    }
     return "Unknown";
   }
 
@@ -123,6 +126,14 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_6970827918925078881(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return String.valueOf(SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), "Precondition", true), "NotInclude"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6970827918925078915(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return String.valueOf(SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), "Precondition", true), "NotInclude"));
+  }
+
   public static boolean ifMacro_Condition_1094196415547748599(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "Tail", true) != null);
   }
@@ -132,6 +143,14 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_8760462257934387224(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "Postcondition", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_6970827918925078870(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "Precondition", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_6970827918925078904(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "Postcondition", true) != null);
   }
 
@@ -177,6 +196,22 @@ public class QueriesGenerated {
         return SLinkOperations.getTarget(it, "template", false);
       }
     });
+  }
+
+  public static Iterable sourceNodesQuery_6970827918925078862(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "matchCase", true);
+  }
+
+  public static Iterable sourceNodesQuery_6970827918925078893(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "Precondition", true), "Items", true);
+  }
+
+  public static Iterable sourceNodesQuery_6970827918925078927(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "Postcondition", true), "Items", true);
+  }
+
+  public static Iterable sourceNodesQuery_6970827918925078939(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "Items", true);
   }
 
   public static void mappingScript_CodeBlock_8760462257934526332(final IOperationContext operationContext, final MappingScriptContext _context) {

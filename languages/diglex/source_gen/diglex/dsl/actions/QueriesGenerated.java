@@ -45,7 +45,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            Iterable<SNode> exactStringBlocks = ExactStringBuilder.SplitStringToExactStrings(pattern, model);
+            Iterable<SNode> exactStringBlocks = ExactStringBuilder.SplitStringToExactStrings(pattern, model, operationContext.getScope());
             List<SNode> items = null;
 
             if (SNodeOperations.isInstanceOf(_context.getParentNode(), "diglex.dsl.structure.MatchCase")) {

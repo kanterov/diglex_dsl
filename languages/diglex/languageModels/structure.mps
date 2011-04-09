@@ -752,6 +752,10 @@
     <property name="name:0" value="SearchSettings" />
     <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6970827918925046096">
+      <property name="value:0" value="Настройки поиска" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1327539314895753467">
       <property name="metaClass:0" value="reference" />
       <property name="sourceCardinality:0" value="1" />

@@ -117,6 +117,7 @@
                     <link role="classConcept:3" targetNodeId="2.7413212514892990434" resolveInfo="ExactStringBuilder" />
                     <node role="actualArgument:3" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern:23" id="3850314743292930821" />
                     <node role="actualArgument:3" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model:0" id="3850314743292930832" />
+                    <node role="actualArgument:3" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope:0" id="6970827918925071561" />
                   </node>
                 </node>
               </node>

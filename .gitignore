@@ -3,4 +3,5 @@ languages/diglex/runtime/
 classes_gen*
 *.swp
 out
-artifacts 
+artifacts*
+artifacts/*

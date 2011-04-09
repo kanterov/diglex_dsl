@@ -203,6 +203,23 @@
                   </node>
                 </node>
               </node>
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="6970827918925141637">
+                <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925141638">
+                  <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="6970827918925141649">
+                    <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="6970827918925141651">
+                      <property name="value:3" value="AnonymousTemplateItem" />
+                    </node>
+                  </node>
+                </node>
+                <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925141642">
+                  <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925141641" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation:16" id="6970827918925141646">
+                    <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="6970827918925141648">
+                      <link role="conceptDeclaration:16" targetNodeId="1.7855981724430980336:23" resolveInfo="AnonymousTemplate" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="7612397494931113056">
                 <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7612397494931113057">
                   <property name="value:3" value="Unknown" />
@@ -302,6 +319,12 @@
       <link role="applicableConcept:2" targetNodeId="1.1794194610342762048:23" resolveInfo="TemplateReference" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1094196415547755178">
         <link role="template:2" targetNodeId="1094196415547751635" resolveInfo="TemlateReference" />
+      </node>
+    </node>
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="6970827918925076594">
+      <link role="applicableConcept:2" targetNodeId="1.7855981724430980336:23" resolveInfo="AnonymousTemplate" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="6970827918925078739">
+        <link role="template:2" targetNodeId="6970827918925078737" resolveInfo="case_AnonymousTemplate" />
       </node>
     </node>
   </node>
@@ -1240,6 +1263,222 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6970827918925078737">
+    <property name="name:2" value="AnonymousTemplate" />
+    <link role="applicableConcept:2" targetNodeId="1.7855981724430980336:23" resolveInfo="AnonymousTemplate" />
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="6970827918925078740">
+      <property name="name:0" value="AnonymousTemplateItem" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078742">
+        <property name="name:0" value="Repeat" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078745">
+          <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
+        </node>
+      </node>
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078858">
+        <property name="name:0" value="AnonymousTemplate" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078859">
+          <property name="name:0" value="MatchCases" />
+          <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078860">
+            <property name="name:0" value="MatchCase" />
+            <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078861">
+              <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078862">
+                <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078863">
+                  <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078864">
+                    <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078865">
+                      <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078866" />
+                      <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="6970827918925078867">
+                        <link role="link:16" targetNodeId="1.7855981724430980337:23" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078868">
+              <property name="name:0" value="Precondition" />
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078869">
+                <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="6970827918925078870">
+                  <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078871">
+                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078872">
+                      <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078873">
+                        <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078874">
+                          <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078875" />
+                          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078876">
+                            <link role="link:16" targetNodeId="1.6282999055323993274:23" />
+                          </node>
+                        </node>
+                        <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="6970827918925078877" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078878">
+                <property name="name:0" value="NotInclude" />
+                <node role="content:0" type="diglex.xml.structure.Text:0" id="6970827918925078879">
+                  <property name="name:0" value="" />
+                  <property name="text:0" value="false" />
+                  <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078880">
+                    <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="6970827918925078881">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078882">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078883">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="6970827918925078884">
+                            <link role="classConcept:3" targetNodeId="2.~String" resolveInfo="String" />
+                            <link role="baseMethodDeclaration:3" targetNodeId="2.~String.valueOf(boolean):java.lang.String" resolveInfo="valueOf" />
+                            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078885">
+                              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078886">
+                                <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078887" />
+                                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078888">
+                                  <link role="link:16" targetNodeId="1.6282999055323993274:23" />
+                                </node>
+                              </node>
+                              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="6970827918925078889">
+                                <link role="property:16" targetNodeId="1.6282999055323993271:23" resolveInfo="NotInclude" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078890">
+                <property name="name:0" value="Items" />
+                <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078891">
+                  <property name="name:0" value="Item" />
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078892">
+                    <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078893">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078894">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078895">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078896">
+                            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078897">
+                              <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078898" />
+                              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078899">
+                                <link role="link:16" targetNodeId="1.6282999055323993274:23" />
+                              </node>
+                            </node>
+                            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="6970827918925078900">
+                              <link role="link:16" targetNodeId="1.1794194610342678337:23" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078901">
+                    <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078902">
+              <property name="name:0" value="Postcondition" />
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078903">
+                <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="6970827918925078904">
+                  <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078905">
+                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078906">
+                      <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078907">
+                        <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078908">
+                          <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078909" />
+                          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078910">
+                            <link role="link:16" targetNodeId="1.6282999055323996060:23" />
+                          </node>
+                        </node>
+                        <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="6970827918925078911" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078912">
+                <property name="name:0" value="NotInclude" />
+                <node role="content:0" type="diglex.xml.structure.Text:0" id="6970827918925078913">
+                  <property name="name:0" value="" />
+                  <property name="text:0" value="false" />
+                  <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078914">
+                    <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="6970827918925078915">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078916">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078917">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="6970827918925078918">
+                            <link role="baseMethodDeclaration:3" targetNodeId="2.~String.valueOf(boolean):java.lang.String" resolveInfo="valueOf" />
+                            <link role="classConcept:3" targetNodeId="2.~String" resolveInfo="String" />
+                            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078919">
+                              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078920">
+                                <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078921" />
+                                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078922">
+                                  <link role="link:16" targetNodeId="1.6282999055323993274:23" />
+                                </node>
+                              </node>
+                              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="6970827918925078923">
+                                <link role="property:16" targetNodeId="1.6282999055323993271:23" resolveInfo="NotInclude" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078924">
+                <property name="name:0" value="Items" />
+                <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078925">
+                  <property name="name:0" value="Item" />
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078926">
+                    <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078927">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078928">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078929">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078930">
+                            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078931">
+                              <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078932" />
+                              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6970827918925078933">
+                                <link role="link:16" targetNodeId="1.6282999055323996060:23" />
+                              </node>
+                            </node>
+                            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="6970827918925078934">
+                              <link role="link:16" targetNodeId="1.1794194610342678337:23" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078935">
+                    <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078936">
+              <property name="name:0" value="Items" />
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078937">
+                <property name="name:0" value="Item" />
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078938">
+                  <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078939">
+                    <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078940">
+                      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078941">
+                        <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6970827918925078942">
+                          <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6970827918925078943" />
+                          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="6970827918925078944">
+                            <link role="link:16" targetNodeId="1.6282999055323947702:23" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078945">
+                  <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="6970827918925078856" />
     </node>
   </node>
 </model>

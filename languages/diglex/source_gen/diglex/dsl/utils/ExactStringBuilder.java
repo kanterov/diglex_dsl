@@ -6,6 +6,7 @@ import java.util.Map;
 import jetbrains.mps.smodel.SNode;
 import java.util.Set;
 import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.smodel.IScope;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -24,7 +25,7 @@ public class ExactStringBuilder {
   public ExactStringBuilder() {
   }
 
-  public static Iterable<SNode> SplitStringToExactStrings(String str, SModel model) {
+  public static Iterable<SNode> SplitStringToExactStrings(String str, SModel model, IScope scope) {
     char[] symbols = str.toCharArray();
     List<SNode> exactStringBlocks = ListSequence.fromList(new LinkedList<SNode>());
 
@@ -32,14 +33,14 @@ public class ExactStringBuilder {
       return exactStringBlocks;
     }
 
-    SNode previousLexemType = GetLexemType(symbols[0], model);
+    SNode previousLexemType = GetLexemType(symbols[0], model, scope);
     int start = 0;
 
     for (int i = 1; i <= symbols.length; i++) {
       // if i == symbols.length we add start from 'start' position to end, not to loose last string 
       SNode currentLexemType = (i == symbols.length ?
         previousLexemType :
-        GetLexemType(symbols[i], model)
+        GetLexemType(symbols[i], model, scope)
       );
 
       if (currentLexemType != previousLexemType || i == symbols.length) {
@@ -72,7 +73,7 @@ public class ExactStringBuilder {
             }
 
             // or update lexemType to next char after skipped 
-            previousLexemType = GetLexemType(symbols[i], model);
+            previousLexemType = GetLexemType(symbols[i], model, scope);
           }
         }
 
@@ -85,8 +86,8 @@ public class ExactStringBuilder {
     return exactStringBlocks;
   }
 
-  public static SNode GetLexemType(char symbol, SModel model) {
-    Set<SNode> lexemTypes = SetSequence.fromSetWithValues(new HashSet<SNode>(), LexemTypeUtil.getLexemTypes(model));
+  public static SNode GetLexemType(char symbol, SModel model, IScope scope) {
+    Set<SNode> lexemTypes = SetSequence.fromSetWithValues(new HashSet<SNode>(), LexemTypeUtil.getLexemTypes(model, scope));
     SNode defaultLexemType = null;
 
     for (SNode lexemType : lexemTypes) {
@@ -120,11 +121,11 @@ public class ExactStringBuilder {
     return MapSequence.fromMap(lexemTypeToCharSet).get(lexemType);
   }
 
-  public static boolean CheckExactString(String str, SNode lexemType) {
+  public static boolean CheckExactString(String str, SNode lexemType, IScope scope) {
     for (int i = 0; i < str.length(); i++) {
       char symbol = str.charAt(i);
 
-      if (GetLexemType(symbol, SNodeOperations.getModel(lexemType)) != lexemType) {
+      if (GetLexemType(symbol, SNodeOperations.getModel(lexemType), scope) != lexemType) {
         return false;
       }
     }

@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1327539314895978806">
-    <nodeInfo nodeId="1327539314895978858" fileName="LexemTypeUtil.java" startLine="17" startPosition="118" endLine="18" endPosition="138" />
-    <nodeInfo nodeId="1327539314895978895" fileName="LexemTypeUtil.java" startLine="18" startPosition="138" endLine="19" endPosition="118" />
-    <nodeInfo nodeId="1327539314895978835" fileName="LexemTypeUtil.java" startLine="21" startPosition="125" endLine="22" endPosition="67" />
-    <nodeInfo nodeId="1327539314895978846" fileName="LexemTypeUtil.java" startLine="23" startPosition="7" endLine="24" endPosition="0" />
-    <nodeInfo nodeId="1327539314895978808" fileName="LexemTypeUtil.java" startLine="12" startPosition="28" endLine="14" endPosition="3" />
-    <nodeInfo nodeId="1327539314895978833" fileName="LexemTypeUtil.java" startLine="20" startPosition="12" endLine="23" endPosition="7" />
-    <nodeInfo nodeId="1327539314895978916" fileName="LexemTypeUtil.java" startLine="25" startPosition="157" endLine="29" endPosition="0" />
-    <nodeInfo nodeId="1327539314895978910" fileName="LexemTypeUtil.java" startLine="24" startPosition="0" endLine="29" endPosition="9" />
-    <nodeInfo nodeId="1327539314895978831" fileName="LexemTypeUtil.java" startLine="20" startPosition="10" endLine="30" endPosition="5" />
-    <nodeInfo nodeId="1327539314895978821" fileName="LexemTypeUtil.java" startLine="16" startPosition="61" endLine="30" endPosition="5" />
-    <nodeInfo nodeId="1327539314895978812" fileName="LexemTypeUtil.java" startLine="15" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1327539314895978811" fileName="LexemTypeUtil.java" startLine="13" startPosition="26" endLine="13" endPosition="26" />
-    <scopeInfo nodeId="1327539314895978834" fileName="LexemTypeUtil.java" startLine="21" startPosition="125" endLine="22" endPosition="67" />
-    <scopeInfo nodeId="1327539314895978916" fileName="LexemTypeUtil.java" startLine="26" startPosition="52" endLine="27" endPosition="67" />
-    <scopeInfo nodeId="1327539314895978808" fileName="LexemTypeUtil.java" startLine="12" startPosition="28" endLine="14" endPosition="3" />
-    <scopeInfo nodeId="1327539314895978822" fileName="LexemTypeUtil.java" startLine="17" startPosition="118" endLine="19" endPosition="118">
+    <nodeInfo nodeId="1327539314895978858" fileName="LexemTypeUtil.java" startLine="18" startPosition="118" endLine="19" endPosition="138" />
+    <nodeInfo nodeId="1327539314895978895" fileName="LexemTypeUtil.java" startLine="19" startPosition="138" endLine="20" endPosition="118" />
+    <nodeInfo nodeId="1327539314895978835" fileName="LexemTypeUtil.java" startLine="22" startPosition="148" endLine="23" endPosition="67" />
+    <nodeInfo nodeId="6970827918925054168" fileName="LexemTypeUtil.java" startLine="24" startPosition="7" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="1327539314895978808" fileName="LexemTypeUtil.java" startLine="13" startPosition="28" endLine="15" endPosition="3" />
+    <nodeInfo nodeId="1327539314895978833" fileName="LexemTypeUtil.java" startLine="21" startPosition="12" endLine="24" endPosition="7" />
+    <nodeInfo nodeId="6970827918925069020" fileName="LexemTypeUtil.java" startLine="26" startPosition="181" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="1327539314895978910" fileName="LexemTypeUtil.java" startLine="25" startPosition="0" endLine="30" endPosition="9" />
+    <nodeInfo nodeId="1327539314895978831" fileName="LexemTypeUtil.java" startLine="21" startPosition="10" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="1327539314895978821" fileName="LexemTypeUtil.java" startLine="17" startPosition="75" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="1327539314895978812" fileName="LexemTypeUtil.java" startLine="16" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1327539314895978811" fileName="LexemTypeUtil.java" startLine="14" startPosition="26" endLine="14" endPosition="26" />
+    <scopeInfo nodeId="1327539314895978834" fileName="LexemTypeUtil.java" startLine="22" startPosition="148" endLine="23" endPosition="67" />
+    <scopeInfo nodeId="6970827918925069020" fileName="LexemTypeUtil.java" startLine="27" startPosition="52" endLine="28" endPosition="67" />
+    <scopeInfo nodeId="1327539314895978808" fileName="LexemTypeUtil.java" startLine="13" startPosition="28" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="1327539314895978822" fileName="LexemTypeUtil.java" startLine="18" startPosition="118" endLine="20" endPosition="118">
       <varInfo nodeId="1327539314895978859" varName="searchSettings" />
     </scopeInfo>
-    <scopeInfo nodeId="1327539314895978916" fileName="LexemTypeUtil.java" startLine="25" startPosition="157" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1327539314895978832" fileName="LexemTypeUtil.java" startLine="20" startPosition="12" endLine="29" endPosition="9" />
-    <scopeInfo nodeId="1327539314895978815" fileName="LexemTypeUtil.java" startLine="16" startPosition="61" endLine="30" endPosition="5" />
-    <scopeInfo nodeId="1327539314895978812" fileName="LexemTypeUtil.java" startLine="15" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="6970827918925069020" fileName="LexemTypeUtil.java" startLine="26" startPosition="181" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="1327539314895978832" fileName="LexemTypeUtil.java" startLine="21" startPosition="12" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="1327539314895978815" fileName="LexemTypeUtil.java" startLine="17" startPosition="75" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="1327539314895978812" fileName="LexemTypeUtil.java" startLine="16" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="1327539314895978819" varName="model" />
+      <varInfo nodeId="6970827918925068998" varName="scope" />
     </scopeInfo>
-    <unitInfo nodeId="1327539314895978916" fileName="LexemTypeUtil.java" startLine="25" startPosition="127" endLine="29" endPosition="7" unitName="diglex.dsl.utils.LexemTypeUtil$1" />
-    <unitInfo nodeId="1327539314895978806" fileName="LexemTypeUtil.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="diglex.dsl.utils.LexemTypeUtil" />
+    <unitInfo nodeId="6970827918925069020" fileName="LexemTypeUtil.java" startLine="26" startPosition="151" endLine="30" endPosition="7" unitName="diglex.dsl.utils.LexemTypeUtil$1" />
+    <unitInfo nodeId="1327539314895978806" fileName="LexemTypeUtil.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="diglex.dsl.utils.LexemTypeUtil" />
   </root>
   <root nodeId="5910725786823191089">
     <nodeInfo nodeId="5910725786823192626" fileName="IdUtil.java" startLine="17" startPosition="44" endLine="18" endPosition="50" />
@@ -51,158 +52,161 @@
     <unitInfo nodeId="5910725786823191089" fileName="IdUtil.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="diglex.dsl.utils.IdUtil" />
   </root>
   <root nodeId="7413212514892990434">
-    <nodeInfo nodeId="7413212514892994026" fileName="ExactStringBuilder.java" startLine="21" startPosition="33" endLine="22" endPosition="63" />
-    <nodeInfo nodeId="3850314743293093987" fileName="ExactStringBuilder.java" startLine="27" startPosition="85" endLine="28" endPosition="39" />
-    <nodeInfo nodeId="3850314743293093994" fileName="ExactStringBuilder.java" startLine="28" startPosition="39" endLine="29" endPosition="83" />
-    <nodeInfo nodeId="3850314743293094001" fileName="ExactStringBuilder.java" startLine="29" startPosition="83" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094004" fileName="ExactStringBuilder.java" startLine="31" startPosition="30" endLine="32" endPosition="31" />
-    <nodeInfo nodeId="3850314743293094011" fileName="ExactStringBuilder.java" startLine="33" startPosition="5" endLine="34" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094012" fileName="ExactStringBuilder.java" startLine="34" startPosition="0" endLine="35" endPosition="62" />
-    <nodeInfo nodeId="3850314743293094020" fileName="ExactStringBuilder.java" startLine="35" startPosition="62" endLine="36" endPosition="18" />
-    <nodeInfo nodeId="3850314743293094024" fileName="ExactStringBuilder.java" startLine="36" startPosition="18" endLine="37" endPosition="0" />
-    <nodeInfo nodeId="1926773284996246504" fileName="ExactStringBuilder.java" startLine="38" startPosition="47" endLine="39" endPosition="100" />
-    <nodeInfo nodeId="3850314743293094035" fileName="ExactStringBuilder.java" startLine="43" startPosition="8" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094038" fileName="ExactStringBuilder.java" startLine="45" startPosition="73" endLine="46" endPosition="76" />
-    <nodeInfo nodeId="3850314743293094047" fileName="ExactStringBuilder.java" startLine="46" startPosition="76" endLine="47" endPosition="103" />
-    <nodeInfo nodeId="3850314743293094099" fileName="ExactStringBuilder.java" startLine="47" startPosition="103" endLine="48" endPosition="91" />
-    <nodeInfo nodeId="3850314743293094107" fileName="ExactStringBuilder.java" startLine="48" startPosition="91" endLine="49" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094054" fileName="ExactStringBuilder.java" startLine="49" startPosition="0" endLine="50" endPosition="72" />
-    <nodeInfo nodeId="3850314743293094060" fileName="ExactStringBuilder.java" startLine="50" startPosition="72" endLine="51" endPosition="86" />
-    <nodeInfo nodeId="3850314743293094066" fileName="ExactStringBuilder.java" startLine="51" startPosition="86" endLine="52" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094110" fileName="ExactStringBuilder.java" startLine="52" startPosition="0" endLine="53" endPosition="80" />
-    <nodeInfo nodeId="3850314743293094122" fileName="ExactStringBuilder.java" startLine="53" startPosition="80" endLine="54" endPosition="104" />
-    <nodeInfo nodeId="1926773284996246520" fileName="ExactStringBuilder.java" startLine="54" startPosition="104" endLine="55" endPosition="36" />
-    <nodeInfo nodeId="1926773284996246507" fileName="ExactStringBuilder.java" startLine="55" startPosition="36" endLine="56" endPosition="99" />
-    <nodeInfo nodeId="3850314743293094075" fileName="ExactStringBuilder.java" startLine="56" startPosition="99" endLine="57" endPosition="0" />
-    <nodeInfo nodeId="8636496664092367590" fileName="ExactStringBuilder.java" startLine="57" startPosition="0" endLine="58" endPosition="45" />
-    <nodeInfo nodeId="8636496664092367589" fileName="ExactStringBuilder.java" startLine="58" startPosition="45" endLine="59" endPosition="0" />
-    <nodeInfo nodeId="1926773284996246882" fileName="ExactStringBuilder.java" startLine="59" startPosition="0" endLine="60" endPosition="44" />
-    <nodeInfo nodeId="1926773284996246884" fileName="ExactStringBuilder.java" startLine="62" startPosition="84" endLine="63" endPosition="133" />
-    <nodeInfo nodeId="1926773284996257845" fileName="ExactStringBuilder.java" startLine="63" startPosition="133" endLine="64" endPosition="0" />
-    <nodeInfo nodeId="1926773284996257888" fileName="ExactStringBuilder.java" startLine="64" startPosition="0" endLine="65" endPosition="27" />
-    <nodeInfo nodeId="1926773284996257847" fileName="ExactStringBuilder.java" startLine="65" startPosition="27" endLine="66" endPosition="19" />
-    <nodeInfo nodeId="1926773284996257863" fileName="ExactStringBuilder.java" startLine="66" startPosition="19" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="1926773284996257885" fileName="ExactStringBuilder.java" startLine="67" startPosition="0" endLine="68" endPosition="46" />
-    <nodeInfo nodeId="58244710251568842" fileName="ExactStringBuilder.java" startLine="69" startPosition="38" endLine="70" endPosition="73" />
-    <nodeInfo nodeId="58244710251568840" fileName="ExactStringBuilder.java" startLine="70" startPosition="73" endLine="71" endPosition="20" />
-    <nodeInfo nodeId="58244710251568839" fileName="ExactStringBuilder.java" startLine="72" startPosition="13" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="58244710251568837" fileName="ExactStringBuilder.java" startLine="73" startPosition="0" endLine="74" endPosition="62" />
-    <nodeInfo nodeId="58244710251568828" fileName="ExactStringBuilder.java" startLine="74" startPosition="62" endLine="75" endPosition="64" />
-    <nodeInfo nodeId="1926773284996246809" fileName="ExactStringBuilder.java" startLine="77" startPosition="9" endLine="78" endPosition="0" />
-    <nodeInfo nodeId="1926773284996257855" fileName="ExactStringBuilder.java" startLine="78" startPosition="0" endLine="79" endPosition="18" />
-    <nodeInfo nodeId="1926773284996257854" fileName="ExactStringBuilder.java" startLine="79" startPosition="18" endLine="80" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094076" fileName="ExactStringBuilder.java" startLine="80" startPosition="0" endLine="81" endPosition="67" />
-    <nodeInfo nodeId="3850314743293094094" fileName="ExactStringBuilder.java" startLine="83" startPosition="5" endLine="84" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094095" fileName="ExactStringBuilder.java" startLine="84" startPosition="0" endLine="85" endPosition="29" />
-    <nodeInfo nodeId="7413212514893039635" fileName="ExactStringBuilder.java" startLine="88" startPosition="63" endLine="89" endPosition="116" />
-    <nodeInfo nodeId="1926773284996317506" fileName="ExactStringBuilder.java" startLine="89" startPosition="116" endLine="90" endPosition="34" />
-    <nodeInfo nodeId="1327539314895971272" fileName="ExactStringBuilder.java" startLine="90" startPosition="34" endLine="91" endPosition="0" />
-    <nodeInfo nodeId="1926773284996317523" fileName="ExactStringBuilder.java" startLine="93" startPosition="65" endLine="94" endPosition="37" />
-    <nodeInfo nodeId="1926773284996317512" fileName="ExactStringBuilder.java" startLine="95" startPosition="7" endLine="96" endPosition="0" />
-    <nodeInfo nodeId="3850314743293087389" fileName="ExactStringBuilder.java" startLine="96" startPosition="0" endLine="97" endPosition="53" />
-    <nodeInfo nodeId="3850314743293087410" fileName="ExactStringBuilder.java" startLine="98" startPosition="58" endLine="99" endPosition="25" />
-    <nodeInfo nodeId="7413212514893039691" fileName="ExactStringBuilder.java" startLine="101" startPosition="5" endLine="102" endPosition="0" />
-    <nodeInfo nodeId="7413212514893039697" fileName="ExactStringBuilder.java" startLine="102" startPosition="0" endLine="103" endPosition="29" />
-    <nodeInfo nodeId="7413212514893039693" fileName="ExactStringBuilder.java" startLine="103" startPosition="29" endLine="104" endPosition="28" />
-    <nodeInfo nodeId="7413212514893039407" fileName="ExactStringBuilder.java" startLine="108" startPosition="100" endLine="109" endPosition="68" />
-    <nodeInfo nodeId="3850314743293063743" fileName="ExactStringBuilder.java" startLine="110" startPosition="5" endLine="111" endPosition="0" />
-    <nodeInfo nodeId="7413212514893039464" fileName="ExactStringBuilder.java" startLine="111" startPosition="0" endLine="112" endPosition="106" />
-    <nodeInfo nodeId="3850314743293064074" fileName="ExactStringBuilder.java" startLine="112" startPosition="106" endLine="113" endPosition="0" />
-    <nodeInfo nodeId="3850314743293064389" fileName="ExactStringBuilder.java" startLine="115" startPosition="101" endLine="116" endPosition="154" />
-    <nodeInfo nodeId="3850314743293094097" fileName="ExactStringBuilder.java" startLine="118" startPosition="5" endLine="119" endPosition="0" />
-    <nodeInfo nodeId="7413212514893039505" fileName="ExactStringBuilder.java" startLine="119" startPosition="0" endLine="120" endPosition="66" />
-    <nodeInfo nodeId="1926773284996267520" fileName="ExactStringBuilder.java" startLine="124" startPosition="44" endLine="125" endPosition="34" />
-    <nodeInfo nodeId="1926773284996267496" fileName="ExactStringBuilder.java" startLine="125" startPosition="34" endLine="126" endPosition="0" />
-    <nodeInfo nodeId="1926773284996267575" fileName="ExactStringBuilder.java" startLine="127" startPosition="83" endLine="128" endPosition="21" />
-    <nodeInfo nodeId="1926773284996267582" fileName="ExactStringBuilder.java" startLine="130" startPosition="5" endLine="131" endPosition="0" />
-    <nodeInfo nodeId="1926773284996267579" fileName="ExactStringBuilder.java" startLine="131" startPosition="0" endLine="132" endPosition="16" />
-    <nodeInfo nodeId="7413212514892994085" fileName="ExactStringBuilder.java" startLine="135" startPosition="10" endLine="136" endPosition="83" />
-    <nodeInfo nodeId="7413212514892990436" fileName="ExactStringBuilder.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
-    <nodeInfo nodeId="3850314743293094002" fileName="ExactStringBuilder.java" startLine="30" startPosition="0" endLine="33" endPosition="5" />
-    <nodeInfo nodeId="1926773284996317513" fileName="ExactStringBuilder.java" startLine="92" startPosition="40" endLine="95" endPosition="7" />
-    <nodeInfo nodeId="3850314743293087395" fileName="ExactStringBuilder.java" startLine="97" startPosition="53" endLine="100" endPosition="7" />
-    <nodeInfo nodeId="7413212514893039395" fileName="ExactStringBuilder.java" startLine="107" startPosition="60" endLine="110" endPosition="5" />
-    <nodeInfo nodeId="3850314743293064379" fileName="ExactStringBuilder.java" startLine="114" startPosition="107" endLine="117" endPosition="7" />
-    <nodeInfo nodeId="1926773284996267537" fileName="ExactStringBuilder.java" startLine="126" startPosition="0" endLine="129" endPosition="7" />
-    <nodeInfo nodeId="3850314743293094027" fileName="ExactStringBuilder.java" startLine="39" startPosition="100" endLine="43" endPosition="8" />
-    <nodeInfo nodeId="1926773284996257865" fileName="ExactStringBuilder.java" startLine="68" startPosition="46" endLine="72" endPosition="13" />
-    <nodeInfo nodeId="3850314743293064369" fileName="ExactStringBuilder.java" startLine="113" startPosition="0" endLine="118" endPosition="5" />
-    <nodeInfo nodeId="1926773284996267494" fileName="ExactStringBuilder.java" startLine="123" startPosition="71" endLine="130" endPosition="5" />
-    <nodeInfo nodeId="3850314743293087381" fileName="ExactStringBuilder.java" startLine="91" startPosition="0" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="1926773284996267453" fileName="ExactStringBuilder.java" startLine="122" startPosition="0" endLine="134" endPosition="0" />
-    <nodeInfo nodeId="1926773284996246836" fileName="ExactStringBuilder.java" startLine="61" startPosition="38" endLine="76" endPosition="11" />
-    <nodeInfo nodeId="7413212514892994060" fileName="ExactStringBuilder.java" startLine="106" startPosition="0" endLine="122" endPosition="0" />
-    <nodeInfo nodeId="1926773284996246810" fileName="ExactStringBuilder.java" startLine="60" startPosition="44" endLine="77" endPosition="9" />
-    <nodeInfo nodeId="7413212514893039615" fileName="ExactStringBuilder.java" startLine="87" startPosition="0" endLine="106" endPosition="0" />
-    <nodeInfo nodeId="3850314743293094036" fileName="ExactStringBuilder.java" startLine="44" startPosition="0" endLine="82" endPosition="7" />
-    <nodeInfo nodeId="3850314743293094025" fileName="ExactStringBuilder.java" startLine="37" startPosition="0" endLine="83" endPosition="5" />
-    <nodeInfo nodeId="7413212514893039524" fileName="ExactStringBuilder.java" startLine="26" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="7413212514892990439" fileName="ExactStringBuilder.java" startLine="24" startPosition="31" endLine="24" endPosition="31" />
-    <scopeInfo nodeId="3850314743293094003" fileName="ExactStringBuilder.java" startLine="31" startPosition="30" endLine="32" endPosition="31" />
-    <scopeInfo nodeId="1926773284996317514" fileName="ExactStringBuilder.java" startLine="93" startPosition="65" endLine="94" endPosition="37" />
-    <scopeInfo nodeId="3850314743293087396" fileName="ExactStringBuilder.java" startLine="98" startPosition="58" endLine="99" endPosition="25" />
-    <scopeInfo nodeId="7413212514893039396" fileName="ExactStringBuilder.java" startLine="108" startPosition="100" endLine="109" endPosition="68" />
-    <scopeInfo nodeId="3850314743293064382" fileName="ExactStringBuilder.java" startLine="115" startPosition="101" endLine="116" endPosition="154" />
-    <scopeInfo nodeId="1926773284996267538" fileName="ExactStringBuilder.java" startLine="127" startPosition="83" endLine="128" endPosition="21" />
-    <scopeInfo nodeId="7413212514892990441" fileName="ExactStringBuilder.java" startLine="135" startPosition="10" endLine="136" endPosition="83" />
-    <scopeInfo nodeId="7413212514892990436" fileName="ExactStringBuilder.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
-    <scopeInfo nodeId="1926773284996257866" fileName="ExactStringBuilder.java" startLine="69" startPosition="38" endLine="71" endPosition="20" />
-    <scopeInfo nodeId="3850314743293064372" fileName="ExactStringBuilder.java" startLine="114" startPosition="107" endLine="117" endPosition="7" />
-    <scopeInfo nodeId="3850314743293064379" fileName="ExactStringBuilder.java" startLine="114" startPosition="107" endLine="117" endPosition="7" />
-    <scopeInfo nodeId="3850314743293064369" fileName="ExactStringBuilder.java" startLine="113" startPosition="0" endLine="118" endPosition="5" />
-    <scopeInfo nodeId="1926773284996267495" fileName="ExactStringBuilder.java" startLine="124" startPosition="44" endLine="129" endPosition="7">
+    <nodeInfo nodeId="7413212514892994026" fileName="ExactStringBuilder.java" startLine="22" startPosition="33" endLine="23" endPosition="63" />
+    <nodeInfo nodeId="3850314743293093987" fileName="ExactStringBuilder.java" startLine="28" startPosition="99" endLine="29" endPosition="39" />
+    <nodeInfo nodeId="3850314743293093994" fileName="ExactStringBuilder.java" startLine="29" startPosition="39" endLine="30" endPosition="83" />
+    <nodeInfo nodeId="3850314743293094001" fileName="ExactStringBuilder.java" startLine="30" startPosition="83" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094004" fileName="ExactStringBuilder.java" startLine="32" startPosition="30" endLine="33" endPosition="31" />
+    <nodeInfo nodeId="3850314743293094011" fileName="ExactStringBuilder.java" startLine="34" startPosition="5" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094012" fileName="ExactStringBuilder.java" startLine="35" startPosition="0" endLine="36" endPosition="69" />
+    <nodeInfo nodeId="3850314743293094020" fileName="ExactStringBuilder.java" startLine="36" startPosition="69" endLine="37" endPosition="18" />
+    <nodeInfo nodeId="3850314743293094024" fileName="ExactStringBuilder.java" startLine="37" startPosition="18" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="1926773284996246504" fileName="ExactStringBuilder.java" startLine="39" startPosition="47" endLine="40" endPosition="100" />
+    <nodeInfo nodeId="3850314743293094035" fileName="ExactStringBuilder.java" startLine="44" startPosition="8" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094038" fileName="ExactStringBuilder.java" startLine="46" startPosition="73" endLine="47" endPosition="76" />
+    <nodeInfo nodeId="3850314743293094047" fileName="ExactStringBuilder.java" startLine="47" startPosition="76" endLine="48" endPosition="103" />
+    <nodeInfo nodeId="3850314743293094099" fileName="ExactStringBuilder.java" startLine="48" startPosition="103" endLine="49" endPosition="91" />
+    <nodeInfo nodeId="3850314743293094107" fileName="ExactStringBuilder.java" startLine="49" startPosition="91" endLine="50" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094054" fileName="ExactStringBuilder.java" startLine="50" startPosition="0" endLine="51" endPosition="72" />
+    <nodeInfo nodeId="3850314743293094060" fileName="ExactStringBuilder.java" startLine="51" startPosition="72" endLine="52" endPosition="86" />
+    <nodeInfo nodeId="3850314743293094066" fileName="ExactStringBuilder.java" startLine="52" startPosition="86" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094110" fileName="ExactStringBuilder.java" startLine="53" startPosition="0" endLine="54" endPosition="80" />
+    <nodeInfo nodeId="3850314743293094122" fileName="ExactStringBuilder.java" startLine="54" startPosition="80" endLine="55" endPosition="104" />
+    <nodeInfo nodeId="1926773284996246520" fileName="ExactStringBuilder.java" startLine="55" startPosition="104" endLine="56" endPosition="36" />
+    <nodeInfo nodeId="1926773284996246507" fileName="ExactStringBuilder.java" startLine="56" startPosition="36" endLine="57" endPosition="99" />
+    <nodeInfo nodeId="3850314743293094075" fileName="ExactStringBuilder.java" startLine="57" startPosition="99" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="8636496664092367590" fileName="ExactStringBuilder.java" startLine="58" startPosition="0" endLine="59" endPosition="45" />
+    <nodeInfo nodeId="8636496664092367589" fileName="ExactStringBuilder.java" startLine="59" startPosition="45" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="1926773284996246882" fileName="ExactStringBuilder.java" startLine="60" startPosition="0" endLine="61" endPosition="44" />
+    <nodeInfo nodeId="1926773284996246884" fileName="ExactStringBuilder.java" startLine="63" startPosition="84" endLine="64" endPosition="133" />
+    <nodeInfo nodeId="1926773284996257845" fileName="ExactStringBuilder.java" startLine="64" startPosition="133" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="1926773284996257888" fileName="ExactStringBuilder.java" startLine="65" startPosition="0" endLine="66" endPosition="27" />
+    <nodeInfo nodeId="1926773284996257847" fileName="ExactStringBuilder.java" startLine="66" startPosition="27" endLine="67" endPosition="19" />
+    <nodeInfo nodeId="1926773284996257863" fileName="ExactStringBuilder.java" startLine="67" startPosition="19" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="1926773284996257885" fileName="ExactStringBuilder.java" startLine="68" startPosition="0" endLine="69" endPosition="46" />
+    <nodeInfo nodeId="58244710251568842" fileName="ExactStringBuilder.java" startLine="70" startPosition="38" endLine="71" endPosition="73" />
+    <nodeInfo nodeId="58244710251568840" fileName="ExactStringBuilder.java" startLine="71" startPosition="73" endLine="72" endPosition="20" />
+    <nodeInfo nodeId="58244710251568839" fileName="ExactStringBuilder.java" startLine="73" startPosition="13" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="58244710251568837" fileName="ExactStringBuilder.java" startLine="74" startPosition="0" endLine="75" endPosition="62" />
+    <nodeInfo nodeId="58244710251568828" fileName="ExactStringBuilder.java" startLine="75" startPosition="62" endLine="76" endPosition="71" />
+    <nodeInfo nodeId="1926773284996246809" fileName="ExactStringBuilder.java" startLine="78" startPosition="9" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="1926773284996257855" fileName="ExactStringBuilder.java" startLine="79" startPosition="0" endLine="80" endPosition="18" />
+    <nodeInfo nodeId="1926773284996257854" fileName="ExactStringBuilder.java" startLine="80" startPosition="18" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094076" fileName="ExactStringBuilder.java" startLine="81" startPosition="0" endLine="82" endPosition="67" />
+    <nodeInfo nodeId="3850314743293094094" fileName="ExactStringBuilder.java" startLine="84" startPosition="5" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094095" fileName="ExactStringBuilder.java" startLine="85" startPosition="0" endLine="86" endPosition="29" />
+    <nodeInfo nodeId="7413212514893039635" fileName="ExactStringBuilder.java" startLine="89" startPosition="77" endLine="90" endPosition="123" />
+    <nodeInfo nodeId="1926773284996317506" fileName="ExactStringBuilder.java" startLine="90" startPosition="123" endLine="91" endPosition="34" />
+    <nodeInfo nodeId="1327539314895971272" fileName="ExactStringBuilder.java" startLine="91" startPosition="34" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="1926773284996317523" fileName="ExactStringBuilder.java" startLine="94" startPosition="65" endLine="95" endPosition="37" />
+    <nodeInfo nodeId="1926773284996317512" fileName="ExactStringBuilder.java" startLine="96" startPosition="7" endLine="97" endPosition="0" />
+    <nodeInfo nodeId="3850314743293087389" fileName="ExactStringBuilder.java" startLine="97" startPosition="0" endLine="98" endPosition="53" />
+    <nodeInfo nodeId="3850314743293087410" fileName="ExactStringBuilder.java" startLine="99" startPosition="58" endLine="100" endPosition="25" />
+    <nodeInfo nodeId="7413212514893039691" fileName="ExactStringBuilder.java" startLine="102" startPosition="5" endLine="103" endPosition="0" />
+    <nodeInfo nodeId="7413212514893039697" fileName="ExactStringBuilder.java" startLine="103" startPosition="0" endLine="104" endPosition="29" />
+    <nodeInfo nodeId="7413212514893039693" fileName="ExactStringBuilder.java" startLine="104" startPosition="29" endLine="105" endPosition="28" />
+    <nodeInfo nodeId="7413212514893039407" fileName="ExactStringBuilder.java" startLine="109" startPosition="100" endLine="110" endPosition="68" />
+    <nodeInfo nodeId="3850314743293063743" fileName="ExactStringBuilder.java" startLine="111" startPosition="5" endLine="112" endPosition="0" />
+    <nodeInfo nodeId="7413212514893039464" fileName="ExactStringBuilder.java" startLine="112" startPosition="0" endLine="113" endPosition="106" />
+    <nodeInfo nodeId="3850314743293064074" fileName="ExactStringBuilder.java" startLine="113" startPosition="106" endLine="114" endPosition="0" />
+    <nodeInfo nodeId="3850314743293064389" fileName="ExactStringBuilder.java" startLine="116" startPosition="101" endLine="117" endPosition="154" />
+    <nodeInfo nodeId="3850314743293094097" fileName="ExactStringBuilder.java" startLine="119" startPosition="5" endLine="120" endPosition="0" />
+    <nodeInfo nodeId="7413212514893039505" fileName="ExactStringBuilder.java" startLine="120" startPosition="0" endLine="121" endPosition="66" />
+    <nodeInfo nodeId="1926773284996267520" fileName="ExactStringBuilder.java" startLine="125" startPosition="44" endLine="126" endPosition="34" />
+    <nodeInfo nodeId="1926773284996267496" fileName="ExactStringBuilder.java" startLine="126" startPosition="34" endLine="127" endPosition="0" />
+    <nodeInfo nodeId="1926773284996267575" fileName="ExactStringBuilder.java" startLine="128" startPosition="90" endLine="129" endPosition="21" />
+    <nodeInfo nodeId="1926773284996267582" fileName="ExactStringBuilder.java" startLine="131" startPosition="5" endLine="132" endPosition="0" />
+    <nodeInfo nodeId="1926773284996267579" fileName="ExactStringBuilder.java" startLine="132" startPosition="0" endLine="133" endPosition="16" />
+    <nodeInfo nodeId="7413212514892994085" fileName="ExactStringBuilder.java" startLine="136" startPosition="10" endLine="137" endPosition="83" />
+    <nodeInfo nodeId="7413212514892990436" fileName="ExactStringBuilder.java" startLine="24" startPosition="0" endLine="26" endPosition="3" />
+    <nodeInfo nodeId="3850314743293094002" fileName="ExactStringBuilder.java" startLine="31" startPosition="0" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="1926773284996317513" fileName="ExactStringBuilder.java" startLine="93" startPosition="40" endLine="96" endPosition="7" />
+    <nodeInfo nodeId="3850314743293087395" fileName="ExactStringBuilder.java" startLine="98" startPosition="53" endLine="101" endPosition="7" />
+    <nodeInfo nodeId="7413212514893039395" fileName="ExactStringBuilder.java" startLine="108" startPosition="60" endLine="111" endPosition="5" />
+    <nodeInfo nodeId="3850314743293064379" fileName="ExactStringBuilder.java" startLine="115" startPosition="107" endLine="118" endPosition="7" />
+    <nodeInfo nodeId="1926773284996267537" fileName="ExactStringBuilder.java" startLine="127" startPosition="0" endLine="130" endPosition="7" />
+    <nodeInfo nodeId="3850314743293094027" fileName="ExactStringBuilder.java" startLine="40" startPosition="100" endLine="44" endPosition="8" />
+    <nodeInfo nodeId="1926773284996257865" fileName="ExactStringBuilder.java" startLine="69" startPosition="46" endLine="73" endPosition="13" />
+    <nodeInfo nodeId="3850314743293064369" fileName="ExactStringBuilder.java" startLine="114" startPosition="0" endLine="119" endPosition="5" />
+    <nodeInfo nodeId="1926773284996267494" fileName="ExactStringBuilder.java" startLine="124" startPosition="85" endLine="131" endPosition="5" />
+    <nodeInfo nodeId="3850314743293087381" fileName="ExactStringBuilder.java" startLine="92" startPosition="0" endLine="102" endPosition="5" />
+    <nodeInfo nodeId="1926773284996267453" fileName="ExactStringBuilder.java" startLine="123" startPosition="0" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="1926773284996246836" fileName="ExactStringBuilder.java" startLine="62" startPosition="38" endLine="77" endPosition="11" />
+    <nodeInfo nodeId="7413212514892994060" fileName="ExactStringBuilder.java" startLine="107" startPosition="0" endLine="123" endPosition="0" />
+    <nodeInfo nodeId="1926773284996246810" fileName="ExactStringBuilder.java" startLine="61" startPosition="44" endLine="78" endPosition="9" />
+    <nodeInfo nodeId="7413212514893039615" fileName="ExactStringBuilder.java" startLine="88" startPosition="0" endLine="107" endPosition="0" />
+    <nodeInfo nodeId="3850314743293094036" fileName="ExactStringBuilder.java" startLine="45" startPosition="0" endLine="83" endPosition="7" />
+    <nodeInfo nodeId="3850314743293094025" fileName="ExactStringBuilder.java" startLine="38" startPosition="0" endLine="84" endPosition="5" />
+    <nodeInfo nodeId="7413212514893039524" fileName="ExactStringBuilder.java" startLine="27" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="7413212514892990439" fileName="ExactStringBuilder.java" startLine="25" startPosition="31" endLine="25" endPosition="31" />
+    <scopeInfo nodeId="3850314743293094003" fileName="ExactStringBuilder.java" startLine="32" startPosition="30" endLine="33" endPosition="31" />
+    <scopeInfo nodeId="1926773284996317514" fileName="ExactStringBuilder.java" startLine="94" startPosition="65" endLine="95" endPosition="37" />
+    <scopeInfo nodeId="3850314743293087396" fileName="ExactStringBuilder.java" startLine="99" startPosition="58" endLine="100" endPosition="25" />
+    <scopeInfo nodeId="7413212514893039396" fileName="ExactStringBuilder.java" startLine="109" startPosition="100" endLine="110" endPosition="68" />
+    <scopeInfo nodeId="3850314743293064382" fileName="ExactStringBuilder.java" startLine="116" startPosition="101" endLine="117" endPosition="154" />
+    <scopeInfo nodeId="1926773284996267538" fileName="ExactStringBuilder.java" startLine="128" startPosition="90" endLine="129" endPosition="21" />
+    <scopeInfo nodeId="7413212514892990441" fileName="ExactStringBuilder.java" startLine="136" startPosition="10" endLine="137" endPosition="83" />
+    <scopeInfo nodeId="7413212514892990436" fileName="ExactStringBuilder.java" startLine="24" startPosition="0" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="1926773284996257866" fileName="ExactStringBuilder.java" startLine="70" startPosition="38" endLine="72" endPosition="20" />
+    <scopeInfo nodeId="3850314743293064372" fileName="ExactStringBuilder.java" startLine="115" startPosition="107" endLine="118" endPosition="7" />
+    <scopeInfo nodeId="3850314743293064379" fileName="ExactStringBuilder.java" startLine="115" startPosition="107" endLine="118" endPosition="7" />
+    <scopeInfo nodeId="3850314743293064369" fileName="ExactStringBuilder.java" startLine="114" startPosition="0" endLine="119" endPosition="5" />
+    <scopeInfo nodeId="1926773284996267495" fileName="ExactStringBuilder.java" startLine="125" startPosition="44" endLine="130" endPosition="7">
       <varInfo nodeId="1926773284996267521" varName="symbol" />
     </scopeInfo>
-    <scopeInfo nodeId="1926773284996267494" fileName="ExactStringBuilder.java" startLine="123" startPosition="71" endLine="130" endPosition="5">
+    <scopeInfo nodeId="1926773284996267494" fileName="ExactStringBuilder.java" startLine="124" startPosition="85" endLine="131" endPosition="5">
       <varInfo nodeId="1926773284996267497" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3850314743293087383" fileName="ExactStringBuilder.java" startLine="92" startPosition="40" endLine="100" endPosition="7">
+    <scopeInfo nodeId="3850314743293087383" fileName="ExactStringBuilder.java" startLine="93" startPosition="40" endLine="101" endPosition="7">
       <varInfo nodeId="3850314743293087390" varName="charSet" />
     </scopeInfo>
-    <scopeInfo nodeId="1926773284996267456" fileName="ExactStringBuilder.java" startLine="123" startPosition="71" endLine="132" endPosition="16" />
-    <scopeInfo nodeId="3850314743293087381" fileName="ExactStringBuilder.java" startLine="91" startPosition="0" endLine="101" endPosition="5">
+    <scopeInfo nodeId="1926773284996267456" fileName="ExactStringBuilder.java" startLine="124" startPosition="85" endLine="133" endPosition="16" />
+    <scopeInfo nodeId="3850314743293087381" fileName="ExactStringBuilder.java" startLine="92" startPosition="0" endLine="102" endPosition="5">
       <varInfo nodeId="3850314743293087382" varName="lexemType" />
     </scopeInfo>
-    <scopeInfo nodeId="1926773284996267453" fileName="ExactStringBuilder.java" startLine="122" startPosition="0" endLine="134" endPosition="0">
+    <scopeInfo nodeId="1926773284996267453" fileName="ExactStringBuilder.java" startLine="123" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="6970827918925071585" varName="scope" />
       <varInfo nodeId="1926773284996267583" varName="str" />
       <varInfo nodeId="1926773284996267595" varName="lexemType" />
     </scopeInfo>
-    <scopeInfo nodeId="1926773284996246837" fileName="ExactStringBuilder.java" startLine="62" startPosition="84" endLine="75" endPosition="64" />
-    <scopeInfo nodeId="7413212514892994063" fileName="ExactStringBuilder.java" startLine="107" startPosition="60" endLine="120" endPosition="66" />
-    <scopeInfo nodeId="1926773284996246811" fileName="ExactStringBuilder.java" startLine="61" startPosition="38" endLine="76" endPosition="11" />
-    <scopeInfo nodeId="7413212514893039618" fileName="ExactStringBuilder.java" startLine="88" startPosition="63" endLine="104" endPosition="28">
+    <scopeInfo nodeId="1926773284996246837" fileName="ExactStringBuilder.java" startLine="63" startPosition="84" endLine="76" endPosition="71" />
+    <scopeInfo nodeId="7413212514892994063" fileName="ExactStringBuilder.java" startLine="108" startPosition="60" endLine="121" endPosition="66" />
+    <scopeInfo nodeId="1926773284996246811" fileName="ExactStringBuilder.java" startLine="62" startPosition="38" endLine="77" endPosition="11" />
+    <scopeInfo nodeId="7413212514893039618" fileName="ExactStringBuilder.java" startLine="89" startPosition="77" endLine="105" endPosition="28">
       <varInfo nodeId="1926773284996317507" varName="defaultLexemType" />
       <varInfo nodeId="7413212514893039636" varName="lexemTypes" />
     </scopeInfo>
-    <scopeInfo nodeId="7413212514892994060" fileName="ExactStringBuilder.java" startLine="106" startPosition="0" endLine="122" endPosition="0">
+    <scopeInfo nodeId="7413212514892994060" fileName="ExactStringBuilder.java" startLine="107" startPosition="0" endLine="123" endPosition="0">
       <varInfo nodeId="7413212514892994072" varName="lexemType" />
     </scopeInfo>
-    <scopeInfo nodeId="7413212514893039615" fileName="ExactStringBuilder.java" startLine="87" startPosition="0" endLine="106" endPosition="0">
+    <scopeInfo nodeId="7413212514893039615" fileName="ExactStringBuilder.java" startLine="88" startPosition="0" endLine="107" endPosition="0">
       <varInfo nodeId="7413212514893039632" varName="model" />
+      <varInfo nodeId="6970827918925071569" varName="scope" />
       <varInfo nodeId="7413212514893039624" varName="symbol" />
     </scopeInfo>
-    <scopeInfo nodeId="3850314743293094037" fileName="ExactStringBuilder.java" startLine="45" startPosition="73" endLine="81" endPosition="67">
+    <scopeInfo nodeId="3850314743293094037" fileName="ExactStringBuilder.java" startLine="46" startPosition="73" endLine="82" endPosition="67">
       <varInfo nodeId="3850314743293094039" varName="exactStringValue" />
       <varInfo nodeId="3850314743293094048" varName="exactString" />
       <varInfo nodeId="3850314743293094100" varName="block" />
     </scopeInfo>
-    <scopeInfo nodeId="3850314743293094026" fileName="ExactStringBuilder.java" startLine="38" startPosition="47" endLine="82" endPosition="7">
+    <scopeInfo nodeId="3850314743293094026" fileName="ExactStringBuilder.java" startLine="39" startPosition="47" endLine="83" endPosition="7">
       <varInfo nodeId="3850314743293094028" varName="currentLexemType" />
     </scopeInfo>
-    <scopeInfo nodeId="3850314743293094025" fileName="ExactStringBuilder.java" startLine="37" startPosition="0" endLine="83" endPosition="5">
+    <scopeInfo nodeId="3850314743293094025" fileName="ExactStringBuilder.java" startLine="38" startPosition="0" endLine="84" endPosition="5">
       <varInfo nodeId="3850314743293094084" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="7413212514893039527" fileName="ExactStringBuilder.java" startLine="27" startPosition="85" endLine="85" endPosition="29">
+    <scopeInfo nodeId="7413212514893039527" fileName="ExactStringBuilder.java" startLine="28" startPosition="99" endLine="86" endPosition="29">
       <varInfo nodeId="3850314743293093988" varName="symbols" />
       <varInfo nodeId="3850314743293094021" varName="start" />
       <varInfo nodeId="3850314743293094013" varName="previousLexemType" />
       <varInfo nodeId="3850314743293093995" varName="exactStringBlocks" />
     </scopeInfo>
-    <scopeInfo nodeId="7413212514893039524" fileName="ExactStringBuilder.java" startLine="26" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="7413212514893039524" fileName="ExactStringBuilder.java" startLine="27" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="7413212514893039629" varName="model" />
+      <varInfo nodeId="6970827918925071562" varName="scope" />
       <varInfo nodeId="7413212514893039531" varName="str" />
     </scopeInfo>
-    <unitInfo nodeId="7413212514892990434" fileName="ExactStringBuilder.java" startLine="21" startPosition="0" endLine="139" endPosition="0" unitName="diglex.dsl.utils.ExactStringBuilder" />
+    <unitInfo nodeId="7413212514892990434" fileName="ExactStringBuilder.java" startLine="22" startPosition="0" endLine="140" endPosition="0" unitName="diglex.dsl.utils.ExactStringBuilder" />
   </root>
   <root nodeId="8760462257934915429">
     <nodeInfo nodeId="8091464979568649038" fileName="CheckDependencies.java" startLine="27" startPosition="94" endLine="28" endPosition="0" />

@@ -28,6 +28,6 @@ public class ExactString_Value_PropertyConstraint implements IModelConstraints, 
       return true;
     }
 
-    return ExactStringBuilder.CheckExactString((SPropertyOperations.getString(propertyValue)), SLinkOperations.getTarget(node, "lexemType", false));
+    return ExactStringBuilder.CheckExactString((SPropertyOperations.getString(propertyValue)), SLinkOperations.getTarget(node, "lexemType", false), scope);
   }
 }

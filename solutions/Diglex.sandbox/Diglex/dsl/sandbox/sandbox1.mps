@@ -34,10 +34,6 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="3" />
   <import index="3" modelUID="r:4986c884-cea8-40a3-bc91-c45acdb8f465(diglex.dsl.accessory)" version="-1" />
-  <node type="diglex.dsl.structure.SearchSettings:23" id="1327539314895981020">
-    <property name="name:23" value="Настройки поиска" />
-    <link role="lexem:23" targetNodeId="3.1327539314895753170" resolveInfo="Базовый" />
-  </node>
   <node type="diglex.dsl.structure.Dictionary:23" id="8770772348876378204">
     <property name="name:23" value="Dictionary" />
     <node role="dictionaryTemplate:23" type="diglex.dsl.structure.DictionaryTemplate:23" id="2423555355234773269">
@@ -177,15 +173,23 @@
     <property name="id1:23" value="2000000000" />
     <property name="name:23" value="РАН" />
     <node role="MatchCases:23" type="diglex.dsl.structure.MatchCase:23" id="297920809389508068">
-      <node role="Items:23" type="diglex.dsl.structure.Block:23" id="297920809389508070">
-        <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
-        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="297920809389508071">
+      <node role="Items:23" type="diglex.dsl.structure.AnonymousTemplate:23" id="6970827918925080850">
+        <node role="matchCase:23" type="diglex.dsl.structure.MatchCase:23" id="6970827918925080851">
+          <node role="Items:23" type="diglex.dsl.structure.Block:23" id="6970827918925080854">
+            <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+            <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="6970827918925080855">
+              <property name="minimum:23" value="1" />
+              <property name="maximum:23" value="1" />
+            </node>
+            <node role="Items:23" type="diglex.dsl.structure.ExactString:23" id="6970827918925080856">
+              <property name="Value:23" value=" " />
+              <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
+            </node>
+          </node>
+        </node>
+        <node role="Repeat:23" type="diglex.dsl.structure.RepeatTimes:23" id="6970827918925080853">
           <property name="minimum:23" value="1" />
           <property name="maximum:23" value="1" />
-        </node>
-        <node role="Items:23" type="diglex.dsl.structure.ExactString:23" id="297920809389508072">
-          <property name="Value:23" value=" " />
-          <link role="lexemType:23" targetNodeId="3.1327539314895753439" resolveInfo="Пробельный символ" />
         </node>
       </node>
     </node>

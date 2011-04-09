@@ -7,23 +7,39 @@
     <MatchCases>
       <MatchCase>
         <Items>
-          <MatchCaseItem type="Block">
-            <Block>
+          <MatchCaseItem type="AnonymousTemplate">
+            <AnonymousTemplateItem>
               <Repeat>
                 <Minimum>1</Minimum>
                 <Maximum>1</Maximum>
               </Repeat>
-              <CaseSensitive>false</CaseSensitive>
-              <LexemType>SpaceSymbol</LexemType>
-              <Items>
-                <BlockItem type="ExactString">
-                  <ExactString>
-                    <LexemType>SpaceSymbol</LexemType>
-                    <Value>&#x20;</Value>
-                  </ExactString>
-                </BlockItem>
-              </Items>
-            </Block>
+              <AnonymousTemplate>
+                <MatchCases>
+                  <MatchCase>
+                    <Items>
+                      <MatchCaseItem type="Block">
+                        <Block>
+                          <Repeat>
+                            <Minimum>1</Minimum>
+                            <Maximum>1</Maximum>
+                          </Repeat>
+                          <CaseSensitive>false</CaseSensitive>
+                          <LexemType>SpaceSymbol</LexemType>
+                          <Items>
+                            <BlockItem type="ExactString">
+                              <ExactString>
+                                <LexemType>SpaceSymbol</LexemType>
+                                <Value>&#x20;</Value>
+                              </ExactString>
+                            </BlockItem>
+                          </Items>
+                        </Block>
+                      </MatchCaseItem>
+                    </Items>
+                  </MatchCase>
+                </MatchCases>
+              </AnonymousTemplate>
+            </AnonymousTemplateItem>
           </MatchCaseItem>
         </Items>
       </MatchCase>
