@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:98508e77-cc98-4684-8d9b-fe75c93e5583(jetbrains.mps.sampleXML.plugin)">
+<model modelUID="r:98508e77-cc98-4684-8d9b-fe75c93e5583(diglex.xml.plugin)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />

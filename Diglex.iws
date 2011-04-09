@@ -53,253 +53,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlSchema.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlSchema.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/plugin/plugin.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/plugin/plugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.xmlQuery.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/constraints/.dependencies" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/blTypes/blTypes.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/blTypes/blTypes.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/editor/.debug" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/generator/generator.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/generator/generator.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.by6wvifzbr8oq1naxg7i9s0nwi304hj" afterPath="" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPS.ipr" afterPath="$APPLICATION_HOME_DIR$/MPS.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections_trove.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections_trove.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPS.iml" afterPath="$APPLICATION_HOME_DIR$/MPS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlQuery.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlQuery.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/editor/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections_samples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections_samples.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/idea-patch/idea-patch.iml" afterPath="$APPLICATION_HOME_DIR$/core/idea-patch/idea-patch.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.hash.5xv98d997ap17dwxwkz2e32355g82fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/Diglex/diglex.dsl.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/Diglex/diglex.dsl.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/structure/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/ypath.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/ypath.test.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/sampleXML.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/sampleXML.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" />
-      <change type="MOVED" beforePath="$APPLICATION_HOME_DIR$/diglex/src/diglex/NewDiglexProjectWizard.java" afterPath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/diglex/NewDiglexProjectWizard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains/mps/xmlUnitTest/sandbox.mps" afterPath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains/mps/xmlUnitTest/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test2.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test2.mps" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/plugin/.hash.-8dnagl07nsafuopsytpr248a1l49clt" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/money.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/money.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/structure/.hash.-2kyq3y28qkjhj5uf256bdgovqnvnzq1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/structure/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.methodExtension.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/structure/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/typesystem/.hash.uupc6bdg48fgva45iezotkcr714bb6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.datesInternal.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/editor/.hash.3rp582jjekquypavbacpl44ux88cbp9" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/typesystem/.hash.xvyb3sxiop32gluiheeucbvy9d56gf" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/textGen.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/textGen.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/intentions/intentions.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/intentions/intentions.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/demoLang1.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/demoLang1.mpl" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/Closures.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/Closures.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/generator/template/main/.hash.cuoam3kokwz43pl6hq6oh96y469v6sp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.api.info.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.api.info.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gwt.client.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gwt.client.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/constraints.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/structure/.hash.94g1665d9kfiz1d85yyhoea7a49l5bs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/Document_Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/plugin/.debug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.hash.6jvhkzvihsqkgai2ab2xlzbax100ds1" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.dependency.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.dependency.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.hash.-c8g83u95y3v9pselyy3owvrbn142ze1" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/ypath/runtime/YPath-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/platform/ypath/runtime/YPath-runtime.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test3.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test3.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/editor/.debug" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/structure/structure.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/structure/structure.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ypath.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ypath.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test1.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test1.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.property.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.property.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/devkits/jetbrains.mps.devkit.general-purpose.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.custommpsInternal.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.uiLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.uiLanguage.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/refactoring/refactoring.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/refactoring/refactoring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.constructors.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.hash.-elp2334r2qk8iscrmudor7v57hnw6ek" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/editor/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/typesystem/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.bash.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.bash.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/workbench/jetbrains.mps.ide.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/workbench/jetbrains.mps.ide.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/annotations/annotations.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/annotations/annotations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.kernel.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.kernel.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/classifiers/classifiers.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/classifiers/classifiers.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/plugin.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gtext.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gtext.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.lib.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/javadoc/javadoc.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/javadoc/javadoc.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/mps-lite/mps-lite.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/mps-lite/mps-lite.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/constraints/.hash.-ewj9lmyvdhu03xdstc58sbtw7yrvwh0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/build.number" afterPath="$PROJECT_DIR$/artifacts/MPS/build.number" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/workbench/workbench.iml" afterPath="$APPLICATION_HOME_DIR$/workbench/workbench.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/structure/.debug" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS-28.zip" afterPath="$PROJECT_DIR$/artifacts/MPS-28.zip" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/structure/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/generator/template/main/.dependencies" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/smodel/smodel.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/smodel/smodel.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/buildLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/buildLanguage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.custommps.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.custommps.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/textGen/textgen.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/textGen/textgen.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlUnitTest.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML.sandbox.msd" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/diglex/FinishStep.java" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/actions/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/collections.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/collections.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.contracts.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/.hash.-b5ovgz8y18ro4o7bkt5i2psbc5pnmtz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/editor/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Xml_Language.java" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/lib/idea-patch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/lib/idea-patch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.runConfigurations.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.collections.trove.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/Diglex/diglex.xml.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/Diglex/diglex.xml.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/demoLang4.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/demoLang4.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.refactoring.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.hash.-5t3s33css0yuwhem4l906s9p7r90k2y" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/ant/ant.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/ant/ant.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/typesystem/.dependencies" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" afterPath="$APPLICATION_HOME_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/typesystem/typesystem.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/typesystem/typesystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/ypath.main.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/ypath.main.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/typesystem/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.coc26wsby55wy9ptss69sjwy5ornc4a" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/generator/template/main/.debug" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/structure/.hash.-ecquvx3q15w8npgyq2ofwclbdt9vazq" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/ypath/solutions/YPath-solutions.iml" afterPath="$APPLICATION_HOME_DIR$/platform/ypath/solutions/YPath-solutions.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/debug/debug.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/debug/debug.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/pattern/pattern.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/pattern/pattern.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/logging/logging.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/logging/logging.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/lib/MPS-src.zip" afterPath="$PROJECT_DIR$/artifacts/MPS/lib/MPS-src.zip" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/actions/.debug" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.-3pqd2dtdvb04dhle1a9ljviahqcwlz3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.packaging.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.packaging.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.evaluation.ui.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/&quot;solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/Настройкипоиска" afterPath="" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/constraints/.hash.bdjdpeqxm6o6n6p6wuu06lbxruqbkka" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/structure.mps" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/constraints/.dependencies" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/actions/.hash.-5ynbfszzei5a3smtny9vzipjbuwd9ao" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.customViewers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.customViewers.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/structure.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/typesystem/.hash.1v8oulrfzglqhwydge0x6jlzznf2nll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/blTypes/blTypes.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/blTypes/blTypes.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/test/test.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/test/test.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/editor/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/actions.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/actions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/generator/generator.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/generator/generator.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/languageModels/plugin.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/script/script.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/script/script.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPS.ipr" afterPath="$APPLICATION_HOME_DIR$/MPS.ipr" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/javaParser/javaParser.iml" afterPath="$APPLICATION_HOME_DIR$/core/javaParser/javaParser.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/structure/.dependencies" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/regexp/runtime/regexp_runtime.iml" afterPath="$APPLICATION_HOME_DIR$/platform/regexp/runtime/regexp_runtime.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPS.iml" afterPath="$APPLICATION_HOME_DIR$/MPS.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.editor.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.money.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.search.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/editor/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/QueriesGenerated.java" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/idea-patch/idea-patch.iml" afterPath="$APPLICATION_HOME_DIR$/core/idea-patch/idea-patch.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/generator/template/main@generator.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/languageModels/structure.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/formulaLanguage/formulaLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/samples/formulaLanguage/formulaLanguage.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/testMaterial/testRefactoring/testRefactoring.iml" afterPath="$APPLICATION_HOME_DIR$/testMaterial/testRefactoring/testRefactoring.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/xml/xmlSchema/xmlSchema.iml" afterPath="$APPLICATION_HOME_DIR$/platform/xml/xmlSchema/xmlSchema.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/structure/.dependencies" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/editor/.dependencies" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.bdq50kwkncdd34e9mmwmbl4ta4az2s" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ypath.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ypath.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.script.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.packaging.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.packaging.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/sampleXML.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/sampleXML.mpl" />
+      <change type="MOVED" beforePath="$APPLICATION_HOME_DIR$/diglex/src/diglex/NewDiglexProjectWizard.java" afterPath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/diglex/NewDiglexProjectWizard.java" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains/mps/xmlUnitTest/sandbox.mps" afterPath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains/mps/xmlUnitTest/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/runtime/runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/runtime/runtime.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/demoLang3.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/demoLang3.mpl" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/typesystem/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/samples.zip" afterPath="$PROJECT_DIR$/artifacts/MPS/samples.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.-8ofqgfrpoicheniwn0twkmitqn5v0ss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test2.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test2.mps" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/plugin/.hash.-8dnagl07nsafuopsytpr248a1l49clt" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/money.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/money.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/textGen/Document_TextGen.java" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/structure/.hash.-2kyq3y28qkjhj5uf256bdgovqnvnzq1" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/structure/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/unitTest/unitTest.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/unitTest/unitTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/lib/mps.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/lib/mps.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/typesystem/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.editorTest.mpsarch.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/structure/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/structure/.hash.-5dfzcxikdomewnndklgfkc6f8860gz9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/uiLanguage/uiLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/platform/uiLanguage/uiLanguage.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/typesystem/.hash.uupc6bdg48fgva45iezotkcr714bb6" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/textGen/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/fixedLengthReader/fixedLengthReader.iml" afterPath="$APPLICATION_HOME_DIR$/samples/fixedLengthReader/fixedLengthReader.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/ElementPart_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/editor/.hash.3rp582jjekquypavbacpl44ux88cbp9" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/typesystem/.hash.xvyb3sxiop32gluiheeucbvy9d56gf" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/textGen.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/textGen.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/intentions/intentions.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/intentions/intentions.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/QueriesGenerated.java" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/actions/actions.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/actions/actions.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/demoLang1.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/demoLang1.mpl" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/Closures.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/Closures.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/generator/template/main/.hash.cuoam3kokwz43pl6hq6oh96y469v6sp" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/checkDot/checkedDots.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/checkDot/checkedDots.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/findUsages/findUsages.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/findUsages/findUsages.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/sampleXML/sampleXML.mpl" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML/sandbox/sandbox.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML/sandbox/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlInternal.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" afterPath="$APPLICATION_HOME_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/generator/template/main/.dependencies" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/structure/.dependencies" />
@@ -308,145 +134,156 @@
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/core/core.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/core/core.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/dataFlow/dataFlow.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/dataFlow/dataFlow.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/editor/.dependencies" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/demoLang2.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/demoLang2.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.javadoc.mpsarch.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/.debug" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/constraints.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/constraints.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/resources/resources.iml" afterPath="$APPLICATION_HOME_DIR$/resources/resources.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/actions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/structure/.hash.94g1665d9kfiz1d85yyhoea7a49l5bs" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/Document_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/plugin/.debug" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/ElementPart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/collections.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.stubs.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xml.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xml.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/ypath/runtime/YPath-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/platform/ypath/runtime/YPath-runtime.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/generator/template/main@generator.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/generator/template/main@generator.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/constraints/.hash.-15mslck5anr0kmn4y29cymnz75od9c4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/kernel.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/kernel.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test3.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test3.mps" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/editor/.debug" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/structure/structure.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/structure/structure.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/quotation/quotation.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/quotation/quotation.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/typesystem/.dependencies" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test1.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test1.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/constraints/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Attribute.java" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/typesystem/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/structure/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mpslite.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mpslite.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/Text_Editor.java" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/sampleXML.iml" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/sampleXML.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.mpr" afterPath="$PROJECT_DIR$/Diglex.mpr" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/refactoring/refactoring.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/refactoring/refactoring.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/nanoc/nanoc.iml" afterPath="$APPLICATION_HOME_DIR$/samples/nanoc/nanoc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/textGen/ElementCreator.java" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/constraints.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/constraints.mps" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/editor/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/typesystem/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/textGen/.dependencies" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/constraints/constraints.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/constraints/constraints.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/Tuples.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/tuples/Tuples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
       <change type="DELETED" beforePath="$APPLICATION_HOME_DIR$/diglex/src/diglex/FinishStep.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/typesystem.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/annotations/annotations.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/annotations/annotations.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/classifiers/classifiers.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/classifiers/classifiers.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/closures.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/closures.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/plugin.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/plugin.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/editor/.hash.44eamofq5jl7gfx0ua053n49p8qaltk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.distrib.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.distrib.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/editor/.hash.-5fvuxxh0oo1ybsxczfmqf6g30zjjh30" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/javadoc/javadoc.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/javadoc/javadoc.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/mps-lite/mps-lite.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/mps-lite/mps-lite.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/constraints/.hash.-ewj9lmyvdhu03xdstc58sbtw7yrvwh0" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/smodelTests/smodelTests.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/smodelTests/smodelTests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/editor/editor.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/editor/editor.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/constraints/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.builders.mpsarch.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.7ozv9nda1m1rfrc9xaj1rxx2shs4osg" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/editor/.dependencies" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.hash.8s5waoi6u1iodxhdg1afb0bokxw2g1m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/workbench/workbench.iml" afterPath="$APPLICATION_HOME_DIR$/workbench/workbench.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/structure/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/constraints/.debug" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/structure/.debug" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/languageModels/structure.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/structure.metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.evaluation.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.debug.evaluation.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/generator/template/main/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/agreement/agreement.iml" afterPath="$APPLICATION_HOME_DIR$/samples/agreement/agreement.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/structure.mps" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.overloadedOperators.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/editor/.debug" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/structure/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/generator/template/main/.dependencies" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/smodel/smodel.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/smodel/smodel.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/actions/NewDiglexProjectAction.java" afterPath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/actions/NewDiglexProjectAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/devkits/jetbrains.mps.devkit.language-design.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/buildLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/buildLanguage.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/constraints.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.buildlanguage.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.buildlanguage.runtime.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/typesystem/.hash.-d6f0zxxnysz1avdgi99fmjaflq29xac" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Element.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/actions.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/languageModels/actions.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/complexLanguage/ComplexNumbersLanguage.iml" afterPath="$APPLICATION_HOME_DIR$/samples/complexLanguage/ComplexNumbersLanguage.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/editor/.hash.b6jiwj3es8thmln1fdxkhjsganuazh8" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test4.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/jetbrains/mps/samples/generator_demo/test_models/test4.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/textGen/.hash.93cms17uw8nsnlamerusfkm0xcdczy3" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/textGen/textgen.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/textGen/textgen.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/actions/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/test_models.msd" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/solutions/test_models/test_models.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains.mps.xmlUnitTest.sandbox.msd" afterPath="$APPLICATION_HOME_DIR$/platform/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains.mps.xmlUnitTest.sandbox.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML.sandbox.msd" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/solutions/sandbox/sampleXML.sandbox.msd" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/workbench/source/jetbrains/mps/workbench/diglex/FinishStep.java" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/dslbook_example/dslbook_example.iml" afterPath="$APPLICATION_HOME_DIR$/samples/dslbook_example/dslbook_example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/textGen.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/languageModels/textGen.mps" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/ypath/YPath.iml" afterPath="$APPLICATION_HOME_DIR$/platform/ypath/YPath.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.hash.-54x0ccn2gkxbav4sniletm74r6q5awy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xml.deprecated.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.generictasks.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.build.generictasks.mpsarch.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/.hash.-epwhnoh58r9pvihyqu9icd65gsakr67" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/actions/.dependencies" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/plugin/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/generate.ant.task.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/generate.ant.task.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/collections.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/collections/collections.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/.hash.-b5ovgz8y18ro4o7bkt5i2psbc5pnmtz" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/generator/template/main/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/structure/.hash.-1mmvaj97cgjhg0h5ft7hfk5373h5n7k" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/editor/.debug" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/editor/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Xml_Language.java" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguageInternal/baseLanguageInternal.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/baseLanguageInternal/baseLanguageInternal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/Dictionary.xml" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen/diglex/dsl/sandbox/sandbox1/Dictionary.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/generator/template/main/.dependencies" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/Element_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Text.java" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/debug-api/debug-api.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/debug-api/debug-api.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/constraints/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.ide.uiLanguage.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/demoLang4.mpl" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/demoLang4.mpl" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/generator/template/main/.hash.qrjbvdzti5wu83umtacsinoao0n7pg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.hash.4jvghl4ahqr733xxghl90td13nut0se" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.hash.-5t3s33css0yuwhem4l906s9p7r90k2y" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/ant/ant.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/ant/ant.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/typesystem/.dependencies" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" afterPath="$APPLICATION_HOME_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/typesystem/typesystem.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/typesystem/typesystem.iml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/typesystem/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/generator/template/main/.debug" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/structure/.hash.-ecquvx3q15w8npgyq2ofwclbdt9vazq" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/editor/.hash.d7fhi9ffklp0o787azyuogl7cj1nqas" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/ypath/solutions/YPath-solutions.iml" afterPath="$APPLICATION_HOME_DIR$/platform/ypath/solutions/YPath-solutions.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/kernel/debug/debug.iml" afterPath="$APPLICATION_HOME_DIR$/core/kernel/debug/debug.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/editor/Attribute_Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlUnitTest.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.xmlUnitTest.runtime.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/pattern/pattern.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/pattern/pattern.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/constructors/constructors.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/constructors/constructors.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/logging/logging.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/logging/logging.iml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/constraints/.dependencies" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/behavior/behavior.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/behavior/behavior.iml" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" afterPath="$APPLICATION_HOME_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/math.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/math.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/sampleXML/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/diglex.xml/languageModels/editor.mps" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen.caches/diglex/xml/actions/.debug" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/platform/regexp/regexp.iml" afterPath="$APPLICATION_HOME_DIR$/platform/regexp/regexp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.buildlanguage.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.buildlanguage.mpsarch.jar" />
+      <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" afterPath="$APPLICATION_HOME_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/core/languageDesign/stubs/stubs.iml" afterPath="$APPLICATION_HOME_DIR$/core/languageDesign/stubs/stubs.iml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/editor.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/languageModels/editor.mps" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang2/generator/template/main/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang4/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang4/constraints/.dependencies" />
       <change type="MODIFICATION" beforePath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/constraints.mps" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang2/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/platform/jetbrains.mps.baseLanguage.regexp.examples.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/sampleXML/languages/sampleXML/source_gen/diglex/xml/structure/Document.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang1/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang1/generator/template/main/.hash.-665jdddzzapldw1krbf38iwakebmodj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_HOME_DIR$/samples/generator_demo/languages/demoLang3/source_gen.caches/jetbrains/mps/samples/generator_demo/demoLang3/generator/template/main/.dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.58w4dj7rnws4cvf3ijm8l0doaq62u2t" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/jetbrains.mps.ide.uiLanguage.runtime.mpsarch.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" afterPath="$PROJECT_DIR$/artifacts/MPS/core/baseLanguage/jetbrains.mps.baseLanguage.dates.mpsarch.jar" />
     </list>
     <ignored path="Diglex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -515,32 +352,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementCreator" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ElementCreator" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://jetbrains.mps.sampleXML.textGen/ElementCreator">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnonymousTemplate" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/AnonymousTemplate">
+      <file leaf-file-name="Dictionary" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/Dictionary">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
@@ -973,144 +795,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator/Xml" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator/Xml" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl.generator.template" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main@generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl.utils" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl.accessory" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constraints" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structure" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Diglex.sandbox" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1148,7 +832,19 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="diglex.xml" />
+                <option name="myItemId" value="Diglex.sandbox" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="diglex.dsl.sandbox" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="sandbox1" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Dictionary" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
@@ -1194,6 +890,23 @@
       </MyState>
       <method />
     </configuration>
+    <configuration default="true" type="BuildLanguage" factoryName="Build Language Project">
+      <MyState>
+        <option name="myJavaRunParameters">
+          <ConfigRunParameters>
+            <option name="VMParameters" />
+            <option name="alternativeJRE" />
+            <option name="make" value="false" />
+            <option name="programParameters" />
+            <option name="useAlternativeJRE" value="false" />
+            <option name="workingDirectory" />
+          </ConfigRunParameters>
+        </option>
+        <option name="nodeId" />
+        <option name="modelId" />
+      </MyState>
+      <method />
+    </configuration>
     <configuration default="true" type="CustomMPSConfigurationType" factoryName="Custom MPS Build Script">
       <MyState>
         <option name="myJavaRunParameters">
@@ -1207,23 +920,6 @@
           </ConfigRunParameters>
         </option>
         <option name="configurationId" />
-        <option name="nodeId" />
-        <option name="modelId" />
-      </MyState>
-      <method />
-    </configuration>
-    <configuration default="true" type="BuildLanguage" factoryName="Build Language Project">
-      <MyState>
-        <option name="myJavaRunParameters">
-          <ConfigRunParameters>
-            <option name="VMParameters" />
-            <option name="alternativeJRE" />
-            <option name="make" value="false" />
-            <option name="programParameters" />
-            <option name="useAlternativeJRE" value="false" />
-            <option name="workingDirectory" />
-          </ConfigRunParameters>
-        </option>
         <option name="nodeId" />
         <option name="modelId" />
       </MyState>
@@ -1272,7 +968,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275488" sideWeight="0.49127445" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
@@ -1286,7 +982,7 @@
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32563257" sideWeight="0.41266492" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2993664" sideWeight="0.8459846" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2993664" sideWeight="0.8459846" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.6821542" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1506,26 +1202,6 @@
     <MESSAGE value="Fixed DistantContext xml generation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://diglex.dsl.structure/LexemType">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="2">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://diglex.dsl.utils/LexemTypeUtil">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
@@ -1691,11 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/РАН">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
     <entry file="mps://jetbrains.mps.sampleXML.structure/Document">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="11">
@@ -1717,6 +1388,16 @@
       </provider>
     </entry>
     <entry file="mps://jetbrains.mps.sampleXML.textGen/ElementCreator">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/РАН">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+      </provider>
+    </entry>
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/Dictionary">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
