@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jdom.Element;
 import org.jdom.Document;
 import org.jdom.output.Format;
+import org.jdom.output.EscapeStrategy;
 import org.jdom.output.XMLOutputter;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -22,6 +23,20 @@ public abstract class ElementCreator {
     try {
       Format prettyFormat = Format.getPrettyFormat();
       prettyFormat.setTextMode(Format.TextMode.PRESERVE);
+
+      final EscapeStrategy oldEscapeStrategy = prettyFormat.getEscapeStrategy();
+      EscapeStrategy newEscapeStrategy = new EscapeStrategy() {
+        public boolean shouldEscape(char p0) {
+          if (Character.isSpaceChar(p0) || Character.isWhitespace(p0)) {
+            return true;
+          }
+
+          return oldEscapeStrategy.shouldEscape(p0);
+        }
+      };
+
+      prettyFormat.setEscapeStrategy(newEscapeStrategy);
+
       XMLOutputter xmlOutputter = new XMLOutputter(prettyFormat);
       String output = xmlOutputter.outputString(document);
       textGen.append(output);

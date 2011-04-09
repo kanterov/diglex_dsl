@@ -7,7 +7,7 @@
     <MatchCases>
       <MatchCase>
         <Items>
-          <MatchCaseItem type="AnonymousTemplate">
+          <MatchCaseItem type="AnonymousTemplateItem">
             <AnonymousTemplateItem>
               <Repeat>
                 <Minimum>1</Minimum>
@@ -29,7 +29,7 @@
                             <BlockItem type="ExactString">
                               <ExactString>
                                 <LexemType>SpaceSymbol</LexemType>
-                                <Value>&#x20;</Value>
+                                <Value> </Value>
                               </ExactString>
                             </BlockItem>
                           </Items>

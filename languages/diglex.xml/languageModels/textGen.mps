@@ -370,6 +370,108 @@
                 </node>
               </node>
             </node>
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2324373617398392967" />
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="2324373617398403897">
+              <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398403898">
+                <property name="name:3" value="oldEscapeStrategy" />
+                <property name="isFinal:3" value="true" />
+                <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2324373617398403899">
+                  <link role="classifier:3" targetNodeId="6.~EscapeStrategy" resolveInfo="EscapeStrategy" />
+                </node>
+                <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398403903">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398403901">
+                    <link role="variableDeclaration:3" targetNodeId="1236700869046" resolveInfo="prettyFormat" />
+                  </node>
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2324373617398403907">
+                    <link role="baseMethodDeclaration:3" targetNodeId="6.~Format.getEscapeStrategy():org.jdom.output.EscapeStrategy" resolveInfo="getEscapeStrategy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="2324373617398403911">
+              <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398403912">
+                <property name="name:3" value="newEscapeStrategy" />
+                <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2324373617398403913">
+                  <link role="classifier:3" targetNodeId="6.~EscapeStrategy" resolveInfo="EscapeStrategy" />
+                </node>
+                <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2324373617398403915">
+                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator:3" id="2324373617398403917">
+                    <node role="cls:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClass:3" id="2324373617398403918">
+                      <property name="nonStatic:3" value="true" />
+                      <link role="classifier:3" targetNodeId="6.~EscapeStrategy" resolveInfo="EscapeStrategy" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="4.~Object.&lt;init&gt;()" resolveInfo="Object" />
+                      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="2324373617398403919" />
+                      <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="2324373617398403920">
+                        <property name="isAbstract:3" value="false" />
+                        <property name="name:3" value="shouldEscape" />
+                        <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="2324373617398403921" />
+                        <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="2324373617398403922" />
+                        <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="2324373617398403923">
+                          <property name="name:3" value="p0" />
+                          <node role="type:3" type="jetbrains.mps.baseLanguage.structure.CharType:3" id="2324373617398403924" />
+                        </node>
+                        <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2324373617398403925">
+                          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="2324373617398403926">
+                            <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2324373617398403928">
+                              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="2324373617398403947">
+                                <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="2324373617398403949">
+                                  <property name="value:3" value="true" />
+                                </node>
+                              </node>
+                            </node>
+                            <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.OrExpression:3" id="2324373617398403934">
+                              <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="2324373617398403932">
+                                <link role="baseMethodDeclaration:3" targetNodeId="4.~Character.isSpaceChar(char):boolean" resolveInfo="isSpaceChar" />
+                                <link role="classConcept:3" targetNodeId="4.~Character" resolveInfo="Character" />
+                                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="2324373617398403933">
+                                  <link role="variableDeclaration:3" targetNodeId="2324373617398403923" resolveInfo="p0" />
+                                </node>
+                              </node>
+                              <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="2324373617398403940">
+                                <link role="baseMethodDeclaration:3" targetNodeId="4.~Character.isWhitespace(char):boolean" resolveInfo="isWhitespace" />
+                                <link role="classConcept:3" targetNodeId="4.~Character" resolveInfo="Character" />
+                                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="2324373617398403941">
+                                  <link role="variableDeclaration:3" targetNodeId="2324373617398403923" resolveInfo="p0" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2324373617398403954" />
+                          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="2324373617398403956">
+                            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398403959">
+                              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398403958">
+                                <link role="variableDeclaration:3" targetNodeId="2324373617398403898" resolveInfo="oldEscapeStrategy" />
+                              </node>
+                              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2324373617398403963">
+                                <link role="baseMethodDeclaration:3" targetNodeId="6.~EscapeStrategy.shouldEscape(char):boolean" resolveInfo="shouldEscape" />
+                                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="2324373617398403965">
+                                  <link role="variableDeclaration:3" targetNodeId="2324373617398403923" resolveInfo="p0" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2324373617398392968" />
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2324373617398565416">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2324373617398565418">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398565417">
+                  <link role="variableDeclaration:3" targetNodeId="1236700869046" resolveInfo="prettyFormat" />
+                </node>
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2324373617398565422">
+                  <link role="baseMethodDeclaration:3" targetNodeId="6.~Format.setEscapeStrategy(org.jdom.output.EscapeStrategy):org.jdom.output.Format" resolveInfo="setEscapeStrategy" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2324373617398565423">
+                    <link role="variableDeclaration:3" targetNodeId="2324373617398403912" resolveInfo="newEscapeStrategy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2324373617398565415" />
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1236700954189">
               <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1236700954190">
                 <property name="name:3" value="xmlOutputter" />
