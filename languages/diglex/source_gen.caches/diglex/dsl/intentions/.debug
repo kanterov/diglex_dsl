@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="DeleteMatchCaseCondition_Intention.java" startLine="10" startPosition="0" endLine="41" endPosition="0" unitName="diglex.dsl.intentions.DeleteMatchCaseCondition_Intention" />
+  <unitInfo fileName="DeleteBlockItem_Intention.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="diglex.dsl.intentions.DeleteBlockItem_Intention" />
+  <unitInfo fileName="DeleteMatchCaseItem_Intention.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="diglex.dsl.intentions.DeleteMatchCaseItem_Intention" />
+  <unitInfo fileName="DeleteMatchCase_Intention.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="diglex.dsl.intentions.DeleteMatchCase_Intention" />
+  <unitInfo fileName="AddMatchCase_Intention.java" startLine="13" startPosition="0" endLine="47" endPosition="0" unitName="diglex.dsl.intentions.AddMatchCase_Intention" />
+  <unitInfo fileName="AddTemplateReference_Intention.java" startLine="15" startPosition="0" endLine="50" endPosition="0" unitName="diglex.dsl.intentions.AddTemplateReference_Intention" />
+  <unitInfo fileName="AddBlock_Intention.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="diglex.dsl.intentions.AddBlock_Intention" />
+  <unitInfo fileName="AddDistantContext_Intention.java" startLine="13" startPosition="0" endLine="52" endPosition="0" unitName="diglex.dsl.intentions.AddDistantContext_Intention" />
+  <unitInfo fileName="ReplaceWithAnySymbol_Intention.java" startLine="14" startPosition="0" endLine="53" endPosition="0" unitName="diglex.dsl.intentions.ReplaceWithAnySymbol_Intention" />
+  <unitInfo fileName="AddExactString_Intention.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="diglex.dsl.intentions.AddExactString_Intention" />
+  <unitInfo fileName="DeletePostcondition_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="diglex.dsl.intentions.DeletePostcondition_Intention" />
+  <unitInfo fileName="DeletePrecondition_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="diglex.dsl.intentions.DeletePrecondition_Intention" />
+  <unitInfo fileName="AddPostcondition_Intention.java" startLine="12" startPosition="0" endLine="56" endPosition="0" unitName="diglex.dsl.intentions.AddPostcondition_Intention" />
+  <unitInfo fileName="AddPrecondition_Intention.java" startLine="12" startPosition="0" endLine="56" endPosition="0" unitName="diglex.dsl.intentions.AddPrecondition_Intention" />
+  <unitInfo fileName="InsertDistantContextAfter_Intention.java" startLine="14" startPosition="0" endLine="65" endPosition="0" unitName="diglex.dsl.intentions.InsertDistantContextAfter_Intention" />
+  <unitInfo fileName="InsertTemplateReferenceAfter_Intention.java" startLine="15" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.InsertTemplateReferenceAfter_Intention" />
+  <unitInfo fileName="ShiftRight_Intention.java" startLine="13" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.ShiftRight_Intention" />
+  <unitInfo fileName="ShiftLeft_Intention.java" startLine="13" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.ShiftLeft_Intention" />
+  <unitInfo fileName="InsertBlockAfter_Intention.java" startLine="15" startPosition="0" endLine="73" endPosition="0" unitName="diglex.dsl.intentions.InsertBlockAfter_Intention" />
+  <root nodeId="6439828122268841001">
+    <nodeInfo nodeId="6439828122268841010" fileName="ShiftRight_Intention.java" startLine="44" startPosition="90" endLine="45" endPosition="30" />
+    <nodeInfo nodeId="6439828122268841014" fileName="ShiftRight_Intention.java" startLine="45" startPosition="30" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="6439828122268841015" fileName="ShiftRight_Intention.java" startLine="46" startPosition="0" endLine="47" endPosition="237" />
+    <nodeInfo nodeId="6439828122268841034" fileName="ShiftRight_Intention.java" startLine="47" startPosition="237" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="6439828122268841037" fileName="ShiftRight_Intention.java" startLine="49" startPosition="106" endLine="50" endPosition="110" />
+    <nodeInfo nodeId="6439828122268841044" fileName="ShiftRight_Intention.java" startLine="50" startPosition="110" endLine="51" endPosition="129" />
+    <nodeInfo nodeId="6439828122268841064" fileName="ShiftRight_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="6439828122268841067" fileName="ShiftRight_Intention.java" startLine="54" startPosition="115" endLine="55" endPosition="119" />
+    <nodeInfo nodeId="6439828122268841074" fileName="ShiftRight_Intention.java" startLine="55" startPosition="119" endLine="56" endPosition="129" />
+    <nodeInfo nodeId="6439828122268841094" fileName="ShiftRight_Intention.java" startLine="57" startPosition="5" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="6439828122268841095" fileName="ShiftRight_Intention.java" startLine="58" startPosition="0" endLine="59" endPosition="22" />
+    <nodeInfo nodeId="6439828122268841035" fileName="ShiftRight_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="5" />
+    <nodeInfo nodeId="6439828122268841065" fileName="ShiftRight_Intention.java" startLine="53" startPosition="0" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="6439828122268841007" fileName="ShiftRight_Intention.java" startLine="62" startPosition="76" endLine="62" endPosition="76" />
+    <scopeInfo nodeId="6439828122268841003" fileName="ShiftRight_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="117" />
+    <scopeInfo nodeId="6439828122268841036" fileName="ShiftRight_Intention.java" startLine="49" startPosition="106" endLine="51" endPosition="129">
+      <varInfo nodeId="6439828122268841038" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="6439828122268841066" fileName="ShiftRight_Intention.java" startLine="54" startPosition="115" endLine="56" endPosition="129">
+      <varInfo nodeId="6439828122268841068" varName="condition" />
+    </scopeInfo>
+    <scopeInfo nodeId="6439828122268841009" fileName="ShiftRight_Intention.java" startLine="44" startPosition="90" endLine="59" endPosition="22">
+      <varInfo nodeId="6439828122268841011" varName="applicable" />
+    </scopeInfo>
+  </root>
+  <root nodeId="6439828122268903204">
+    <nodeInfo nodeId="6439828122268903209" fileName="AddTemplateReference_Intention.java" startLine="39" startPosition="76" endLine="40" endPosition="111" />
+    <nodeInfo nodeId="6439828122268905032" fileName="AddTemplateReference_Intention.java" startLine="40" startPosition="111" endLine="41" endPosition="274" />
+    <nodeInfo nodeId="6439828122268905031" fileName="AddTemplateReference_Intention.java" startLine="41" startPosition="274" endLine="42" endPosition="0" />
+    <nodeInfo nodeId="6439828122268903216" fileName="AddTemplateReference_Intention.java" startLine="42" startPosition="0" endLine="43" endPosition="105" />
+    <scopeInfo nodeId="6439828122268903206" fileName="AddTemplateReference_Intention.java" startLine="35" startPosition="85" endLine="36" endPosition="149" />
+    <scopeInfo nodeId="6439828122268903208" fileName="AddTemplateReference_Intention.java" startLine="39" startPosition="76" endLine="43" endPosition="105">
+      <varInfo nodeId="6439828122268903210" varName="templateReference" />
+    </scopeInfo>
+  </root>
+  <root nodeId="6439828122269265315">
+    <nodeInfo nodeId="6439828122269265322" fileName="AddExactString_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="99" />
+    <nodeInfo nodeId="6439828122269285109" fileName="AddExactString_Intention.java" startLine="39" startPosition="99" endLine="40" endPosition="95" />
+    <nodeInfo nodeId="6439828122269285106" fileName="AddExactString_Intention.java" startLine="40" startPosition="95" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="6439828122269278442" fileName="AddExactString_Intention.java" startLine="42" startPosition="247" endLine="43" endPosition="97" />
+    <nodeInfo nodeId="6439828122269278407" fileName="AddExactString_Intention.java" startLine="44" startPosition="5" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="6439828122269265346" fileName="AddExactString_Intention.java" startLine="45" startPosition="0" endLine="46" endPosition="116" />
+    <nodeInfo nodeId="6439828122269265331" fileName="AddExactString_Intention.java" startLine="46" startPosition="116" endLine="47" endPosition="99" />
+    <nodeInfo nodeId="6439828122269278422" fileName="AddExactString_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="6439828122269265317" fileName="AddExactString_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="180" />
+    <scopeInfo nodeId="6439828122269278423" fileName="AddExactString_Intention.java" startLine="42" startPosition="247" endLine="43" endPosition="97" />
+    <scopeInfo nodeId="6439828122269265319" fileName="AddExactString_Intention.java" startLine="38" startPosition="76" endLine="47" endPosition="99">
+      <varInfo nodeId="6439828122269285110" varName="last" />
+      <varInfo nodeId="6439828122269265323" varName="exactString" />
+    </scopeInfo>
+  </root>
+  <root nodeId="6439828122269478600">
+    <nodeInfo nodeId="6439828122269478623" fileName="AddPrecondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="107" />
+    <nodeInfo nodeId="6439828122269478631" fileName="AddPrecondition_Intention.java" startLine="48" startPosition="107" endLine="49" endPosition="72" />
+    <scopeInfo nodeId="6439828122269478602" fileName="AddPrecondition_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="129" />
+    <scopeInfo nodeId="6439828122269478608" fileName="AddPrecondition_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="75" />
+    <scopeInfo nodeId="6439828122269478604" fileName="AddPrecondition_Intention.java" startLine="47" startPosition="76" endLine="49" endPosition="72">
+      <varInfo nodeId="6439828122269478624" varName="precondition" />
+    </scopeInfo>
+  </root>
+  <root nodeId="6439828122269492077">
+    <nodeInfo nodeId="6439828122269492084" fileName="AddPostcondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="108" />
+    <nodeInfo nodeId="6439828122269492095" fileName="AddPostcondition_Intention.java" startLine="48" startPosition="108" endLine="49" endPosition="74" />
+    <scopeInfo nodeId="6439828122269492079" fileName="AddPostcondition_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="129" />
+    <scopeInfo nodeId="6439828122269492107" fileName="AddPostcondition_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="76" />
+    <scopeInfo nodeId="6439828122269492081" fileName="AddPostcondition_Intention.java" startLine="47" startPosition="76" endLine="49" endPosition="74">
+      <varInfo nodeId="6439828122269492085" varName="postcondition" />
+    </scopeInfo>
+  </root>
+  <root nodeId="6439828122269642034">
+    <nodeInfo nodeId="6439828122269642041" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="51" />
+    <nodeInfo nodeId="6439828122269642047" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="51" startPosition="51" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="6439828122269642050" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="53" startPosition="81" endLine="54" endPosition="85" />
+    <nodeInfo nodeId="6439828122269642096" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="54" startPosition="85" endLine="55" endPosition="113" />
+    <nodeInfo nodeId="6439828122269642102" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="55" startPosition="113" endLine="56" endPosition="276" />
+    <nodeInfo nodeId="6439828122269642117" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="56" startPosition="276" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="6439828122269642118" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="57" startPosition="0" endLine="58" endPosition="112" />
+    <nodeInfo nodeId="6439828122269642095" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="58" startPosition="112" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="6439828122269642062" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="59" startPosition="0" endLine="60" endPosition="108" />
+    <nodeInfo nodeId="6439828122269642071" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="60" startPosition="108" endLine="61" endPosition="126" />
+    <nodeInfo nodeId="6439828122269642048" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="52" startPosition="0" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="6439828122269642036" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="35" startPosition="85" endLine="36" endPosition="149" />
+    <scopeInfo nodeId="6439828122269642086" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="46" startPosition="90" endLine="47" endPosition="107" />
+    <scopeInfo nodeId="6439828122269642049" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="53" startPosition="81" endLine="61" endPosition="126">
+      <varInfo nodeId="6439828122269642097" varName="templateReference" />
+      <varInfo nodeId="6439828122269642063" varName="index" />
+      <varInfo nodeId="6439828122269642051" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="6439828122269642040" fileName="InsertTemplateReferenceAfter_Intention.java" startLine="50" startPosition="76" endLine="62" endPosition="5">
+      <varInfo nodeId="6439828122269642042" varName="parent" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488375973696">
+    <nodeInfo nodeId="647765488375973720" fileName="DeleteMatchCase_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+    <scopeInfo nodeId="647765488375973698" fileName="DeleteMatchCase_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="142" />
+    <scopeInfo nodeId="647765488375973700" fileName="DeleteMatchCase_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+  </root>
+  <root nodeId="647765488375976109">
+    <nodeInfo nodeId="647765488375976116" fileName="DeleteMatchCaseItem_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+    <scopeInfo nodeId="647765488375976111" fileName="DeleteMatchCaseItem_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="191" />
+    <scopeInfo nodeId="647765488375976113" fileName="DeleteMatchCaseItem_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+  </root>
+  <root nodeId="647765488375976123">
+    <nodeInfo nodeId="647765488375976130" fileName="DeleteBlockItem_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+    <scopeInfo nodeId="647765488375976125" fileName="DeleteBlockItem_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="130" />
+    <scopeInfo nodeId="647765488375976127" fileName="DeleteBlockItem_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="37" />
+  </root>
+  <root nodeId="647765488375976137">
+    <scopeInfo nodeId="647765488375976141" fileName="DeleteMatchCaseCondition_Intention.java" startLine="34" startPosition="76" endLine="34" endPosition="76" />
+    <scopeInfo nodeId="647765488375976139" fileName="DeleteMatchCaseCondition_Intention.java" startLine="30" startPosition="85" endLine="31" endPosition="191" />
+  </root>
+  <root nodeId="647765488375976144">
+    <nodeInfo nodeId="647765488375976198" fileName="DeletePrecondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="86" />
+    <scopeInfo nodeId="647765488375976146" fileName="DeletePrecondition_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="123" />
+    <scopeInfo nodeId="647765488375976150" fileName="DeletePrecondition_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="75" />
+    <scopeInfo nodeId="647765488375976148" fileName="DeletePrecondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="86" />
+  </root>
+  <root nodeId="647765488375976165">
+    <nodeInfo nodeId="647765488375976186" fileName="DeletePostcondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="87" />
+    <scopeInfo nodeId="647765488375976167" fileName="DeletePostcondition_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="123" />
+    <scopeInfo nodeId="647765488375976171" fileName="DeletePostcondition_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="76" />
+    <scopeInfo nodeId="647765488375976169" fileName="DeletePostcondition_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="87" />
+  </root>
+  <root nodeId="647765488376017292">
+    <nodeInfo nodeId="647765488376017299" fileName="ReplaceWithAnySymbol_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="83" />
+    <nodeInfo nodeId="647765488376033915" fileName="ReplaceWithAnySymbol_Intention.java" startLine="39" startPosition="83" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="647765488376033917" fileName="ReplaceWithAnySymbol_Intention.java" startLine="40" startPosition="0" endLine="41" endPosition="95" />
+    <nodeInfo nodeId="647765488376033938" fileName="ReplaceWithAnySymbol_Intention.java" startLine="41" startPosition="95" endLine="42" endPosition="63" />
+    <nodeInfo nodeId="647765488376033955" fileName="ReplaceWithAnySymbol_Intention.java" startLine="42" startPosition="63" endLine="43" endPosition="62" />
+    <nodeInfo nodeId="647765488376033962" fileName="ReplaceWithAnySymbol_Intention.java" startLine="43" startPosition="62" endLine="44" endPosition="114" />
+    <nodeInfo nodeId="647765488376033980" fileName="ReplaceWithAnySymbol_Intention.java" startLine="44" startPosition="114" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="647765488376033982" fileName="ReplaceWithAnySymbol_Intention.java" startLine="45" startPosition="0" endLine="46" endPosition="97" />
+    <scopeInfo nodeId="647765488376017294" fileName="ReplaceWithAnySymbol_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="168" />
+    <scopeInfo nodeId="647765488376017296" fileName="ReplaceWithAnySymbol_Intention.java" startLine="38" startPosition="76" endLine="46" endPosition="97">
+      <varInfo nodeId="647765488376033918" varName="anySymbol" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376035082">
+    <nodeInfo nodeId="647765488376035089" fileName="AddMatchCase_Intention.java" startLine="37" startPosition="76" endLine="38" endPosition="95" />
+    <nodeInfo nodeId="647765488376035096" fileName="AddMatchCase_Intention.java" startLine="38" startPosition="95" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="647765488376035101" fileName="AddMatchCase_Intention.java" startLine="39" startPosition="0" endLine="40" endPosition="102" />
+    <scopeInfo nodeId="647765488376035084" fileName="AddMatchCase_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="148" />
+    <scopeInfo nodeId="647765488376035086" fileName="AddMatchCase_Intention.java" startLine="37" startPosition="76" endLine="40" endPosition="102">
+      <varInfo nodeId="647765488376035090" varName="matchCase" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376040724">
+    <nodeInfo nodeId="647765488376040736" fileName="AddBlock_Intention.java" startLine="37" startPosition="76" endLine="38" endPosition="87" />
+    <nodeInfo nodeId="6439828122269471695" fileName="AddBlock_Intention.java" startLine="38" startPosition="87" endLine="39" endPosition="99" />
+    <nodeInfo nodeId="6439828122269471744" fileName="AddBlock_Intention.java" startLine="39" startPosition="99" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="6439828122269471640" fileName="AddBlock_Intention.java" startLine="40" startPosition="0" endLine="41" endPosition="84" />
+    <nodeInfo nodeId="6439828122269471646" fileName="AddBlock_Intention.java" startLine="41" startPosition="84" endLine="42" endPosition="100" />
+    <nodeInfo nodeId="6439828122269471653" fileName="AddBlock_Intention.java" startLine="42" startPosition="100" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="647765488376042385" fileName="AddBlock_Intention.java" startLine="43" startPosition="0" endLine="44" endPosition="93" />
+    <scopeInfo nodeId="647765488376040726" fileName="AddBlock_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="87" />
+    <scopeInfo nodeId="647765488376040728" fileName="AddBlock_Intention.java" startLine="37" startPosition="76" endLine="44" endPosition="93">
+      <varInfo nodeId="6439828122269471696" varName="exactString" />
+      <varInfo nodeId="647765488376040737" varName="block" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376046537">
+    <nodeInfo nodeId="647765488376046563" fileName="InsertBlockAfter_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="51" />
+    <nodeInfo nodeId="647765488376046570" fileName="InsertBlockAfter_Intention.java" startLine="51" startPosition="51" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="647765488376046600" fileName="InsertBlockAfter_Intention.java" startLine="53" startPosition="81" endLine="54" endPosition="85" />
+    <nodeInfo nodeId="647765488376046646" fileName="InsertBlockAfter_Intention.java" startLine="54" startPosition="85" endLine="55" endPosition="89" />
+    <nodeInfo nodeId="6439828122269469603" fileName="InsertBlockAfter_Intention.java" startLine="55" startPosition="89" endLine="56" endPosition="101" />
+    <nodeInfo nodeId="6439828122269469600" fileName="InsertBlockAfter_Intention.java" startLine="56" startPosition="101" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="6439828122269469612" fileName="InsertBlockAfter_Intention.java" startLine="57" startPosition="0" endLine="58" endPosition="86" />
+    <nodeInfo nodeId="6439828122269469626" fileName="InsertBlockAfter_Intention.java" startLine="58" startPosition="86" endLine="59" endPosition="102" />
+    <nodeInfo nodeId="6439828122269469610" fileName="InsertBlockAfter_Intention.java" startLine="59" startPosition="102" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="647765488376046624" fileName="InsertBlockAfter_Intention.java" startLine="60" startPosition="0" endLine="61" endPosition="108" />
+    <nodeInfo nodeId="647765488376046653" fileName="InsertBlockAfter_Intention.java" startLine="61" startPosition="108" endLine="62" endPosition="114" />
+    <nodeInfo nodeId="6439828122269291864" fileName="InsertBlockAfter_Intention.java" startLine="62" startPosition="114" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="6439828122269471614" fileName="InsertBlockAfter_Intention.java" startLine="63" startPosition="0" endLine="64" endPosition="45" />
+    <nodeInfo nodeId="6378337086623144775" fileName="InsertBlockAfter_Intention.java" startLine="64" startPosition="45" endLine="65" endPosition="79" />
+    <nodeInfo nodeId="647765488376046572" fileName="InsertBlockAfter_Intention.java" startLine="52" startPosition="0" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="647765488376046539" fileName="InsertBlockAfter_Intention.java" startLine="35" startPosition="85" endLine="36" endPosition="87" />
+    <scopeInfo nodeId="647765488376046584" fileName="InsertBlockAfter_Intention.java" startLine="46" startPosition="90" endLine="47" endPosition="107" />
+    <scopeInfo nodeId="647765488376046573" fileName="InsertBlockAfter_Intention.java" startLine="53" startPosition="81" endLine="65" endPosition="79">
+      <varInfo nodeId="647765488376046625" varName="index" />
+      <varInfo nodeId="6439828122269469604" varName="exactString" />
+      <varInfo nodeId="647765488376046647" varName="block" />
+      <varInfo nodeId="647765488376046601" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488376046541" fileName="InsertBlockAfter_Intention.java" startLine="50" startPosition="76" endLine="66" endPosition="5">
+      <varInfo nodeId="647765488376046564" varName="parent" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376052656">
+    <nodeInfo nodeId="647765488376052663" fileName="AddDistantContext_Intention.java" startLine="37" startPosition="76" endLine="38" endPosition="105" />
+    <nodeInfo nodeId="647765488376052669" fileName="AddDistantContext_Intention.java" startLine="38" startPosition="105" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="647765488376052670" fileName="AddDistantContext_Intention.java" startLine="39" startPosition="0" endLine="40" endPosition="40" />
+    <nodeInfo nodeId="647765488376052674" fileName="AddDistantContext_Intention.java" startLine="41" startPosition="98" endLine="42" endPosition="97" />
+    <nodeInfo nodeId="647765488376052687" fileName="AddDistantContext_Intention.java" startLine="43" startPosition="5" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="647765488376052688" fileName="AddDistantContext_Intention.java" startLine="44" startPosition="0" endLine="45" endPosition="102" />
+    <nodeInfo nodeId="647765488376052672" fileName="AddDistantContext_Intention.java" startLine="40" startPosition="40" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="647765488376052658" fileName="AddDistantContext_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="172" />
+    <scopeInfo nodeId="647765488376052673" fileName="AddDistantContext_Intention.java" startLine="41" startPosition="98" endLine="42" endPosition="97" />
+    <scopeInfo nodeId="647765488376052662" fileName="AddDistantContext_Intention.java" startLine="37" startPosition="76" endLine="45" endPosition="102">
+      <varInfo nodeId="647765488376052664" varName="distantContext" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376052695">
+    <nodeInfo nodeId="647765488376052702" fileName="InsertDistantContextAfter_Intention.java" startLine="49" startPosition="76" endLine="50" endPosition="51" />
+    <nodeInfo nodeId="647765488376052708" fileName="InsertDistantContextAfter_Intention.java" startLine="50" startPosition="51" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="647765488376052711" fileName="InsertDistantContextAfter_Intention.java" startLine="52" startPosition="81" endLine="53" endPosition="85" />
+    <nodeInfo nodeId="647765488376052716" fileName="InsertDistantContextAfter_Intention.java" startLine="53" startPosition="85" endLine="54" endPosition="107" />
+    <nodeInfo nodeId="647765488376052722" fileName="InsertDistantContextAfter_Intention.java" startLine="54" startPosition="107" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="647765488376052723" fileName="InsertDistantContextAfter_Intention.java" startLine="55" startPosition="0" endLine="56" endPosition="108" />
+    <nodeInfo nodeId="647765488376052732" fileName="InsertDistantContextAfter_Intention.java" startLine="56" startPosition="108" endLine="57" endPosition="123" />
+    <nodeInfo nodeId="647765488376052709" fileName="InsertDistantContextAfter_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="5" />
+    <scopeInfo nodeId="647765488376052697" fileName="InsertDistantContextAfter_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="172" />
+    <scopeInfo nodeId="647765488376052747" fileName="InsertDistantContextAfter_Intention.java" startLine="45" startPosition="90" endLine="46" endPosition="107" />
+    <scopeInfo nodeId="647765488376052710" fileName="InsertDistantContextAfter_Intention.java" startLine="52" startPosition="81" endLine="57" endPosition="123">
+      <varInfo nodeId="647765488376052724" varName="index" />
+      <varInfo nodeId="647765488376052717" varName="distantContext" />
+      <varInfo nodeId="647765488376052712" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488376052701" fileName="InsertDistantContextAfter_Intention.java" startLine="49" startPosition="76" endLine="58" endPosition="5">
+      <varInfo nodeId="647765488376052703" varName="parent" />
+    </scopeInfo>
+  </root>
+  <root nodeId="647765488376058684">
+    <nodeInfo nodeId="647765488376058707" fileName="ShiftLeft_Intention.java" startLine="44" startPosition="90" endLine="45" endPosition="30" />
+    <nodeInfo nodeId="647765488376060540" fileName="ShiftLeft_Intention.java" startLine="45" startPosition="30" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="647765488376058723" fileName="ShiftLeft_Intention.java" startLine="46" startPosition="0" endLine="47" endPosition="237" />
+    <nodeInfo nodeId="647765488376058758" fileName="ShiftLeft_Intention.java" startLine="47" startPosition="237" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="647765488376058777" fileName="ShiftLeft_Intention.java" startLine="49" startPosition="106" endLine="50" endPosition="110" />
+    <nodeInfo nodeId="647765488376058800" fileName="ShiftLeft_Intention.java" startLine="50" startPosition="110" endLine="51" endPosition="129" />
+    <nodeInfo nodeId="647765488376058830" fileName="ShiftLeft_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="647765488376058840" fileName="ShiftLeft_Intention.java" startLine="54" startPosition="115" endLine="55" endPosition="119" />
+    <nodeInfo nodeId="647765488376058847" fileName="ShiftLeft_Intention.java" startLine="55" startPosition="119" endLine="56" endPosition="129" />
+    <nodeInfo nodeId="647765488376058837" fileName="ShiftLeft_Intention.java" startLine="57" startPosition="5" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="647765488376058832" fileName="ShiftLeft_Intention.java" startLine="58" startPosition="0" endLine="59" endPosition="22" />
+    <nodeInfo nodeId="647765488376058760" fileName="ShiftLeft_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="5" />
+    <nodeInfo nodeId="647765488376058838" fileName="ShiftLeft_Intention.java" startLine="53" startPosition="0" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="647765488376058688" fileName="ShiftLeft_Intention.java" startLine="62" startPosition="76" endLine="62" endPosition="76" />
+    <scopeInfo nodeId="647765488376058686" fileName="ShiftLeft_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="111" />
+    <scopeInfo nodeId="647765488376058761" fileName="ShiftLeft_Intention.java" startLine="49" startPosition="106" endLine="51" endPosition="129">
+      <varInfo nodeId="647765488376058778" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488376058839" fileName="ShiftLeft_Intention.java" startLine="54" startPosition="115" endLine="56" endPosition="129">
+      <varInfo nodeId="647765488376058841" varName="condition" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488376058692" fileName="ShiftLeft_Intention.java" startLine="44" startPosition="90" endLine="59" endPosition="22">
+      <varInfo nodeId="647765488376058708" varName="applicable" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

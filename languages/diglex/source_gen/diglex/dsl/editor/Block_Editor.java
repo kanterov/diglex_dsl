@@ -11,10 +11,12 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import diglex.dsl.plugin.BlockShortCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -23,12 +25,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import javax.swing.JTextField;
-import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -39,9 +35,11 @@ import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Replace
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Generic_Group;
 import java.util.List;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class Block_Editor extends DefaultNodeEditor {
@@ -61,15 +59,8 @@ public class Block_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.DRAW_BRACKETS, true);
       style.set(StyleAttributes.BRACKETS_COLOR, MPSColors.lightGray);
     }
-    editorCell.addEditorCell(this.createCollection_kw2rpr_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_kw2rpr_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_kw2rpr_b0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_kw2rpr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_kw2rpr_a0");
-    editorCell.addEditorCell(this.createJComponent_kw2rpr_a0a(editorContext, node));
     return editorCell;
   }
 
@@ -136,15 +127,8 @@ public class Block_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_kw2rpr_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_kw2rpr_a_0");
-    editorCell.addEditorCell(this.createCollection_kw2rpr_a0_0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_kw2rpr_a0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_kw2rpr_b0_0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_kw2rpr_a0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_kw2rpr_a0_0");
-    editorCell.addEditorCell(this.createJComponent_kw2rpr_a0a_0(editorContext, node));
     return editorCell;
   }
 
@@ -278,6 +262,30 @@ public class Block_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createCustom_kw2rpr_a0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<BlockShortCellProvider>() {
+      public BlockShortCellProvider invoke() {
+        BlockShortCellProvider blockShortCellProvider = new BlockShortCellProvider(node);
+        return blockShortCellProvider;
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_kw2rpr_a0");
+    return editorCell;
+  }
+
+  private EditorCell createCustom_kw2rpr_a0_0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<BlockShortCellProvider>() {
+      public BlockShortCellProvider invoke() {
+        BlockShortCellProvider blockShortCellProvider = new BlockShortCellProvider(node);
+        return blockShortCellProvider;
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_kw2rpr_a0_0");
+    return editorCell;
+  }
+
   private EditorCell createRefNodeList_kw2rpr_b1e1a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new Block_Editor.ItemsListHandler_kw2rpr_b1e1a(node, "Items", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
@@ -314,18 +322,6 @@ public class Block_Editor extends DefaultNodeEditor {
   private EditorCell createIndentCell_kw2rpr_a1e1a_0(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
-  }
-
-  private EditorCell createJComponent_kw2rpr_a0a(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Block_Editor._QueryFunction_JComponent_kw2rpr_a0a0(node, editorContext), "_kw2rpr_a0a");
-    editorCell.setCellId("JComponent_kw2rpr_a0a");
-    return editorCell;
-  }
-
-  private EditorCell createJComponent_kw2rpr_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Block_Editor._QueryFunction_JComponent_kw2rpr_a0a0_0(node, editorContext), "_kw2rpr_a0a_0");
-    editorCell.setCellId("JComponent_kw2rpr_a0a_0");
-    return editorCell;
   }
 
   private EditorCell createProperty_kw2rpr_b0b0(EditorContext editorContext, SNode node) {
@@ -498,34 +494,6 @@ public class Block_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static JComponent _QueryFunction_JComponent_kw2rpr_a0a0(SNode node, EditorContext editorContext) {
-    final EditorContext _editorContext = editorContext;
-    final SNode _node = node;
-
-    JPanel panel = new JPanel();
-    for (SNode item : ListSequence.fromList(SLinkOperations.getTargets(node, "Items", true))) {
-      JTextField textField = new JTextField(INamedConcept_Behavior.call_getFqName_1213877404258(item));
-      textField.setEditable(false);
-      panel.add(textField);
-    }
-
-    return panel;
-  }
-
-  private static JComponent _QueryFunction_JComponent_kw2rpr_a0a0_0(SNode node, EditorContext editorContext) {
-    final EditorContext _editorContext = editorContext;
-    final SNode _node = node;
-
-    JPanel panel = new JPanel();
-    for (SNode item : ListSequence.fromList(SLinkOperations.getTargets(node, "Items", true))) {
-      JTextField textField = new JTextField(INamedConcept_Behavior.call_getFqName_1213877404258(item));
-      textField.setEditable(false);
-      panel.add(textField);
-    }
-
-    return panel;
   }
 
   public static class _Inline_kw2rpr_a1c1a extends InlineCellProvider {

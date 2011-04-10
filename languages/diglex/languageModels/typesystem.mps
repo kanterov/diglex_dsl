@@ -46,68 +46,38 @@
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="23" />
   <import index="2" modelUID="r:3707297d-230e-4ba3-aaf2-36de0e55b298(diglex.dsl.plugin)" version="-1" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <visible index="2" modelUID="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.utils)" />
+  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="7804553196909644693">
     <property name="name:3" value="CheckTemplateNameUniqueness" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7804553196909644694">
-      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="7804553196909647623">
-        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.GreaterThanExpression:3" id="7804553196909647676">
-          <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="7804553196909647679">
-            <property name="value:3" value="1" />
-          </node>
-          <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647667">
-            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647637">
-              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647632">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647627">
-                  <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7804553196909647626">
-                    <link role="applicableNode:3" targetNodeId="7804553196909644696" resolveInfo="template" />
-                  </node>
-                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation:16" id="7804553196909647631" />
-                </node>
-                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Model_NodesOperation:16" id="7804553196909647636">
-                  <link role="concept:16" targetNodeId="1.6282999055323831027:23" resolveInfo="Template" />
-                </node>
+      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="647765488375969413">
+        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotExpression:3" id="647765488375969416">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="647765488375969418">
+            <link role="classConcept:3" targetNodeId="2v.647765488375888372" resolveInfo="NameUniqunessUtil" />
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.647765488375888378" resolveInfo="isNameUnique" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969419">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969420">
+                <link role="applicableNode:3" targetNodeId="7804553196909644696" resolveInfo="template" />
               </node>
-              <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.WhereOperation:7" id="7804553196909647662">
-                <node role="closure:7" type="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral:3" id="7804553196909647663">
-                  <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7804553196909647664">
-                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7804553196909647684">
-                      <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="7804553196909647691">
-                        <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647695">
-                          <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7804553196909647694">
-                            <link role="applicableNode:3" targetNodeId="7804553196909644696" resolveInfo="template" />
-                          </node>
-                          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="7804553196909647699">
-                            <link role="property:16" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
-                          </node>
-                        </node>
-                        <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7804553196909647686">
-                          <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7804553196909647685">
-                            <link role="variableDeclaration:3" targetNodeId="7804553196909647665" resolveInfo="it" />
-                          </node>
-                          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="7804553196909647690">
-                            <link role="property:16" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node role="parameter:3" type="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration:7" id="7804553196909647665">
-                    <property name="name:7" value="it" />
-                    <node role="type:7" type="jetbrains.mps.baseLanguage.structure.WildCardType:3" id="7804553196909647666" />
-                  </node>
-                </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation:16" id="647765488375969421" />
+            </node>
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969422">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969423">
+                <link role="applicableNode:3" targetNodeId="7804553196909644696" resolveInfo="template" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="647765488375969424">
+                <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
               </node>
             </node>
-            <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation:7" id="7804553196909647671" />
           </node>
         </node>
-        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7804553196909647625">
-          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="7804553196909647680">
-            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7804553196909647709">
+        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969415">
+          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="647765488375969425">
+            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="647765488375969428">
               <property name="value:3" value="Имена шаблонов должны быть уникальными" />
             </node>
-            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7804553196909647710">
+            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969429">
               <link role="applicableNode:3" targetNodeId="7804553196909644696" resolveInfo="template" />
             </node>
           </node>
@@ -385,7 +355,6 @@
       <link role="concept:3" targetNodeId="1.6282999055323993270:23" resolveInfo="MatchCaseCondition" />
     </node>
   </node>
-  <visible index="3" modelUID="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.utils)" />
   <visible index="4" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="5910725786823190421">
     <property name="name:3" value="CheckDictionaryConsistency" />
@@ -397,8 +366,8 @@
             <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="1922820112741856806" />
           </node>
           <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1922820112741841165">
-            <link role="baseMethodDeclaration:3" targetNodeId="3v.5910725786823190998" resolveInfo="GetDictionaryMissingDependencyIds" />
-            <link role="classConcept:3" targetNodeId="3v.8760462257934915429" resolveInfo="CheckDependencies" />
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.5910725786823190998" resolveInfo="GetDictionaryMissingDependencyIds" />
+            <link role="classConcept:3" targetNodeId="2v.8760462257934915429" resolveInfo="CheckDependencies" />
             <node role="actualArgument:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="1922820112741841166">
               <link role="applicableNode:3" targetNodeId="5910725786823190424" resolveInfo="dictionary" />
             </node>
@@ -447,7 +416,7 @@
                                       <link role="variableDeclaration:3" targetNodeId="1922820112741867218" resolveInfo="it" />
                                     </node>
                                     <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="1922820112741867280">
-                                      <link role="property:16" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+                                      <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
                                     </node>
                                   </node>
                                 </node>
@@ -503,6 +472,129 @@
     <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="5910725786823190424">
       <property name="name:3" value="dictionary" />
       <link role="concept:3" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="647765488375969430">
+    <property name="name:3" value="CheckDictionaryNameUniqueness" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969431">
+      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="647765488375969437">
+        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotExpression:3" id="647765488375969438">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="647765488375969439">
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.647765488375888378" resolveInfo="isNameUnique" />
+            <link role="classConcept:3" targetNodeId="2v.647765488375888372" resolveInfo="NameUniqunessUtil" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969452">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969451">
+                <link role="applicableNode:3" targetNodeId="647765488375969433" resolveInfo="dictionary" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation:16" id="647765488375969456" />
+            </node>
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969459">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969458">
+                <link role="applicableNode:3" targetNodeId="647765488375969433" resolveInfo="dictionary" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="647765488375969463">
+                <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969446">
+          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="647765488375969447">
+            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="647765488375969448">
+              <property name="value:3" value="Имена словарей должны быть уникальными" />
+            </node>
+            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969464">
+              <link role="applicableNode:3" targetNodeId="647765488375969433" resolveInfo="dictionary" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="647765488375969433">
+      <property name="name:3" value="dictionary" />
+      <link role="concept:3" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="647765488375969469">
+    <property name="name:3" value="CheckLexemClassificationNameUniqueness" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969470">
+      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="647765488375969473">
+        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotExpression:3" id="647765488375969474">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="647765488375969475">
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.647765488375888378" resolveInfo="isNameUnique" />
+            <link role="classConcept:3" targetNodeId="2v.647765488375888372" resolveInfo="NameUniqunessUtil" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969487">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969486">
+                <link role="applicableNode:3" targetNodeId="647765488375969472" resolveInfo="lexemClassification" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation:16" id="647765488375969491" />
+            </node>
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969493">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969492">
+                <link role="applicableNode:3" targetNodeId="647765488375969472" resolveInfo="lexemClassification" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="647765488375969497">
+                <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969482">
+          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="647765488375969483">
+            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="647765488375969484">
+              <property name="value:3" value="Имена должны быть уникальными" />
+            </node>
+            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969498">
+              <link role="applicableNode:3" targetNodeId="647765488375969472" resolveInfo="lexemClassification" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="647765488375969472">
+      <property name="name:3" value="lexemClassification" />
+      <link role="concept:3" targetNodeId="1.1094196415547805179:23" resolveInfo="LexemClassification" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="647765488375969499">
+    <property name="name:3" value="CheckSearchSettingsNameUniqueness" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969500">
+      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="647765488375969503">
+        <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotExpression:3" id="647765488375969504">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="647765488375969505">
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.647765488375888378" resolveInfo="isNameUnique" />
+            <link role="classConcept:3" targetNodeId="2v.647765488375888372" resolveInfo="NameUniqunessUtil" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969506">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969516">
+                <link role="applicableNode:3" targetNodeId="647765488375969502" resolveInfo="searchSettings" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation:16" id="647765488375969508" />
+            </node>
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="647765488375969509">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969517">
+                <link role="applicableNode:3" targetNodeId="647765488375969502" resolveInfo="searchSettings" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="647765488375969511">
+                <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="647765488375969512">
+          <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="647765488375969513">
+            <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="647765488375969514">
+              <property name="value:3" value="Имена должны быть уникальными" />
+            </node>
+            <node role="nodeToReport:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="647765488375969518">
+              <link role="applicableNode:3" targetNodeId="647765488375969502" resolveInfo="searchSettings" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="647765488375969502">
+      <property name="name:3" value="searchSettings" />
+      <link role="concept:3" targetNodeId="1.1327539314895753465:23" resolveInfo="SearchSettings" />
     </node>
   </node>
 </model>

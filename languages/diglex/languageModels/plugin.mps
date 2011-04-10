@@ -725,6 +725,7 @@
     <property name="name:23" value="CreateTemplate" />
     <property name="caption:23" value="Создать шаблон" />
     <property name="iconPath:23" value="/home/ripper/git/diglex_dsl/icons/blueprint--plus.png" />
+    <property name="isAlwaysVisible:23" value="true" />
     <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration:23" id="2324373617398600265">
       <property name="name:23" value="model" />
       <node role="visibility:23" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="2324373617398600266" />

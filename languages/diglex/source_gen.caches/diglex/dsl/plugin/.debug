@@ -3,20 +3,17 @@
   <unitInfo fileName="Dsl_ProjectPlugin.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ProjectPlugin" />
   <unitInfo fileName="Dsl_ApplicationPlugin.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ApplicationPlugin" />
   <unitInfo fileName="Diglex_DSL_ActionGroup.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="diglex.dsl.plugin.Diglex_DSL_ActionGroup" />
-  <unitInfo fileName="CreateTemplate_Action.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="diglex.dsl.plugin.CreateTemplate_Action" />
+  <unitInfo fileName="CreateTemplate_Action.java" startLine="20" startPosition="0" endLine="89" endPosition="0" unitName="diglex.dsl.plugin.CreateTemplate_Action" />
   <unitInfo fileName="DebugDictionary_Action.java" startLine="27" startPosition="0" endLine="175" endPosition="0" unitName="diglex.dsl.plugin.DebugDictionary_Action" />
   <root nodeId="2324373617398588616">
     <nodeInfo nodeId="2324373617398600265" fileName="CreateTemplate_Action.java" startLine="23" startPosition="0" endLine="24" endPosition="23" />
     <nodeInfo nodeId="2324373617398610654" fileName="CreateTemplate_Action.java" startLine="24" startPosition="23" endLine="25" endPosition="26" />
     <nodeInfo nodeId="2324373617398689355" fileName="CreateTemplate_Action.java" startLine="25" startPosition="26" endLine="26" endPosition="45" />
     <nodeInfo nodeId="2324373617398658083" fileName="CreateTemplate_Action.java" startLine="78" startPosition="9" endLine="79" endPosition="95" />
-    <nodeInfo nodeId="2324373617398658089" fileName="CreateTemplate_Action.java" startLine="79" startPosition="95" endLine="80" endPosition="0" />
-    <nodeInfo nodeId="2324373617398658090" fileName="CreateTemplate_Action.java" startLine="80" startPosition="0" endLine="81" endPosition="79" />
-    <nodeInfo nodeId="2324373617398658097" fileName="CreateTemplate_Action.java" startLine="81" startPosition="79" endLine="82" endPosition="0" />
-    <nodeInfo nodeId="2324373617398658098" fileName="CreateTemplate_Action.java" startLine="82" startPosition="0" endLine="83" endPosition="150" />
-    <nodeInfo nodeId="2324373617398658109" fileName="CreateTemplate_Action.java" startLine="83" startPosition="150" endLine="84" endPosition="67" />
-    <nodeInfo nodeId="2324373617398658116" fileName="CreateTemplate_Action.java" startLine="84" startPosition="67" endLine="85" endPosition="0" />
-    <nodeInfo nodeId="2324373617398658117" fileName="CreateTemplate_Action.java" startLine="85" startPosition="0" endLine="86" endPosition="36" />
+    <nodeInfo nodeId="2324373617398658090" fileName="CreateTemplate_Action.java" startLine="79" startPosition="95" endLine="80" endPosition="79" />
+    <nodeInfo nodeId="2324373617398658097" fileName="CreateTemplate_Action.java" startLine="80" startPosition="79" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="2324373617398658098" fileName="CreateTemplate_Action.java" startLine="81" startPosition="0" endLine="82" endPosition="150" />
+    <nodeInfo nodeId="2324373617398658109" fileName="CreateTemplate_Action.java" startLine="82" startPosition="150" endLine="83" endPosition="67" />
   </root>
   <root nodeId="477404972780598073">
     <nodeInfo nodeId="2324373617398588620" fileName="Diglex_DSL_ActionGroup.java" startLine="17" startPosition="9" endLine="18" endPosition="101" />

@@ -27,7 +27,7 @@ public class CreateTemplate_Action extends GeneratedAction {
 
   public CreateTemplate_Action() {
     super("\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0448\u0430\u0431\u043b\u043e\u043d", "", ICON);
-    this.setIsAlwaysVisible(false);
+    this.setIsAlwaysVisible(true);
     this.setExecuteOutsideCommand(false);
   }
 
@@ -77,13 +77,10 @@ public class CreateTemplate_Action extends GeneratedAction {
   public void doExecute(@NotNull final AnActionEvent event) {
     try {
       SNode template = SConceptOperations.createNewNode("diglex.dsl.structure.Template", null);
-
       SModelOperations.addRootNode(CreateTemplate_Action.this.model, template);
 
       SelectTemplateTool selectTemplateTool = new SelectTemplateTool(CreateTemplate_Action.this.project, CreateTemplate_Action.this.operationContext);
       boolean result = selectTemplateTool.selectTemplate(template);
-
-      LOG.info("result: " + result);
     } catch (Throwable t) {
       LOG.error("User's action execute method failed. Action:" + "CreateTemplate", t);
     }

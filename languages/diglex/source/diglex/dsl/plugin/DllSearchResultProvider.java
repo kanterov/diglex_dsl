@@ -1,5 +1,6 @@
 package diglex.dsl.plugin;
 
+import jetbrains.mps.logging.Logger;
 import org.xml.sax.InputSource;
 
 import java.io.ByteArrayInputStream;
@@ -15,6 +16,7 @@ import java.util.List;
  */
 public class DllSearchResultProvider implements ISearchResultsProvider {
     private String templatesXml;
+    private static Logger LOG = Logger.getLogger(DllSearchResultProvider.class);
 
     public DllSearchResultProvider(String templatesXml) {
         this.templatesXml = templatesXml;
@@ -22,6 +24,10 @@ public class DllSearchResultProvider implements ISearchResultsProvider {
 
     public List<ISearchResult> getSearchResults(String text) {
         String searchResult = getSearchResultsString(text);
+
+        LOG.info("Searching "+text);
+        LOG.info("DLL response: "+searchResult);
+
         byte[] bytes = searchResult.getBytes();
         InputSource inputSource = new InputSource(new ByteArrayInputStream(bytes, 0, bytes.length));
 

@@ -51,6 +51,48 @@
     <unitInfo nodeId="5910725786823192639" fileName="IdUtil.java" startLine="20" startPosition="106" endLine="25" endPosition="5" unitName="diglex.dsl.utils.IdUtil$1" />
     <unitInfo nodeId="5910725786823191089" fileName="IdUtil.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="diglex.dsl.utils.IdUtil" />
   </root>
+  <root nodeId="647765488375888372">
+    <nodeInfo nodeId="647765488375934580" fileName="NameUniqunessUtil.java" startLine="16" startPosition="71" endLine="17" endPosition="16" />
+    <nodeInfo nodeId="647765488375934579" fileName="NameUniqunessUtil.java" startLine="17" startPosition="16" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="647765488375969412" fileName="NameUniqunessUtil.java" startLine="38" startPosition="15" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="647765488375934621" fileName="NameUniqunessUtil.java" startLine="40" startPosition="18" endLine="41" endPosition="19" />
+    <nodeInfo nodeId="647765488375969410" fileName="NameUniqunessUtil.java" startLine="42" startPosition="5" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="647765488375934575" fileName="NameUniqunessUtil.java" startLine="43" startPosition="0" endLine="44" endPosition="16" />
+    <nodeInfo nodeId="647765488375888374" fileName="NameUniqunessUtil.java" startLine="12" startPosition="32" endLine="14" endPosition="3" />
+    <nodeInfo nodeId="647765488375934611" fileName="NameUniqunessUtil.java" startLine="39" startPosition="0" endLine="42" endPosition="5" />
+    <nodeInfo nodeId="647765488375934599" fileName="NameUniqunessUtil.java" startLine="19" startPosition="133" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="647765488375934656" fileName="NameUniqunessUtil.java" startLine="24" startPosition="135" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="647765488375934697" fileName="NameUniqunessUtil.java" startLine="29" startPosition="144" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="647765488375934719" fileName="NameUniqunessUtil.java" startLine="34" startPosition="139" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="647765488375934588" fileName="NameUniqunessUtil.java" startLine="18" startPosition="0" endLine="23" endPosition="15" />
+    <nodeInfo nodeId="647765488375934647" fileName="NameUniqunessUtil.java" startLine="23" startPosition="15" endLine="28" endPosition="15" />
+    <nodeInfo nodeId="647765488375934688" fileName="NameUniqunessUtil.java" startLine="28" startPosition="15" endLine="33" endPosition="15" />
+    <nodeInfo nodeId="647765488375934710" fileName="NameUniqunessUtil.java" startLine="33" startPosition="15" endLine="38" endPosition="15" />
+    <nodeInfo nodeId="647765488375888378" fileName="NameUniqunessUtil.java" startLine="15" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="647765488375888377" fileName="NameUniqunessUtil.java" startLine="13" startPosition="30" endLine="13" endPosition="30" />
+    <scopeInfo nodeId="647765488375934600" fileName="NameUniqunessUtil.java" startLine="20" startPosition="39" endLine="21" endPosition="65" />
+    <scopeInfo nodeId="647765488375934657" fileName="NameUniqunessUtil.java" startLine="25" startPosition="39" endLine="26" endPosition="65" />
+    <scopeInfo nodeId="647765488375934698" fileName="NameUniqunessUtil.java" startLine="30" startPosition="39" endLine="31" endPosition="65" />
+    <scopeInfo nodeId="647765488375934720" fileName="NameUniqunessUtil.java" startLine="35" startPosition="39" endLine="36" endPosition="65" />
+    <scopeInfo nodeId="647765488375934612" fileName="NameUniqunessUtil.java" startLine="40" startPosition="18" endLine="41" endPosition="19" />
+    <scopeInfo nodeId="647765488375888374" fileName="NameUniqunessUtil.java" startLine="12" startPosition="32" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="647765488375934599" fileName="NameUniqunessUtil.java" startLine="19" startPosition="133" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="647765488375934656" fileName="NameUniqunessUtil.java" startLine="24" startPosition="135" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="647765488375934697" fileName="NameUniqunessUtil.java" startLine="29" startPosition="144" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="647765488375934719" fileName="NameUniqunessUtil.java" startLine="34" startPosition="139" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="647765488375888381" fileName="NameUniqunessUtil.java" startLine="16" startPosition="71" endLine="44" endPosition="16">
+      <varInfo nodeId="647765488375934581" varName="sum" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488375888378" fileName="NameUniqunessUtil.java" startLine="15" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="647765488375897523" varName="model" />
+      <varInfo nodeId="647765488375897526" varName="name" />
+    </scopeInfo>
+    <unitInfo nodeId="647765488375934599" fileName="NameUniqunessUtil.java" startLine="19" startPosition="110" endLine="23" endPosition="5" unitName="diglex.dsl.utils.NameUniqunessUtil$1" />
+    <unitInfo nodeId="647765488375934656" fileName="NameUniqunessUtil.java" startLine="24" startPosition="112" endLine="28" endPosition="5" unitName="diglex.dsl.utils.NameUniqunessUtil$2" />
+    <unitInfo nodeId="647765488375934697" fileName="NameUniqunessUtil.java" startLine="29" startPosition="121" endLine="33" endPosition="5" unitName="diglex.dsl.utils.NameUniqunessUtil$3" />
+    <unitInfo nodeId="647765488375934719" fileName="NameUniqunessUtil.java" startLine="34" startPosition="116" endLine="38" endPosition="5" unitName="diglex.dsl.utils.NameUniqunessUtil$4" />
+    <unitInfo nodeId="647765488375888372" fileName="NameUniqunessUtil.java" startLine="12" startPosition="0" endLine="47" endPosition="0" unitName="diglex.dsl.utils.NameUniqunessUtil" />
+  </root>
   <root nodeId="7413212514892990434">
     <nodeInfo nodeId="7413212514892994026" fileName="ExactStringBuilder.java" startLine="22" startPosition="33" endLine="23" endPosition="63" />
     <nodeInfo nodeId="3850314743293093987" fileName="ExactStringBuilder.java" startLine="28" startPosition="99" endLine="29" endPosition="39" />
