@@ -968,7 +968,7 @@
         </node>
       </node>
       <node role="content" type="diglex.xml.structure.Element" id="8627407948872857155">
-        <property name="name" value="Propeties" />
+        <property name="name" value="Properties" />
         <node role="content" type="diglex.xml.structure.Element" id="8627407948872857156">
           <property name="name" value="Property" />
           <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872857158">
@@ -2332,7 +2332,7 @@
         </node>
       </node>
       <node role="content" type="diglex.xml.structure.Element" id="8627407948872857178">
-        <property name="name" value="Value" />
+        <property name="name" value="DefaultValue" />
         <node role="content" type="diglex.xml.structure.Text" id="8627407948872857180">
           <property name="name" value="1" />
           <property name="text" value="qwerty" />

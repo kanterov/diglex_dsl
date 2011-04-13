@@ -7,6 +7,7 @@
       <zipfileset file="languages/diglex/diglex.mpl" prefix="module" />
       <zipfileset dir="languages/diglex/source_gen.caches" prefix="source_gen.caches" />
       <zipfileset dir="languages/diglex" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset file="lib/simple-xml-2.5.1.jar" />
       <zipfileset dir="languages/diglex/classes_gen" />
     </jar>
   </target>

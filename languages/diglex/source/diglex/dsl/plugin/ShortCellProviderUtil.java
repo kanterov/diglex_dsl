@@ -467,7 +467,7 @@ public class ShortCellProviderUtil {
                 EditorCell editorCell = createExactStringInnerCell(editorContext, blockItem.getNode());
 //                ExactString exactString = (ExactString) blockItem;
 //                EditorCell editorCell = new EditorCell_Constant(editorContext, blockItem.getNode(),
-//                                                                exactString.getValue(), false);
+//                                                                exactString.getDefaultValue(), false);
 //
                 collection.addEditorCell(editorCell);
             }

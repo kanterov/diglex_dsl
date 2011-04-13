@@ -16,6 +16,20 @@
     <projectDevkits />
     <genConfs />
   </component>
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="simplexml">
+          <value>
+            <Library>
+              <option name="name" value="simplexml" />
+              <option name="path" value="${project}/lib" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>

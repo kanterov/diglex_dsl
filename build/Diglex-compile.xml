@@ -23,6 +23,7 @@
   </path>
   <path id="cycle.diglex.dsl_b.classpaths">
     <path path="languages/diglex/classes_gen" />
+    <path path="lib/simple-xml-2.5.1.jar" />
     <path path="${mps_home}/core/baseLanguage/closures.runtime.mpsarch.jar" />
     <path path="${mps_home}/core/baseLanguage/collections.runtime.mpsarch.jar" />
     <path path="${mps_home}/core/baseLanguage/collections_trove.runtime.mpsarch.jar" />
@@ -120,6 +121,7 @@
     <path path="${mps_home}/lib/log4j/log4j.jar" />
     <path path="${mps_home}/lib/mps.jar" />
     <path path="${mps_home}/lib/picocontainer/picocontainer.jar" />
+    <path path="lib/simple-xml-2.5.1.jar" />
     <path path="${mps_home}/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar" />
     <path path="${mps_home}/platform/jetbrains.mps.analyzers.mpsAnalyzers.mpsarch.jar!" />
     <path path="${mps_home}/platform/jetbrains.mps.analyzers.mpsarch.jar" />

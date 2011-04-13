@@ -1,6 +1,6 @@
 <project name="help-build" default="nothing">
-  <property name="executable.dir" value="/executable" />
-  <property name="data.dir" value="/data" />
+  <property name="executable.dir" defaultValue="/executable" />
+  <property name="data.dir" defaultValue="/data" />
   <target name="nothing">
     <echo>Doing nothing...</echo>
   </target>
@@ -13,8 +13,8 @@
     </copy>
   </target>
   <target name="append.mps.version">
-    <property name="build.number.file" value="${input.dir}/build.number" />
-    <property name="prefix" value="jetbrains.mps." />
+    <property name="build.number.file" defaultValue="${input.dir}/build.number" />
+    <property name="prefix" defaultValue="jetbrains.mps." />
     <fail unless="mps_home" message="Property mps_home unspecified." />
     <fail unless="output.dir" message="Property output.dir unspecified." />
     <fail unless="input.dir" message="Property input.dir unspecified." />
@@ -27,7 +27,7 @@
     <copy file="${build.number.file}" todir="${output.dir}" />
   </target>
   <target name="append.idea.version">
-    <property name="build.number.file" value="${input.dir}/build.number" />
+    <property name="build.number.file" defaultValue="${input.dir}/build.number" />
     <fail unless="mps_home" message="Property mps_home unspecified." />
     <fail unless="input.dir" message="Property input.dir unspecified." />
     <fail unless="output.dir" message="Property output.dir unspecified." />
@@ -41,8 +41,8 @@
     <unzip src="/home/ripper/MPS.artifacts/MPS-buildTools.zip" dest="${mps_home}/build" />
   </target>
   <target name="add.libraries_a">
-    <property name="mps.jar" value="${input.dir}/mps.jar" />
-    <property name="extracted.mps.jar" value="${input.dir}/mpsjar" />
+    <property name="mps.jar" defaultValue="${input.dir}/mps.jar" />
+    <property name="extracted.mps.jar" defaultValue="${input.dir}/mpsjar" />
     <fail unless="mps_home" message="Property mps_home unspecified." />
     <fail unless="input.dir" message="Property input.dir unspecified." />
     <fail unless="output.dir" message="Property output.dir unspecified." />
@@ -53,8 +53,8 @@
         <pathelement location="${mps_home}/lib/jdom/jdom.jar" />
         <pathelement location="${mps_home}/lib/log4j/log4j.jar" />
       </classpath>
-      <arg value="${extracted.mps.jar}" />
-      <arg value="diglex=Diglex/" />
+      <arg defaultValue="${extracted.mps.jar}" />
+      <arg defaultValue="diglex=Diglex/" />
     </java>
     <jar destfile="${mps.jar}" update="true">
       <fileset dir="${extracted.mps.jar}">

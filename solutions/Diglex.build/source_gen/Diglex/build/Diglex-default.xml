@@ -165,10 +165,10 @@
       <fileset dir="${mps_home}/lib" includes="mps.jar" />
     </copy>
     <antcall target="help-build.add.libraries_a" inheritall="true">
-      <param name="deploy.dir" value="${deploy.dir}" />
-      <param name="input.dir" value="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
-      <param name="output.dir" value="${deploy.dir}/MPS/lib" />
-      <param name="basedir" value="${basedir}" />
+      <param name="deploy.dir" defaultValue="${deploy.dir}" />
+      <param name="input.dir" defaultValue="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
+      <param name="output.dir" defaultValue="${deploy.dir}/MPS/lib" />
+      <param name="basedir" defaultValue="${basedir}" />
     </antcall>
     <delete dir="${deploy.dir}/MPS/lib/help-build.add.libraries_a" />
     <mkdir dir="${deploy.dir}/MPS/lib" />
@@ -318,10 +318,10 @@
     <mkdir dir="${deploy.dir}/MPS/workbench" />
     <echo file="${deploy.dir}/MPS/help-build.append.mps.version/build.number">date=${DSTAMP}</echo>
     <antcall target="help-build.append.mps.version" inheritall="true">
-      <param name="deploy.dir" value="${deploy.dir}" />
-      <param name="input.dir" value="${deploy.dir}/MPS/help-build.append.mps.version" />
-      <param name="output.dir" value="${deploy.dir}/MPS" />
-      <param name="basedir" value="${basedir}" />
+      <param name="deploy.dir" defaultValue="${deploy.dir}" />
+      <param name="input.dir" defaultValue="${deploy.dir}/MPS/help-build.append.mps.version" />
+      <param name="output.dir" defaultValue="${deploy.dir}/MPS" />
+      <param name="basedir" defaultValue="${basedir}" />
     </antcall>
     <delete dir="${deploy.dir}/MPS/help-build.append.mps.version" />
     <copy file="${mps_home}/readme.txt" tofile="${deploy.dir}/MPS/readme.mps.txt" />
@@ -338,10 +338,10 @@
     <mkdir dir="${deploy.dir}/MPS/Diglex" />
     <mkdir dir="${deploy.dir}/MPS" />
     <antcall target="help-build.unpack.buildtools.zip_a" inheritall="true">
-      <param name="deploy.dir" value="${deploy.dir}" />
-      <param name="input.dir" value="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
-      <param name="output.dir" value="${deploy.dir}/" />
-      <param name="basedir" value="${basedir}" />
+      <param name="deploy.dir" defaultValue="${deploy.dir}" />
+      <param name="input.dir" defaultValue="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
+      <param name="output.dir" defaultValue="${deploy.dir}/" />
+      <param name="basedir" defaultValue="${basedir}" />
     </antcall>
     <delete dir="${deploy.dir}/help-build.unpack.buildtools.zip_a" />
   </target>
@@ -354,8 +354,8 @@
   <target name="replace_a7a0fb1a">
     <fail unless="mps_home" message="Property mps_home unspecified." />
     <copy file="${mps_home}/core/kernel/classes/idea/MPSApplicationInfo.xml" tofile="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" />
-    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_NUMBER__" value="${build.number}" />
-    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_DATE__" value="${DSTAMP}" />
-    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__VERSION__" value="${version}" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_NUMBER__" defaultValue="${build.number}" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__BUILD_DATE__" defaultValue="${DSTAMP}" />
+    <replace file="${deploy.dir}/MPS/lib/help-build.add.libraries_a/mps.jar.tmp/idea/MPSApplicationInfo.xml" token="__VERSION__" defaultValue="${version}" />
   </target>
 </project>

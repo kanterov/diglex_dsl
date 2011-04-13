@@ -1,6 +1,6 @@
 <project name="Diglex-compile" default="compile.all" basedir="..">
-  <property name="diglex.dsl.classes" value="languages/diglex/classes_gen" />
-  <property name="diglex.xml.classes" value="languages/diglex.xml/classes_gen" />
+  <property name="diglex.dsl.classes" defaultValue="languages/diglex/classes_gen" />
+  <property name="diglex.xml.classes" defaultValue="languages/diglex.xml/classes_gen" />
   <path id="common.classpath">
     <path path="${mps_home}/lib/commons-lang/commons-lang-2.1.jar" />
     <path path="${mps_home}/lib/jdom/jdom.jar" />
@@ -259,7 +259,7 @@
   </path>
   <target name="compile.all" depends="compile.cycle.diglex.dsl_b,compile.cycle.diglex.xml_a" />
   <target name="compile.cycle.diglex.dsl_b" depends="compile.cycle.diglex.xml_a">
-    <property name="classes.dump" value="${diglex.dsl.classes}.tmp" />
+    <property name="classes.dump" defaultValue="${diglex.dsl.classes}.tmp" />
     <mkdir dir="languages/diglex/source" />
     <mkdir dir="languages/diglex/source_gen" />
     <mkdir dir="${classes.dump}" />
@@ -276,7 +276,7 @@
     <delete dir="${classes.dump}" />
   </target>
   <target name="compile.cycle.diglex.xml_a">
-    <property name="classes.dump" value="${diglex.xml.classes}.tmp" />
+    <property name="classes.dump" defaultValue="${diglex.xml.classes}.tmp" />
     <mkdir dir="languages/diglex.xml/source_gen" />
     <mkdir dir="${classes.dump}" />
     <mkdir dir="${diglex.xml.classes}" />

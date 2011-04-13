@@ -240,5 +240,20 @@
     <property name="name:26" value="Базовый" />
     <property name="base:26" value="true" />
   </node>
+  <node type="diglex.dsl.structure.Template:26" id="8627407948872924866">
+    <property name="id1:26" value="2000000000" />
+    <property name="name:26" value="Множество строк - пример" />
+    <node role="MatchCases:26" type="diglex.dsl.structure.MatchCase:26" id="8627407948872924867">
+      <node role="Items:26" type="diglex.dsl.structure.DistantContext:26" id="5719035409631158303">
+        <node role="Repeat:26" type="diglex.dsl.structure.RepeatTimes:26" id="5719035409631158304">
+          <property name="minimum:26" value="0" />
+          <property name="maximum:26" value="INF" />
+        </node>
+        <node role="Conditions:26" type="diglex.dsl.structure.DistantContextCondition:26" id="5719035409631158305">
+          <link role="TemplateReference:26" targetNodeId="6378337086624213885" resolveInfo="РАН" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
