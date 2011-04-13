@@ -18,6 +18,7 @@ public class Dictionary extends BaseConcept implements INamedConcept {
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String DICTIONARY_TEMPLATE = "dictionaryTemplate";
+  public static final String DICTIONARY_CLASS = "dictionaryClass";
 
   public Dictionary(SNode node) {
     super(node);
@@ -73,6 +74,26 @@ public class Dictionary extends BaseConcept implements INamedConcept {
 
   public void insertDictionaryTemplate(DictionaryTemplate prev, DictionaryTemplate node) {
     this.insertChild(prev, Dictionary.DICTIONARY_TEMPLATE, node);
+  }
+
+  public int getDictionaryClassesCount() {
+    return this.getChildCount(Dictionary.DICTIONARY_CLASS);
+  }
+
+  public Iterator<DictionaryClass> dictionaryClasses() {
+    return this.children(DictionaryClass.class, Dictionary.DICTIONARY_CLASS);
+  }
+
+  public List<DictionaryClass> getDictionaryClasses() {
+    return this.getChildren(DictionaryClass.class, Dictionary.DICTIONARY_CLASS);
+  }
+
+  public void addDictionaryClass(DictionaryClass node) {
+    this.addChild(Dictionary.DICTIONARY_CLASS, node);
+  }
+
+  public void insertDictionaryClass(DictionaryClass prev, DictionaryClass node) {
+    this.insertChild(prev, Dictionary.DICTIONARY_CLASS, node);
   }
 
   public static Dictionary newInstance(SModel sm, boolean init) {

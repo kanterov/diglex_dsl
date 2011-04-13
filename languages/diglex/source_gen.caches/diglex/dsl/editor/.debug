@@ -1,142 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="Block_Editor.java" startLine="266" startPosition="40" endLine="271" endPosition="5" unitName="diglex.dsl.editor.Block_Editor$1" />
-  <unitInfo fileName="Block_Editor.java" startLine="278" startPosition="40" endLine="283" endPosition="5" unitName="diglex.dsl.editor.Block_Editor$2" />
-  <unitInfo fileName="Template_Editor.java" startLine="148" startPosition="40" endLine="154" endPosition="5" unitName="diglex.dsl.editor.Template_Editor$1" />
-  <unitInfo fileName="Template_Editor.java" startLine="161" startPosition="40" endLine="167" endPosition="5" unitName="diglex.dsl.editor.Template_Editor$2" />
-  <unitInfo fileName="Block_Editor.java" startLine="657" startPosition="0" endLine="675" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_a0b1e1a" />
-  <unitInfo fileName="Block_Editor.java" startLine="676" startPosition="0" endLine="694" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_b0b1e1a" />
-  <unitInfo fileName="Block_Editor.java" startLine="695" startPosition="0" endLine="713" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_c0b1e1a" />
-  <unitInfo fileName="Block_Editor.java" startLine="714" startPosition="0" endLine="732" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_a0b1e1a_0" />
-  <unitInfo fileName="Block_Editor.java" startLine="733" startPosition="0" endLine="751" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_b0b1e1a_0" />
-  <unitInfo fileName="Block_Editor.java" startLine="752" startPosition="0" endLine="770" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_c0b1e1a_0" />
-  <unitInfo fileName="Block_Editor.java" startLine="771" startPosition="0" endLine="797" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_generic_cellMenu_a0b2b0" />
-  <unitInfo fileName="Block_Editor.java" startLine="798" startPosition="0" endLine="824" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_generic_cellMenu_a0b2b0_0" />
+  <unitInfo fileName="Block_Editor.java" startLine="239" startPosition="40" endLine="244" endPosition="5" unitName="diglex.dsl.editor.Block_Editor$1" />
+  <unitInfo fileName="Template_Editor.java" startLine="207" startPosition="40" endLine="213" endPosition="5" unitName="diglex.dsl.editor.Template_Editor$1" />
+  <unitInfo fileName="Block_Editor.java" startLine="490" startPosition="0" endLine="508" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_a0c0a" />
+  <unitInfo fileName="Block_Editor.java" startLine="509" startPosition="0" endLine="527" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_b0c0a" />
+  <unitInfo fileName="Block_Editor.java" startLine="528" startPosition="0" endLine="546" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_c0c0a" />
+  <unitInfo fileName="Block_Editor.java" startLine="547" startPosition="0" endLine="565" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_a0b1e1a" />
+  <unitInfo fileName="Block_Editor.java" startLine="566" startPosition="0" endLine="584" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_b0b1e1a" />
+  <unitInfo fileName="Block_Editor.java" startLine="585" startPosition="0" endLine="603" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_Items_cellMenu_c0b1e1a" />
+  <unitInfo fileName="Block_Editor.java" startLine="604" startPosition="0" endLine="630" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$Block_generic_cellMenu_a0b2b0" />
+  <unitInfo fileName="MatchCaseMenu.java" startLine="63" startPosition="0" endLine="90" endPosition="0" unitName="diglex.dsl.editor.MatchCaseMenu$MatchCase_Items_cellMenu_b0" />
+  <unitInfo fileName="MatchCaseMenu.java" startLine="91" startPosition="0" endLine="121" endPosition="0" unitName="diglex.dsl.editor.MatchCaseMenu$MatchCase_Items_cellMenu_c0" />
+  <unitInfo fileName="DictionaryClass_Editor.java" startLine="53" startPosition="0" endLine="84" endPosition="0" unitName="diglex.dsl.editor.DictionaryClass_Editor$_Inline_bln75x_a0a" />
   <unitInfo fileName="DictionaryTemplate_Editor.java" startLine="53" startPosition="0" endLine="84" endPosition="0" unitName="diglex.dsl.editor.DictionaryTemplate_Editor$_Inline_a5y6y6_a0a" />
   <unitInfo fileName="SearchSettings_Editor.java" startLine="93" startPosition="0" endLine="124" endPosition="0" unitName="diglex.dsl.editor.SearchSettings_Editor$_Inline_1fo5y8_a3a" />
-  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="213" startPosition="0" endLine="244" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor$_Inline_z5hp67_a3b0" />
-  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="245" startPosition="0" endLine="276" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor$_Inline_z5hp67_a3b0_0" />
-  <unitInfo fileName="TemplateReference_Editor.java" startLine="254" startPosition="0" endLine="285" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor$_Inline_nhnbvh_a1a0" />
-  <unitInfo fileName="TemplateReference_Editor.java" startLine="286" startPosition="0" endLine="317" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor$_Inline_nhnbvh_a1a0_0" />
-  <unitInfo fileName="Block_Editor.java" startLine="499" startPosition="0" endLine="530" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$_Inline_kw2rpr_a1c1a" />
-  <unitInfo fileName="Block_Editor.java" startLine="531" startPosition="0" endLine="562" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$_Inline_kw2rpr_a1c1a_0" />
+  <unitInfo fileName="TemplateReference_Editor.java" startLine="219" startPosition="0" endLine="250" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor$_Inline_nhnbvh_a1a0" />
+  <unitInfo fileName="DistantContext_Editor.java" startLine="321" startPosition="0" endLine="352" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$DistantContext_Conditions_cellMenu_a0b0" />
+  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="333" startPosition="0" endLine="364" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor$_Inline_z5hp67_a3b0" />
+  <unitInfo fileName="Block_Editor.java" startLine="375" startPosition="0" endLine="406" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$_Inline_kw2rpr_a1c1a" />
+  <unitInfo fileName="MatchCaseMenu.java" startLine="30" startPosition="0" endLine="62" endPosition="0" unitName="diglex.dsl.editor.MatchCaseMenu$MatchCase_Items_cellMenu_a0" />
+  <unitInfo fileName="TemplateClass_Editor.java" startLine="195" startPosition="0" endLine="227" endPosition="0" unitName="diglex.dsl.editor.TemplateClass_Editor$_Inline_jv6l87_a1b0" />
+  <unitInfo fileName="TemplateReference_Editor.java" startLine="251" startPosition="0" endLine="283" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor$_Inline_nhnbvh_a2a" />
+  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="300" startPosition="0" endLine="332" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor$_Inline_z5hp67_a1b0" />
+  <unitInfo fileName="Template_Editor.java" startLine="346" startPosition="0" endLine="378" endPosition="0" unitName="diglex.dsl.editor.Template_Editor$_Inline_63yoo9_a1c0" />
+  <unitInfo fileName="Block_Editor.java" startLine="407" startPosition="0" endLine="442" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$ItemsListHandler_kw2rpr_c0a" />
+  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="263" startPosition="0" endLine="299" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor$_Inline_z5hp67_a1a0" />
   <unitInfo fileName="LexemSymbolGroup_Editor.java" startLine="70" startPosition="0" endLine="107" endPosition="0" unitName="diglex.dsl.editor.LexemSymbolGroup_Editor$symbolListHandler_hnyj3a_b1a" />
-  <unitInfo fileName="Dictionary_Editor.java" startLine="107" startPosition="0" endLine="144" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor$dictionaryTemplateListHandler_ytbb8b_b1a" />
+  <unitInfo fileName="Dictionary_Editor.java" startLine="148" startPosition="0" endLine="185" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor$dictionaryTemplateListHandler_ytbb8b_b1a" />
   <unitInfo fileName="StringSet_Editor.java" startLine="160" startPosition="0" endLine="197" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor$ItemsListHandler_cixy8d_b0b0" />
   <unitInfo fileName="LexemType_Editor.java" startLine="171" startPosition="0" endLine="208" endPosition="0" unitName="diglex.dsl.editor.LexemType_Editor$symbolGroupListHandler_xsielh_b3a" />
+  <unitInfo fileName="Dictionary_Editor.java" startLine="186" startPosition="0" endLine="223" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor$dictionaryClassListHandler_ytbb8b_c2a" />
   <unitInfo fileName="StringSet_Editor.java" startLine="198" startPosition="0" endLine="235" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor$ItemsListHandler_cixy8d_b0b0_0" />
-  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="206" startPosition="0" endLine="243" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1b0" />
-  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="210" startPosition="0" endLine="247" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_b1b0" />
-  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="244" startPosition="0" endLine="281" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1a" />
-  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="248" startPosition="0" endLine="285" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_b1b0_0" />
-  <unitInfo fileName="DistantContext_Editor.java" startLine="264" startPosition="0" endLine="301" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b1a1a" />
-  <unitInfo fileName="DistantContext_Editor.java" startLine="302" startPosition="0" endLine="339" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b1a1a_0" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="204" startPosition="0" endLine="241" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b1a" />
+  <unitInfo fileName="DistantContext_Editor.java" startLine="220" startPosition="0" endLine="257" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b1a1a" />
+  <unitInfo fileName="TemplateClass_Editor.java" startLine="228" startPosition="0" endLine="265" endPosition="0" unitName="diglex.dsl.editor.TemplateClass_Editor$templateClassPropertyListHandler_jv6l87_b1e0" />
+  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="272" startPosition="0" endLine="309" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_b1b0" />
+  <unitInfo fileName="Template_Editor.java" startLine="379" startPosition="0" endLine="416" endPosition="0" unitName="diglex.dsl.editor.Template_Editor$MatchCasesListHandler_63yoo9_e0" />
+  <unitInfo fileName="Template_Editor.java" startLine="417" startPosition="0" endLine="454" endPosition="0" unitName="diglex.dsl.editor.Template_Editor$classPropertyListHandler_63yoo9_b1g0" />
   <unitInfo fileName="StringSetItem_Editor.java" startLine="18" startPosition="0" endLine="60" endPosition="0" unitName="diglex.dsl.editor.StringSetItem_Editor" />
   <unitInfo fileName="LexemClassification_Editor.java" startLine="119" startPosition="0" endLine="165" endPosition="0" unitName="diglex.dsl.editor.LexemClassification_Editor$lexemTypeListHandler_nywvjj_e0" />
-  <unitInfo fileName="Block_Editor.java" startLine="563" startPosition="0" endLine="609" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$ItemsListHandler_kw2rpr_b1e1a" />
-  <unitInfo fileName="Block_Editor.java" startLine="610" startPosition="0" endLine="656" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$ItemsListHandler_kw2rpr_b1e1a_0" />
-  <unitInfo fileName="MatchCase_Editor.java" startLine="285" startPosition="0" endLine="333" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor$ItemsListHandler_tm8rij_b2a" />
-  <unitInfo fileName="MatchCase_Editor.java" startLine="334" startPosition="0" endLine="382" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor$ItemsListHandler_tm8rij_b2a_0" />
+  <unitInfo fileName="Block_Editor.java" startLine="443" startPosition="0" endLine="489" endPosition="0" unitName="diglex.dsl.editor.Block_Editor$ItemsListHandler_kw2rpr_b1e1a" />
+  <unitInfo fileName="MatchCase_Editor.java" startLine="336" startPosition="0" endLine="384" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor$ItemsListHandler_tm8rij_b2a" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="153" startPosition="0" endLine="203" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor$matchCaseListHandler_956stu_b0" />
+  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="221" startPosition="0" endLine="271" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor$ItemsListHandler_qv1uqr_c0" />
   <unitInfo fileName="LexemSymbol_Editor.java" startLine="18" startPosition="0" endLine="75" endPosition="0" unitName="diglex.dsl.editor.LexemSymbol_Editor" />
+  <unitInfo fileName="DistantContext_Editor.java" startLine="258" startPosition="0" endLine="320" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor$ConditionsListHandler_dkxp4f_b0" />
+  <unitInfo fileName="MatchCase_Editor.java" startLine="272" startPosition="0" endLine="335" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor$ItemsListHandler_tm8rij_c0a" />
+  <unitInfo fileName="DictionaryClass_Editor.java" startLine="19" startPosition="0" endLine="85" endPosition="0" unitName="diglex.dsl.editor.DictionaryClass_Editor" />
   <unitInfo fileName="DictionaryTemplate_Editor.java" startLine="19" startPosition="0" endLine="85" endPosition="0" unitName="diglex.dsl.editor.DictionaryTemplate_Editor" />
   <unitInfo fileName="BlockTail_Editor.java" startLine="16" startPosition="0" endLine="95" endPosition="0" unitName="diglex.dsl.editor.BlockTail_Editor" />
   <unitInfo fileName="LexemSymbolCode_Editor.java" startLine="18" startPosition="0" endLine="103" endPosition="0" unitName="diglex.dsl.editor.LexemSymbolCode_Editor" />
+  <unitInfo fileName="ExactString_Editor.java" startLine="22" startPosition="0" endLine="107" endPosition="0" unitName="diglex.dsl.editor.ExactString_Editor" />
   <unitInfo fileName="LexemSymbolGroup_Editor.java" startLine="23" startPosition="0" endLine="108" endPosition="0" unitName="diglex.dsl.editor.LexemSymbolGroup_Editor" />
-  <unitInfo fileName="ExactString_Editor.java" startLine="20" startPosition="0" endLine="117" endPosition="0" unitName="diglex.dsl.editor.ExactString_Editor" />
+  <unitInfo fileName="TemplateClassProperty_Editor.java" startLine="18" startPosition="0" endLine="110" endPosition="0" unitName="diglex.dsl.editor.TemplateClassProperty_Editor" />
+  <unitInfo fileName="ClassProperty_Editor.java" startLine="20" startPosition="0" endLine="116" endPosition="0" unitName="diglex.dsl.editor.ClassProperty_Editor" />
+  <unitInfo fileName="MatchCaseMenu.java" startLine="25" startPosition="0" endLine="122" endPosition="0" unitName="diglex.dsl.editor.MatchCaseMenu" />
   <unitInfo fileName="SearchSettings_Editor.java" startLine="20" startPosition="0" endLine="125" endPosition="0" unitName="diglex.dsl.editor.SearchSettings_Editor" />
-  <unitInfo fileName="Dictionary_Editor.java" startLine="26" startPosition="0" endLine="145" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor" />
+  <unitInfo fileName="AnySymbol_Editor.java" startLine="22" startPosition="0" endLine="149" endPosition="0" unitName="diglex.dsl.editor.AnySymbol_Editor" />
   <unitInfo fileName="LexemClassification_Editor.java" startLine="26" startPosition="0" endLine="166" endPosition="0" unitName="diglex.dsl.editor.LexemClassification_Editor" />
   <unitInfo fileName="RepeatTimes_Editor.java" startLine="18" startPosition="0" endLine="169" endPosition="0" unitName="diglex.dsl.editor.RepeatTimes_Editor" />
   <unitInfo fileName="LexemType_Editor.java" startLine="26" startPosition="0" endLine="209" endPosition="0" unitName="diglex.dsl.editor.LexemType_Editor" />
-  <unitInfo fileName="AnySymbol_Editor.java" startLine="19" startPosition="0" endLine="218" endPosition="0" unitName="diglex.dsl.editor.AnySymbol_Editor" />
+  <unitInfo fileName="Dictionary_Editor.java" startLine="26" startPosition="0" endLine="224" endPosition="0" unitName="diglex.dsl.editor.Dictionary_Editor" />
+  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="30" startPosition="0" endLine="242" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor" />
   <unitInfo fileName="StringSet_Editor.java" startLine="23" startPosition="0" endLine="236" endPosition="0" unitName="diglex.dsl.editor.StringSet_Editor" />
-  <unitInfo fileName="Template_Editor.java" startLine="21" startPosition="0" endLine="261" endPosition="0" unitName="diglex.dsl.editor.Template_Editor" />
-  <unitInfo fileName="AnonymousTemplate_Editor.java" startLine="27" startPosition="0" endLine="282" endPosition="0" unitName="diglex.dsl.editor.AnonymousTemplate_Editor" />
-  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="20" startPosition="0" endLine="277" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor" />
-  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="27" startPosition="0" endLine="286" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor" />
-  <unitInfo fileName="TemplateReference_Editor.java" startLine="24" startPosition="0" endLine="318" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor" />
-  <unitInfo fileName="DistantContext_Editor.java" startLine="28" startPosition="0" endLine="340" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor" />
-  <unitInfo fileName="MatchCase_Editor.java" startLine="29" startPosition="0" endLine="383" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor" />
-  <unitInfo fileName="Block_Editor.java" startLine="45" startPosition="0" endLine="825" endPosition="0" unitName="diglex.dsl.editor.Block_Editor" />
-  <root nodeId="6282999055323831029">
-    <nodeInfo nodeId="7855981724429939556" fileName="Template_Editor.java" startLine="149" startPosition="49" endLine="150" endPosition="98" />
-    <nodeInfo nodeId="7855981724429939564" fileName="Template_Editor.java" startLine="150" startPosition="98" endLine="151" endPosition="0" />
-    <nodeInfo nodeId="7855981724430131035" fileName="Template_Editor.java" startLine="162" startPosition="49" endLine="163" endPosition="98" />
-    <nodeInfo nodeId="7855981724430131041" fileName="Template_Editor.java" startLine="163" startPosition="98" endLine="164" endPosition="0" />
-    <scopeInfo nodeId="7855981724429939553" fileName="Template_Editor.java" startLine="149" startPosition="49" endLine="152" endPosition="41">
-      <varInfo nodeId="7855981724429939557" varName="templateShortCellProvider" />
+  <unitInfo fileName="TemplateClass_Editor.java" startLine="29" startPosition="0" endLine="266" endPosition="0" unitName="diglex.dsl.editor.TemplateClass_Editor" />
+  <unitInfo fileName="TemplateReference_Editor.java" startLine="28" startPosition="0" endLine="284" endPosition="0" unitName="diglex.dsl.editor.TemplateReference_Editor" />
+  <unitInfo fileName="MatchCaseCondition_Editor.java" startLine="32" startPosition="0" endLine="310" endPosition="0" unitName="diglex.dsl.editor.MatchCaseCondition_Editor" />
+  <unitInfo fileName="DistantContext_Editor.java" startLine="49" startPosition="0" endLine="353" endPosition="0" unitName="diglex.dsl.editor.DistantContext_Editor" />
+  <unitInfo fileName="DistantContextCondition_Editor.java" startLine="26" startPosition="0" endLine="365" endPosition="0" unitName="diglex.dsl.editor.DistantContextCondition_Editor" />
+  <unitInfo fileName="MatchCase_Editor.java" startLine="33" startPosition="0" endLine="385" endPosition="0" unitName="diglex.dsl.editor.MatchCase_Editor" />
+  <unitInfo fileName="Template_Editor.java" startLine="32" startPosition="0" endLine="455" endPosition="0" unitName="diglex.dsl.editor.Template_Editor" />
+  <unitInfo fileName="Block_Editor.java" startLine="50" startPosition="0" endLine="631" endPosition="0" unitName="diglex.dsl.editor.Block_Editor" />
+  <root nodeId="1794194610342687660">
+    <nodeInfo nodeId="6378337086623695233" fileName="DistantContext_Editor.java" startLine="325" startPosition="154" endLine="326" endPosition="173" />
+    <nodeInfo nodeId="6378337086623695245" fileName="DistantContext_Editor.java" startLine="326" startPosition="173" endLine="327" endPosition="108" />
+    <nodeInfo nodeId="6378337086623695252" fileName="DistantContext_Editor.java" startLine="327" startPosition="108" endLine="328" endPosition="77" />
+    <nodeInfo nodeId="6378337086623695259" fileName="DistantContext_Editor.java" startLine="339" startPosition="193" endLine="340" endPosition="125" />
+    <nodeInfo nodeId="6378337086623695298" fileName="DistantContext_Editor.java" startLine="340" startPosition="125" endLine="341" endPosition="0" />
+    <nodeInfo nodeId="6378337086623695300" fileName="DistantContext_Editor.java" startLine="341" startPosition="0" endLine="342" endPosition="81" />
+    <nodeInfo nodeId="6378337086623695312" fileName="DistantContext_Editor.java" startLine="342" startPosition="81" endLine="343" endPosition="102" />
+    <nodeInfo nodeId="6378337086623695295" fileName="DistantContext_Editor.java" startLine="343" startPosition="102" endLine="344" endPosition="0" />
+    <scopeInfo nodeId="6378337086623695232" fileName="DistantContext_Editor.java" startLine="325" startPosition="154" endLine="328" endPosition="77">
+      <varInfo nodeId="6378337086623695246" varName="template" />
+      <varInfo nodeId="6378337086623695234" varName="templates" />
     </scopeInfo>
-    <scopeInfo nodeId="7855981724430131034" fileName="Template_Editor.java" startLine="162" startPosition="49" endLine="165" endPosition="41">
+    <scopeInfo nodeId="6378337086623695258" fileName="DistantContext_Editor.java" startLine="339" startPosition="193" endLine="345" endPosition="37">
+      <varInfo nodeId="6378337086623695260" varName="distantContextCondition" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1794194610342716685">
+    <scopeInfo nodeId="6378337086624032279" fileName="DistantContextCondition_Editor.java" startLine="255" startPosition="111" endLine="256" endPosition="62" />
+    <scopeInfo nodeId="6378337086624032250" fileName="DistantContextCondition_Editor.java" startLine="259" startPosition="111" endLine="260" endPosition="65" />
+  </root>
+  <root nodeId="1794194610342762081">
+    <scopeInfo nodeId="6378337086623950068" fileName="TemplateReference_Editor.java" startLine="215" startPosition="111" endLine="216" endPosition="107" />
+  </root>
+  <root nodeId="6282999055323831029">
+    <nodeInfo nodeId="7855981724430131035" fileName="Template_Editor.java" startLine="208" startPosition="49" endLine="209" endPosition="98" />
+    <nodeInfo nodeId="7855981724430131041" fileName="Template_Editor.java" startLine="209" startPosition="98" endLine="210" endPosition="0" />
+    <scopeInfo nodeId="7855981724430131034" fileName="Template_Editor.java" startLine="208" startPosition="49" endLine="211" endPosition="41">
       <varInfo nodeId="7855981724430131036" varName="templateShortCellProvider" />
     </scopeInfo>
   </root>
   <root nodeId="6282999055323947710">
-    <scopeInfo nodeId="7855981724430131073" fileName="MatchCase_Editor.java" startLine="277" startPosition="111" endLine="278" endPosition="75" />
-    <scopeInfo nodeId="7855981724430131087" fileName="MatchCase_Editor.java" startLine="281" startPosition="111" endLine="282" endPosition="76" />
+    <scopeInfo nodeId="6378337086624123723" fileName="MatchCase_Editor.java" startLine="260" startPosition="112" endLine="261" endPosition="106" />
+    <scopeInfo nodeId="6378337086623912730" fileName="MatchCase_Editor.java" startLine="264" startPosition="112" endLine="265" endPosition="75" />
+    <scopeInfo nodeId="6378337086623912744" fileName="MatchCase_Editor.java" startLine="268" startPosition="112" endLine="269" endPosition="76" />
+  </root>
+  <root nodeId="6282999055323999313">
+    <scopeInfo nodeId="6378337086624090538" fileName="MatchCaseCondition_Editor.java" startLine="205" startPosition="111" endLine="206" endPosition="62" />
+    <scopeInfo nodeId="6378337086624090547" fileName="MatchCaseCondition_Editor.java" startLine="209" startPosition="111" endLine="210" endPosition="65" />
+    <scopeInfo nodeId="6378337086624090571" fileName="MatchCaseCondition_Editor.java" startLine="213" startPosition="111" endLine="214" endPosition="65" />
+    <scopeInfo nodeId="6378337086624090590" fileName="MatchCaseCondition_Editor.java" startLine="217" startPosition="111" endLine="218" endPosition="62" />
+  </root>
+  <root nodeId="6378337086623825001">
+    <nodeInfo nodeId="6378337086623825006" fileName="MatchCaseMenu.java" startLine="34" startPosition="154" endLine="35" endPosition="173" />
+    <nodeInfo nodeId="6378337086623825018" fileName="MatchCaseMenu.java" startLine="35" startPosition="173" endLine="36" endPosition="108" />
+    <nodeInfo nodeId="6378337086623825025" fileName="MatchCaseMenu.java" startLine="36" startPosition="108" endLine="37" endPosition="77" />
+    <nodeInfo nodeId="6378337086623825032" fileName="MatchCaseMenu.java" startLine="48" startPosition="193" endLine="49" endPosition="113" />
+    <nodeInfo nodeId="6378337086623825038" fileName="MatchCaseMenu.java" startLine="49" startPosition="113" endLine="50" endPosition="96" />
+    <nodeInfo nodeId="6378337086623825044" fileName="MatchCaseMenu.java" startLine="50" startPosition="96" endLine="51" endPosition="143" />
+    <nodeInfo nodeId="6378337086623825052" fileName="MatchCaseMenu.java" startLine="51" startPosition="143" endLine="52" endPosition="111" />
+    <nodeInfo nodeId="6378337086623825060" fileName="MatchCaseMenu.java" startLine="52" startPosition="111" endLine="53" endPosition="108" />
+    <nodeInfo nodeId="6378337086623825068" fileName="MatchCaseMenu.java" startLine="53" startPosition="108" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825074" fileName="MatchCaseMenu.java" startLine="79" startPosition="165" endLine="80" endPosition="107" />
+    <nodeInfo nodeId="6378337086623825080" fileName="MatchCaseMenu.java" startLine="80" startPosition="107" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825081" fileName="MatchCaseMenu.java" startLine="81" startPosition="0" endLine="82" endPosition="140" />
+    <nodeInfo nodeId="6378337086623825089" fileName="MatchCaseMenu.java" startLine="82" startPosition="140" endLine="83" endPosition="108" />
+    <nodeInfo nodeId="6378337086623825097" fileName="MatchCaseMenu.java" startLine="83" startPosition="108" endLine="84" endPosition="107" />
+    <nodeInfo nodeId="6378337086623825105" fileName="MatchCaseMenu.java" startLine="84" startPosition="107" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825106" fileName="MatchCaseMenu.java" startLine="85" startPosition="0" endLine="86" endPosition="71" />
+    <nodeInfo nodeId="6378337086623825111" fileName="MatchCaseMenu.java" startLine="86" startPosition="71" endLine="87" endPosition="28" />
+    <nodeInfo nodeId="6378337086623825116" fileName="MatchCaseMenu.java" startLine="107" startPosition="165" endLine="108" endPosition="89" />
+    <nodeInfo nodeId="6378337086623825122" fileName="MatchCaseMenu.java" startLine="108" startPosition="89" endLine="109" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825123" fileName="MatchCaseMenu.java" startLine="109" startPosition="0" endLine="110" endPosition="131" />
+    <nodeInfo nodeId="6378337086623825131" fileName="MatchCaseMenu.java" startLine="110" startPosition="131" endLine="111" endPosition="99" />
+    <nodeInfo nodeId="6378337086623825139" fileName="MatchCaseMenu.java" startLine="111" startPosition="99" endLine="112" endPosition="96" />
+    <nodeInfo nodeId="6378337086623825147" fileName="MatchCaseMenu.java" startLine="112" startPosition="96" endLine="113" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825148" fileName="MatchCaseMenu.java" startLine="113" startPosition="0" endLine="114" endPosition="86" />
+    <nodeInfo nodeId="6378337086623825154" fileName="MatchCaseMenu.java" startLine="114" startPosition="86" endLine="115" endPosition="86" />
+    <nodeInfo nodeId="6378337086623825160" fileName="MatchCaseMenu.java" startLine="115" startPosition="86" endLine="116" endPosition="0" />
+    <nodeInfo nodeId="6378337086623825161" fileName="MatchCaseMenu.java" startLine="116" startPosition="0" endLine="117" endPosition="62" />
+    <nodeInfo nodeId="6378337086623825166" fileName="MatchCaseMenu.java" startLine="117" startPosition="62" endLine="118" endPosition="19" />
+    <scopeInfo nodeId="6378337086623825005" fileName="MatchCaseMenu.java" startLine="34" startPosition="154" endLine="37" endPosition="77">
+      <varInfo nodeId="6378337086623825019" varName="template" />
+      <varInfo nodeId="6378337086623825007" varName="templates" />
+    </scopeInfo>
+    <scopeInfo nodeId="6378337086623825031" fileName="MatchCaseMenu.java" startLine="48" startPosition="193" endLine="55" endPosition="31">
+      <varInfo nodeId="6378337086623825033" varName="templateReference" />
+    </scopeInfo>
+    <scopeInfo nodeId="6378337086623825073" fileName="MatchCaseMenu.java" startLine="79" startPosition="165" endLine="87" endPosition="28">
+      <varInfo nodeId="6378337086623825075" varName="distantContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6378337086623825115" fileName="MatchCaseMenu.java" startLine="107" startPosition="165" endLine="118" endPosition="19">
+      <varInfo nodeId="6378337086623825117" varName="block" />
+    </scopeInfo>
   </root>
   <root nodeId="8760462257934208653">
-    <nodeInfo nodeId="6439828122269443820" fileName="Block_Editor.java" startLine="267" startPosition="46" endLine="268" endPosition="89" />
-    <nodeInfo nodeId="6439828122269447082" fileName="Block_Editor.java" startLine="279" startPosition="46" endLine="280" endPosition="89" />
-    <nodeInfo nodeId="8760462257934783661" fileName="Block_Editor.java" startLine="669" startPosition="165" endLine="670" endPosition="101" />
-    <nodeInfo nodeId="8760462257934783671" fileName="Block_Editor.java" startLine="670" startPosition="101" endLine="671" endPosition="118" />
-    <nodeInfo nodeId="8760462257934799357" fileName="Block_Editor.java" startLine="688" startPosition="165" endLine="689" endPosition="97" />
-    <nodeInfo nodeId="8760462257934799363" fileName="Block_Editor.java" startLine="689" startPosition="97" endLine="690" endPosition="116" />
-    <nodeInfo nodeId="8760462257934799382" fileName="Block_Editor.java" startLine="707" startPosition="165" endLine="708" endPosition="97" />
-    <nodeInfo nodeId="8760462257934799388" fileName="Block_Editor.java" startLine="708" startPosition="97" endLine="709" endPosition="116" />
-    <nodeInfo nodeId="7855981724430167113" fileName="Block_Editor.java" startLine="726" startPosition="165" endLine="727" endPosition="101" />
-    <nodeInfo nodeId="7855981724430167119" fileName="Block_Editor.java" startLine="727" startPosition="101" endLine="728" endPosition="118" />
-    <nodeInfo nodeId="7855981724430167135" fileName="Block_Editor.java" startLine="745" startPosition="165" endLine="746" endPosition="97" />
-    <nodeInfo nodeId="7855981724430167141" fileName="Block_Editor.java" startLine="746" startPosition="97" endLine="747" endPosition="116" />
-    <nodeInfo nodeId="7855981724430167157" fileName="Block_Editor.java" startLine="764" startPosition="165" endLine="765" endPosition="97" />
-    <nodeInfo nodeId="7855981724430167163" fileName="Block_Editor.java" startLine="765" startPosition="97" endLine="766" endPosition="116" />
-    <nodeInfo nodeId="8760462257934729459" fileName="Block_Editor.java" startLine="775" startPosition="105" endLine="776" endPosition="89" />
-    <nodeInfo nodeId="8760462257934746006" fileName="Block_Editor.java" startLine="784" startPosition="169" endLine="785" endPosition="75" />
-    <nodeInfo nodeId="8760462257934746079" fileName="Block_Editor.java" startLine="787" startPosition="37" endLine="788" endPosition="77" />
-    <nodeInfo nodeId="7855981724430167056" fileName="Block_Editor.java" startLine="802" startPosition="105" endLine="803" endPosition="89" />
-    <nodeInfo nodeId="7855981724430167070" fileName="Block_Editor.java" startLine="811" startPosition="169" endLine="812" endPosition="75" />
-    <nodeInfo nodeId="7855981724430167084" fileName="Block_Editor.java" startLine="814" startPosition="37" endLine="815" endPosition="77" />
-    <nodeInfo nodeId="8760462257934746075" fileName="Block_Editor.java" startLine="786" startPosition="109" endLine="790" endPosition="0" />
-    <nodeInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="813" startPosition="109" endLine="817" endPosition="0" />
-    <nodeInfo nodeId="8760462257934746063" fileName="Block_Editor.java" startLine="785" startPosition="75" endLine="790" endPosition="9" />
-    <nodeInfo nodeId="7855981724430167076" fileName="Block_Editor.java" startLine="812" startPosition="75" endLine="817" endPosition="9" />
-    <scopeInfo nodeId="8760462257934746076" fileName="Block_Editor.java" startLine="787" startPosition="37" endLine="788" endPosition="77" />
-    <scopeInfo nodeId="7855981724430167083" fileName="Block_Editor.java" startLine="814" startPosition="37" endLine="815" endPosition="77" />
-    <scopeInfo nodeId="6439828122269443817" fileName="Block_Editor.java" startLine="267" startPosition="46" endLine="269" endPosition="38">
-      <varInfo nodeId="6439828122269443821" varName="blockShortCellProvider" />
-    </scopeInfo>
-    <scopeInfo nodeId="6439828122269447081" fileName="Block_Editor.java" startLine="279" startPosition="46" endLine="281" endPosition="38">
+    <nodeInfo nodeId="6439828122269447082" fileName="Block_Editor.java" startLine="240" startPosition="46" endLine="241" endPosition="89" />
+    <nodeInfo nodeId="6378337086623345425" fileName="Block_Editor.java" startLine="502" startPosition="165" endLine="503" endPosition="101" />
+    <nodeInfo nodeId="6378337086623345431" fileName="Block_Editor.java" startLine="503" startPosition="101" endLine="504" endPosition="118" />
+    <nodeInfo nodeId="6378337086623345447" fileName="Block_Editor.java" startLine="521" startPosition="165" endLine="522" endPosition="97" />
+    <nodeInfo nodeId="6378337086623345453" fileName="Block_Editor.java" startLine="522" startPosition="97" endLine="523" endPosition="116" />
+    <nodeInfo nodeId="6378337086623345469" fileName="Block_Editor.java" startLine="540" startPosition="165" endLine="541" endPosition="97" />
+    <nodeInfo nodeId="6378337086623345475" fileName="Block_Editor.java" startLine="541" startPosition="97" endLine="542" endPosition="116" />
+    <nodeInfo nodeId="7855981724430167113" fileName="Block_Editor.java" startLine="559" startPosition="165" endLine="560" endPosition="101" />
+    <nodeInfo nodeId="7855981724430167119" fileName="Block_Editor.java" startLine="560" startPosition="101" endLine="561" endPosition="118" />
+    <nodeInfo nodeId="7855981724430167135" fileName="Block_Editor.java" startLine="578" startPosition="165" endLine="579" endPosition="97" />
+    <nodeInfo nodeId="7855981724430167141" fileName="Block_Editor.java" startLine="579" startPosition="97" endLine="580" endPosition="116" />
+    <nodeInfo nodeId="7855981724430167157" fileName="Block_Editor.java" startLine="597" startPosition="165" endLine="598" endPosition="97" />
+    <nodeInfo nodeId="7855981724430167163" fileName="Block_Editor.java" startLine="598" startPosition="97" endLine="599" endPosition="116" />
+    <nodeInfo nodeId="7855981724430167056" fileName="Block_Editor.java" startLine="608" startPosition="105" endLine="609" endPosition="89" />
+    <nodeInfo nodeId="7855981724430167070" fileName="Block_Editor.java" startLine="617" startPosition="169" endLine="618" endPosition="75" />
+    <nodeInfo nodeId="7855981724430167084" fileName="Block_Editor.java" startLine="620" startPosition="37" endLine="621" endPosition="77" />
+    <nodeInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="619" startPosition="109" endLine="623" endPosition="0" />
+    <nodeInfo nodeId="7855981724430167076" fileName="Block_Editor.java" startLine="618" startPosition="75" endLine="623" endPosition="9" />
+    <scopeInfo nodeId="6378337086623931326" fileName="Block_Editor.java" startLine="367" startPosition="112" endLine="368" endPosition="107" />
+    <scopeInfo nodeId="6378337086623931308" fileName="Block_Editor.java" startLine="371" startPosition="112" endLine="372" endPosition="67" />
+    <scopeInfo nodeId="7855981724430167083" fileName="Block_Editor.java" startLine="620" startPosition="37" endLine="621" endPosition="77" />
+    <scopeInfo nodeId="6439828122269447081" fileName="Block_Editor.java" startLine="240" startPosition="46" endLine="242" endPosition="38">
       <varInfo nodeId="6439828122269447083" varName="blockShortCellProvider" />
     </scopeInfo>
-    <scopeInfo nodeId="8760462257934729448" fileName="Block_Editor.java" startLine="775" startPosition="105" endLine="777" endPosition="101">
-      <varInfo nodeId="8760462257934729460" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="7855981724430167055" fileName="Block_Editor.java" startLine="802" startPosition="105" endLine="804" endPosition="101">
+    <scopeInfo nodeId="7855981724430167055" fileName="Block_Editor.java" startLine="608" startPosition="105" endLine="610" endPosition="101">
       <varInfo nodeId="7855981724430167057" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="8760462257934783644" fileName="Block_Editor.java" startLine="669" startPosition="165" endLine="672" endPosition="75">
-      <varInfo nodeId="8760462257934783662" varName="exactString" />
+    <scopeInfo nodeId="6378337086623345424" fileName="Block_Editor.java" startLine="502" startPosition="165" endLine="505" endPosition="75">
+      <varInfo nodeId="6378337086623345426" varName="exactString" />
     </scopeInfo>
-    <scopeInfo nodeId="8760462257934799355" fileName="Block_Editor.java" startLine="688" startPosition="165" endLine="691" endPosition="73">
-      <varInfo nodeId="8760462257934799358" varName="anySymbol" />
+    <scopeInfo nodeId="6378337086623345446" fileName="Block_Editor.java" startLine="521" startPosition="165" endLine="524" endPosition="73">
+      <varInfo nodeId="6378337086623345448" varName="anySymbol" />
     </scopeInfo>
-    <scopeInfo nodeId="8760462257934799380" fileName="Block_Editor.java" startLine="707" startPosition="165" endLine="710" endPosition="73">
-      <varInfo nodeId="8760462257934799383" varName="stringSet" />
+    <scopeInfo nodeId="6378337086623345468" fileName="Block_Editor.java" startLine="540" startPosition="165" endLine="543" endPosition="73">
+      <varInfo nodeId="6378337086623345470" varName="stringSet" />
     </scopeInfo>
-    <scopeInfo nodeId="7855981724430167112" fileName="Block_Editor.java" startLine="726" startPosition="165" endLine="729" endPosition="75">
+    <scopeInfo nodeId="7855981724430167112" fileName="Block_Editor.java" startLine="559" startPosition="165" endLine="562" endPosition="75">
       <varInfo nodeId="7855981724430167114" varName="exactString" />
     </scopeInfo>
-    <scopeInfo nodeId="7855981724430167134" fileName="Block_Editor.java" startLine="745" startPosition="165" endLine="748" endPosition="73">
+    <scopeInfo nodeId="7855981724430167134" fileName="Block_Editor.java" startLine="578" startPosition="165" endLine="581" endPosition="73">
       <varInfo nodeId="7855981724430167136" varName="anySymbol" />
     </scopeInfo>
-    <scopeInfo nodeId="7855981724430167156" fileName="Block_Editor.java" startLine="764" startPosition="165" endLine="767" endPosition="73">
+    <scopeInfo nodeId="7855981724430167156" fileName="Block_Editor.java" startLine="597" startPosition="165" endLine="600" endPosition="73">
       <varInfo nodeId="7855981724430167158" varName="stringSet" />
     </scopeInfo>
-    <scopeInfo nodeId="8760462257934746075" fileName="Block_Editor.java" startLine="786" startPosition="109" endLine="790" endPosition="0" />
-    <scopeInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="813" startPosition="109" endLine="817" endPosition="0" />
-    <scopeInfo nodeId="8760462257934729421" fileName="Block_Editor.java" startLine="784" startPosition="169" endLine="790" endPosition="9" />
-    <scopeInfo nodeId="7855981724430167069" fileName="Block_Editor.java" startLine="811" startPosition="169" endLine="817" endPosition="9" />
-    <unitInfo nodeId="8760462257934746075" fileName="Block_Editor.java" startLine="786" startPosition="90" endLine="790" endPosition="7" unitName="diglex.dsl.editor.Block_Editor$1" />
-    <unitInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="813" startPosition="90" endLine="817" endPosition="7" unitName="diglex.dsl.editor.Block_Editor$1" />
+    <scopeInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="619" startPosition="109" endLine="623" endPosition="0" />
+    <scopeInfo nodeId="7855981724430167069" fileName="Block_Editor.java" startLine="617" startPosition="169" endLine="623" endPosition="9" />
+    <unitInfo nodeId="7855981724430167082" fileName="Block_Editor.java" startLine="619" startPosition="90" endLine="623" endPosition="7" unitName="diglex.dsl.editor.Block_Editor$1" />
   </root>
 </debugInfo>
 

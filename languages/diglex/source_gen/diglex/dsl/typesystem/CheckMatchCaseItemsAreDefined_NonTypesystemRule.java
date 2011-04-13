@@ -27,7 +27,7 @@ public class CheckMatchCaseItemsAreDefined_NonTypesystemRule extends AbstractNon
           {
             BaseIntentionProvider intentionProvider = null;
             IErrorTarget errorTarget = new NodeErrorTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(it, "\u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u044b\u0442\u044c \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d", "r:f4b85e2c-2701-4120-894e-38d23b925d75(diglex.dsl.typesystem)", "7804553196909691996", intentionProvider, errorTarget);
+            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(it, "\u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u044b\u0442\u044c \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d.", "r:f4b85e2c-2701-4120-894e-38d23b925d75(diglex.dsl.typesystem)", "7804553196909691996", intentionProvider, errorTarget);
           }
         }
       }

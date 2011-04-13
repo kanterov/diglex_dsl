@@ -21,6 +21,10 @@
     <classNode dependClassName="jetbrains.mps.logging.Logger" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
+  <dependency className="diglex.dsl.utils.ClassPropertyDatatypeUtil" file="ClassPropertyDatatypeUtil.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations" />
+  </dependency>
   <dependency className="diglex.dsl.utils.ExactStringBuilder" file="ExactStringBuilder.java">
     <classNode dependClassName="diglex.dsl.utils.LexemTypeUtil" />
     <classNode dependClassName="java.lang.Character" />
@@ -63,7 +67,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
-  <dependency className="diglex.dsl.utils.NameUniqunessUtil" file="NameUniqunessUtil.java">
+  <dependency className="diglex.dsl.utils.NameUniquenessUtil" file="NameUniquenessUtil.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />

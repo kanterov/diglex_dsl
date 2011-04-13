@@ -20,7 +20,9 @@ public class Template extends BaseConcept implements INamedConcept {
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String ID1 = "id1";
   public static final String MATCH_MODE = "MatchMode";
+  public static final String TEMPLATE_CLASS = "templateClass";
   public static final String MATCH_CASES = "MatchCases";
+  public static final String CLASS_PROPERTY = "classProperty";
 
   public Template(SNode node) {
     super(node);
@@ -75,6 +77,14 @@ public class Template extends BaseConcept implements INamedConcept {
     super.setProperty(Template.MATCH_MODE, value.getValueAsString());
   }
 
+  public TemplateClass getTemplateClass() {
+    return (TemplateClass) this.getReferent(TemplateClass.class, Template.TEMPLATE_CLASS);
+  }
+
+  public void setTemplateClass(TemplateClass node) {
+    super.setReferent(Template.TEMPLATE_CLASS, node);
+  }
+
   public int getMatchCasesesCount() {
     return this.getChildCount(Template.MATCH_CASES);
   }
@@ -93,6 +103,26 @@ public class Template extends BaseConcept implements INamedConcept {
 
   public void insertMatchCases(MatchCase prev, MatchCase node) {
     this.insertChild(prev, Template.MATCH_CASES, node);
+  }
+
+  public int getClassPropertiesCount() {
+    return this.getChildCount(Template.CLASS_PROPERTY);
+  }
+
+  public Iterator<ClassProperty> classProperties() {
+    return this.children(ClassProperty.class, Template.CLASS_PROPERTY);
+  }
+
+  public List<ClassProperty> getClassProperties() {
+    return this.getChildren(ClassProperty.class, Template.CLASS_PROPERTY);
+  }
+
+  public void addClassProperty(ClassProperty node) {
+    this.addChild(Template.CLASS_PROPERTY, node);
+  }
+
+  public void insertClassProperty(ClassProperty prev, ClassProperty node) {
+    this.insertChild(prev, Template.CLASS_PROPERTY, node);
   }
 
   public static Template newInstance(SModel sm, boolean init) {

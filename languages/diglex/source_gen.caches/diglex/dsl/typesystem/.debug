@@ -9,7 +9,8 @@
   <unitInfo fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule" />
   <unitInfo fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="diglex.dsl.typesystem.CheckMatchCaseItemsAreDefined_NonTypesystemRule" />
   <unitInfo fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="60" endPosition="0" unitName="diglex.dsl.typesystem.CheckDictionaryConsistency_NonTypesystemRule" />
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="48" endPosition="0" unitName="diglex.dsl.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="21" startPosition="0" endLine="61" endPosition="0" unitName="diglex.dsl.typesystem.CheckBaseTemplateClassUniqueness_NonTypesystemRule" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="52" endPosition="0" unitName="diglex.dsl.typesystem.TypesystemDescriptor" />
   <root nodeId="5910725786823190421">
     <nodeInfo nodeId="1922820112741841158" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="27" startPosition="96" endLine="28" endPosition="94" />
     <nodeInfo nodeId="1922820112741847380" fileName="CheckDictionaryConsistency_NonTypesystemRule.java" startLine="28" startPosition="94" endLine="29" endPosition="0" />
@@ -41,40 +42,40 @@
     <nodeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="55" />
     <nodeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="25" startPosition="55" endLine="26" endPosition="57" />
     <nodeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="26" startPosition="57" endLine="27" endPosition="425" />
-    <nodeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="133" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="134" endLine="28" endPosition="7" />
     <nodeInfo nodeId="647765488375969437" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="96" endLine="29" endPosition="5" />
     <scopeInfo nodeId="647765488375969447" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="425" />
-    <scopeInfo nodeId="647765488375969446" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="133" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="647765488375969446" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="134" endLine="28" endPosition="7" />
     <scopeInfo nodeId="647765488375969431" fileName="CheckDictionaryNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="96" endLine="29" endPosition="5" />
   </root>
   <root nodeId="647765488375969469">
     <nodeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="55" />
     <nodeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="25" startPosition="55" endLine="26" endPosition="57" />
     <nodeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="26" startPosition="57" endLine="27" endPosition="385" />
-    <nodeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="151" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="152" endLine="28" endPosition="7" />
     <nodeInfo nodeId="647765488375969473" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="105" endLine="29" endPosition="5" />
     <scopeInfo nodeId="647765488375969483" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="385" />
-    <scopeInfo nodeId="647765488375969482" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="151" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="647765488375969482" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="152" endLine="28" endPosition="7" />
     <scopeInfo nodeId="647765488375969470" fileName="CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="105" endLine="29" endPosition="5" />
   </root>
   <root nodeId="647765488375969499">
     <nodeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="55" />
     <nodeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="25" startPosition="55" endLine="26" endPosition="57" />
     <nodeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="26" startPosition="57" endLine="27" endPosition="380" />
-    <nodeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="141" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="142" endLine="28" endPosition="7" />
     <nodeInfo nodeId="647765488375969503" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="100" endLine="29" endPosition="5" />
     <scopeInfo nodeId="647765488375969513" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="380" />
-    <scopeInfo nodeId="647765488375969512" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="141" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="647765488375969512" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="142" endLine="28" endPosition="7" />
     <scopeInfo nodeId="647765488375969500" fileName="CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="100" endLine="29" endPosition="5" />
   </root>
   <root nodeId="7804553196909644693">
     <nodeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="55" />
     <nodeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="25" startPosition="55" endLine="26" endPosition="57" />
     <nodeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="26" startPosition="57" endLine="27" endPosition="423" />
-    <nodeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="129" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="130" endLine="28" endPosition="7" />
     <nodeInfo nodeId="647765488375969413" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="94" endLine="29" endPosition="5" />
     <scopeInfo nodeId="647765488375969425" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="423" />
-    <scopeInfo nodeId="647765488375969415" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="129" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="647765488375969415" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="23" startPosition="130" endLine="28" endPosition="7" />
     <scopeInfo nodeId="7804553196909644694" fileName="CheckTemplateNameUniqueness_NonTypesystemRule.java" startLine="22" startPosition="94" endLine="29" endPosition="5" />
   </root>
   <root nodeId="7804553196909682139">
@@ -90,12 +91,12 @@
   <root nodeId="7804553196909691983">
     <nodeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="27" startPosition="11" endLine="28" endPosition="59" />
     <nodeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="28" startPosition="59" endLine="29" endPosition="61" />
-    <nodeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="29" startPosition="61" endLine="30" endPosition="373" />
+    <nodeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="29" startPosition="61" endLine="30" endPosition="374" />
     <nodeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="26" startPosition="329" endLine="31" endPosition="11" />
     <nodeInfo nodeId="7804553196909691994" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="25" startPosition="35" endLine="32" endPosition="9" />
     <nodeInfo nodeId="7804553196909691992" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="24" startPosition="112" endLine="34" endPosition="0" />
     <nodeInfo nodeId="7804553196909691986" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="23" startPosition="95" endLine="34" endPosition="7" />
-    <scopeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="27" startPosition="11" endLine="30" endPosition="373" />
+    <scopeInfo nodeId="7804553196909691996" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="27" startPosition="11" endLine="30" endPosition="374" />
     <scopeInfo nodeId="7804553196909691995" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="26" startPosition="329" endLine="31" endPosition="11" />
     <scopeInfo nodeId="7804553196909691993" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="25" startPosition="35" endLine="32" endPosition="9" />
     <scopeInfo nodeId="7804553196909691992" fileName="CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" startLine="24" startPosition="112" endLine="34" endPosition="0" />
@@ -126,6 +127,33 @@
     <scopeInfo nodeId="7804553196909692064" fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="24" startPosition="121" endLine="34" endPosition="0" />
     <scopeInfo nodeId="7804553196909692054" fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="23" startPosition="104" endLine="34" endPosition="7" />
     <unitInfo nodeId="7804553196909692064" fileName="CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule.java" startLine="24" startPosition="102" endLine="34" endPosition="5" unitName="diglex.dsl.typesystem.CheckMatchCaseConditionItemsAreDefined_NonTypesystemRule$1" />
+  </root>
+  <root nodeId="8627407948872669524">
+    <nodeInfo nodeId="8627407948872677654" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="25" startPosition="99" endLine="26" endPosition="53" />
+    <nodeInfo nodeId="8627407948872677653" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="26" startPosition="53" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="8627407948872681933" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="28" startPosition="67" endLine="29" endPosition="13" />
+    <nodeInfo nodeId="8627407948872681920" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="30" startPosition="5" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="8627407948872677668" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="35" endPosition="24" />
+    <nodeInfo nodeId="8627407948872677672" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="38" startPosition="7" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="8627407948872681907" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="41" startPosition="7" endLine="42" endPosition="55" />
+    <nodeInfo nodeId="8627407948872681907" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="42" startPosition="55" endLine="43" endPosition="57" />
+    <nodeInfo nodeId="8627407948872681907" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="43" startPosition="57" endLine="44" endPosition="418" />
+    <nodeInfo nodeId="8627407948872681921" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="27" startPosition="0" endLine="30" endPosition="5" />
+    <nodeInfo nodeId="8627407948872677659" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="33" startPosition="35" endLine="36" endPosition="9" />
+    <nodeInfo nodeId="8627407948872681907" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="40" startPosition="27" endLine="45" endPosition="7" />
+    <nodeInfo nodeId="8627407948872677648" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="32" startPosition="164" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="8627407948872677631" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="31" startPosition="0" endLine="38" endPosition="7" />
+    <nodeInfo nodeId="8627407948872677674" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="39" startPosition="0" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="8627407948872681922" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="28" startPosition="67" endLine="29" endPosition="13" />
+    <scopeInfo nodeId="8627407948872677661" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="35" endPosition="24" />
+    <scopeInfo nodeId="8627407948872677649" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="33" startPosition="35" endLine="36" endPosition="9" />
+    <scopeInfo nodeId="8627407948872681907" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="41" startPosition="7" endLine="44" endPosition="418" />
+    <scopeInfo nodeId="8627407948872677675" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="40" startPosition="27" endLine="45" endPosition="7" />
+    <scopeInfo nodeId="8627407948872677648" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="32" startPosition="164" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="8627407948872669525" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="25" startPosition="99" endLine="46" endPosition="5">
+      <varInfo nodeId="8627407948872677655" varName="count" />
+    </scopeInfo>
+    <unitInfo nodeId="8627407948872677648" fileName="CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" startLine="32" startPosition="145" endLine="38" endPosition="5" unitName="diglex.dsl.typesystem.CheckBaseTemplateClassUniqueness_NonTypesystemRule$1" />
   </root>
 </debugInfo>
 

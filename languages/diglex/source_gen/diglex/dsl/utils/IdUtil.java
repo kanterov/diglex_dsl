@@ -15,7 +15,7 @@ public class IdUtil {
   }
 
   public static void GiveIds(SModel model) {
-    final Wrappers._int id = new Wrappers._int(0);
+    final Wrappers._int id = new Wrappers._int(1);
 
     ListSequence.fromList(SModelOperations.getRoots(model, "diglex.dsl.structure.Template")).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {

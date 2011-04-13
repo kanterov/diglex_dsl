@@ -6,9 +6,12 @@
   <unitInfo fileName="Template_DefaultSearchScope.java" startLine="18" startPosition="0" endLine="40" endPosition="0" unitName="diglex.dsl.constraints.Template_DefaultSearchScope" />
   <unitInfo fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="diglex.dsl.constraints.AnySymbol_timesMaximumInteger_PropertyConstraint" />
   <unitInfo fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="diglex.dsl.constraints.RepeatTimes_maximumInteger_PropertyConstraint" />
-  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="diglex.dsl.constraints.ConstraintsDescriptor" />
   <unitInfo fileName="BlockTail_maximumLengthInteger_PropertyConstraint.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="diglex.dsl.constraints.BlockTail_maximumLengthInteger_PropertyConstraint" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="38" endPosition="0" unitName="diglex.dsl.constraints.ConstraintsDescriptor" />
   <unitInfo fileName="ExactString_Value_PropertyConstraint.java" startLine="17" startPosition="0" endLine="52" endPosition="0" unitName="diglex.dsl.constraints.ExactString_Value_PropertyConstraint" />
+  <unitInfo fileName="Template_templateClass_ReferentConstraint.java" startLine="22" startPosition="0" endLine="66" endPosition="0" unitName="diglex.dsl.constraints.Template_templateClass_ReferentConstraint" />
+  <unitInfo fileName="TemplateClass_DefaultSearchScope.java" startLine="57" startPosition="15" endLine="125" endPosition="5" unitName="diglex.dsl.constraints.TemplateClass_DefaultSearchScope$1" />
+  <unitInfo fileName="TemplateClass_DefaultSearchScope.java" startLine="33" startPosition="0" endLine="132" endPosition="0" unitName="diglex.dsl.constraints.TemplateClass_DefaultSearchScope" />
   <root nodeId="1380999598342017959">
     <scopeInfo nodeId="1380999598342023786" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="31" startPosition="124" endLine="31" endPosition="124" />
     <scopeInfo nodeId="1380999598342018655" fileName="LexemSymbolCode_symbol_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="77" />
@@ -64,10 +67,47 @@
     <nodeInfo nodeId="5809897118725575571" fileName="Template_DefaultSearchScope.java" startLine="30" startPosition="132" endLine="31" endPosition="125" />
     <nodeInfo nodeId="5809897118725575595" fileName="Template_DefaultSearchScope.java" startLine="31" startPosition="125" endLine="32" endPosition="160" />
     <nodeInfo nodeId="5809897118725575586" fileName="Template_DefaultSearchScope.java" startLine="32" startPosition="160" endLine="33" endPosition="75" />
+    <nodeInfo nodeId="8163933354909848211" fileName="Template_templateClass_ReferentConstraint.java" startLine="34" startPosition="138" endLine="35" endPosition="100" />
+    <nodeInfo nodeId="8627407948872602493" fileName="Template_templateClass_ReferentConstraint.java" startLine="35" startPosition="100" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602497" fileName="Template_templateClass_ReferentConstraint.java" startLine="36" startPosition="0" endLine="37" endPosition="73" />
+    <nodeInfo nodeId="8627407948872602530" fileName="Template_templateClass_ReferentConstraint.java" startLine="37" startPosition="73" endLine="38" endPosition="40" />
+    <nodeInfo nodeId="8627407948872602538" fileName="Template_templateClass_ReferentConstraint.java" startLine="38" startPosition="40" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602544" fileName="Template_templateClass_ReferentConstraint.java" startLine="40" startPosition="35" endLine="41" endPosition="61" />
+    <nodeInfo nodeId="8627407948872602549" fileName="Template_templateClass_ReferentConstraint.java" startLine="41" startPosition="61" endLine="42" endPosition="81" />
+    <nodeInfo nodeId="8627407948872602659" fileName="Template_templateClass_ReferentConstraint.java" startLine="43" startPosition="5" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602572" fileName="Template_templateClass_ReferentConstraint.java" startLine="44" startPosition="0" endLine="45" endPosition="86" />
+    <nodeInfo nodeId="8627407948872602570" fileName="Template_templateClass_ReferentConstraint.java" startLine="45" startPosition="86" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602661" fileName="Template_templateClass_ReferentConstraint.java" startLine="46" startPosition="0" endLine="47" endPosition="54" />
+    <nodeInfo nodeId="8627407948872602610" fileName="Template_templateClass_ReferentConstraint.java" startLine="54" startPosition="109" endLine="55" endPosition="109" />
+    <nodeInfo nodeId="8627407948872602616" fileName="Template_templateClass_ReferentConstraint.java" startLine="55" startPosition="109" endLine="56" endPosition="100" />
+    <nodeInfo nodeId="8627407948872602624" fileName="Template_templateClass_ReferentConstraint.java" startLine="56" startPosition="100" endLine="57" endPosition="102" />
+    <nodeInfo nodeId="8627407948872602633" fileName="Template_templateClass_ReferentConstraint.java" startLine="57" startPosition="102" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602634" fileName="Template_templateClass_ReferentConstraint.java" startLine="58" startPosition="0" endLine="59" endPosition="124" />
+    <nodeInfo nodeId="8627407948872602642" fileName="Template_templateClass_ReferentConstraint.java" startLine="59" startPosition="124" endLine="60" endPosition="104" />
+    <nodeInfo nodeId="8627407948872602539" fileName="Template_templateClass_ReferentConstraint.java" startLine="39" startPosition="0" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="8627407948872602558" fileName="Template_templateClass_ReferentConstraint.java" startLine="48" startPosition="79" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="8627407948872602598" fileName="Template_templateClass_ReferentConstraint.java" startLine="53" startPosition="35" endLine="61" endPosition="9" />
+    <nodeInfo nodeId="8163933354909882315" fileName="Template_templateClass_ReferentConstraint.java" startLine="52" startPosition="39" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="8163933354909848225" fileName="Template_templateClass_ReferentConstraint.java" startLine="47" startPosition="54" endLine="63" endPosition="7" />
+    <scopeInfo nodeId="8627407948872602558" fileName="Template_templateClass_ReferentConstraint.java" startLine="49" startPosition="50" endLine="50" endPosition="77" />
+    <scopeInfo nodeId="8627407948872602543" fileName="Template_templateClass_ReferentConstraint.java" startLine="40" startPosition="35" endLine="42" endPosition="81" />
     <scopeInfo nodeId="5809897118725498080" fileName="Template_DefaultSearchScope.java" startLine="30" startPosition="132" endLine="33" endPosition="75">
       <varInfo nodeId="5809897118725575572" varName="template" />
       <varInfo nodeId="5809897118725575596" varName="templates" />
     </scopeInfo>
+    <scopeInfo nodeId="8627407948872602558" fileName="Template_templateClass_ReferentConstraint.java" startLine="48" startPosition="79" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="8627407948872602599" fileName="Template_templateClass_ReferentConstraint.java" startLine="54" startPosition="109" endLine="60" endPosition="104">
+      <varInfo nodeId="8627407948872602611" varName="classProperty" />
+    </scopeInfo>
+    <scopeInfo nodeId="8163933354909882316" fileName="Template_templateClass_ReferentConstraint.java" startLine="53" startPosition="35" endLine="61" endPosition="9" />
+    <scopeInfo nodeId="8163933354909882315" fileName="Template_templateClass_ReferentConstraint.java" startLine="52" startPosition="39" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="8163933354909847536" fileName="Template_templateClass_ReferentConstraint.java" startLine="34" startPosition="138" endLine="63" endPosition="7">
+      <varInfo nodeId="8627407948872602498" varName="parents" />
+      <varInfo nodeId="8627407948872602531" varName="currentNode" />
+      <varInfo nodeId="8627407948872602573" varName="includedProperties" />
+    </scopeInfo>
+    <unitInfo nodeId="8627407948872602558" fileName="Template_templateClass_ReferentConstraint.java" startLine="48" startPosition="49" endLine="52" endPosition="5" unitName="diglex.dsl.constraints.Template_templateClass_ReferentConstraint$1" />
+    <unitInfo nodeId="8163933354909882315" fileName="Template_templateClass_ReferentConstraint.java" startLine="52" startPosition="20" endLine="63" endPosition="5" unitName="diglex.dsl.constraints.Template_templateClass_ReferentConstraint$2" />
   </root>
   <root nodeId="7804553196909786347">
     <nodeInfo nodeId="7804553196909786415" fileName="RepeatTimes_maximumInteger_PropertyConstraint.java" startLine="28" startPosition="71" endLine="29" endPosition="24" />
@@ -93,6 +133,95 @@
     <scopeInfo nodeId="7804553196909879551" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="34" startPosition="124" endLine="34" endPosition="124" />
     <scopeInfo nodeId="7804553196909879554" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="28" startPosition="76" endLine="29" endPosition="24" />
     <scopeInfo nodeId="7804553196909879549" fileName="AnySymbol_timesMaximumInteger_PropertyConstraint.java" startLine="27" startPosition="80" endLine="31" endPosition="80" />
+  </root>
+  <root nodeId="8627407948872502605">
+    <nodeInfo nodeId="8627407948872901687" fileName="TemplateClass_DefaultSearchScope.java" startLine="46" startPosition="106" endLine="47" endPosition="114" />
+    <nodeInfo nodeId="8627407948872901713" fileName="TemplateClass_DefaultSearchScope.java" startLine="48" startPosition="66" endLine="49" endPosition="69" />
+    <nodeInfo nodeId="8627407948872889683" fileName="TemplateClass_DefaultSearchScope.java" startLine="51" startPosition="5" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="8627407948872503863" fileName="TemplateClass_DefaultSearchScope.java" startLine="52" startPosition="0" endLine="53" endPosition="96" />
+    <nodeInfo nodeId="8627407948872570116" fileName="TemplateClass_DefaultSearchScope.java" startLine="59" startPosition="110" endLine="60" endPosition="49" />
+    <nodeInfo nodeId="8627407948872561316" fileName="TemplateClass_DefaultSearchScope.java" startLine="60" startPosition="49" endLine="61" endPosition="130" />
+    <nodeInfo nodeId="8627407948872561323" fileName="TemplateClass_DefaultSearchScope.java" startLine="61" startPosition="130" endLine="62" endPosition="94" />
+    <nodeInfo nodeId="8627407948872561328" fileName="TemplateClass_DefaultSearchScope.java" startLine="62" startPosition="94" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561329" fileName="TemplateClass_DefaultSearchScope.java" startLine="63" startPosition="0" endLine="64" endPosition="73" />
+    <nodeInfo nodeId="8627407948872561335" fileName="TemplateClass_DefaultSearchScope.java" startLine="64" startPosition="73" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561361" fileName="TemplateClass_DefaultSearchScope.java" startLine="71" startPosition="16" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561364" fileName="TemplateClass_DefaultSearchScope.java" startLine="73" startPosition="78" endLine="74" endPosition="20" />
+    <nodeInfo nodeId="8627407948872561372" fileName="TemplateClass_DefaultSearchScope.java" startLine="75" startPosition="20" endLine="76" endPosition="73" />
+    <nodeInfo nodeId="8627407948872561428" fileName="TemplateClass_DefaultSearchScope.java" startLine="78" startPosition="11" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561429" fileName="TemplateClass_DefaultSearchScope.java" startLine="80" startPosition="82" endLine="81" endPosition="25" />
+    <nodeInfo nodeId="8627407948872562997" fileName="TemplateClass_DefaultSearchScope.java" startLine="82" startPosition="11" endLine="83" endPosition="0" />
+    <nodeInfo nodeId="8627407948872570113" fileName="TemplateClass_DefaultSearchScope.java" startLine="83" startPosition="0" endLine="84" endPosition="47" />
+    <nodeInfo nodeId="8627407948872563004" fileName="TemplateClass_DefaultSearchScope.java" startLine="84" startPosition="47" endLine="85" endPosition="103" />
+    <nodeInfo nodeId="8627407948872569960" fileName="TemplateClass_DefaultSearchScope.java" startLine="85" startPosition="103" endLine="86" endPosition="79" />
+    <nodeInfo nodeId="8627407948872569969" fileName="TemplateClass_DefaultSearchScope.java" startLine="86" startPosition="79" endLine="87" endPosition="0" />
+    <nodeInfo nodeId="8627407948872594349" fileName="TemplateClass_DefaultSearchScope.java" startLine="88" startPosition="112" endLine="89" endPosition="83" />
+    <nodeInfo nodeId="8627407948872594336" fileName="TemplateClass_DefaultSearchScope.java" startLine="90" startPosition="11" endLine="91" endPosition="0" />
+    <nodeInfo nodeId="8627407948872569983" fileName="TemplateClass_DefaultSearchScope.java" startLine="91" startPosition="0" endLine="92" endPosition="42" />
+    <nodeInfo nodeId="8627407948872570086" fileName="TemplateClass_DefaultSearchScope.java" startLine="92" startPosition="42" endLine="93" endPosition="72" />
+    <nodeInfo nodeId="8627407948872569990" fileName="TemplateClass_DefaultSearchScope.java" startLine="93" startPosition="72" endLine="94" endPosition="0" />
+    <nodeInfo nodeId="8627407948872570001" fileName="TemplateClass_DefaultSearchScope.java" startLine="95" startPosition="41" endLine="96" endPosition="67" />
+    <nodeInfo nodeId="8627407948872570007" fileName="TemplateClass_DefaultSearchScope.java" startLine="96" startPosition="67" endLine="97" endPosition="87" />
+    <nodeInfo nodeId="8627407948872569980" fileName="TemplateClass_DefaultSearchScope.java" startLine="98" startPosition="11" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="8627407948872570094" fileName="TemplateClass_DefaultSearchScope.java" startLine="107" startPosition="177" endLine="108" endPosition="40" />
+    <nodeInfo nodeId="8627407948872578089" fileName="TemplateClass_DefaultSearchScope.java" startLine="110" startPosition="22" endLine="111" endPosition="155" />
+    <nodeInfo nodeId="8627407948872570023" fileName="TemplateClass_DefaultSearchScope.java" startLine="114" startPosition="13" endLine="115" endPosition="0" />
+    <nodeInfo nodeId="8627407948872570109" fileName="TemplateClass_DefaultSearchScope.java" startLine="116" startPosition="33" endLine="117" endPosition="25" />
+    <nodeInfo nodeId="8627407948872889669" fileName="TemplateClass_DefaultSearchScope.java" startLine="118" startPosition="11" endLine="119" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561434" fileName="TemplateClass_DefaultSearchScope.java" startLine="119" startPosition="0" endLine="120" endPosition="22" />
+    <nodeInfo nodeId="8627407948872561405" fileName="TemplateClass_DefaultSearchScope.java" startLine="121" startPosition="9" endLine="122" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561407" fileName="TemplateClass_DefaultSearchScope.java" startLine="122" startPosition="0" endLine="123" endPosition="20" />
+    <nodeInfo nodeId="8627407948872561370" fileName="TemplateClass_DefaultSearchScope.java" startLine="75" startPosition="18" endLine="77" endPosition="13" />
+    <nodeInfo nodeId="8627407948872578087" fileName="TemplateClass_DefaultSearchScope.java" startLine="110" startPosition="20" endLine="112" endPosition="15" />
+    <nodeInfo nodeId="8627407948872901703" fileName="TemplateClass_DefaultSearchScope.java" startLine="47" startPosition="114" endLine="50" endPosition="7" />
+    <nodeInfo nodeId="8627407948872561412" fileName="TemplateClass_DefaultSearchScope.java" startLine="79" startPosition="0" endLine="82" endPosition="11" />
+    <nodeInfo nodeId="8627407948872594337" fileName="TemplateClass_DefaultSearchScope.java" startLine="87" startPosition="0" endLine="90" endPosition="11" />
+    <nodeInfo nodeId="8627407948872570039" fileName="TemplateClass_DefaultSearchScope.java" startLine="106" startPosition="110" endLine="109" endPosition="17" />
+    <nodeInfo nodeId="8627407948872570101" fileName="TemplateClass_DefaultSearchScope.java" startLine="115" startPosition="0" endLine="118" endPosition="11" />
+    <nodeInfo nodeId="8627407948872561349" fileName="TemplateClass_DefaultSearchScope.java" startLine="67" startPosition="230" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="8627407948872569992" fileName="TemplateClass_DefaultSearchScope.java" startLine="94" startPosition="0" endLine="98" endPosition="11" />
+    <nodeInfo nodeId="8627407948872570074" fileName="TemplateClass_DefaultSearchScope.java" startLine="100" startPosition="85" endLine="104" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561339" fileName="TemplateClass_DefaultSearchScope.java" startLine="66" startPosition="24" endLine="71" endPosition="16" />
+    <nodeInfo nodeId="8627407948872561362" fileName="TemplateClass_DefaultSearchScope.java" startLine="72" startPosition="0" endLine="77" endPosition="13" />
+    <nodeInfo nodeId="8627407948872889684" fileName="TemplateClass_DefaultSearchScope.java" startLine="45" startPosition="132" endLine="51" endPosition="5" />
+    <nodeInfo nodeId="8627407948872570037" fileName="TemplateClass_DefaultSearchScope.java" startLine="105" startPosition="41" endLine="112" endPosition="15" />
+    <nodeInfo nodeId="8627407948872570031" fileName="TemplateClass_DefaultSearchScope.java" startLine="104" startPosition="45" endLine="114" endPosition="0" />
+    <nodeInfo nodeId="8627407948872561336" fileName="TemplateClass_DefaultSearchScope.java" startLine="65" startPosition="0" endLine="78" endPosition="11" />
+    <nodeInfo nodeId="8627407948872570024" fileName="TemplateClass_DefaultSearchScope.java" startLine="99" startPosition="0" endLine="114" endPosition="13" />
+    <nodeInfo nodeId="8627407948872561314" fileName="TemplateClass_DefaultSearchScope.java" startLine="58" startPosition="51" endLine="121" endPosition="9" />
+    <scopeInfo nodeId="8627407948872901704" fileName="TemplateClass_DefaultSearchScope.java" startLine="48" startPosition="66" endLine="49" endPosition="69" />
+    <scopeInfo nodeId="8627407948872561350" fileName="TemplateClass_DefaultSearchScope.java" startLine="68" startPosition="47" endLine="69" endPosition="129" />
+    <scopeInfo nodeId="8627407948872561363" fileName="TemplateClass_DefaultSearchScope.java" startLine="73" startPosition="78" endLine="74" endPosition="20" />
+    <scopeInfo nodeId="8627407948872561371" fileName="TemplateClass_DefaultSearchScope.java" startLine="75" startPosition="20" endLine="76" endPosition="73" />
+    <scopeInfo nodeId="8627407948872561413" fileName="TemplateClass_DefaultSearchScope.java" startLine="80" startPosition="82" endLine="81" endPosition="25" />
+    <scopeInfo nodeId="8627407948872594338" fileName="TemplateClass_DefaultSearchScope.java" startLine="88" startPosition="112" endLine="89" endPosition="83" />
+    <scopeInfo nodeId="8627407948872570074" fileName="TemplateClass_DefaultSearchScope.java" startLine="101" startPosition="56" endLine="102" endPosition="83" />
+    <scopeInfo nodeId="8627407948872570040" fileName="TemplateClass_DefaultSearchScope.java" startLine="107" startPosition="177" endLine="108" endPosition="40" />
+    <scopeInfo nodeId="8627407948872578088" fileName="TemplateClass_DefaultSearchScope.java" startLine="110" startPosition="22" endLine="111" endPosition="155" />
+    <scopeInfo nodeId="8627407948872570102" fileName="TemplateClass_DefaultSearchScope.java" startLine="116" startPosition="33" endLine="117" endPosition="25" />
+    <scopeInfo nodeId="8627407948872569994" fileName="TemplateClass_DefaultSearchScope.java" startLine="95" startPosition="41" endLine="97" endPosition="87" />
+    <scopeInfo nodeId="8627407948872570038" fileName="TemplateClass_DefaultSearchScope.java" startLine="106" startPosition="110" endLine="109" endPosition="17" />
+    <scopeInfo nodeId="8627407948872889685" fileName="TemplateClass_DefaultSearchScope.java" startLine="46" startPosition="106" endLine="50" endPosition="7">
+      <varInfo nodeId="8627407948872901688" varName="templateClass" />
+    </scopeInfo>
+    <scopeInfo nodeId="8627407948872561349" fileName="TemplateClass_DefaultSearchScope.java" startLine="67" startPosition="230" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="8627407948872570074" fileName="TemplateClass_DefaultSearchScope.java" startLine="100" startPosition="85" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="8627407948872570032" fileName="TemplateClass_DefaultSearchScope.java" startLine="105" startPosition="41" endLine="112" endPosition="15" />
+    <scopeInfo nodeId="8627407948872502608" fileName="TemplateClass_DefaultSearchScope.java" startLine="45" startPosition="132" endLine="53" endPosition="96" />
+    <scopeInfo nodeId="8627407948872570031" fileName="TemplateClass_DefaultSearchScope.java" startLine="104" startPosition="45" endLine="114" endPosition="0" />
+    <scopeInfo nodeId="8627407948872561338" fileName="TemplateClass_DefaultSearchScope.java" startLine="66" startPosition="24" endLine="77" endPosition="13" />
+    <scopeInfo nodeId="8627407948872561315" fileName="TemplateClass_DefaultSearchScope.java" startLine="59" startPosition="110" endLine="120" endPosition="22">
+      <varInfo nodeId="8627407948872569961" varName="parents" />
+      <varInfo nodeId="8627407948872561317" varName="dependentClasses" />
+      <varInfo nodeId="8627407948872570087" varName="correct" />
+      <varInfo nodeId="8627407948872569984" varName="currentNode" />
+      <varInfo nodeId="8627407948872563005" varName="propertyTypes" />
+      <varInfo nodeId="8627407948872561330" varName="size" />
+    </scopeInfo>
+    <scopeInfo nodeId="8627407948872561308" fileName="TemplateClass_DefaultSearchScope.java" startLine="58" startPosition="51" endLine="123" endPosition="20" />
+    <unitInfo nodeId="8627407948872561349" fileName="TemplateClass_DefaultSearchScope.java" startLine="67" startPosition="207" endLine="71" endPosition="13" unitName="diglex.dsl.constraints.TemplateClass_DefaultSearchScope$2" />
+    <unitInfo nodeId="8627407948872570074" fileName="TemplateClass_DefaultSearchScope.java" startLine="100" startPosition="55" endLine="104" endPosition="11" unitName="diglex.dsl.constraints.TemplateClass_DefaultSearchScope$2" />
+    <unitInfo nodeId="8627407948872570031" fileName="TemplateClass_DefaultSearchScope.java" startLine="104" startPosition="26" endLine="114" endPosition="11" unitName="diglex.dsl.constraints.TemplateClass_DefaultSearchScope$2" />
   </root>
 </debugInfo>
 

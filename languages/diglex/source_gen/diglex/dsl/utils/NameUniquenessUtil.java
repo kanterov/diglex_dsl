@@ -9,8 +9,8 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
-public class NameUniqunessUtil {
-  public NameUniqunessUtil() {
+public class NameUniquenessUtil {
+  public NameUniquenessUtil() {
   }
 
   public static boolean isNameUnique(SModel model, final String name) {

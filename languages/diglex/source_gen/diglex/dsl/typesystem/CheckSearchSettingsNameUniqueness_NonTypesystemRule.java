@@ -6,7 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
-import diglex.dsl.utils.NameUniqunessUtil;
+import diglex.dsl.utils.NameUniquenessUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
@@ -20,7 +20,7 @@ public class CheckSearchSettingsNameUniqueness_NonTypesystemRule extends Abstrac
   }
 
   public void applyRule(final SNode searchSettings, final TypeCheckingContext typeCheckingContext) {
-    if (!(NameUniqunessUtil.isNameUnique(SNodeOperations.getModel(searchSettings), SPropertyOperations.getString(searchSettings, "name")))) {
+    if (!(NameUniquenessUtil.isNameUnique(SNodeOperations.getModel(searchSettings), SPropertyOperations.getString(searchSettings, "name")))) {
       {
         BaseIntentionProvider intentionProvider = null;
         IErrorTarget errorTarget = new NodeErrorTarget();

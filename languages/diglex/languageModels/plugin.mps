@@ -21,7 +21,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="23" />
+  <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="26" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
@@ -38,7 +38,7 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="29" />
-  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="23" />
+  <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="26" />
   <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)" version="-1" />
   <import index="8" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
@@ -161,7 +161,7 @@
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="4474047895662092570">
               <node role="expression:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="4474047895662092578">
                 <property name="asCast:16" value="true" />
-                <link role="concept:16" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+                <link role="concept:16" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
                 <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4474047895662092573">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4474047895662092572">
                     <link role="variableDeclaration:3" targetNodeId="4474047895662026539" resolveInfo="dialog" />
@@ -257,7 +257,7 @@
         </node>
       </node>
       <node role="returnType:0" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="4474047895662026466">
-        <link role="concept:16" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+        <link role="concept:16" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
       </node>
       <node role="visibility:0" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="4474047895662031297" />
     </node>
@@ -288,7 +288,7 @@
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4474047895662017765">
             <property name="name:3" value="dictionary" />
             <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="4474047895662017766">
-              <link role="concept:16" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+              <link role="concept:16" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4474047895662017768" />
           </node>
@@ -331,7 +331,7 @@
                             </node>
                           </node>
                           <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Model_RootsOperation:16" id="6842134037259466695">
-                            <link role="concept:16" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+                            <link role="concept:16" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
                           </node>
                         </node>
                         <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation:7" id="6842134037259466696">
@@ -356,7 +356,7 @@
                         </node>
                       </node>
                       <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Model_RootsOperation:16" id="6842134037259466705">
-                        <link role="concept:16" targetNodeId="1.8760462257934374004:23" resolveInfo="Dictionary" />
+                        <link role="concept:16" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
                       </node>
                     </node>
                     <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation:7" id="6842134037259466706" />
@@ -745,12 +745,12 @@
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="2324373617398658084">
             <property name="name:3" value="template" />
             <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2324373617398658085">
-              <link role="concept:16" targetNodeId="1.6282999055323831027:23" resolveInfo="Template" />
+              <link role="concept:16" targetNodeId="1.6282999055323831027:26" resolveInfo="Template" />
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2324373617398658086">
               <node role="creator:3" type="jetbrains.mps.lang.smodel.structure.SNodeCreator:16" id="2324373617398658087">
                 <node role="createdType:16" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2324373617398658088">
-                  <link role="concept:16" targetNodeId="1.6282999055323831027:23" resolveInfo="Template" />
+                  <link role="concept:16" targetNodeId="1.6282999055323831027:26" resolveInfo="Template" />
                 </node>
               </node>
             </node>

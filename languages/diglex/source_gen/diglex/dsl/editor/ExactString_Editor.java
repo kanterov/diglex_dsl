@@ -7,9 +7,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.Padding;
+import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -29,16 +31,19 @@ public class ExactString_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_abirfy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_abirfy_a");
-    editorCell.addEditorCell(this.createConstant_abirfy_a0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_abirfy_b0(editorContext, node));
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
+    }
+    editorCell.addEditorCell(this.createProperty_abirfy_a0(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createCollection_abirfy_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_abirfy_a_0");
-    editorCell.addEditorCell(this.createConstant_abirfy_a0_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_abirfy_b0_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_abirfy_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_abirfy_b0(editorContext, node));
     return editorCell;
   }
 
@@ -53,28 +58,13 @@ public class ExactString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_abirfy_a0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u0421\u0442\u0440\u043e\u043a\u0430");
-    editorCell.setCellId("Constant_abirfy_a0_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.TEXT_COLOR, MPSColors.orange);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createProperty_abirfy_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_abirfy_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("Value");
-    provider.setNoTargetText("<no Value>");
+    provider.setNoTargetText("\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u043e\u043a\u0443");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_Value");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.DRAW_BORDER, true);
-    }
     if (true) {
       editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
     }
@@ -89,7 +79,7 @@ public class ExactString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_abirfy_b0_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_abirfy_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("Value");
     provider.setNoTargetText("<no Value>");

@@ -16,9 +16,9 @@
   <unitInfo fileName="AddPrecondition_Intention.java" startLine="12" startPosition="0" endLine="56" endPosition="0" unitName="diglex.dsl.intentions.AddPrecondition_Intention" />
   <unitInfo fileName="InsertDistantContextAfter_Intention.java" startLine="14" startPosition="0" endLine="65" endPosition="0" unitName="diglex.dsl.intentions.InsertDistantContextAfter_Intention" />
   <unitInfo fileName="InsertTemplateReferenceAfter_Intention.java" startLine="15" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.InsertTemplateReferenceAfter_Intention" />
-  <unitInfo fileName="ShiftRight_Intention.java" startLine="13" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.ShiftRight_Intention" />
-  <unitInfo fileName="ShiftLeft_Intention.java" startLine="13" startPosition="0" endLine="69" endPosition="0" unitName="diglex.dsl.intentions.ShiftLeft_Intention" />
   <unitInfo fileName="InsertBlockAfter_Intention.java" startLine="15" startPosition="0" endLine="73" endPosition="0" unitName="diglex.dsl.intentions.InsertBlockAfter_Intention" />
+  <unitInfo fileName="ShiftRight_Intention.java" startLine="13" startPosition="0" endLine="82" endPosition="0" unitName="diglex.dsl.intentions.ShiftRight_Intention" />
+  <unitInfo fileName="ShiftLeft_Intention.java" startLine="13" startPosition="0" endLine="82" endPosition="0" unitName="diglex.dsl.intentions.ShiftLeft_Intention" />
   <root nodeId="6439828122268841001">
     <nodeInfo nodeId="6439828122268841010" fileName="ShiftRight_Intention.java" startLine="44" startPosition="90" endLine="45" endPosition="30" />
     <nodeInfo nodeId="6439828122268841014" fileName="ShiftRight_Intention.java" startLine="45" startPosition="30" endLine="46" endPosition="0" />
@@ -31,9 +31,19 @@
     <nodeInfo nodeId="6439828122268841074" fileName="ShiftRight_Intention.java" startLine="55" startPosition="119" endLine="56" endPosition="129" />
     <nodeInfo nodeId="6439828122268841094" fileName="ShiftRight_Intention.java" startLine="57" startPosition="5" endLine="58" endPosition="0" />
     <nodeInfo nodeId="6439828122268841095" fileName="ShiftRight_Intention.java" startLine="58" startPosition="0" endLine="59" endPosition="22" />
+    <nodeInfo nodeId="6378337086623750019" fileName="ShiftRight_Intention.java" startLine="63" startPosition="106" endLine="64" endPosition="110" />
+    <nodeInfo nodeId="6378337086623750026" fileName="ShiftRight_Intention.java" startLine="64" startPosition="110" endLine="65" endPosition="108" />
+    <nodeInfo nodeId="6378337086623750035" fileName="ShiftRight_Intention.java" startLine="65" startPosition="108" endLine="66" endPosition="105" />
+    <nodeInfo nodeId="6378337086623750042" fileName="ShiftRight_Intention.java" startLine="66" startPosition="105" endLine="67" endPosition="113" />
+    <nodeInfo nodeId="6378337086623750058" fileName="ShiftRight_Intention.java" startLine="68" startPosition="5" endLine="69" endPosition="0" />
+    <nodeInfo nodeId="6378337086623750061" fileName="ShiftRight_Intention.java" startLine="70" startPosition="115" endLine="71" endPosition="119" />
+    <nodeInfo nodeId="6378337086623750068" fileName="ShiftRight_Intention.java" startLine="71" startPosition="119" endLine="72" endPosition="108" />
+    <nodeInfo nodeId="6378337086623750077" fileName="ShiftRight_Intention.java" startLine="72" startPosition="108" endLine="73" endPosition="105" />
+    <nodeInfo nodeId="6378337086623750084" fileName="ShiftRight_Intention.java" startLine="73" startPosition="105" endLine="74" endPosition="113" />
     <nodeInfo nodeId="6439828122268841035" fileName="ShiftRight_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="5" />
     <nodeInfo nodeId="6439828122268841065" fileName="ShiftRight_Intention.java" startLine="53" startPosition="0" endLine="57" endPosition="5" />
-    <scopeInfo nodeId="6439828122268841007" fileName="ShiftRight_Intention.java" startLine="62" startPosition="76" endLine="62" endPosition="76" />
+    <nodeInfo nodeId="6378337086623750017" fileName="ShiftRight_Intention.java" startLine="62" startPosition="76" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="6378337086623750059" fileName="ShiftRight_Intention.java" startLine="69" startPosition="0" endLine="75" endPosition="5" />
     <scopeInfo nodeId="6439828122268841003" fileName="ShiftRight_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="117" />
     <scopeInfo nodeId="6439828122268841036" fileName="ShiftRight_Intention.java" startLine="49" startPosition="106" endLine="51" endPosition="129">
       <varInfo nodeId="6439828122268841038" varName="matchCase" />
@@ -41,6 +51,15 @@
     <scopeInfo nodeId="6439828122268841066" fileName="ShiftRight_Intention.java" startLine="54" startPosition="115" endLine="56" endPosition="129">
       <varInfo nodeId="6439828122268841068" varName="condition" />
     </scopeInfo>
+    <scopeInfo nodeId="6378337086623750018" fileName="ShiftRight_Intention.java" startLine="63" startPosition="106" endLine="67" endPosition="113">
+      <varInfo nodeId="6378337086623750027" varName="index" />
+      <varInfo nodeId="6378337086623750020" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="6378337086623750060" fileName="ShiftRight_Intention.java" startLine="70" startPosition="115" endLine="74" endPosition="113">
+      <varInfo nodeId="6378337086623750069" varName="index" />
+      <varInfo nodeId="6378337086623750062" varName="condition" />
+    </scopeInfo>
+    <scopeInfo nodeId="6439828122268841007" fileName="ShiftRight_Intention.java" startLine="62" startPosition="76" endLine="75" endPosition="5" />
     <scopeInfo nodeId="6439828122268841009" fileName="ShiftRight_Intention.java" startLine="44" startPosition="90" endLine="59" endPosition="22">
       <varInfo nodeId="6439828122268841011" varName="applicable" />
     </scopeInfo>
@@ -254,9 +273,19 @@
     <nodeInfo nodeId="647765488376058847" fileName="ShiftLeft_Intention.java" startLine="55" startPosition="119" endLine="56" endPosition="129" />
     <nodeInfo nodeId="647765488376058837" fileName="ShiftLeft_Intention.java" startLine="57" startPosition="5" endLine="58" endPosition="0" />
     <nodeInfo nodeId="647765488376058832" fileName="ShiftLeft_Intention.java" startLine="58" startPosition="0" endLine="59" endPosition="22" />
+    <nodeInfo nodeId="6378337086623748010" fileName="ShiftLeft_Intention.java" startLine="63" startPosition="106" endLine="64" endPosition="110" />
+    <nodeInfo nodeId="6378337086623748068" fileName="ShiftLeft_Intention.java" startLine="64" startPosition="110" endLine="65" endPosition="108" />
+    <nodeInfo nodeId="6378337086623748086" fileName="ShiftLeft_Intention.java" startLine="65" startPosition="108" endLine="66" endPosition="105" />
+    <nodeInfo nodeId="6378337086623748101" fileName="ShiftLeft_Intention.java" startLine="66" startPosition="105" endLine="67" endPosition="113" />
+    <nodeInfo nodeId="6378337086623748037" fileName="ShiftLeft_Intention.java" startLine="68" startPosition="5" endLine="69" endPosition="0" />
+    <nodeInfo nodeId="6378337086623748040" fileName="ShiftLeft_Intention.java" startLine="70" startPosition="115" endLine="71" endPosition="119" />
+    <nodeInfo nodeId="6378337086623748125" fileName="ShiftLeft_Intention.java" startLine="71" startPosition="119" endLine="72" endPosition="108" />
+    <nodeInfo nodeId="6378337086623748134" fileName="ShiftLeft_Intention.java" startLine="72" startPosition="108" endLine="73" endPosition="105" />
+    <nodeInfo nodeId="6378337086623748141" fileName="ShiftLeft_Intention.java" startLine="73" startPosition="105" endLine="74" endPosition="113" />
     <nodeInfo nodeId="647765488376058760" fileName="ShiftLeft_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="5" />
     <nodeInfo nodeId="647765488376058838" fileName="ShiftLeft_Intention.java" startLine="53" startPosition="0" endLine="57" endPosition="5" />
-    <scopeInfo nodeId="647765488376058688" fileName="ShiftLeft_Intention.java" startLine="62" startPosition="76" endLine="62" endPosition="76" />
+    <nodeInfo nodeId="6378337086623748008" fileName="ShiftLeft_Intention.java" startLine="62" startPosition="76" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="6378337086623748038" fileName="ShiftLeft_Intention.java" startLine="69" startPosition="0" endLine="75" endPosition="5" />
     <scopeInfo nodeId="647765488376058686" fileName="ShiftLeft_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="111" />
     <scopeInfo nodeId="647765488376058761" fileName="ShiftLeft_Intention.java" startLine="49" startPosition="106" endLine="51" endPosition="129">
       <varInfo nodeId="647765488376058778" varName="matchCase" />
@@ -264,6 +293,15 @@
     <scopeInfo nodeId="647765488376058839" fileName="ShiftLeft_Intention.java" startLine="54" startPosition="115" endLine="56" endPosition="129">
       <varInfo nodeId="647765488376058841" varName="condition" />
     </scopeInfo>
+    <scopeInfo nodeId="6378337086623748009" fileName="ShiftLeft_Intention.java" startLine="63" startPosition="106" endLine="67" endPosition="113">
+      <varInfo nodeId="6378337086623748069" varName="index" />
+      <varInfo nodeId="6378337086623748011" varName="matchCase" />
+    </scopeInfo>
+    <scopeInfo nodeId="6378337086623748039" fileName="ShiftLeft_Intention.java" startLine="70" startPosition="115" endLine="74" endPosition="113">
+      <varInfo nodeId="6378337086623748126" varName="index" />
+      <varInfo nodeId="6378337086623748041" varName="condition" />
+    </scopeInfo>
+    <scopeInfo nodeId="647765488376058688" fileName="ShiftLeft_Intention.java" startLine="62" startPosition="76" endLine="75" endPosition="5" />
     <scopeInfo nodeId="647765488376058692" fileName="ShiftLeft_Intention.java" startLine="44" startPosition="90" endLine="59" endPosition="22">
       <varInfo nodeId="647765488376058708" varName="applicable" />
     </scopeInfo>

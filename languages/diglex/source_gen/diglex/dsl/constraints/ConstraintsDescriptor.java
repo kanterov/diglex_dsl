@@ -17,8 +17,10 @@ public class ConstraintsDescriptor implements IModelConstraints {
     ListSequence.fromList(this.myConstraints).addElement(new RepeatTimes_maximumInteger_PropertyConstraint());
     ListSequence.fromList(this.myConstraints).addElement(new BlockTail_maximumLengthInteger_PropertyConstraint());
     ListSequence.fromList(this.myConstraints).addElement(new AnySymbol_timesMaximumInteger_PropertyConstraint());
+    ListSequence.fromList(this.myConstraints).addElement(new Template_templateClass_ReferentConstraint());
     ListSequence.fromList(this.myConstraints).addElement(new LexemType_DefaultSearchScope());
     ListSequence.fromList(this.myConstraints).addElement(new Template_DefaultSearchScope());
+    ListSequence.fromList(this.myConstraints).addElement(new TemplateClass_DefaultSearchScope());
   }
 
   public void unRegisterSelf(ModelConstraintsManager p0) {

@@ -60,6 +60,19 @@ public class ShiftRight_Intention extends BaseIntention implements Intention {
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
+    if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "diglex.dsl.structure.MatchCase")) {
+      SNode matchCase = SNodeOperations.as(SNodeOperations.getParent(node), "diglex.dsl.structure.MatchCase");
+      int index = ListSequence.fromList(SLinkOperations.getTargets(matchCase, "Items", true)).indexOf(node);
+      ListSequence.fromList(SLinkOperations.getTargets(matchCase, "Items", true)).removeElementAt(index);
+      ListSequence.fromList(SLinkOperations.getTargets(matchCase, "Items", true)).insertElement(index + 1, node);
+    }
+
+    if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "diglex.dsl.structure.MatchCaseCondition")) {
+      SNode condition = SNodeOperations.as(SNodeOperations.getParent(node), "diglex.dsl.structure.MatchCaseCondition");
+      int index = ListSequence.fromList(SLinkOperations.getTargets(condition, "Items", true)).indexOf(node);
+      ListSequence.fromList(SLinkOperations.getTargets(condition, "Items", true)).removeElementAt(index);
+      ListSequence.fromList(SLinkOperations.getTargets(condition, "Items", true)).insertElement(index + 1, node);
+    }
   }
 
   public String getLocationString() {
