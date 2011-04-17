@@ -2673,5 +2673,20 @@
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872859644" />
     </node>
   </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1655679821852921356">
+    <property name="name:3" value="BridgeImportUtil" />
+    <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="1655679821852921676">
+      <property name="name:3" value="ImportBridgeDictionary" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1655679821852921677" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1655679821852921678" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1655679821852921679" />
+    </node>
+    <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1655679821852921357" />
+    <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1655679821852921358">
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1655679821852921359" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1655679821852921360" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1655679821852921361" />
+    </node>
+  </node>
 </model>
 

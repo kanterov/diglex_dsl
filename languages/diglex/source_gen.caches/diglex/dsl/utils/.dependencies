@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="diglex.dsl.utils.BridgeImportUtil" file="BridgeImportUtil.java" />
   <dependency className="diglex.dsl.utils.CheckDependencies" file="CheckDependencies.java">
     <classNode dependClassName="diglex.dsl.structure.Template" />
     <classNode dependClassName="java.lang.Iterable" />

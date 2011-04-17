@@ -29,6 +29,15 @@
     <unitInfo nodeId="6970827918925069020" fileName="LexemTypeUtil.java" startLine="26" startPosition="151" endLine="30" endPosition="7" unitName="diglex.dsl.utils.LexemTypeUtil$1" />
     <unitInfo nodeId="1327539314895978806" fileName="LexemTypeUtil.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="diglex.dsl.utils.LexemTypeUtil" />
   </root>
+  <root nodeId="1655679821852921356">
+    <nodeInfo nodeId="1655679821852921358" fileName="BridgeImportUtil.java" startLine="6" startPosition="31" endLine="8" endPosition="3" />
+    <nodeInfo nodeId="1655679821852921676" fileName="BridgeImportUtil.java" startLine="9" startPosition="0" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1655679821852921361" fileName="BridgeImportUtil.java" startLine="7" startPosition="29" endLine="7" endPosition="29" />
+    <scopeInfo nodeId="1655679821852921679" fileName="BridgeImportUtil.java" startLine="10" startPosition="47" endLine="10" endPosition="47" />
+    <scopeInfo nodeId="1655679821852921358" fileName="BridgeImportUtil.java" startLine="6" startPosition="31" endLine="8" endPosition="3" />
+    <scopeInfo nodeId="1655679821852921676" fileName="BridgeImportUtil.java" startLine="9" startPosition="0" endLine="12" endPosition="0" />
+    <unitInfo nodeId="1655679821852921356" fileName="BridgeImportUtil.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="diglex.dsl.utils.BridgeImportUtil" />
+  </root>
   <root nodeId="5910725786823191089">
     <nodeInfo nodeId="5910725786823192626" fileName="IdUtil.java" startLine="17" startPosition="44" endLine="18" endPosition="50" />
     <nodeInfo nodeId="5910725786823192630" fileName="IdUtil.java" startLine="18" startPosition="50" endLine="19" endPosition="0" />
