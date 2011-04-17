@@ -99,6 +99,14 @@ public class MatchCaseItem {
         block.setBlockItems(blockItems);
     }
 
+    public Tail getTail() {
+        return block.getTail();
+    }
+
+    public void setTail(Tail tail) {
+        block.setTail(tail);
+    }
+
     // DistantContext
 
     public List<DistantContextCondition> getConditions() {
@@ -121,5 +129,15 @@ public class MatchCaseItem {
 
     public Template getTemplate() throws TemplateNotFound {
         return templateReference.getTemplate();
+    }
+
+    // AnonymousTemplate
+
+    public List<MatchCase> getMatchCases() {
+        return anonymousTemplate.getMatchCases();
+    }
+
+    public void setMatchCases(List<MatchCase> matchCases) {
+        anonymousTemplate.setMatchCases(matchCases);
     }
 }

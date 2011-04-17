@@ -1,5 +1,6 @@
 package diglex.bridge.alex;
 
+import diglex.bridge.xml.model.Dictionary;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 

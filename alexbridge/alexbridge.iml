@@ -8,6 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Intellij UI Designer" level="project" />
+    <orderEntry type="module" module-name="xmlbridge" />
   </component>
 </module>
 
