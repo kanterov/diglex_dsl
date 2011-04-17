@@ -1,23 +1,25 @@
 <project name="Diglex-languages" default="pack.diglex.dsl_a41a">
   <fail unless="deploy.dir" message="Property deploy.dir unspecified." />
   <target name="pack.diglex.dsl_a41a">
-    <mkdir dir="languages/diglex/classes_gen" />
-    <mkdir dir="languages/diglex/source_gen.caches" />
+    <mkdir dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex/classes_gen" />
+    <mkdir dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex/source_gen.caches" />
     <jar destfile="${deploy.dir}/MPS/Diglex/diglex.dsl.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset file="languages/diglex/diglex.mpl" prefix="module" />
-      <zipfileset dir="languages/diglex/source_gen.caches" prefix="source_gen.caches" />
-      <zipfileset dir="languages/diglex" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
-      <zipfileset dir="languages/diglex/classes_gen" />
+      <zipfileset file="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex/diglex.mpl" prefix="module" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex/source_gen.caches" prefix="source_gen.caches" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset file="C:/Users/Gleb/Desktop/diglex_dsl/lib/simple-xml-2.5.2.1.jar" />
+      <zipfileset file="C:/Users/Gleb/Desktop/diglex_dsl/lib/xmlbridge.jar" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex/classes_gen" />
     </jar>
   </target>
   <target name="pack.diglex.xml_b41a">
-    <mkdir dir="languages/diglex.xml/classes_gen" />
-    <mkdir dir="languages/diglex.xml/source_gen.caches" />
+    <mkdir dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml/classes_gen" />
+    <mkdir dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml/source_gen.caches" />
     <jar destfile="${deploy.dir}/MPS/Diglex/diglex.xml.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset file="languages/diglex.xml/diglex.xml.mpl" prefix="module" />
-      <zipfileset dir="languages/diglex.xml/source_gen.caches" prefix="source_gen.caches" />
-      <zipfileset dir="languages/diglex.xml" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
-      <zipfileset dir="languages/diglex.xml/classes_gen" />
+      <zipfileset file="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml/diglex.xml.mpl" prefix="module" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml/source_gen.caches" prefix="source_gen.caches" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="C:/Users/Gleb/Desktop/diglex_dsl/languages/diglex.xml/classes_gen" />
     </jar>
   </target>
 </project>

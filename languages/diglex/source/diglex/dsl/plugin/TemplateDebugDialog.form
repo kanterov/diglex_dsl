@@ -31,27 +31,25 @@
                     <preferred-size width="-1" height="20"/>
                   </grid>
                 </constraints>
-                <properties>
-                  <floatable defaultValue="false"/>
-                </properties>
+                <properties/>
                 <border type="none"/>
                 <children>
                   <component id="5ef4b" class="javax.swing.JButton" binding="inputLoadButton">
                     <constraints/>
                     <properties>
-                      <text defaultValue="Загрузить"/>
+                      <text value="Загрузить"/>
                     </properties>
                   </component>
                   <component id="77f3a" class="javax.swing.JButton" binding="inputSaveButton">
                     <constraints/>
                     <properties>
-                      <text defaultValue="Сохранить"/>
+                      <text value="Сохранить"/>
                     </properties>
                   </component>
                   <component id="9ccb9" class="javax.swing.JButton" binding="inputProcessButton">
                     <constraints/>
                     <properties>
-                      <text defaultValue="Обработать"/>
+                      <text value="Обработать"/>
                     </properties>
                   </component>
                 </children>
@@ -66,8 +64,7 @@
                   <component id="36e98" class="javax.swing.JTextArea" binding="inputText">
                     <constraints/>
                     <properties>
-                      <lineWrap defaultValue="true"/>
-                      <wrapStyleWord defaultValue="false"/>
+                      <lineWrap value="true"/>
                     </properties>
                   </component>
                 </children>
@@ -88,12 +85,10 @@
                     <preferred-size width="200" height="200"/>
                   </grid>
                 </constraints>
-                <properties>
-                  <dividerLocation defaultValue="75"/>
-                </properties>
+                <properties/>
                 <border type="none"/>
                 <children>
-                  <scrollpane id="f1968" binding="resultTreeScrollPane">
+                  <scrollpane id="f1968" binding="outputScrollPane">
                     <constraints>
                       <splitpane position="right"/>
                     </constraints>
@@ -103,13 +98,12 @@
                       <component id="f44c7" class="javax.swing.JTextArea" binding="outputText">
                         <constraints/>
                         <properties>
-                          <editable defaultValue="false"/>
-                          <lineWrap defaultValue="true"/>
+                          <lineWrap value="true"/>
                         </properties>
                       </component>
                     </children>
                   </scrollpane>
-                  <scrollpane id="e1bf8">
+                  <scrollpane id="e1bf8" binding="resultTreeScrollPane">
                     <constraints>
                       <splitpane position="left"/>
                     </constraints>

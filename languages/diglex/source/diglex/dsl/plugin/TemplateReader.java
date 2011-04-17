@@ -49,10 +49,10 @@ public class TemplateReader implements ITemplateReader {
                 List<DictionaryTemplate> dictionaryTemplates = dictionary.getDictionaryTemplates();
                 boolean enableIdFixes = false;
                 Map<String, Integer> stringIdToInt = new HashMap<String, Integer>();
-                int id = 0;
+                int id = 1;
 
                 // hack. fixes id problem
-                //if (!dictionaryTemplates.isEmpty() && dictionaryTemplates.get(0).getTemplate().getId1() == 2000000000) {
+                {
                     for (SNode root : dictionary.getModel().getRoots()) {
                         if (root.getConceptShortName().equals("Template")) {
                             stringIdToInt.put(root.getId(), id);
@@ -61,7 +61,7 @@ public class TemplateReader implements ITemplateReader {
                     }
 
                     enableIdFixes = true;
-                //}
+                }
 
                 for (DictionaryTemplate dictionaryTemplate : dictionaryTemplates ) {
                     Template template = dictionaryTemplate.getTemplate();

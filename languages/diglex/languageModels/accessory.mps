@@ -754,6 +754,11 @@
           <property name="symbol:26" value=")" />
         </node>
       </node>
+      <node role="symbolGroup:26" type="diglex.dsl.structure.LexemSymbolGroup:26" id="8808278396336518803">
+        <node role="symbol:26" type="diglex.dsl.structure.LexemSymbol:26" id="8808278396336518805">
+          <property name="symbol:26" value="&quot;" />
+        </node>
+      </node>
     </node>
     <node role="lexemType:26" type="diglex.dsl.structure.LexemType:26" id="1327539314895753458">
       <property name="name:26" value="Перевод строки" />

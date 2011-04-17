@@ -2,7 +2,6 @@ package diglex.dsl.plugin;
 
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
-import diglex.dsl.structure.Template;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import javax.swing.*;
@@ -19,7 +18,6 @@ import java.nio.CharBuffer;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
 
 public class TemplateDebugDialog extends JDialog {
     private JPanel contentPane;
@@ -31,6 +29,7 @@ public class TemplateDebugDialog extends JDialog {
     private JToolBar inputToolbar;
     private JButton inputLoadButton;
     private JButton inputSaveButton;
+    private JScrollPane outputScrollPane;
     private JScrollPane resultTreeScrollPane;
     private Highlighter outputHighlighter;
 
@@ -174,7 +173,9 @@ public class TemplateDebugDialog extends JDialog {
                         // try to move carret
                         try {
                             Rectangle rectangle = outputText.modelToView(result.getBegin());
-                            TemplateDebugDialog.this.resultTreeScrollPane.scrollRectToVisible(rectangle);
+                            outputText.setCaretPosition(result.getBegin());
+                            //TemplateDebugDialog.this.outputScrollPane.getViewport().scrollRectToVisible(rectangle);
+                            //TemplateDebugDialog.this.outputScrollPane.invalidate();
                         } catch (BadLocationException e1) {
                             e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                         }
@@ -271,28 +272,33 @@ public class TemplateDebugDialog extends JDialog {
         inputToolbar = new JToolBar();
         panel1.add(inputToolbar, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(-1, 20), null, 0, false));
         inputLoadButton = new JButton();
+        inputLoadButton.setText("Загрузить");
         inputToolbar.add(inputLoadButton);
         inputSaveButton = new JButton();
+        inputSaveButton.setText("Сохранить");
         inputToolbar.add(inputSaveButton);
         inputProcessButton = new JButton();
+        inputProcessButton.setText("Обработать");
         inputToolbar.add(inputProcessButton);
         final JScrollPane scrollPane1 = new JScrollPane();
         panel1.add(scrollPane1, new GridConstraints(1, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, null, null, null, 0, false));
         inputText = new JTextArea();
+        inputText.setLineWrap(true);
         scrollPane1.setViewportView(inputText);
         final JPanel panel2 = new JPanel();
         panel2.setLayout(new GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
         tabs.addTab("Объекты", panel2);
         final JSplitPane splitPane1 = new JSplitPane();
         panel2.add(splitPane1, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, null, new Dimension(200, 200), null, 0, false));
-        resultTreeScrollPane = new JScrollPane();
-        splitPane1.setRightComponent(resultTreeScrollPane);
+        outputScrollPane = new JScrollPane();
+        splitPane1.setRightComponent(outputScrollPane);
         outputText = new JTextArea();
-        resultTreeScrollPane.setViewportView(outputText);
-        final JScrollPane scrollPane2 = new JScrollPane();
-        splitPane1.setLeftComponent(scrollPane2);
+        outputText.setLineWrap(true);
+        outputScrollPane.setViewportView(outputText);
+        resultTreeScrollPane = new JScrollPane();
+        splitPane1.setLeftComponent(resultTreeScrollPane);
         resultTree = new JTree();
-        scrollPane2.setViewportView(resultTree);
+        resultTreeScrollPane.setViewportView(resultTree);
     }
 
     /**
