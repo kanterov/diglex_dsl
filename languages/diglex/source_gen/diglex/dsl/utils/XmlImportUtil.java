@@ -17,12 +17,13 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import diglex.bridge.xml.model.ClassProperty;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import diglex.bridge.xml.model.ClassProperty;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import diglex.bridge.xml.model.MatchCase;
+import diglex.bridge.xml.model.Property;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import diglex.bridge.xml.model.MatchCaseItem;
 import diglex.bridge.xml.model.MatchCaseCondition;
@@ -65,34 +66,10 @@ public class XmlImportUtil {
     model = _model;
     scope = _scope;
 
-    // Create all classes without connection to parents 
     ListSequence.fromList(classes).visitAll(new IVisitor<Class>() {
       public void visit(Class clazz) {
         SNode myClazz = SConceptOperations.createNewNode("diglex.dsl.structure.TemplateClass", null);
-        SNode dictionaryClass = SConceptOperations.createNewNode("diglex.dsl.structure.DictionaryClass", null);
-
-        List<ClassProperty> classProperties = ListSequence.fromListWithValues(new LinkedList<ClassProperty>(), clazz.getProperties());
-
-        if (clazz.getId() == 0) {
-          SPropertyOperations.set(myClazz, "base", "" + true);
-        }
-
-        SPropertyOperations.set(myClazz, "name", clazz.getName());
-        ListSequence.fromList(classProperties).visitAll(new IVisitor<ClassProperty>() {
-          public void visit(ClassProperty classProperty) {
-            createTemplateClassProperty(classProperty);
-          }
-        });
-
-        SLinkOperations.setTarget(dictionaryClass, "templateClass", myClazz, false);
-        ListSequence.fromList(SLinkOperations.getTargets(myDictionary, "dictionaryClass", true)).addElement(dictionaryClass);
-
         MapSequence.fromMap(idToTemplateClass).put(clazz.getId(), myClazz);
-        if (clazz.getParentIds().size() > 0) {
-          MapSequence.fromMap(templateClassToParentId).put(myClazz, clazz.getParentIds().get(0));
-        }
-
-        SModelOperations.addRootNode(model, myClazz);
       }
     });
 
@@ -114,6 +91,40 @@ public class XmlImportUtil {
       }
     });
 
+    // Create all classes without connection to parents 
+    ListSequence.fromList(classes).visitAll(new IVisitor<Class>() {
+      public void visit(Class clazz) {
+        final SNode myClazz = MapSequence.fromMap(idToTemplateClass).get(clazz.getId());
+        SNode dictionaryClass = SConceptOperations.createNewNode("diglex.dsl.structure.DictionaryClass", null);
+
+        List<ClassProperty> classProperties = ListSequence.fromListWithValues(new LinkedList<ClassProperty>(), clazz.getProperties());
+
+        if (clazz.getId() == 0) {
+          SPropertyOperations.set(myClazz, "base", "" + true);
+        }
+
+        SPropertyOperations.set(myClazz, "name", clazz.getName());
+
+        ListSequence.fromList(classProperties).clear();
+        ListSequence.fromList(classProperties).visitAll(new IVisitor<ClassProperty>() {
+          public void visit(ClassProperty classProperty) {
+            SNode myClassProperty = createTemplateClassProperty(classProperty);
+            ListSequence.fromList(SLinkOperations.getTargets(myClazz, "templateClassProperty", true)).addElement(myClassProperty);
+          }
+        });
+
+        SLinkOperations.setTarget(dictionaryClass, "templateClass", myClazz, false);
+        ListSequence.fromList(SLinkOperations.getTargets(myDictionary, "dictionaryClass", true)).addElement(dictionaryClass);
+
+        MapSequence.fromMap(idToTemplateClass).put(clazz.getId(), myClazz);
+        if (clazz.getParentIds().size() > 0) {
+          MapSequence.fromMap(templateClassToParentId).put(myClazz, clazz.getParentIds().get(0));
+        }
+
+        SModelOperations.addRootNode(model, myClazz);
+      }
+    });
+
     ListSequence.fromList(templates).visitAll(new IVisitor<Template>() {
       public void visit(Template template) {
         SNode myTemplate = SConceptOperations.createNewNode("diglex.dsl.structure.Template", null);
@@ -127,6 +138,7 @@ public class XmlImportUtil {
         final SNode myTemplate = MapSequence.fromMap(idToTemplate).get(template.getId());
         SNode dictionaryTemplate = SConceptOperations.createNewNode("diglex.dsl.structure.DictionaryTemplate", null);
         List<MatchCase> matchCases = ListSequence.fromListWithValues(new LinkedList<MatchCase>(), template.getMatchCases());
+        List<Property> properties = ListSequence.fromListWithValues(new LinkedList<Property>(), template.getProperties());
 
         SPropertyOperations.set(myTemplate, "MatchMode", SEnumOperations.getEnumMemberValue(getMatchMode(template.getMatchMode())));
         SPropertyOperations.set(myTemplate, "name", template.getName());
@@ -146,6 +158,18 @@ public class XmlImportUtil {
           public void visit(MatchCase matchCase) {
             SNode myMatchCase = getMatchCase(matchCase);
             ListSequence.fromList(SLinkOperations.getTargets(myTemplate, "MatchCases", true)).addElement(myMatchCase);
+          }
+        });
+
+        ListSequence.fromList(properties).visitAll(new IVisitor<Property>() {
+          public void visit(Property property) {
+            SNode myProperty = SConceptOperations.createNewNode("diglex.dsl.structure.ClassProperty", null);
+
+            SPropertyOperations.set(myProperty, "name", property.getName());
+            SPropertyOperations.set(myProperty, "type", property.getType().toString());
+            SPropertyOperations.set(myProperty, "value", property.getValue());
+
+            ListSequence.fromList(SLinkOperations.getTargets(myTemplate, "classProperty", true)).addElement(myProperty);
           }
         });
 

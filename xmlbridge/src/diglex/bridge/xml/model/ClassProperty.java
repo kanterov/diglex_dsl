@@ -14,8 +14,8 @@ public class ClassProperty {
     @Element(name = "Name")
     private String name = "Name";
 
-    @Element(name = "DefaultValue")
-    private String defaultValue = "DefaultValue";
+    @Element(name = "DefaultValue", required = false)
+    private String defaultValue = "";
 
     @Element(name = "Type")
     @Convert(ClassPropertyConverter.class)

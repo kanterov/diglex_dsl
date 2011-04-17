@@ -90,6 +90,7 @@
     <classNode dependClassName="diglex.bridge.xml.model.MatchCaseCondition" />
     <classNode dependClassName="diglex.bridge.xml.model.MatchCaseItem" />
     <classNode dependClassName="diglex.bridge.xml.model.MatchMode" />
+    <classNode dependClassName="diglex.bridge.xml.model.Property" />
     <classNode dependClassName="diglex.bridge.xml.model.Repeat" />
     <classNode dependClassName="diglex.bridge.xml.model.Tail" />
     <classNode dependClassName="diglex.bridge.xml.model.Template" />

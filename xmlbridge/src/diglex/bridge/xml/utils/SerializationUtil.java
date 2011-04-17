@@ -2,6 +2,7 @@ package diglex.bridge.xml.utils;
 
 import com.sun.org.apache.bcel.internal.generic.Visitor;
 import diglex.bridge.xml.model.Dictionary;
+import diglex.bridge.xml.model.TemplateLocator;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.convert.AnnotationStrategy;
 import org.simpleframework.xml.core.Persister;
@@ -21,6 +22,8 @@ public class SerializationUtil {
     public static Dictionary getDictionary(File file) throws Exception {
         Strategy strategy = new AnnotationStrategy();
         Serializer serializer = new Persister(strategy);
+
+        TemplateLocator.clear();
 
         Dictionary dictionary = serializer.read(Dictionary.class, file);
 

@@ -27,6 +27,10 @@ public class TemplateLocator {
         templateMap.remove(id);
     }
 
+    public static void clear() {
+        templateMap.clear();
+    }
+
     public static Template getTemplateById(int id) throws TemplateNotFound {
         if (!templateMap.containsKey(id))
             throw  new TemplateNotFound();

@@ -11,8 +11,8 @@ import org.simpleframework.xml.convert.Convert;
  * Time: 17:10
  */
 public class Property {
-    @Element(name = "Value")
-    private String value = "Value";
+    @Element(name = "Value",required = false)
+    private String value = "";
 
     @Element(name = "Type")
     @Convert(ClassPropertyConverter.class)

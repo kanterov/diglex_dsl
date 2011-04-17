@@ -30,518 +30,550 @@
     <unitInfo nodeId="1327539314895978806" fileName="LexemTypeUtil.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="diglex.dsl.utils.LexemTypeUtil" />
   </root>
   <root nodeId="1655679821852921356">
-    <nodeInfo nodeId="4149404141877854211" fileName="XmlImportUtil.java" startLine="42" startPosition="28" endLine="43" endPosition="30" />
-    <nodeInfo nodeId="4149404141877854241" fileName="XmlImportUtil.java" startLine="43" startPosition="30" endLine="44" endPosition="30" />
-    <nodeInfo nodeId="5582741779552949618" fileName="XmlImportUtil.java" startLine="44" startPosition="30" endLine="45" endPosition="55" />
-    <nodeInfo nodeId="5582741779552949626" fileName="XmlImportUtil.java" startLine="45" startPosition="55" endLine="46" endPosition="61" />
-    <nodeInfo nodeId="5582741779552949634" fileName="XmlImportUtil.java" startLine="46" startPosition="61" endLine="47" endPosition="50" />
-    <nodeInfo nodeId="5582741779552948560" fileName="XmlImportUtil.java" startLine="52" startPosition="92" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="5582741779552948561" fileName="XmlImportUtil.java" startLine="53" startPosition="0" endLine="54" endPosition="0" />
-    <nodeInfo nodeId="6210958163198021167" fileName="XmlImportUtil.java" startLine="54" startPosition="0" endLine="55" endPosition="105" />
-    <nodeInfo nodeId="6210958163198032514" fileName="XmlImportUtil.java" startLine="55" startPosition="105" endLine="56" endPosition="108" />
-    <nodeInfo nodeId="6210958163198032533" fileName="XmlImportUtil.java" startLine="56" startPosition="108" endLine="57" endPosition="118" />
-    <nodeInfo nodeId="5582741779552949686" fileName="XmlImportUtil.java" startLine="57" startPosition="118" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="5582741779552949643" fileName="XmlImportUtil.java" startLine="58" startPosition="0" endLine="59" endPosition="70" />
-    <nodeInfo nodeId="5582741779552949653" fileName="XmlImportUtil.java" startLine="59" startPosition="70" endLine="60" endPosition="81" />
-    <nodeInfo nodeId="5582741779552949663" fileName="XmlImportUtil.java" startLine="60" startPosition="81" endLine="61" endPosition="75" />
-    <nodeInfo nodeId="5176538940868200331" fileName="XmlImportUtil.java" startLine="61" startPosition="75" endLine="62" endPosition="0" />
-    <nodeInfo nodeId="5176538940868200329" fileName="XmlImportUtil.java" startLine="62" startPosition="0" endLine="63" endPosition="96" />
-    <nodeInfo nodeId="5176538940868200322" fileName="XmlImportUtil.java" startLine="63" startPosition="96" endLine="64" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854220" fileName="XmlImportUtil.java" startLine="64" startPosition="0" endLine="65" endPosition="19" />
-    <nodeInfo nodeId="4149404141877854246" fileName="XmlImportUtil.java" startLine="65" startPosition="19" endLine="66" endPosition="19" />
-    <nodeInfo nodeId="4149404141877854219" fileName="XmlImportUtil.java" startLine="66" startPosition="19" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033666" fileName="XmlImportUtil.java" startLine="67" startPosition="0" endLine="68" endPosition="56" />
-    <nodeInfo nodeId="6210958163198032576" fileName="XmlImportUtil.java" startLine="70" startPosition="38" endLine="71" endPosition="101" />
-    <nodeInfo nodeId="6210958163198033311" fileName="XmlImportUtil.java" startLine="71" startPosition="101" endLine="72" endPosition="111" />
-    <nodeInfo nodeId="6210958163198033310" fileName="XmlImportUtil.java" startLine="72" startPosition="111" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032618" fileName="XmlImportUtil.java" startLine="73" startPosition="0" endLine="74" endPosition="134" />
-    <nodeInfo nodeId="6210958163198032617" fileName="XmlImportUtil.java" startLine="74" startPosition="134" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="2585482140137745694" fileName="XmlImportUtil.java" startLine="76" startPosition="33" endLine="77" endPosition="62" />
-    <nodeInfo nodeId="2585482140137745678" fileName="XmlImportUtil.java" startLine="78" startPosition="9" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032585" fileName="XmlImportUtil.java" startLine="79" startPosition="0" endLine="80" endPosition="66" />
-    <nodeInfo nodeId="6210958163198033289" fileName="XmlImportUtil.java" startLine="82" startPosition="58" endLine="83" endPosition="55" />
-    <nodeInfo nodeId="6210958163198033318" fileName="XmlImportUtil.java" startLine="85" startPosition="11" endLine="86" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033322" fileName="XmlImportUtil.java" startLine="86" startPosition="0" endLine="87" endPosition="84" />
-    <nodeInfo nodeId="6210958163198033341" fileName="XmlImportUtil.java" startLine="87" startPosition="84" endLine="88" endPosition="125" />
-    <nodeInfo nodeId="6210958163198033527" fileName="XmlImportUtil.java" startLine="88" startPosition="125" endLine="89" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033372" fileName="XmlImportUtil.java" startLine="89" startPosition="0" endLine="90" endPosition="75" />
-    <nodeInfo nodeId="6210958163198033577" fileName="XmlImportUtil.java" startLine="91" startPosition="46" endLine="92" endPosition="97" />
-    <nodeInfo nodeId="5176538940868196786" fileName="XmlImportUtil.java" startLine="93" startPosition="9" endLine="94" endPosition="0" />
-    <nodeInfo nodeId="5176538940868196788" fileName="XmlImportUtil.java" startLine="94" startPosition="0" endLine="95" endPosition="53" />
-    <nodeInfo nodeId="6210958163198033396" fileName="XmlImportUtil.java" startLine="97" startPosition="7" endLine="98" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033663" fileName="XmlImportUtil.java" startLine="98" startPosition="0" endLine="99" endPosition="35" />
-    <nodeInfo nodeId="6210958163198033636" fileName="XmlImportUtil.java" startLine="110" startPosition="86" endLine="111" endPosition="89" />
-    <nodeInfo nodeId="6210958163198033625" fileName="XmlImportUtil.java" startLine="111" startPosition="89" endLine="112" endPosition="127" />
-    <nodeInfo nodeId="5176538940868196737" fileName="XmlImportUtil.java" startLine="115" startPosition="7" endLine="116" endPosition="0" />
-    <nodeInfo nodeId="5176538940868196743" fileName="XmlImportUtil.java" startLine="118" startPosition="44" endLine="119" endPosition="99" />
-    <nodeInfo nodeId="5176538940868196742" fileName="XmlImportUtil.java" startLine="119" startPosition="99" endLine="120" endPosition="0" />
-    <nodeInfo nodeId="5176538940868196740" fileName="XmlImportUtil.java" startLine="120" startPosition="0" endLine="121" endPosition="76" />
-    <nodeInfo nodeId="6210958163198033668" fileName="XmlImportUtil.java" startLine="123" startPosition="7" endLine="124" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033683" fileName="XmlImportUtil.java" startLine="126" startPosition="44" endLine="127" endPosition="89" />
-    <nodeInfo nodeId="6210958163198037380" fileName="XmlImportUtil.java" startLine="127" startPosition="89" endLine="128" endPosition="117" />
-    <nodeInfo nodeId="6210958163198037232" fileName="XmlImportUtil.java" startLine="128" startPosition="117" endLine="129" endPosition="124" />
-    <nodeInfo nodeId="6210958163198033779" fileName="XmlImportUtil.java" startLine="129" startPosition="124" endLine="130" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033754" fileName="XmlImportUtil.java" startLine="130" startPosition="0" endLine="131" endPosition="132" />
-    <nodeInfo nodeId="6210958163198033783" fileName="XmlImportUtil.java" startLine="131" startPosition="132" endLine="132" endPosition="72" />
-    <nodeInfo nodeId="6210958163198033818" fileName="XmlImportUtil.java" startLine="132" startPosition="72" endLine="133" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033853" fileName="XmlImportUtil.java" startLine="134" startPosition="49" endLine="135" endPosition="54" />
-    <nodeInfo nodeId="6210958163198033918" fileName="XmlImportUtil.java" startLine="136" startPosition="76" endLine="137" endPosition="127" />
-    <nodeInfo nodeId="6210958163198037213" fileName="XmlImportUtil.java" startLine="138" startPosition="18" endLine="139" endPosition="27" />
-    <nodeInfo nodeId="6210958163198037217" fileName="XmlImportUtil.java" startLine="141" startPosition="9" endLine="142" endPosition="0" />
-    <nodeInfo nodeId="2585482140137728987" fileName="XmlImportUtil.java" startLine="142" startPosition="0" endLine="143" endPosition="98" />
-    <nodeInfo nodeId="2585482140137728985" fileName="XmlImportUtil.java" startLine="143" startPosition="98" endLine="144" endPosition="0" />
-    <nodeInfo nodeId="6210958163198037273" fileName="XmlImportUtil.java" startLine="146" startPosition="50" endLine="147" endPosition="56" />
-    <nodeInfo nodeId="6210958163198037296" fileName="XmlImportUtil.java" startLine="147" startPosition="56" endLine="148" endPosition="118" />
-    <nodeInfo nodeId="6210958163198037329" fileName="XmlImportUtil.java" startLine="150" startPosition="11" endLine="151" endPosition="0" />
-    <nodeInfo nodeId="6210958163198037332" fileName="XmlImportUtil.java" startLine="151" startPosition="0" endLine="152" endPosition="76" />
-    <nodeInfo nodeId="6210958163198037395" fileName="XmlImportUtil.java" startLine="152" startPosition="76" endLine="153" endPosition="85" />
-    <nodeInfo nodeId="6210958163198037364" fileName="XmlImportUtil.java" startLine="153" startPosition="85" endLine="154" endPosition="131" />
-    <nodeInfo nodeId="5176538940868200301" fileName="XmlImportUtil.java" startLine="154" startPosition="131" endLine="155" endPosition="0" />
-    <nodeInfo nodeId="5176538940868200303" fileName="XmlImportUtil.java" startLine="155" startPosition="0" endLine="156" endPosition="56" />
-    <nodeInfo nodeId="5176538940868200292" fileName="XmlImportUtil.java" startLine="158" startPosition="7" endLine="159" endPosition="0" />
-    <nodeInfo nodeId="5176538940868200312" fileName="XmlImportUtil.java" startLine="159" startPosition="0" endLine="160" endPosition="54" />
-    <nodeInfo nodeId="8888034671703754326" fileName="XmlImportUtil.java" startLine="160" startPosition="54" endLine="161" endPosition="0" />
-    <nodeInfo nodeId="8888034671703754319" fileName="XmlImportUtil.java" startLine="161" startPosition="0" endLine="162" endPosition="46" />
-    <nodeInfo nodeId="667758600145559779" fileName="XmlImportUtil.java" startLine="162" startPosition="46" endLine="163" endPosition="57" />
-    <nodeInfo nodeId="667758600145560274" fileName="XmlImportUtil.java" startLine="163" startPosition="57" endLine="164" endPosition="51" />
-    <nodeInfo nodeId="6210958163198037461" fileName="XmlImportUtil.java" startLine="167" startPosition="57" endLine="168" endPosition="97" />
-    <nodeInfo nodeId="6210958163198037459" fileName="XmlImportUtil.java" startLine="168" startPosition="97" endLine="169" endPosition="0" />
-    <nodeInfo nodeId="2585482140137745631" fileName="XmlImportUtil.java" startLine="169" startPosition="0" endLine="170" endPosition="90" />
-    <nodeInfo nodeId="6210958163198037477" fileName="XmlImportUtil.java" startLine="171" startPosition="85" endLine="172" endPosition="62" />
-    <nodeInfo nodeId="6210958163198037472" fileName="XmlImportUtil.java" startLine="172" startPosition="62" endLine="173" endPosition="112" />
-    <nodeInfo nodeId="6210958163198037525" fileName="XmlImportUtil.java" startLine="173" startPosition="112" endLine="174" endPosition="0" />
-    <nodeInfo nodeId="2585482140137679643" fileName="XmlImportUtil.java" startLine="175" startPosition="48" endLine="176" endPosition="121" />
-    <nodeInfo nodeId="2585482140137679676" fileName="XmlImportUtil.java" startLine="178" startPosition="49" endLine="179" endPosition="123" />
-    <nodeInfo nodeId="6210958163198206997" fileName="XmlImportUtil.java" startLine="181" startPosition="5" endLine="182" endPosition="0" />
-    <nodeInfo nodeId="6210958163198207000" fileName="XmlImportUtil.java" startLine="182" startPosition="0" endLine="183" endPosition="23" />
-    <nodeInfo nodeId="5582741779552950562" fileName="XmlImportUtil.java" startLine="186" startPosition="84" endLine="187" endPosition="121" />
-    <nodeInfo nodeId="5582741779552950605" fileName="XmlImportUtil.java" startLine="187" startPosition="121" endLine="188" endPosition="137" />
-    <nodeInfo nodeId="5582741779552950596" fileName="XmlImportUtil.java" startLine="188" startPosition="137" endLine="189" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950576" fileName="XmlImportUtil.java" startLine="189" startPosition="0" endLine="190" endPosition="105" />
-    <nodeInfo nodeId="5582741779552950597" fileName="XmlImportUtil.java" startLine="190" startPosition="105" endLine="191" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950634" fileName="XmlImportUtil.java" startLine="193" startPosition="54" endLine="194" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950643" fileName="XmlImportUtil.java" startLine="194" startPosition="0" endLine="195" endPosition="64" />
-    <nodeInfo nodeId="5582741779552950650" fileName="XmlImportUtil.java" startLine="195" startPosition="64" endLine="196" endPosition="123" />
-    <nodeInfo nodeId="5582741779552950622" fileName="XmlImportUtil.java" startLine="198" startPosition="7" endLine="199" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950571" fileName="XmlImportUtil.java" startLine="199" startPosition="0" endLine="200" endPosition="32" />
-    <nodeInfo nodeId="6210958163198207005" fileName="XmlImportUtil.java" startLine="203" startPosition="70" endLine="204" endPosition="33" />
-    <nodeInfo nodeId="4149404141877854143" fileName="XmlImportUtil.java" startLine="204" startPosition="33" endLine="205" endPosition="0" />
-    <nodeInfo nodeId="4241803741553734352" fileName="XmlImportUtil.java" startLine="206" startPosition="50" endLine="207" endPosition="48" />
-    <nodeInfo nodeId="7121114059628243361" fileName="XmlImportUtil.java" startLine="209" startPosition="62" endLine="210" endPosition="72" />
-    <nodeInfo nodeId="7121114059628243374" fileName="XmlImportUtil.java" startLine="212" startPosition="59" endLine="213" endPosition="66" />
-    <nodeInfo nodeId="7121114059628243390" fileName="XmlImportUtil.java" startLine="215" startPosition="62" endLine="216" endPosition="76" />
-    <nodeInfo nodeId="7121114059628243402" fileName="XmlImportUtil.java" startLine="217" startPosition="5" endLine="218" endPosition="0" />
-    <nodeInfo nodeId="6210958163198207016" fileName="XmlImportUtil.java" startLine="218" startPosition="0" endLine="219" endPosition="27" />
-    <nodeInfo nodeId="5582741779552950443" fileName="XmlImportUtil.java" startLine="222" startPosition="90" endLine="223" endPosition="119" />
-    <nodeInfo nodeId="5582741779552950481" fileName="XmlImportUtil.java" startLine="223" startPosition="119" endLine="224" endPosition="156" />
-    <nodeInfo nodeId="5582741779552950480" fileName="XmlImportUtil.java" startLine="224" startPosition="156" endLine="225" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950448" fileName="XmlImportUtil.java" startLine="225" startPosition="0" endLine="226" endPosition="113" />
-    <nodeInfo nodeId="5582741779552950524" fileName="XmlImportUtil.java" startLine="228" startPosition="46" endLine="229" endPosition="52" />
-    <nodeInfo nodeId="5582741779552950535" fileName="XmlImportUtil.java" startLine="229" startPosition="52" endLine="230" endPosition="122" />
-    <nodeInfo nodeId="5582741779552950502" fileName="XmlImportUtil.java" startLine="232" startPosition="7" endLine="233" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950472" fileName="XmlImportUtil.java" startLine="233" startPosition="0" endLine="234" endPosition="31" />
-    <nodeInfo nodeId="5582741779552949700" fileName="XmlImportUtil.java" startLine="237" startPosition="82" endLine="238" endPosition="113" />
-    <nodeInfo nodeId="5582741779552950215" fileName="XmlImportUtil.java" startLine="238" startPosition="113" endLine="239" endPosition="49" />
-    <nodeInfo nodeId="5582741779552950246" fileName="XmlImportUtil.java" startLine="239" startPosition="49" endLine="240" endPosition="63" />
-    <nodeInfo nodeId="5582741779552950214" fileName="XmlImportUtil.java" startLine="240" startPosition="63" endLine="241" endPosition="0" />
-    <nodeInfo nodeId="5582741779552949709" fileName="XmlImportUtil.java" startLine="241" startPosition="0" endLine="242" endPosition="109" />
-    <nodeInfo nodeId="5582741779552950231" fileName="XmlImportUtil.java" startLine="242" startPosition="109" endLine="243" endPosition="89" />
-    <nodeInfo nodeId="5582741779552950225" fileName="XmlImportUtil.java" startLine="243" startPosition="89" endLine="244" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950227" fileName="XmlImportUtil.java" startLine="244" startPosition="0" endLine="245" endPosition="31" />
-    <nodeInfo nodeId="5582741779552950267" fileName="XmlImportUtil.java" startLine="248" startPosition="73" endLine="249" endPosition="113" />
-    <nodeInfo nodeId="5582741779552950301" fileName="XmlImportUtil.java" startLine="249" startPosition="113" endLine="250" endPosition="154" />
-    <nodeInfo nodeId="5582741779552950300" fileName="XmlImportUtil.java" startLine="250" startPosition="154" endLine="251" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950283" fileName="XmlImportUtil.java" startLine="251" startPosition="0" endLine="252" endPosition="103" />
-    <nodeInfo nodeId="5582741779552950415" fileName="XmlImportUtil.java" startLine="254" startPosition="60" endLine="255" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950331" fileName="XmlImportUtil.java" startLine="255" startPosition="0" endLine="256" endPosition="66" />
-    <nodeInfo nodeId="5582741779552950418" fileName="XmlImportUtil.java" startLine="256" startPosition="66" endLine="257" endPosition="120" />
-    <nodeInfo nodeId="5582741779552950317" fileName="XmlImportUtil.java" startLine="259" startPosition="7" endLine="260" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950278" fileName="XmlImportUtil.java" startLine="260" startPosition="0" endLine="261" endPosition="28" />
-    <nodeInfo nodeId="5582741779552950349" fileName="XmlImportUtil.java" startLine="264" startPosition="86" endLine="265" endPosition="125" />
-    <nodeInfo nodeId="5582741779552950401" fileName="XmlImportUtil.java" startLine="265" startPosition="125" endLine="266" endPosition="35" />
-    <nodeInfo nodeId="5582741779552950400" fileName="XmlImportUtil.java" startLine="266" startPosition="35" endLine="267" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950364" fileName="XmlImportUtil.java" startLine="267" startPosition="0" endLine="268" endPosition="100" />
-    <nodeInfo nodeId="5582741779552950381" fileName="XmlImportUtil.java" startLine="268" startPosition="100" endLine="269" endPosition="128" />
-    <nodeInfo nodeId="5582741779552950363" fileName="XmlImportUtil.java" startLine="269" startPosition="128" endLine="270" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950358" fileName="XmlImportUtil.java" startLine="270" startPosition="0" endLine="271" endPosition="37" />
-    <nodeInfo nodeId="4149404141877854169" fileName="XmlImportUtil.java" startLine="274" startPosition="46" endLine="275" endPosition="95" />
-    <nodeInfo nodeId="4149404141877854696" fileName="XmlImportUtil.java" startLine="275" startPosition="95" endLine="276" endPosition="117" />
-    <nodeInfo nodeId="4149404141877854695" fileName="XmlImportUtil.java" startLine="276" startPosition="117" endLine="277" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854297" fileName="XmlImportUtil.java" startLine="277" startPosition="0" endLine="278" endPosition="95" />
-    <nodeInfo nodeId="4149404141877854309" fileName="XmlImportUtil.java" startLine="278" startPosition="95" endLine="279" endPosition="85" />
-    <nodeInfo nodeId="2585482140137700989" fileName="XmlImportUtil.java" startLine="280" startPosition="34" endLine="281" endPosition="81" />
-    <nodeInfo nodeId="4149404141877854670" fileName="XmlImportUtil.java" startLine="282" startPosition="5" endLine="283" endPosition="84" />
-    <nodeInfo nodeId="2585482140137729024" fileName="XmlImportUtil.java" startLine="283" startPosition="84" endLine="284" endPosition="0" />
-    <nodeInfo nodeId="2585482140137729006" fileName="XmlImportUtil.java" startLine="284" startPosition="0" endLine="285" endPosition="86" />
-    <nodeInfo nodeId="2585482140137689821" fileName="XmlImportUtil.java" startLine="287" startPosition="46" endLine="288" endPosition="52" />
-    <nodeInfo nodeId="2585482140137689834" fileName="XmlImportUtil.java" startLine="288" startPosition="52" endLine="289" endPosition="106" />
-    <nodeInfo nodeId="4149404141877854713" fileName="XmlImportUtil.java" startLine="291" startPosition="7" endLine="292" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854180" fileName="XmlImportUtil.java" startLine="292" startPosition="0" endLine="293" endPosition="19" />
-    <nodeInfo nodeId="4241803741553727944" fileName="XmlImportUtil.java" startLine="297" startPosition="50" endLine="298" endPosition="37" />
-    <nodeInfo nodeId="4241803741553727956" fileName="XmlImportUtil.java" startLine="300" startPosition="52" endLine="301" endPosition="39" />
-    <nodeInfo nodeId="4241803741553727967" fileName="XmlImportUtil.java" startLine="303" startPosition="50" endLine="304" endPosition="37" />
-    <nodeInfo nodeId="4241803741553734346" fileName="XmlImportUtil.java" startLine="305" startPosition="5" endLine="306" endPosition="0" />
-    <nodeInfo nodeId="4241803741553727949" fileName="XmlImportUtil.java" startLine="306" startPosition="0" endLine="307" endPosition="16" />
-    <nodeInfo nodeId="4241803741553720617" fileName="XmlImportUtil.java" startLine="310" startPosition="58" endLine="311" endPosition="95" />
-    <nodeInfo nodeId="4241803741553720630" fileName="XmlImportUtil.java" startLine="311" startPosition="95" endLine="312" endPosition="0" />
-    <nodeInfo nodeId="4241803741553720701" fileName="XmlImportUtil.java" startLine="312" startPosition="0" endLine="313" endPosition="101" />
-    <nodeInfo nodeId="4241803741553720678" fileName="XmlImportUtil.java" startLine="313" startPosition="101" endLine="314" endPosition="89" />
-    <nodeInfo nodeId="4241803741553720645" fileName="XmlImportUtil.java" startLine="315" startPosition="60" endLine="316" endPosition="64" />
-    <nodeInfo nodeId="4241803741553720659" fileName="XmlImportUtil.java" startLine="317" startPosition="12" endLine="318" endPosition="102" />
-    <nodeInfo nodeId="4241803741553720718" fileName="XmlImportUtil.java" startLine="319" startPosition="5" endLine="320" endPosition="0" />
-    <nodeInfo nodeId="4241803741553727939" fileName="XmlImportUtil.java" startLine="320" startPosition="0" endLine="321" endPosition="21" />
-    <nodeInfo nodeId="4241803741553727982" fileName="XmlImportUtil.java" startLine="324" startPosition="60" endLine="325" endPosition="99" />
-    <nodeInfo nodeId="4241803741553728016" fileName="XmlImportUtil.java" startLine="325" startPosition="99" endLine="326" endPosition="0" />
-    <nodeInfo nodeId="4241803741553727996" fileName="XmlImportUtil.java" startLine="326" startPosition="0" endLine="327" endPosition="72" />
-    <nodeInfo nodeId="667758600145794033" fileName="XmlImportUtil.java" startLine="327" startPosition="72" endLine="328" endPosition="103" />
-    <nodeInfo nodeId="667758600145794043" fileName="XmlImportUtil.java" startLine="328" startPosition="103" endLine="329" endPosition="0" />
-    <nodeInfo nodeId="4241803741553727991" fileName="XmlImportUtil.java" startLine="329" startPosition="0" endLine="330" endPosition="23" />
-    <nodeInfo nodeId="4241803741553728049" fileName="XmlImportUtil.java" startLine="333" startPosition="58" endLine="334" endPosition="103" />
-    <nodeInfo nodeId="4241803741553728076" fileName="XmlImportUtil.java" startLine="334" startPosition="103" endLine="335" endPosition="109" />
-    <nodeInfo nodeId="4241803741553728075" fileName="XmlImportUtil.java" startLine="335" startPosition="109" endLine="336" endPosition="0" />
-    <nodeInfo nodeId="4241803741553728058" fileName="XmlImportUtil.java" startLine="336" startPosition="0" endLine="337" endPosition="103" />
-    <nodeInfo nodeId="4241803741553734283" fileName="XmlImportUtil.java" startLine="337" startPosition="103" endLine="338" endPosition="0" />
-    <nodeInfo nodeId="4241803741553734300" fileName="XmlImportUtil.java" startLine="340" startPosition="37" endLine="341" endPosition="109" />
-    <nodeInfo nodeId="4241803741553734308" fileName="XmlImportUtil.java" startLine="341" startPosition="109" endLine="342" endPosition="63" />
-    <nodeInfo nodeId="4241803741553734326" fileName="XmlImportUtil.java" startLine="342" startPosition="63" endLine="343" endPosition="114" />
-    <nodeInfo nodeId="4241803741553734340" fileName="XmlImportUtil.java" startLine="345" startPosition="7" endLine="346" endPosition="0" />
-    <nodeInfo nodeId="4241803741553734342" fileName="XmlImportUtil.java" startLine="346" startPosition="0" endLine="347" endPosition="23" />
-    <nodeInfo nodeId="4149404141877854556" fileName="XmlImportUtil.java" startLine="350" startPosition="43" endLine="351" endPosition="92" />
-    <nodeInfo nodeId="4149404141877854563" fileName="XmlImportUtil.java" startLine="351" startPosition="92" endLine="352" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854565" fileName="XmlImportUtil.java" startLine="352" startPosition="0" endLine="353" endPosition="83" />
-    <nodeInfo nodeId="4149404141877854602" fileName="XmlImportUtil.java" startLine="353" startPosition="83" endLine="354" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854627" fileName="XmlImportUtil.java" startLine="355" startPosition="51" endLine="356" endPosition="62" />
-    <nodeInfo nodeId="4149404141877854646" fileName="XmlImportUtil.java" startLine="357" startPosition="12" endLine="358" endPosition="96" />
-    <nodeInfo nodeId="4149404141877854594" fileName="XmlImportUtil.java" startLine="359" startPosition="5" endLine="360" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854591" fileName="XmlImportUtil.java" startLine="360" startPosition="0" endLine="361" endPosition="18" />
-    <nodeInfo nodeId="4149404141877854344" fileName="XmlImportUtil.java" startLine="364" startPosition="61" endLine="365" endPosition="68" />
-    <nodeInfo nodeId="4040193445807402381" fileName="XmlImportUtil.java" startLine="365" startPosition="68" endLine="366" endPosition="103" />
-    <nodeInfo nodeId="4040193445807402398" fileName="XmlImportUtil.java" startLine="366" startPosition="103" endLine="367" endPosition="0" />
-    <nodeInfo nodeId="4040193445807402929" fileName="XmlImportUtil.java" startLine="370" startPosition="74" endLine="371" endPosition="33" />
-    <nodeInfo nodeId="4149404141877854399" fileName="XmlImportUtil.java" startLine="374" startPosition="7" endLine="375" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854367" fileName="XmlImportUtil.java" startLine="375" startPosition="0" endLine="376" endPosition="29" />
-    <nodeInfo nodeId="4149404141877854336" fileName="XmlImportUtil.java" startLine="379" startPosition="49" endLine="380" endPosition="96" />
-    <nodeInfo nodeId="4149404141877854432" fileName="XmlImportUtil.java" startLine="380" startPosition="96" endLine="381" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854468" fileName="XmlImportUtil.java" startLine="381" startPosition="0" endLine="382" endPosition="75" />
-    <nodeInfo nodeId="4149404141877854506" fileName="XmlImportUtil.java" startLine="383" startPosition="49" endLine="384" endPosition="58" />
-    <nodeInfo nodeId="4149404141877854520" fileName="XmlImportUtil.java" startLine="385" startPosition="12" endLine="386" endPosition="88" />
-    <nodeInfo nodeId="4149404141877854450" fileName="XmlImportUtil.java" startLine="387" startPosition="5" endLine="388" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854452" fileName="XmlImportUtil.java" startLine="388" startPosition="0" endLine="389" endPosition="20" />
-    <nodeInfo nodeId="6210958163198033726" fileName="XmlImportUtil.java" startLine="394" startPosition="30" endLine="395" endPosition="254" />
-    <nodeInfo nodeId="6210958163198033739" fileName="XmlImportUtil.java" startLine="396" startPosition="30" endLine="397" endPosition="296" />
-    <nodeInfo nodeId="6210958163198033749" fileName="XmlImportUtil.java" startLine="398" startPosition="25" endLine="399" endPosition="211" />
-    <nodeInfo nodeId="6210958163198033731" fileName="XmlImportUtil.java" startLine="400" startPosition="14" endLine="401" endPosition="254" />
-    <nodeInfo nodeId="6210958163198033207" fileName="XmlImportUtil.java" startLine="405" startPosition="81" endLine="406" endPosition="113" />
-    <nodeInfo nodeId="6210958163198032826" fileName="XmlImportUtil.java" startLine="406" startPosition="113" endLine="407" endPosition="78" />
-    <nodeInfo nodeId="6210958163198032834" fileName="XmlImportUtil.java" startLine="407" startPosition="78" endLine="408" endPosition="87" />
-    <nodeInfo nodeId="6210958163198032842" fileName="XmlImportUtil.java" startLine="408" startPosition="87" endLine="409" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032845" fileName="XmlImportUtil.java" startLine="410" startPosition="48" endLine="411" endPosition="270" />
-    <nodeInfo nodeId="6210958163198032860" fileName="XmlImportUtil.java" startLine="412" startPosition="5" endLine="413" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032863" fileName="XmlImportUtil.java" startLine="414" startPosition="51" endLine="415" endPosition="276" />
-    <nodeInfo nodeId="6210958163198032878" fileName="XmlImportUtil.java" startLine="416" startPosition="5" endLine="417" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032881" fileName="XmlImportUtil.java" startLine="418" startPosition="52" endLine="419" endPosition="276" />
-    <nodeInfo nodeId="6210958163198032896" fileName="XmlImportUtil.java" startLine="420" startPosition="5" endLine="421" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032899" fileName="XmlImportUtil.java" startLine="422" startPosition="50" endLine="423" endPosition="312" />
-    <nodeInfo nodeId="6210958163198033283" fileName="XmlImportUtil.java" startLine="424" startPosition="5" endLine="425" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033285" fileName="XmlImportUtil.java" startLine="425" startPosition="0" endLine="426" endPosition="27" />
-    <nodeInfo nodeId="1655679821852921358" fileName="XmlImportUtil.java" startLine="48" startPosition="0" endLine="50" endPosition="3" />
-    <nodeInfo nodeId="6210958163198033965" fileName="XmlImportUtil.java" startLine="138" startPosition="16" endLine="140" endPosition="11" />
-    <nodeInfo nodeId="4241803741553720657" fileName="XmlImportUtil.java" startLine="317" startPosition="10" endLine="319" endPosition="5" />
-    <nodeInfo nodeId="4149404141877854644" fileName="XmlImportUtil.java" startLine="357" startPosition="10" endLine="359" endPosition="5" />
-    <nodeInfo nodeId="4149404141877854518" fileName="XmlImportUtil.java" startLine="385" startPosition="10" endLine="387" endPosition="5" />
-    <nodeInfo nodeId="2585482140137745679" fileName="XmlImportUtil.java" startLine="75" startPosition="0" endLine="78" endPosition="9" />
-    <nodeInfo nodeId="6210958163198033555" fileName="XmlImportUtil.java" startLine="90" startPosition="75" endLine="93" endPosition="9" />
-    <nodeInfo nodeId="2585482140137679621" fileName="XmlImportUtil.java" startLine="174" startPosition="0" endLine="177" endPosition="7" />
-    <nodeInfo nodeId="2585482140137679656" fileName="XmlImportUtil.java" startLine="177" startPosition="7" endLine="180" endPosition="7" />
-    <nodeInfo nodeId="4149404141877854138" fileName="XmlImportUtil.java" startLine="205" startPosition="0" endLine="208" endPosition="5" />
-    <nodeInfo nodeId="7121114059628243359" fileName="XmlImportUtil.java" startLine="208" startPosition="5" endLine="211" endPosition="5" />
-    <nodeInfo nodeId="7121114059628243372" fileName="XmlImportUtil.java" startLine="211" startPosition="5" endLine="214" endPosition="5" />
-    <nodeInfo nodeId="7121114059628243388" fileName="XmlImportUtil.java" startLine="214" startPosition="5" endLine="217" endPosition="5" />
-    <nodeInfo nodeId="2585482140137689857" fileName="XmlImportUtil.java" startLine="279" startPosition="85" endLine="282" endPosition="5" />
-    <nodeInfo nodeId="4241803741553720593" fileName="XmlImportUtil.java" startLine="296" startPosition="57" endLine="299" endPosition="5" />
-    <nodeInfo nodeId="4241803741553727954" fileName="XmlImportUtil.java" startLine="299" startPosition="5" endLine="302" endPosition="5" />
-    <nodeInfo nodeId="4241803741553727965" fileName="XmlImportUtil.java" startLine="302" startPosition="5" endLine="305" endPosition="5" />
-    <nodeInfo nodeId="4040193445807402906" fileName="XmlImportUtil.java" startLine="369" startPosition="35" endLine="372" endPosition="9" />
-    <nodeInfo nodeId="6210958163198032843" fileName="XmlImportUtil.java" startLine="409" startPosition="0" endLine="412" endPosition="5" />
-    <nodeInfo nodeId="6210958163198032861" fileName="XmlImportUtil.java" startLine="413" startPosition="0" endLine="416" endPosition="5" />
-    <nodeInfo nodeId="6210958163198032879" fileName="XmlImportUtil.java" startLine="417" startPosition="0" endLine="420" endPosition="5" />
-    <nodeInfo nodeId="6210958163198032897" fileName="XmlImportUtil.java" startLine="421" startPosition="0" endLine="424" endPosition="5" />
-    <nodeInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="81" startPosition="87" endLine="85" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="100" startPosition="126" endLine="104" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="104" startPosition="45" endLine="108" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033612" fileName="XmlImportUtil.java" startLine="109" startPosition="46" endLine="113" endPosition="9" />
-    <nodeInfo nodeId="6210958163198032635" fileName="XmlImportUtil.java" startLine="80" startPosition="66" endLine="85" endPosition="11" />
-    <nodeInfo nodeId="6210958163198033897" fileName="XmlImportUtil.java" startLine="135" startPosition="54" endLine="140" endPosition="11" />
-    <nodeInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="145" startPosition="78" endLine="150" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="227" startPosition="74" endLine="232" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="286" startPosition="74" endLine="291" endPosition="0" />
-    <nodeInfo nodeId="4241803741553720626" fileName="XmlImportUtil.java" startLine="314" startPosition="89" endLine="319" endPosition="5" />
-    <nodeInfo nodeId="4149404141877854604" fileName="XmlImportUtil.java" startLine="354" startPosition="0" endLine="359" endPosition="5" />
-    <nodeInfo nodeId="4149404141877854483" fileName="XmlImportUtil.java" startLine="382" startPosition="75" endLine="387" endPosition="5" />
-    <nodeInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="117" startPosition="72" endLine="123" endPosition="0" />
-    <nodeInfo nodeId="6210958163198037257" fileName="XmlImportUtil.java" startLine="144" startPosition="0" endLine="150" endPosition="11" />
-    <nodeInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="192" startPosition="82" endLine="198" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950503" fileName="XmlImportUtil.java" startLine="226" startPosition="113" endLine="232" endPosition="7" />
-    <nodeInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="253" startPosition="88" endLine="259" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854714" fileName="XmlImportUtil.java" startLine="285" startPosition="86" endLine="291" endPosition="7" />
-    <nodeInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="339" startPosition="68" endLine="345" endPosition="0" />
-    <nodeInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="368" startPosition="70" endLine="374" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033606" fileName="XmlImportUtil.java" startLine="108" startPosition="39" endLine="115" endPosition="0" />
-    <nodeInfo nodeId="5176538940868196726" fileName="XmlImportUtil.java" startLine="116" startPosition="0" endLine="123" endPosition="7" />
-    <nodeInfo nodeId="5582741779552950623" fileName="XmlImportUtil.java" startLine="191" startPosition="0" endLine="198" endPosition="7" />
-    <nodeInfo nodeId="5582741779552950318" fileName="XmlImportUtil.java" startLine="252" startPosition="103" endLine="259" endPosition="7" />
-    <nodeInfo nodeId="4241803741553734285" fileName="XmlImportUtil.java" startLine="338" startPosition="0" endLine="345" endPosition="7" />
-    <nodeInfo nodeId="4040193445807402402" fileName="XmlImportUtil.java" startLine="367" startPosition="0" endLine="374" endPosition="7" />
-    <nodeInfo nodeId="6210958163198033821" fileName="XmlImportUtil.java" startLine="133" startPosition="0" endLine="141" endPosition="9" />
-    <nodeInfo nodeId="4241803741553727976" fileName="XmlImportUtil.java" startLine="323" startPosition="0" endLine="332" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950341" fileName="XmlImportUtil.java" startLine="263" startPosition="0" endLine="273" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033717" fileName="XmlImportUtil.java" startLine="392" startPosition="58" endLine="402" endPosition="5" />
-    <nodeInfo nodeId="6210958163198037445" fileName="XmlImportUtil.java" startLine="170" startPosition="90" endLine="181" endPosition="5" />
-    <nodeInfo nodeId="5582741779552889938" fileName="XmlImportUtil.java" startLine="236" startPosition="0" endLine="247" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854319" fileName="XmlImportUtil.java" startLine="378" startPosition="0" endLine="391" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033709" fileName="XmlImportUtil.java" startLine="391" startPosition="0" endLine="404" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854728" fileName="XmlImportUtil.java" startLine="295" startPosition="0" endLine="309" endPosition="0" />
-    <nodeInfo nodeId="4241803741553720610" fileName="XmlImportUtil.java" startLine="309" startPosition="0" endLine="323" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854420" fileName="XmlImportUtil.java" startLine="349" startPosition="0" endLine="363" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950436" fileName="XmlImportUtil.java" startLine="221" startPosition="0" endLine="236" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854339" fileName="XmlImportUtil.java" startLine="363" startPosition="0" endLine="378" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033589" fileName="XmlImportUtil.java" startLine="99" startPosition="35" endLine="115" endPosition="7" />
-    <nodeInfo nodeId="5582741779552950260" fileName="XmlImportUtil.java" startLine="247" startPosition="0" endLine="263" endPosition="0" />
-    <nodeInfo nodeId="5582741779552950556" fileName="XmlImportUtil.java" startLine="185" startPosition="0" endLine="202" endPosition="0" />
-    <nodeInfo nodeId="4241803741553728036" fileName="XmlImportUtil.java" startLine="332" startPosition="0" endLine="349" endPosition="0" />
-    <nodeInfo nodeId="6210958163198037280" fileName="XmlImportUtil.java" startLine="166" startPosition="0" endLine="185" endPosition="0" />
-    <nodeInfo nodeId="6210958163198037484" fileName="XmlImportUtil.java" startLine="202" startPosition="0" endLine="221" endPosition="0" />
-    <nodeInfo nodeId="4149404141877854160" fileName="XmlImportUtil.java" startLine="273" startPosition="0" endLine="295" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032821" fileName="XmlImportUtil.java" startLine="404" startPosition="0" endLine="428" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="69" startPosition="67" endLine="97" endPosition="0" />
-    <nodeInfo nodeId="6210958163198032553" fileName="XmlImportUtil.java" startLine="68" startPosition="56" endLine="97" endPosition="7" />
-    <nodeInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="125" startPosition="72" endLine="158" endPosition="0" />
-    <nodeInfo nodeId="6210958163198033670" fileName="XmlImportUtil.java" startLine="124" startPosition="0" endLine="158" endPosition="7" />
-    <nodeInfo nodeId="1655679821852921676" fileName="XmlImportUtil.java" startLine="51" startPosition="0" endLine="166" endPosition="0" />
-    <scopeInfo nodeId="1655679821852921361" fileName="XmlImportUtil.java" startLine="49" startPosition="26" endLine="49" endPosition="26" />
-    <scopeInfo nodeId="5582741779552948563" fileName="XmlImportUtil.java" startLine="429" startPosition="10" endLine="429" endPosition="10" />
-    <scopeInfo nodeId="2585482140137745680" fileName="XmlImportUtil.java" startLine="76" startPosition="33" endLine="77" endPosition="62" />
-    <scopeInfo nodeId="6210958163198032643" fileName="XmlImportUtil.java" startLine="82" startPosition="58" endLine="83" endPosition="55" />
-    <scopeInfo nodeId="6210958163198033556" fileName="XmlImportUtil.java" startLine="91" startPosition="46" endLine="92" endPosition="97" />
-    <scopeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="101" startPosition="39" endLine="102" endPosition="79" />
-    <scopeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="105" startPosition="37" endLine="106" endPosition="69" />
-    <scopeInfo nodeId="6210958163198033898" fileName="XmlImportUtil.java" startLine="136" startPosition="76" endLine="137" endPosition="127" />
-    <scopeInfo nodeId="6210958163198033966" fileName="XmlImportUtil.java" startLine="138" startPosition="18" endLine="139" endPosition="27" />
-    <scopeInfo nodeId="2585482140137679622" fileName="XmlImportUtil.java" startLine="175" startPosition="48" endLine="176" endPosition="121" />
-    <scopeInfo nodeId="2585482140137679657" fileName="XmlImportUtil.java" startLine="178" startPosition="49" endLine="179" endPosition="123" />
-    <scopeInfo nodeId="4149404141877854139" fileName="XmlImportUtil.java" startLine="206" startPosition="50" endLine="207" endPosition="48" />
-    <scopeInfo nodeId="7121114059628243360" fileName="XmlImportUtil.java" startLine="209" startPosition="62" endLine="210" endPosition="72" />
-    <scopeInfo nodeId="7121114059628243373" fileName="XmlImportUtil.java" startLine="212" startPosition="59" endLine="213" endPosition="66" />
-    <scopeInfo nodeId="7121114059628243389" fileName="XmlImportUtil.java" startLine="215" startPosition="62" endLine="216" endPosition="76" />
-    <scopeInfo nodeId="2585482140137689858" fileName="XmlImportUtil.java" startLine="280" startPosition="34" endLine="281" endPosition="81" />
-    <scopeInfo nodeId="4241803741553720594" fileName="XmlImportUtil.java" startLine="297" startPosition="50" endLine="298" endPosition="37" />
-    <scopeInfo nodeId="4241803741553727955" fileName="XmlImportUtil.java" startLine="300" startPosition="52" endLine="301" endPosition="39" />
-    <scopeInfo nodeId="4241803741553727966" fileName="XmlImportUtil.java" startLine="303" startPosition="50" endLine="304" endPosition="37" />
-    <scopeInfo nodeId="4241803741553720627" fileName="XmlImportUtil.java" startLine="315" startPosition="60" endLine="316" endPosition="64" />
-    <scopeInfo nodeId="4241803741553720658" fileName="XmlImportUtil.java" startLine="317" startPosition="12" endLine="318" endPosition="102" />
-    <scopeInfo nodeId="4149404141877854605" fileName="XmlImportUtil.java" startLine="355" startPosition="51" endLine="356" endPosition="62" />
-    <scopeInfo nodeId="4149404141877854645" fileName="XmlImportUtil.java" startLine="357" startPosition="12" endLine="358" endPosition="96" />
-    <scopeInfo nodeId="4040193445807402907" fileName="XmlImportUtil.java" startLine="370" startPosition="74" endLine="371" endPosition="33" />
-    <scopeInfo nodeId="4149404141877854484" fileName="XmlImportUtil.java" startLine="383" startPosition="49" endLine="384" endPosition="58" />
-    <scopeInfo nodeId="4149404141877854519" fileName="XmlImportUtil.java" startLine="385" startPosition="12" endLine="386" endPosition="88" />
-    <scopeInfo nodeId="6210958163198033723" fileName="XmlImportUtil.java" startLine="394" startPosition="30" endLine="395" endPosition="254" />
-    <scopeInfo nodeId="6210958163198033736" fileName="XmlImportUtil.java" startLine="396" startPosition="30" endLine="397" endPosition="296" />
-    <scopeInfo nodeId="6210958163198033746" fileName="XmlImportUtil.java" startLine="398" startPosition="25" endLine="399" endPosition="211" />
-    <scopeInfo nodeId="6210958163198033719" fileName="XmlImportUtil.java" startLine="400" startPosition="14" endLine="401" endPosition="254" />
-    <scopeInfo nodeId="6210958163198032844" fileName="XmlImportUtil.java" startLine="410" startPosition="48" endLine="411" endPosition="270" />
-    <scopeInfo nodeId="6210958163198032862" fileName="XmlImportUtil.java" startLine="414" startPosition="51" endLine="415" endPosition="276" />
-    <scopeInfo nodeId="6210958163198032880" fileName="XmlImportUtil.java" startLine="418" startPosition="52" endLine="419" endPosition="276" />
-    <scopeInfo nodeId="6210958163198032898" fileName="XmlImportUtil.java" startLine="422" startPosition="50" endLine="423" endPosition="312" />
-    <scopeInfo nodeId="1655679821852921358" fileName="XmlImportUtil.java" startLine="48" startPosition="0" endLine="50" endPosition="3" />
-    <scopeInfo nodeId="6210958163198033613" fileName="XmlImportUtil.java" startLine="110" startPosition="86" endLine="112" endPosition="127">
-      <varInfo nodeId="6210958163198033637" varName="parentId" />
+    <nodeInfo nodeId="4149404141877854211" fileName="XmlImportUtil.java" startLine="43" startPosition="28" endLine="44" endPosition="30" />
+    <nodeInfo nodeId="4149404141877854241" fileName="XmlImportUtil.java" startLine="44" startPosition="30" endLine="45" endPosition="30" />
+    <nodeInfo nodeId="5582741779552949618" fileName="XmlImportUtil.java" startLine="45" startPosition="30" endLine="46" endPosition="55" />
+    <nodeInfo nodeId="5582741779552949626" fileName="XmlImportUtil.java" startLine="46" startPosition="55" endLine="47" endPosition="61" />
+    <nodeInfo nodeId="5582741779552949634" fileName="XmlImportUtil.java" startLine="47" startPosition="61" endLine="48" endPosition="50" />
+    <nodeInfo nodeId="5582741779552948560" fileName="XmlImportUtil.java" startLine="53" startPosition="92" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="5582741779552948561" fileName="XmlImportUtil.java" startLine="54" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="6210958163198021167" fileName="XmlImportUtil.java" startLine="55" startPosition="0" endLine="56" endPosition="105" />
+    <nodeInfo nodeId="6210958163198032514" fileName="XmlImportUtil.java" startLine="56" startPosition="105" endLine="57" endPosition="108" />
+    <nodeInfo nodeId="6210958163198032533" fileName="XmlImportUtil.java" startLine="57" startPosition="108" endLine="58" endPosition="118" />
+    <nodeInfo nodeId="5582741779552949686" fileName="XmlImportUtil.java" startLine="58" startPosition="118" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="5582741779552949643" fileName="XmlImportUtil.java" startLine="59" startPosition="0" endLine="60" endPosition="70" />
+    <nodeInfo nodeId="5582741779552949653" fileName="XmlImportUtil.java" startLine="60" startPosition="70" endLine="61" endPosition="81" />
+    <nodeInfo nodeId="5582741779552949663" fileName="XmlImportUtil.java" startLine="61" startPosition="81" endLine="62" endPosition="75" />
+    <nodeInfo nodeId="5176538940868200331" fileName="XmlImportUtil.java" startLine="62" startPosition="75" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="5176538940868200329" fileName="XmlImportUtil.java" startLine="63" startPosition="0" endLine="64" endPosition="96" />
+    <nodeInfo nodeId="5176538940868200322" fileName="XmlImportUtil.java" startLine="64" startPosition="96" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854220" fileName="XmlImportUtil.java" startLine="65" startPosition="0" endLine="66" endPosition="19" />
+    <nodeInfo nodeId="4149404141877854246" fileName="XmlImportUtil.java" startLine="66" startPosition="19" endLine="67" endPosition="19" />
+    <nodeInfo nodeId="4149404141877854219" fileName="XmlImportUtil.java" startLine="67" startPosition="19" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266321" fileName="XmlImportUtil.java" startLine="70" startPosition="38" endLine="71" endPosition="101" />
+    <nodeInfo nodeId="7827303683600266328" fileName="XmlImportUtil.java" startLine="71" startPosition="101" endLine="72" endPosition="75" />
+    <nodeInfo nodeId="7827303683600265819" fileName="XmlImportUtil.java" startLine="74" startPosition="7" endLine="75" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266351" fileName="XmlImportUtil.java" startLine="75" startPosition="0" endLine="76" endPosition="35" />
+    <nodeInfo nodeId="7827303683600266365" fileName="XmlImportUtil.java" startLine="87" startPosition="86" endLine="88" endPosition="89" />
+    <nodeInfo nodeId="7827303683600266371" fileName="XmlImportUtil.java" startLine="88" startPosition="89" endLine="89" endPosition="127" />
+    <nodeInfo nodeId="7827303683600266350" fileName="XmlImportUtil.java" startLine="92" startPosition="7" endLine="93" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033666" fileName="XmlImportUtil.java" startLine="93" startPosition="0" endLine="94" endPosition="56" />
+    <nodeInfo nodeId="7827303683600266389" fileName="XmlImportUtil.java" startLine="96" startPosition="38" endLine="97" endPosition="88" />
+    <nodeInfo nodeId="6210958163198033311" fileName="XmlImportUtil.java" startLine="97" startPosition="88" endLine="98" endPosition="111" />
+    <nodeInfo nodeId="6210958163198033310" fileName="XmlImportUtil.java" startLine="98" startPosition="111" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032618" fileName="XmlImportUtil.java" startLine="99" startPosition="0" endLine="100" endPosition="134" />
+    <nodeInfo nodeId="6210958163198032617" fileName="XmlImportUtil.java" startLine="100" startPosition="134" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="2585482140137745694" fileName="XmlImportUtil.java" startLine="102" startPosition="33" endLine="103" endPosition="62" />
+    <nodeInfo nodeId="2585482140137745678" fileName="XmlImportUtil.java" startLine="104" startPosition="9" endLine="105" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032585" fileName="XmlImportUtil.java" startLine="105" startPosition="0" endLine="106" endPosition="66" />
+    <nodeInfo nodeId="7827303683600266409" fileName="XmlImportUtil.java" startLine="106" startPosition="66" endLine="107" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266411" fileName="XmlImportUtil.java" startLine="107" startPosition="0" endLine="108" endPosition="55" />
+    <nodeInfo nodeId="7827303683600019861" fileName="XmlImportUtil.java" startLine="110" startPosition="58" endLine="111" endPosition="79" />
+    <nodeInfo nodeId="7827303683600019868" fileName="XmlImportUtil.java" startLine="111" startPosition="79" endLine="112" endPosition="130" />
+    <nodeInfo nodeId="6210958163198033318" fileName="XmlImportUtil.java" startLine="114" startPosition="11" endLine="115" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033322" fileName="XmlImportUtil.java" startLine="115" startPosition="0" endLine="116" endPosition="84" />
+    <nodeInfo nodeId="6210958163198033341" fileName="XmlImportUtil.java" startLine="116" startPosition="84" endLine="117" endPosition="125" />
+    <nodeInfo nodeId="6210958163198033527" fileName="XmlImportUtil.java" startLine="117" startPosition="125" endLine="118" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033372" fileName="XmlImportUtil.java" startLine="118" startPosition="0" endLine="119" endPosition="75" />
+    <nodeInfo nodeId="6210958163198033577" fileName="XmlImportUtil.java" startLine="120" startPosition="46" endLine="121" endPosition="97" />
+    <nodeInfo nodeId="5176538940868196786" fileName="XmlImportUtil.java" startLine="122" startPosition="9" endLine="123" endPosition="0" />
+    <nodeInfo nodeId="5176538940868196788" fileName="XmlImportUtil.java" startLine="123" startPosition="0" endLine="124" endPosition="53" />
+    <nodeInfo nodeId="6210958163198033396" fileName="XmlImportUtil.java" startLine="126" startPosition="7" endLine="127" endPosition="0" />
+    <nodeInfo nodeId="5176538940868196743" fileName="XmlImportUtil.java" startLine="129" startPosition="44" endLine="130" endPosition="99" />
+    <nodeInfo nodeId="5176538940868196742" fileName="XmlImportUtil.java" startLine="130" startPosition="99" endLine="131" endPosition="0" />
+    <nodeInfo nodeId="5176538940868196740" fileName="XmlImportUtil.java" startLine="131" startPosition="0" endLine="132" endPosition="76" />
+    <nodeInfo nodeId="6210958163198033668" fileName="XmlImportUtil.java" startLine="134" startPosition="7" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033683" fileName="XmlImportUtil.java" startLine="137" startPosition="44" endLine="138" endPosition="89" />
+    <nodeInfo nodeId="6210958163198037380" fileName="XmlImportUtil.java" startLine="138" startPosition="89" endLine="139" endPosition="117" />
+    <nodeInfo nodeId="6210958163198037232" fileName="XmlImportUtil.java" startLine="139" startPosition="117" endLine="140" endPosition="124" />
+    <nodeInfo nodeId="4879613102704184951" fileName="XmlImportUtil.java" startLine="140" startPosition="124" endLine="141" endPosition="122" />
+    <nodeInfo nodeId="4879613102704175677" fileName="XmlImportUtil.java" startLine="141" startPosition="122" endLine="142" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033754" fileName="XmlImportUtil.java" startLine="142" startPosition="0" endLine="143" endPosition="132" />
+    <nodeInfo nodeId="6210958163198033783" fileName="XmlImportUtil.java" startLine="143" startPosition="132" endLine="144" endPosition="72" />
+    <nodeInfo nodeId="6210958163198033818" fileName="XmlImportUtil.java" startLine="144" startPosition="72" endLine="145" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033853" fileName="XmlImportUtil.java" startLine="146" startPosition="49" endLine="147" endPosition="54" />
+    <nodeInfo nodeId="6210958163198033918" fileName="XmlImportUtil.java" startLine="148" startPosition="76" endLine="149" endPosition="127" />
+    <nodeInfo nodeId="6210958163198037213" fileName="XmlImportUtil.java" startLine="150" startPosition="18" endLine="151" endPosition="27" />
+    <nodeInfo nodeId="6210958163198037217" fileName="XmlImportUtil.java" startLine="153" startPosition="9" endLine="154" endPosition="0" />
+    <nodeInfo nodeId="2585482140137728987" fileName="XmlImportUtil.java" startLine="154" startPosition="0" endLine="155" endPosition="98" />
+    <nodeInfo nodeId="2585482140137728985" fileName="XmlImportUtil.java" startLine="155" startPosition="98" endLine="156" endPosition="0" />
+    <nodeInfo nodeId="6210958163198037273" fileName="XmlImportUtil.java" startLine="158" startPosition="50" endLine="159" endPosition="56" />
+    <nodeInfo nodeId="6210958163198037296" fileName="XmlImportUtil.java" startLine="159" startPosition="56" endLine="160" endPosition="118" />
+    <nodeInfo nodeId="6210958163198037329" fileName="XmlImportUtil.java" startLine="162" startPosition="11" endLine="163" endPosition="0" />
+    <nodeInfo nodeId="4879613102704196379" fileName="XmlImportUtil.java" startLine="165" startPosition="48" endLine="166" endPosition="108" />
+    <nodeInfo nodeId="4879613102704196490" fileName="XmlImportUtil.java" startLine="166" startPosition="108" endLine="167" endPosition="0" />
+    <nodeInfo nodeId="4879613102704196390" fileName="XmlImportUtil.java" startLine="167" startPosition="0" endLine="168" endPosition="76" />
+    <nodeInfo nodeId="4879613102704196421" fileName="XmlImportUtil.java" startLine="168" startPosition="76" endLine="169" endPosition="87" />
+    <nodeInfo nodeId="4879613102704196445" fileName="XmlImportUtil.java" startLine="169" startPosition="87" endLine="170" endPosition="78" />
+    <nodeInfo nodeId="4879613102704196468" fileName="XmlImportUtil.java" startLine="170" startPosition="78" endLine="171" endPosition="0" />
+    <nodeInfo nodeId="4879613102704196471" fileName="XmlImportUtil.java" startLine="171" startPosition="0" endLine="172" endPosition="120" />
+    <nodeInfo nodeId="4879613102704196332" fileName="XmlImportUtil.java" startLine="174" startPosition="11" endLine="175" endPosition="0" />
+    <nodeInfo nodeId="6210958163198037332" fileName="XmlImportUtil.java" startLine="175" startPosition="0" endLine="176" endPosition="76" />
+    <nodeInfo nodeId="6210958163198037395" fileName="XmlImportUtil.java" startLine="176" startPosition="76" endLine="177" endPosition="85" />
+    <nodeInfo nodeId="6210958163198037364" fileName="XmlImportUtil.java" startLine="177" startPosition="85" endLine="178" endPosition="131" />
+    <nodeInfo nodeId="5176538940868200301" fileName="XmlImportUtil.java" startLine="178" startPosition="131" endLine="179" endPosition="0" />
+    <nodeInfo nodeId="5176538940868200303" fileName="XmlImportUtil.java" startLine="179" startPosition="0" endLine="180" endPosition="56" />
+    <nodeInfo nodeId="5176538940868200292" fileName="XmlImportUtil.java" startLine="182" startPosition="7" endLine="183" endPosition="0" />
+    <nodeInfo nodeId="5176538940868200312" fileName="XmlImportUtil.java" startLine="183" startPosition="0" endLine="184" endPosition="54" />
+    <nodeInfo nodeId="8888034671703754326" fileName="XmlImportUtil.java" startLine="184" startPosition="54" endLine="185" endPosition="0" />
+    <nodeInfo nodeId="8888034671703754319" fileName="XmlImportUtil.java" startLine="185" startPosition="0" endLine="186" endPosition="46" />
+    <nodeInfo nodeId="667758600145559779" fileName="XmlImportUtil.java" startLine="186" startPosition="46" endLine="187" endPosition="57" />
+    <nodeInfo nodeId="667758600145560274" fileName="XmlImportUtil.java" startLine="187" startPosition="57" endLine="188" endPosition="51" />
+    <nodeInfo nodeId="6210958163198037461" fileName="XmlImportUtil.java" startLine="191" startPosition="57" endLine="192" endPosition="97" />
+    <nodeInfo nodeId="6210958163198037459" fileName="XmlImportUtil.java" startLine="192" startPosition="97" endLine="193" endPosition="0" />
+    <nodeInfo nodeId="2585482140137745631" fileName="XmlImportUtil.java" startLine="193" startPosition="0" endLine="194" endPosition="90" />
+    <nodeInfo nodeId="6210958163198037477" fileName="XmlImportUtil.java" startLine="195" startPosition="85" endLine="196" endPosition="62" />
+    <nodeInfo nodeId="6210958163198037472" fileName="XmlImportUtil.java" startLine="196" startPosition="62" endLine="197" endPosition="112" />
+    <nodeInfo nodeId="6210958163198037525" fileName="XmlImportUtil.java" startLine="197" startPosition="112" endLine="198" endPosition="0" />
+    <nodeInfo nodeId="2585482140137679643" fileName="XmlImportUtil.java" startLine="199" startPosition="48" endLine="200" endPosition="121" />
+    <nodeInfo nodeId="2585482140137679676" fileName="XmlImportUtil.java" startLine="202" startPosition="49" endLine="203" endPosition="123" />
+    <nodeInfo nodeId="6210958163198206997" fileName="XmlImportUtil.java" startLine="205" startPosition="5" endLine="206" endPosition="0" />
+    <nodeInfo nodeId="6210958163198207000" fileName="XmlImportUtil.java" startLine="206" startPosition="0" endLine="207" endPosition="23" />
+    <nodeInfo nodeId="5582741779552950562" fileName="XmlImportUtil.java" startLine="210" startPosition="84" endLine="211" endPosition="121" />
+    <nodeInfo nodeId="5582741779552950605" fileName="XmlImportUtil.java" startLine="211" startPosition="121" endLine="212" endPosition="137" />
+    <nodeInfo nodeId="5582741779552950596" fileName="XmlImportUtil.java" startLine="212" startPosition="137" endLine="213" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950576" fileName="XmlImportUtil.java" startLine="213" startPosition="0" endLine="214" endPosition="105" />
+    <nodeInfo nodeId="5582741779552950597" fileName="XmlImportUtil.java" startLine="214" startPosition="105" endLine="215" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950634" fileName="XmlImportUtil.java" startLine="217" startPosition="54" endLine="218" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950643" fileName="XmlImportUtil.java" startLine="218" startPosition="0" endLine="219" endPosition="64" />
+    <nodeInfo nodeId="5582741779552950650" fileName="XmlImportUtil.java" startLine="219" startPosition="64" endLine="220" endPosition="123" />
+    <nodeInfo nodeId="5582741779552950622" fileName="XmlImportUtil.java" startLine="222" startPosition="7" endLine="223" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950571" fileName="XmlImportUtil.java" startLine="223" startPosition="0" endLine="224" endPosition="32" />
+    <nodeInfo nodeId="6210958163198207005" fileName="XmlImportUtil.java" startLine="227" startPosition="70" endLine="228" endPosition="33" />
+    <nodeInfo nodeId="4149404141877854143" fileName="XmlImportUtil.java" startLine="228" startPosition="33" endLine="229" endPosition="0" />
+    <nodeInfo nodeId="4241803741553734352" fileName="XmlImportUtil.java" startLine="230" startPosition="50" endLine="231" endPosition="48" />
+    <nodeInfo nodeId="7121114059628243361" fileName="XmlImportUtil.java" startLine="233" startPosition="62" endLine="234" endPosition="72" />
+    <nodeInfo nodeId="7121114059628243374" fileName="XmlImportUtil.java" startLine="236" startPosition="59" endLine="237" endPosition="66" />
+    <nodeInfo nodeId="7121114059628243390" fileName="XmlImportUtil.java" startLine="239" startPosition="62" endLine="240" endPosition="76" />
+    <nodeInfo nodeId="7121114059628243402" fileName="XmlImportUtil.java" startLine="241" startPosition="5" endLine="242" endPosition="0" />
+    <nodeInfo nodeId="6210958163198207016" fileName="XmlImportUtil.java" startLine="242" startPosition="0" endLine="243" endPosition="27" />
+    <nodeInfo nodeId="5582741779552950443" fileName="XmlImportUtil.java" startLine="246" startPosition="90" endLine="247" endPosition="119" />
+    <nodeInfo nodeId="5582741779552950481" fileName="XmlImportUtil.java" startLine="247" startPosition="119" endLine="248" endPosition="156" />
+    <nodeInfo nodeId="5582741779552950480" fileName="XmlImportUtil.java" startLine="248" startPosition="156" endLine="249" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950448" fileName="XmlImportUtil.java" startLine="249" startPosition="0" endLine="250" endPosition="113" />
+    <nodeInfo nodeId="5582741779552950524" fileName="XmlImportUtil.java" startLine="252" startPosition="46" endLine="253" endPosition="52" />
+    <nodeInfo nodeId="5582741779552950535" fileName="XmlImportUtil.java" startLine="253" startPosition="52" endLine="254" endPosition="122" />
+    <nodeInfo nodeId="5582741779552950502" fileName="XmlImportUtil.java" startLine="256" startPosition="7" endLine="257" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950472" fileName="XmlImportUtil.java" startLine="257" startPosition="0" endLine="258" endPosition="31" />
+    <nodeInfo nodeId="5582741779552949700" fileName="XmlImportUtil.java" startLine="261" startPosition="82" endLine="262" endPosition="113" />
+    <nodeInfo nodeId="5582741779552950215" fileName="XmlImportUtil.java" startLine="262" startPosition="113" endLine="263" endPosition="49" />
+    <nodeInfo nodeId="5582741779552950246" fileName="XmlImportUtil.java" startLine="263" startPosition="49" endLine="264" endPosition="63" />
+    <nodeInfo nodeId="5582741779552950214" fileName="XmlImportUtil.java" startLine="264" startPosition="63" endLine="265" endPosition="0" />
+    <nodeInfo nodeId="5582741779552949709" fileName="XmlImportUtil.java" startLine="265" startPosition="0" endLine="266" endPosition="109" />
+    <nodeInfo nodeId="5582741779552950231" fileName="XmlImportUtil.java" startLine="266" startPosition="109" endLine="267" endPosition="89" />
+    <nodeInfo nodeId="5582741779552950225" fileName="XmlImportUtil.java" startLine="267" startPosition="89" endLine="268" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950227" fileName="XmlImportUtil.java" startLine="268" startPosition="0" endLine="269" endPosition="31" />
+    <nodeInfo nodeId="5582741779552950267" fileName="XmlImportUtil.java" startLine="272" startPosition="73" endLine="273" endPosition="113" />
+    <nodeInfo nodeId="5582741779552950301" fileName="XmlImportUtil.java" startLine="273" startPosition="113" endLine="274" endPosition="154" />
+    <nodeInfo nodeId="5582741779552950300" fileName="XmlImportUtil.java" startLine="274" startPosition="154" endLine="275" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950283" fileName="XmlImportUtil.java" startLine="275" startPosition="0" endLine="276" endPosition="103" />
+    <nodeInfo nodeId="5582741779552950415" fileName="XmlImportUtil.java" startLine="278" startPosition="60" endLine="279" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950331" fileName="XmlImportUtil.java" startLine="279" startPosition="0" endLine="280" endPosition="66" />
+    <nodeInfo nodeId="5582741779552950418" fileName="XmlImportUtil.java" startLine="280" startPosition="66" endLine="281" endPosition="120" />
+    <nodeInfo nodeId="5582741779552950317" fileName="XmlImportUtil.java" startLine="283" startPosition="7" endLine="284" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950278" fileName="XmlImportUtil.java" startLine="284" startPosition="0" endLine="285" endPosition="28" />
+    <nodeInfo nodeId="5582741779552950349" fileName="XmlImportUtil.java" startLine="288" startPosition="86" endLine="289" endPosition="125" />
+    <nodeInfo nodeId="5582741779552950401" fileName="XmlImportUtil.java" startLine="289" startPosition="125" endLine="290" endPosition="35" />
+    <nodeInfo nodeId="5582741779552950400" fileName="XmlImportUtil.java" startLine="290" startPosition="35" endLine="291" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950364" fileName="XmlImportUtil.java" startLine="291" startPosition="0" endLine="292" endPosition="100" />
+    <nodeInfo nodeId="5582741779552950381" fileName="XmlImportUtil.java" startLine="292" startPosition="100" endLine="293" endPosition="128" />
+    <nodeInfo nodeId="5582741779552950363" fileName="XmlImportUtil.java" startLine="293" startPosition="128" endLine="294" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950358" fileName="XmlImportUtil.java" startLine="294" startPosition="0" endLine="295" endPosition="37" />
+    <nodeInfo nodeId="4149404141877854169" fileName="XmlImportUtil.java" startLine="298" startPosition="46" endLine="299" endPosition="95" />
+    <nodeInfo nodeId="4149404141877854696" fileName="XmlImportUtil.java" startLine="299" startPosition="95" endLine="300" endPosition="117" />
+    <nodeInfo nodeId="4149404141877854695" fileName="XmlImportUtil.java" startLine="300" startPosition="117" endLine="301" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854297" fileName="XmlImportUtil.java" startLine="301" startPosition="0" endLine="302" endPosition="95" />
+    <nodeInfo nodeId="4149404141877854309" fileName="XmlImportUtil.java" startLine="302" startPosition="95" endLine="303" endPosition="85" />
+    <nodeInfo nodeId="2585482140137700989" fileName="XmlImportUtil.java" startLine="304" startPosition="34" endLine="305" endPosition="81" />
+    <nodeInfo nodeId="4149404141877854670" fileName="XmlImportUtil.java" startLine="306" startPosition="5" endLine="307" endPosition="84" />
+    <nodeInfo nodeId="2585482140137729024" fileName="XmlImportUtil.java" startLine="307" startPosition="84" endLine="308" endPosition="0" />
+    <nodeInfo nodeId="2585482140137729006" fileName="XmlImportUtil.java" startLine="308" startPosition="0" endLine="309" endPosition="86" />
+    <nodeInfo nodeId="2585482140137689821" fileName="XmlImportUtil.java" startLine="311" startPosition="46" endLine="312" endPosition="52" />
+    <nodeInfo nodeId="2585482140137689834" fileName="XmlImportUtil.java" startLine="312" startPosition="52" endLine="313" endPosition="106" />
+    <nodeInfo nodeId="4149404141877854713" fileName="XmlImportUtil.java" startLine="315" startPosition="7" endLine="316" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854180" fileName="XmlImportUtil.java" startLine="316" startPosition="0" endLine="317" endPosition="19" />
+    <nodeInfo nodeId="4241803741553727944" fileName="XmlImportUtil.java" startLine="321" startPosition="50" endLine="322" endPosition="37" />
+    <nodeInfo nodeId="4241803741553727956" fileName="XmlImportUtil.java" startLine="324" startPosition="52" endLine="325" endPosition="39" />
+    <nodeInfo nodeId="4241803741553727967" fileName="XmlImportUtil.java" startLine="327" startPosition="50" endLine="328" endPosition="37" />
+    <nodeInfo nodeId="4241803741553734346" fileName="XmlImportUtil.java" startLine="329" startPosition="5" endLine="330" endPosition="0" />
+    <nodeInfo nodeId="4241803741553727949" fileName="XmlImportUtil.java" startLine="330" startPosition="0" endLine="331" endPosition="16" />
+    <nodeInfo nodeId="4241803741553720617" fileName="XmlImportUtil.java" startLine="334" startPosition="58" endLine="335" endPosition="95" />
+    <nodeInfo nodeId="4241803741553720630" fileName="XmlImportUtil.java" startLine="335" startPosition="95" endLine="336" endPosition="0" />
+    <nodeInfo nodeId="4241803741553720701" fileName="XmlImportUtil.java" startLine="336" startPosition="0" endLine="337" endPosition="101" />
+    <nodeInfo nodeId="4241803741553720678" fileName="XmlImportUtil.java" startLine="337" startPosition="101" endLine="338" endPosition="89" />
+    <nodeInfo nodeId="4241803741553720645" fileName="XmlImportUtil.java" startLine="339" startPosition="60" endLine="340" endPosition="64" />
+    <nodeInfo nodeId="4241803741553720659" fileName="XmlImportUtil.java" startLine="341" startPosition="12" endLine="342" endPosition="102" />
+    <nodeInfo nodeId="4241803741553720718" fileName="XmlImportUtil.java" startLine="343" startPosition="5" endLine="344" endPosition="0" />
+    <nodeInfo nodeId="4241803741553727939" fileName="XmlImportUtil.java" startLine="344" startPosition="0" endLine="345" endPosition="21" />
+    <nodeInfo nodeId="4241803741553727982" fileName="XmlImportUtil.java" startLine="348" startPosition="60" endLine="349" endPosition="99" />
+    <nodeInfo nodeId="4241803741553728016" fileName="XmlImportUtil.java" startLine="349" startPosition="99" endLine="350" endPosition="0" />
+    <nodeInfo nodeId="4241803741553727996" fileName="XmlImportUtil.java" startLine="350" startPosition="0" endLine="351" endPosition="72" />
+    <nodeInfo nodeId="667758600145794033" fileName="XmlImportUtil.java" startLine="351" startPosition="72" endLine="352" endPosition="103" />
+    <nodeInfo nodeId="667758600145794043" fileName="XmlImportUtil.java" startLine="352" startPosition="103" endLine="353" endPosition="0" />
+    <nodeInfo nodeId="4241803741553727991" fileName="XmlImportUtil.java" startLine="353" startPosition="0" endLine="354" endPosition="23" />
+    <nodeInfo nodeId="4241803741553728049" fileName="XmlImportUtil.java" startLine="357" startPosition="58" endLine="358" endPosition="103" />
+    <nodeInfo nodeId="4241803741553728076" fileName="XmlImportUtil.java" startLine="358" startPosition="103" endLine="359" endPosition="109" />
+    <nodeInfo nodeId="4241803741553728075" fileName="XmlImportUtil.java" startLine="359" startPosition="109" endLine="360" endPosition="0" />
+    <nodeInfo nodeId="4241803741553728058" fileName="XmlImportUtil.java" startLine="360" startPosition="0" endLine="361" endPosition="103" />
+    <nodeInfo nodeId="4241803741553734283" fileName="XmlImportUtil.java" startLine="361" startPosition="103" endLine="362" endPosition="0" />
+    <nodeInfo nodeId="4241803741553734300" fileName="XmlImportUtil.java" startLine="364" startPosition="37" endLine="365" endPosition="109" />
+    <nodeInfo nodeId="4241803741553734308" fileName="XmlImportUtil.java" startLine="365" startPosition="109" endLine="366" endPosition="63" />
+    <nodeInfo nodeId="4241803741553734326" fileName="XmlImportUtil.java" startLine="366" startPosition="63" endLine="367" endPosition="114" />
+    <nodeInfo nodeId="4241803741553734340" fileName="XmlImportUtil.java" startLine="369" startPosition="7" endLine="370" endPosition="0" />
+    <nodeInfo nodeId="4241803741553734342" fileName="XmlImportUtil.java" startLine="370" startPosition="0" endLine="371" endPosition="23" />
+    <nodeInfo nodeId="4149404141877854556" fileName="XmlImportUtil.java" startLine="374" startPosition="43" endLine="375" endPosition="92" />
+    <nodeInfo nodeId="4149404141877854563" fileName="XmlImportUtil.java" startLine="375" startPosition="92" endLine="376" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854565" fileName="XmlImportUtil.java" startLine="376" startPosition="0" endLine="377" endPosition="83" />
+    <nodeInfo nodeId="4149404141877854602" fileName="XmlImportUtil.java" startLine="377" startPosition="83" endLine="378" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854627" fileName="XmlImportUtil.java" startLine="379" startPosition="51" endLine="380" endPosition="62" />
+    <nodeInfo nodeId="4149404141877854646" fileName="XmlImportUtil.java" startLine="381" startPosition="12" endLine="382" endPosition="96" />
+    <nodeInfo nodeId="4149404141877854594" fileName="XmlImportUtil.java" startLine="383" startPosition="5" endLine="384" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854591" fileName="XmlImportUtil.java" startLine="384" startPosition="0" endLine="385" endPosition="18" />
+    <nodeInfo nodeId="4149404141877854344" fileName="XmlImportUtil.java" startLine="388" startPosition="61" endLine="389" endPosition="68" />
+    <nodeInfo nodeId="4040193445807402381" fileName="XmlImportUtil.java" startLine="389" startPosition="68" endLine="390" endPosition="103" />
+    <nodeInfo nodeId="4040193445807402398" fileName="XmlImportUtil.java" startLine="390" startPosition="103" endLine="391" endPosition="0" />
+    <nodeInfo nodeId="4040193445807402929" fileName="XmlImportUtil.java" startLine="394" startPosition="74" endLine="395" endPosition="33" />
+    <nodeInfo nodeId="4149404141877854399" fileName="XmlImportUtil.java" startLine="398" startPosition="7" endLine="399" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854367" fileName="XmlImportUtil.java" startLine="399" startPosition="0" endLine="400" endPosition="29" />
+    <nodeInfo nodeId="4149404141877854336" fileName="XmlImportUtil.java" startLine="403" startPosition="49" endLine="404" endPosition="96" />
+    <nodeInfo nodeId="4149404141877854432" fileName="XmlImportUtil.java" startLine="404" startPosition="96" endLine="405" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854468" fileName="XmlImportUtil.java" startLine="405" startPosition="0" endLine="406" endPosition="75" />
+    <nodeInfo nodeId="4149404141877854506" fileName="XmlImportUtil.java" startLine="407" startPosition="49" endLine="408" endPosition="58" />
+    <nodeInfo nodeId="4149404141877854520" fileName="XmlImportUtil.java" startLine="409" startPosition="12" endLine="410" endPosition="88" />
+    <nodeInfo nodeId="4149404141877854450" fileName="XmlImportUtil.java" startLine="411" startPosition="5" endLine="412" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854452" fileName="XmlImportUtil.java" startLine="412" startPosition="0" endLine="413" endPosition="20" />
+    <nodeInfo nodeId="6210958163198033726" fileName="XmlImportUtil.java" startLine="418" startPosition="30" endLine="419" endPosition="254" />
+    <nodeInfo nodeId="6210958163198033739" fileName="XmlImportUtil.java" startLine="420" startPosition="30" endLine="421" endPosition="296" />
+    <nodeInfo nodeId="6210958163198033749" fileName="XmlImportUtil.java" startLine="422" startPosition="25" endLine="423" endPosition="211" />
+    <nodeInfo nodeId="6210958163198033731" fileName="XmlImportUtil.java" startLine="424" startPosition="14" endLine="425" endPosition="254" />
+    <nodeInfo nodeId="6210958163198033207" fileName="XmlImportUtil.java" startLine="429" startPosition="81" endLine="430" endPosition="113" />
+    <nodeInfo nodeId="6210958163198032826" fileName="XmlImportUtil.java" startLine="430" startPosition="113" endLine="431" endPosition="78" />
+    <nodeInfo nodeId="6210958163198032834" fileName="XmlImportUtil.java" startLine="431" startPosition="78" endLine="432" endPosition="87" />
+    <nodeInfo nodeId="6210958163198032842" fileName="XmlImportUtil.java" startLine="432" startPosition="87" endLine="433" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032845" fileName="XmlImportUtil.java" startLine="434" startPosition="48" endLine="435" endPosition="270" />
+    <nodeInfo nodeId="6210958163198032860" fileName="XmlImportUtil.java" startLine="436" startPosition="5" endLine="437" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032863" fileName="XmlImportUtil.java" startLine="438" startPosition="51" endLine="439" endPosition="276" />
+    <nodeInfo nodeId="6210958163198032878" fileName="XmlImportUtil.java" startLine="440" startPosition="5" endLine="441" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032881" fileName="XmlImportUtil.java" startLine="442" startPosition="52" endLine="443" endPosition="276" />
+    <nodeInfo nodeId="6210958163198032896" fileName="XmlImportUtil.java" startLine="444" startPosition="5" endLine="445" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032899" fileName="XmlImportUtil.java" startLine="446" startPosition="50" endLine="447" endPosition="312" />
+    <nodeInfo nodeId="6210958163198033283" fileName="XmlImportUtil.java" startLine="448" startPosition="5" endLine="449" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033285" fileName="XmlImportUtil.java" startLine="449" startPosition="0" endLine="450" endPosition="27" />
+    <nodeInfo nodeId="1655679821852921358" fileName="XmlImportUtil.java" startLine="49" startPosition="0" endLine="51" endPosition="3" />
+    <nodeInfo nodeId="6210958163198033965" fileName="XmlImportUtil.java" startLine="150" startPosition="16" endLine="152" endPosition="11" />
+    <nodeInfo nodeId="4241803741553720657" fileName="XmlImportUtil.java" startLine="341" startPosition="10" endLine="343" endPosition="5" />
+    <nodeInfo nodeId="4149404141877854644" fileName="XmlImportUtil.java" startLine="381" startPosition="10" endLine="383" endPosition="5" />
+    <nodeInfo nodeId="4149404141877854518" fileName="XmlImportUtil.java" startLine="409" startPosition="10" endLine="411" endPosition="5" />
+    <nodeInfo nodeId="2585482140137745679" fileName="XmlImportUtil.java" startLine="101" startPosition="0" endLine="104" endPosition="9" />
+    <nodeInfo nodeId="6210958163198033555" fileName="XmlImportUtil.java" startLine="119" startPosition="75" endLine="122" endPosition="9" />
+    <nodeInfo nodeId="2585482140137679621" fileName="XmlImportUtil.java" startLine="198" startPosition="0" endLine="201" endPosition="7" />
+    <nodeInfo nodeId="2585482140137679656" fileName="XmlImportUtil.java" startLine="201" startPosition="7" endLine="204" endPosition="7" />
+    <nodeInfo nodeId="4149404141877854138" fileName="XmlImportUtil.java" startLine="229" startPosition="0" endLine="232" endPosition="5" />
+    <nodeInfo nodeId="7121114059628243359" fileName="XmlImportUtil.java" startLine="232" startPosition="5" endLine="235" endPosition="5" />
+    <nodeInfo nodeId="7121114059628243372" fileName="XmlImportUtil.java" startLine="235" startPosition="5" endLine="238" endPosition="5" />
+    <nodeInfo nodeId="7121114059628243388" fileName="XmlImportUtil.java" startLine="238" startPosition="5" endLine="241" endPosition="5" />
+    <nodeInfo nodeId="2585482140137689857" fileName="XmlImportUtil.java" startLine="303" startPosition="85" endLine="306" endPosition="5" />
+    <nodeInfo nodeId="4241803741553720593" fileName="XmlImportUtil.java" startLine="320" startPosition="57" endLine="323" endPosition="5" />
+    <nodeInfo nodeId="4241803741553727954" fileName="XmlImportUtil.java" startLine="323" startPosition="5" endLine="326" endPosition="5" />
+    <nodeInfo nodeId="4241803741553727965" fileName="XmlImportUtil.java" startLine="326" startPosition="5" endLine="329" endPosition="5" />
+    <nodeInfo nodeId="4040193445807402906" fileName="XmlImportUtil.java" startLine="393" startPosition="35" endLine="396" endPosition="9" />
+    <nodeInfo nodeId="6210958163198032843" fileName="XmlImportUtil.java" startLine="433" startPosition="0" endLine="436" endPosition="5" />
+    <nodeInfo nodeId="6210958163198032861" fileName="XmlImportUtil.java" startLine="437" startPosition="0" endLine="440" endPosition="5" />
+    <nodeInfo nodeId="6210958163198032879" fileName="XmlImportUtil.java" startLine="441" startPosition="0" endLine="444" endPosition="5" />
+    <nodeInfo nodeId="6210958163198032897" fileName="XmlImportUtil.java" startLine="445" startPosition="0" endLine="448" endPosition="5" />
+    <nodeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="77" startPosition="126" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="81" startPosition="45" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266363" fileName="XmlImportUtil.java" startLine="86" startPosition="46" endLine="90" endPosition="9" />
+    <nodeInfo nodeId="7827303683600266314" fileName="XmlImportUtil.java" startLine="69" startPosition="67" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="109" startPosition="87" endLine="114" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033897" fileName="XmlImportUtil.java" startLine="147" startPosition="54" endLine="152" endPosition="11" />
+    <nodeInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="157" startPosition="78" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="251" startPosition="74" endLine="256" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="310" startPosition="74" endLine="315" endPosition="0" />
+    <nodeInfo nodeId="4241803741553720626" fileName="XmlImportUtil.java" startLine="338" startPosition="89" endLine="343" endPosition="5" />
+    <nodeInfo nodeId="4149404141877854604" fileName="XmlImportUtil.java" startLine="378" startPosition="0" endLine="383" endPosition="5" />
+    <nodeInfo nodeId="4149404141877854483" fileName="XmlImportUtil.java" startLine="406" startPosition="75" endLine="411" endPosition="5" />
+    <nodeInfo nodeId="7827303683600265820" fileName="XmlImportUtil.java" startLine="68" startPosition="0" endLine="74" endPosition="7" />
+    <nodeInfo nodeId="6210958163198032635" fileName="XmlImportUtil.java" startLine="108" startPosition="55" endLine="114" endPosition="11" />
+    <nodeInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="128" startPosition="72" endLine="134" endPosition="0" />
+    <nodeInfo nodeId="6210958163198037257" fileName="XmlImportUtil.java" startLine="156" startPosition="0" endLine="162" endPosition="11" />
+    <nodeInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="216" startPosition="82" endLine="222" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950503" fileName="XmlImportUtil.java" startLine="250" startPosition="113" endLine="256" endPosition="7" />
+    <nodeInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="277" startPosition="88" endLine="283" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854714" fileName="XmlImportUtil.java" startLine="309" startPosition="86" endLine="315" endPosition="7" />
+    <nodeInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="363" startPosition="68" endLine="369" endPosition="0" />
+    <nodeInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="392" startPosition="70" endLine="398" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266361" fileName="XmlImportUtil.java" startLine="85" startPosition="39" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="5176538940868196726" fileName="XmlImportUtil.java" startLine="127" startPosition="0" endLine="134" endPosition="7" />
+    <nodeInfo nodeId="5582741779552950623" fileName="XmlImportUtil.java" startLine="215" startPosition="0" endLine="222" endPosition="7" />
+    <nodeInfo nodeId="5582741779552950318" fileName="XmlImportUtil.java" startLine="276" startPosition="103" endLine="283" endPosition="7" />
+    <nodeInfo nodeId="4241803741553734285" fileName="XmlImportUtil.java" startLine="362" startPosition="0" endLine="369" endPosition="7" />
+    <nodeInfo nodeId="4040193445807402402" fileName="XmlImportUtil.java" startLine="391" startPosition="0" endLine="398" endPosition="7" />
+    <nodeInfo nodeId="6210958163198033821" fileName="XmlImportUtil.java" startLine="145" startPosition="0" endLine="153" endPosition="9" />
+    <nodeInfo nodeId="4241803741553727976" fileName="XmlImportUtil.java" startLine="347" startPosition="0" endLine="356" endPosition="0" />
+    <nodeInfo nodeId="4879613102704196351" fileName="XmlImportUtil.java" startLine="164" startPosition="77" endLine="174" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950341" fileName="XmlImportUtil.java" startLine="287" startPosition="0" endLine="297" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033717" fileName="XmlImportUtil.java" startLine="416" startPosition="58" endLine="426" endPosition="5" />
+    <nodeInfo nodeId="4879613102704196343" fileName="XmlImportUtil.java" startLine="163" startPosition="0" endLine="174" endPosition="11" />
+    <nodeInfo nodeId="6210958163198037445" fileName="XmlImportUtil.java" startLine="194" startPosition="90" endLine="205" endPosition="5" />
+    <nodeInfo nodeId="5582741779552889938" fileName="XmlImportUtil.java" startLine="260" startPosition="0" endLine="271" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854319" fileName="XmlImportUtil.java" startLine="402" startPosition="0" endLine="415" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033709" fileName="XmlImportUtil.java" startLine="415" startPosition="0" endLine="428" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854728" fileName="XmlImportUtil.java" startLine="319" startPosition="0" endLine="333" endPosition="0" />
+    <nodeInfo nodeId="4241803741553720610" fileName="XmlImportUtil.java" startLine="333" startPosition="0" endLine="347" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854420" fileName="XmlImportUtil.java" startLine="373" startPosition="0" endLine="387" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950436" fileName="XmlImportUtil.java" startLine="245" startPosition="0" endLine="260" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854339" fileName="XmlImportUtil.java" startLine="387" startPosition="0" endLine="402" endPosition="0" />
+    <nodeInfo nodeId="7827303683600266353" fileName="XmlImportUtil.java" startLine="76" startPosition="35" endLine="92" endPosition="7" />
+    <nodeInfo nodeId="5582741779552950260" fileName="XmlImportUtil.java" startLine="271" startPosition="0" endLine="287" endPosition="0" />
+    <nodeInfo nodeId="5582741779552950556" fileName="XmlImportUtil.java" startLine="209" startPosition="0" endLine="226" endPosition="0" />
+    <nodeInfo nodeId="4241803741553728036" fileName="XmlImportUtil.java" startLine="356" startPosition="0" endLine="373" endPosition="0" />
+    <nodeInfo nodeId="6210958163198037280" fileName="XmlImportUtil.java" startLine="190" startPosition="0" endLine="209" endPosition="0" />
+    <nodeInfo nodeId="6210958163198037484" fileName="XmlImportUtil.java" startLine="226" startPosition="0" endLine="245" endPosition="0" />
+    <nodeInfo nodeId="4149404141877854160" fileName="XmlImportUtil.java" startLine="297" startPosition="0" endLine="319" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032821" fileName="XmlImportUtil.java" startLine="428" startPosition="0" endLine="452" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="95" startPosition="67" endLine="126" endPosition="0" />
+    <nodeInfo nodeId="6210958163198032553" fileName="XmlImportUtil.java" startLine="94" startPosition="56" endLine="126" endPosition="7" />
+    <nodeInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="136" startPosition="72" endLine="182" endPosition="0" />
+    <nodeInfo nodeId="6210958163198033670" fileName="XmlImportUtil.java" startLine="135" startPosition="0" endLine="182" endPosition="7" />
+    <nodeInfo nodeId="1655679821852921676" fileName="XmlImportUtil.java" startLine="52" startPosition="0" endLine="190" endPosition="0" />
+    <scopeInfo nodeId="1655679821852921361" fileName="XmlImportUtil.java" startLine="50" startPosition="26" endLine="50" endPosition="26" />
+    <scopeInfo nodeId="5582741779552948563" fileName="XmlImportUtil.java" startLine="453" startPosition="10" endLine="453" endPosition="10" />
+    <scopeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="78" startPosition="39" endLine="79" endPosition="79" />
+    <scopeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="82" startPosition="37" endLine="83" endPosition="69" />
+    <scopeInfo nodeId="2585482140137745680" fileName="XmlImportUtil.java" startLine="102" startPosition="33" endLine="103" endPosition="62" />
+    <scopeInfo nodeId="6210958163198033556" fileName="XmlImportUtil.java" startLine="120" startPosition="46" endLine="121" endPosition="97" />
+    <scopeInfo nodeId="6210958163198033898" fileName="XmlImportUtil.java" startLine="148" startPosition="76" endLine="149" endPosition="127" />
+    <scopeInfo nodeId="6210958163198033966" fileName="XmlImportUtil.java" startLine="150" startPosition="18" endLine="151" endPosition="27" />
+    <scopeInfo nodeId="2585482140137679622" fileName="XmlImportUtil.java" startLine="199" startPosition="48" endLine="200" endPosition="121" />
+    <scopeInfo nodeId="2585482140137679657" fileName="XmlImportUtil.java" startLine="202" startPosition="49" endLine="203" endPosition="123" />
+    <scopeInfo nodeId="4149404141877854139" fileName="XmlImportUtil.java" startLine="230" startPosition="50" endLine="231" endPosition="48" />
+    <scopeInfo nodeId="7121114059628243360" fileName="XmlImportUtil.java" startLine="233" startPosition="62" endLine="234" endPosition="72" />
+    <scopeInfo nodeId="7121114059628243373" fileName="XmlImportUtil.java" startLine="236" startPosition="59" endLine="237" endPosition="66" />
+    <scopeInfo nodeId="7121114059628243389" fileName="XmlImportUtil.java" startLine="239" startPosition="62" endLine="240" endPosition="76" />
+    <scopeInfo nodeId="2585482140137689858" fileName="XmlImportUtil.java" startLine="304" startPosition="34" endLine="305" endPosition="81" />
+    <scopeInfo nodeId="4241803741553720594" fileName="XmlImportUtil.java" startLine="321" startPosition="50" endLine="322" endPosition="37" />
+    <scopeInfo nodeId="4241803741553727955" fileName="XmlImportUtil.java" startLine="324" startPosition="52" endLine="325" endPosition="39" />
+    <scopeInfo nodeId="4241803741553727966" fileName="XmlImportUtil.java" startLine="327" startPosition="50" endLine="328" endPosition="37" />
+    <scopeInfo nodeId="4241803741553720627" fileName="XmlImportUtil.java" startLine="339" startPosition="60" endLine="340" endPosition="64" />
+    <scopeInfo nodeId="4241803741553720658" fileName="XmlImportUtil.java" startLine="341" startPosition="12" endLine="342" endPosition="102" />
+    <scopeInfo nodeId="4149404141877854605" fileName="XmlImportUtil.java" startLine="379" startPosition="51" endLine="380" endPosition="62" />
+    <scopeInfo nodeId="4149404141877854645" fileName="XmlImportUtil.java" startLine="381" startPosition="12" endLine="382" endPosition="96" />
+    <scopeInfo nodeId="4040193445807402907" fileName="XmlImportUtil.java" startLine="394" startPosition="74" endLine="395" endPosition="33" />
+    <scopeInfo nodeId="4149404141877854484" fileName="XmlImportUtil.java" startLine="407" startPosition="49" endLine="408" endPosition="58" />
+    <scopeInfo nodeId="4149404141877854519" fileName="XmlImportUtil.java" startLine="409" startPosition="12" endLine="410" endPosition="88" />
+    <scopeInfo nodeId="6210958163198033723" fileName="XmlImportUtil.java" startLine="418" startPosition="30" endLine="419" endPosition="254" />
+    <scopeInfo nodeId="6210958163198033736" fileName="XmlImportUtil.java" startLine="420" startPosition="30" endLine="421" endPosition="296" />
+    <scopeInfo nodeId="6210958163198033746" fileName="XmlImportUtil.java" startLine="422" startPosition="25" endLine="423" endPosition="211" />
+    <scopeInfo nodeId="6210958163198033719" fileName="XmlImportUtil.java" startLine="424" startPosition="14" endLine="425" endPosition="254" />
+    <scopeInfo nodeId="6210958163198032844" fileName="XmlImportUtil.java" startLine="434" startPosition="48" endLine="435" endPosition="270" />
+    <scopeInfo nodeId="6210958163198032862" fileName="XmlImportUtil.java" startLine="438" startPosition="51" endLine="439" endPosition="276" />
+    <scopeInfo nodeId="6210958163198032880" fileName="XmlImportUtil.java" startLine="442" startPosition="52" endLine="443" endPosition="276" />
+    <scopeInfo nodeId="6210958163198032898" fileName="XmlImportUtil.java" startLine="446" startPosition="50" endLine="447" endPosition="312" />
+    <scopeInfo nodeId="1655679821852921358" fileName="XmlImportUtil.java" startLine="49" startPosition="0" endLine="51" endPosition="3" />
+    <scopeInfo nodeId="7827303683600266315" fileName="XmlImportUtil.java" startLine="70" startPosition="38" endLine="72" endPosition="75">
+      <varInfo nodeId="7827303683600266322" varName="myClazz" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037266" fileName="XmlImportUtil.java" startLine="146" startPosition="50" endLine="148" endPosition="118">
+    <scopeInfo nodeId="7827303683600266364" fileName="XmlImportUtil.java" startLine="87" startPosition="86" endLine="89" endPosition="127">
+      <varInfo nodeId="7827303683600266366" varName="parentId" />
+    </scopeInfo>
+    <scopeInfo nodeId="6210958163198032643" fileName="XmlImportUtil.java" startLine="110" startPosition="58" endLine="112" endPosition="130">
+      <varInfo nodeId="7827303683600019862" varName="myClassProperty" />
+    </scopeInfo>
+    <scopeInfo nodeId="6210958163198037266" fileName="XmlImportUtil.java" startLine="158" startPosition="50" endLine="160" endPosition="118">
       <varInfo nodeId="6210958163198037274" varName="myMatchCase" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950511" fileName="XmlImportUtil.java" startLine="228" startPosition="46" endLine="230" endPosition="122">
+    <scopeInfo nodeId="5582741779552950511" fileName="XmlImportUtil.java" startLine="252" startPosition="46" endLine="254" endPosition="122">
       <varInfo nodeId="5582741779552950525" varName="myMatchCase" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854722" fileName="XmlImportUtil.java" startLine="287" startPosition="46" endLine="289" endPosition="106">
+    <scopeInfo nodeId="4149404141877854722" fileName="XmlImportUtil.java" startLine="311" startPosition="46" endLine="313" endPosition="106">
       <varInfo nodeId="2585482140137689822" varName="myBlockItem" />
     </scopeInfo>
-    <scopeInfo nodeId="5176538940868196734" fileName="XmlImportUtil.java" startLine="118" startPosition="44" endLine="121" endPosition="76">
+    <scopeInfo nodeId="5176538940868196734" fileName="XmlImportUtil.java" startLine="129" startPosition="44" endLine="132" endPosition="76">
       <varInfo nodeId="5176538940868196744" varName="myTemplate" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950631" fileName="XmlImportUtil.java" startLine="193" startPosition="54" endLine="196" endPosition="123">
+    <scopeInfo nodeId="5582741779552950631" fileName="XmlImportUtil.java" startLine="217" startPosition="54" endLine="220" endPosition="123">
       <varInfo nodeId="5582741779552950644" varName="myMatchCaseItem" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950326" fileName="XmlImportUtil.java" startLine="254" startPosition="60" endLine="257" endPosition="120">
+    <scopeInfo nodeId="5582741779552950326" fileName="XmlImportUtil.java" startLine="278" startPosition="60" endLine="281" endPosition="120">
       <varInfo nodeId="5582741779552950332" varName="myCondition" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553734293" fileName="XmlImportUtil.java" startLine="340" startPosition="37" endLine="343" endPosition="114">
+    <scopeInfo nodeId="4241803741553734293" fileName="XmlImportUtil.java" startLine="364" startPosition="37" endLine="367" endPosition="114">
       <varInfo nodeId="4241803741553734301" varName="myStringSetItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4040193445807402898" fileName="XmlImportUtil.java" startLine="369" startPosition="35" endLine="372" endPosition="9" />
-    <scopeInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="81" startPosition="87" endLine="85" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="100" startPosition="126" endLine="104" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="104" startPosition="45" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033607" fileName="XmlImportUtil.java" startLine="109" startPosition="46" endLine="113" endPosition="9" />
-    <scopeInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="145" startPosition="78" endLine="150" endPosition="0" />
-    <scopeInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="227" startPosition="74" endLine="232" endPosition="0" />
-    <scopeInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="286" startPosition="74" endLine="291" endPosition="0" />
-    <scopeInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="117" startPosition="72" endLine="123" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033822" fileName="XmlImportUtil.java" startLine="134" startPosition="49" endLine="140" endPosition="11">
+    <scopeInfo nodeId="4040193445807402898" fileName="XmlImportUtil.java" startLine="393" startPosition="35" endLine="396" endPosition="9" />
+    <scopeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="77" startPosition="126" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="81" startPosition="45" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="7827303683600266362" fileName="XmlImportUtil.java" startLine="86" startPosition="46" endLine="90" endPosition="9" />
+    <scopeInfo nodeId="7827303683600266314" fileName="XmlImportUtil.java" startLine="69" startPosition="67" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="109" startPosition="87" endLine="114" endPosition="0" />
+    <scopeInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="157" startPosition="78" endLine="162" endPosition="0" />
+    <scopeInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="251" startPosition="74" endLine="256" endPosition="0" />
+    <scopeInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="310" startPosition="74" endLine="315" endPosition="0" />
+    <scopeInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="128" startPosition="72" endLine="134" endPosition="0" />
+    <scopeInfo nodeId="6210958163198033822" fileName="XmlImportUtil.java" startLine="146" startPosition="49" endLine="152" endPosition="11">
       <varInfo nodeId="6210958163198033854" varName="classId" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="192" startPosition="82" endLine="198" endPosition="0" />
-    <scopeInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="253" startPosition="88" endLine="259" endPosition="0" />
-    <scopeInfo nodeId="4241803741553727979" fileName="XmlImportUtil.java" startLine="324" startPosition="60" endLine="330" endPosition="23">
+    <scopeInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="216" startPosition="82" endLine="222" endPosition="0" />
+    <scopeInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="277" startPosition="88" endLine="283" endPosition="0" />
+    <scopeInfo nodeId="4241803741553727979" fileName="XmlImportUtil.java" startLine="348" startPosition="60" endLine="354" endPosition="23">
       <varInfo nodeId="4241803741553727983" varName="exactString" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="339" startPosition="68" endLine="345" endPosition="0" />
-    <scopeInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="368" startPosition="70" endLine="374" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033606" fileName="XmlImportUtil.java" startLine="108" startPosition="39" endLine="115" endPosition="0" />
-    <scopeInfo nodeId="5582741779552950344" fileName="XmlImportUtil.java" startLine="264" startPosition="86" endLine="271" endPosition="37">
+    <scopeInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="363" startPosition="68" endLine="369" endPosition="0" />
+    <scopeInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="392" startPosition="70" endLine="398" endPosition="0" />
+    <scopeInfo nodeId="7827303683600266361" fileName="XmlImportUtil.java" startLine="85" startPosition="39" endLine="92" endPosition="0" />
+    <scopeInfo nodeId="4879613102704196373" fileName="XmlImportUtil.java" startLine="165" startPosition="48" endLine="172" endPosition="120">
+      <varInfo nodeId="4879613102704196380" varName="myProperty" />
+    </scopeInfo>
+    <scopeInfo nodeId="5582741779552950344" fileName="XmlImportUtil.java" startLine="288" startPosition="86" endLine="295" endPosition="37">
       <varInfo nodeId="5582741779552950402" varName="id" />
       <varInfo nodeId="5582741779552950350" varName="myDistantContextCondition" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552889941" fileName="XmlImportUtil.java" startLine="237" startPosition="82" endLine="245" endPosition="31">
+    <scopeInfo nodeId="5582741779552889941" fileName="XmlImportUtil.java" startLine="261" startPosition="82" endLine="269" endPosition="31">
       <varInfo nodeId="5582741779552950247" varName="template" />
       <varInfo nodeId="5582741779552950216" varName="id" />
       <varInfo nodeId="5582741779552949701" varName="myTemplateReference" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037448" fileName="XmlImportUtil.java" startLine="171" startPosition="85" endLine="180" endPosition="7">
+    <scopeInfo nodeId="6210958163198037448" fileName="XmlImportUtil.java" startLine="195" startPosition="85" endLine="204" endPosition="7">
       <varInfo nodeId="6210958163198037478" varName="myMatchCaseItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553727976" fileName="XmlImportUtil.java" startLine="323" startPosition="0" endLine="332" endPosition="0">
+    <scopeInfo nodeId="4241803741553727976" fileName="XmlImportUtil.java" startLine="347" startPosition="0" endLine="356" endPosition="0">
       <varInfo nodeId="4241803741553728006" varName="blockItem" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950341" fileName="XmlImportUtil.java" startLine="263" startPosition="0" endLine="273" endPosition="0">
+    <scopeInfo nodeId="4879613102704196351" fileName="XmlImportUtil.java" startLine="164" startPosition="77" endLine="174" endPosition="0" />
+    <scopeInfo nodeId="5582741779552950341" fileName="XmlImportUtil.java" startLine="287" startPosition="0" endLine="297" endPosition="0">
       <varInfo nodeId="5582741779552950347" varName="condition" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854322" fileName="XmlImportUtil.java" startLine="379" startPosition="49" endLine="389" endPosition="20">
+    <scopeInfo nodeId="4149404141877854322" fileName="XmlImportUtil.java" startLine="403" startPosition="49" endLine="413" endPosition="20">
       <varInfo nodeId="4149404141877854337" varName="myRepeat" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198033712" fileName="XmlImportUtil.java" startLine="392" startPosition="58" endLine="402" endPosition="5" />
-    <scopeInfo nodeId="6210958163198037445" fileName="XmlImportUtil.java" startLine="170" startPosition="90" endLine="181" endPosition="5" />
-    <scopeInfo nodeId="5582741779552889938" fileName="XmlImportUtil.java" startLine="236" startPosition="0" endLine="247" endPosition="0">
+    <scopeInfo nodeId="6210958163198033712" fileName="XmlImportUtil.java" startLine="416" startPosition="58" endLine="426" endPosition="5" />
+    <scopeInfo nodeId="6210958163198037445" fileName="XmlImportUtil.java" startLine="194" startPosition="90" endLine="205" endPosition="5" />
+    <scopeInfo nodeId="5582741779552889938" fileName="XmlImportUtil.java" startLine="260" startPosition="0" endLine="271" endPosition="0">
       <varInfo nodeId="5582741779552949698" varName="templateReference" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854731" fileName="XmlImportUtil.java" startLine="296" startPosition="57" endLine="307" endPosition="16" />
-    <scopeInfo nodeId="4241803741553720613" fileName="XmlImportUtil.java" startLine="310" startPosition="58" endLine="321" endPosition="21">
+    <scopeInfo nodeId="4149404141877854731" fileName="XmlImportUtil.java" startLine="320" startPosition="57" endLine="331" endPosition="16" />
+    <scopeInfo nodeId="4241803741553720613" fileName="XmlImportUtil.java" startLine="334" startPosition="58" endLine="345" endPosition="21">
       <varInfo nodeId="4241803741553720618" varName="anySymbol" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854423" fileName="XmlImportUtil.java" startLine="350" startPosition="43" endLine="361" endPosition="18">
+    <scopeInfo nodeId="4149404141877854423" fileName="XmlImportUtil.java" startLine="374" startPosition="43" endLine="385" endPosition="18">
       <varInfo nodeId="4149404141877854557" varName="myTail" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950439" fileName="XmlImportUtil.java" startLine="222" startPosition="90" endLine="234" endPosition="31">
+    <scopeInfo nodeId="5582741779552950439" fileName="XmlImportUtil.java" startLine="246" startPosition="90" endLine="258" endPosition="31">
       <varInfo nodeId="5582741779552950482" varName="matchCases" />
       <varInfo nodeId="5582741779552950444" varName="myAnonymousTemplate" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854342" fileName="XmlImportUtil.java" startLine="364" startPosition="61" endLine="376" endPosition="29">
+    <scopeInfo nodeId="4149404141877854342" fileName="XmlImportUtil.java" startLine="388" startPosition="61" endLine="400" endPosition="29">
       <varInfo nodeId="4149404141877854345" varName="myLexemType" />
       <varInfo nodeId="4040193445807402382" varName="lexemTypes" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950263" fileName="XmlImportUtil.java" startLine="248" startPosition="73" endLine="261" endPosition="28">
+    <scopeInfo nodeId="5582741779552950263" fileName="XmlImportUtil.java" startLine="272" startPosition="73" endLine="285" endPosition="28">
       <varInfo nodeId="5582741779552950302" varName="conditions" />
       <varInfo nodeId="5582741779552950268" varName="myDistantContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854319" fileName="XmlImportUtil.java" startLine="378" startPosition="0" endLine="391" endPosition="0">
+    <scopeInfo nodeId="4149404141877854319" fileName="XmlImportUtil.java" startLine="402" startPosition="0" endLine="415" endPosition="0">
       <varInfo nodeId="4149404141877854326" varName="repeat" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198033709" fileName="XmlImportUtil.java" startLine="391" startPosition="0" endLine="404" endPosition="0">
+    <scopeInfo nodeId="6210958163198033709" fileName="XmlImportUtil.java" startLine="415" startPosition="0" endLine="428" endPosition="0">
       <varInfo nodeId="6210958163198033715" varName="matchMode" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950559" fileName="XmlImportUtil.java" startLine="186" startPosition="84" endLine="200" endPosition="32">
+    <scopeInfo nodeId="5582741779552950559" fileName="XmlImportUtil.java" startLine="210" startPosition="84" endLine="224" endPosition="32">
       <varInfo nodeId="5582741779552950606" varName="matchCaseItems" />
       <varInfo nodeId="5582741779552950563" varName="myMatchCaseCondition" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854728" fileName="XmlImportUtil.java" startLine="295" startPosition="0" endLine="309" endPosition="0">
+    <scopeInfo nodeId="4149404141877854728" fileName="XmlImportUtil.java" startLine="319" startPosition="0" endLine="333" endPosition="0">
       <varInfo nodeId="4149404141877854738" varName="blockItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553720610" fileName="XmlImportUtil.java" startLine="309" startPosition="0" endLine="323" endPosition="0">
+    <scopeInfo nodeId="4241803741553720610" fileName="XmlImportUtil.java" startLine="333" startPosition="0" endLine="347" endPosition="0">
       <varInfo nodeId="4241803741553720615" varName="blockItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553728039" fileName="XmlImportUtil.java" startLine="333" startPosition="58" endLine="347" endPosition="23">
+    <scopeInfo nodeId="4241803741553728039" fileName="XmlImportUtil.java" startLine="357" startPosition="58" endLine="371" endPosition="23">
       <varInfo nodeId="4241803741553728077" varName="strings" />
       <varInfo nodeId="4241803741553728050" varName="myStringSet" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854420" fileName="XmlImportUtil.java" startLine="349" startPosition="0" endLine="363" endPosition="0">
+    <scopeInfo nodeId="4149404141877854420" fileName="XmlImportUtil.java" startLine="373" startPosition="0" endLine="387" endPosition="0">
       <varInfo nodeId="4149404141877854545" varName="tail" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950436" fileName="XmlImportUtil.java" startLine="221" startPosition="0" endLine="236" endPosition="0">
+    <scopeInfo nodeId="5582741779552950436" fileName="XmlImportUtil.java" startLine="245" startPosition="0" endLine="260" endPosition="0">
       <varInfo nodeId="5582741779552950441" varName="anonymousTemplateItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854339" fileName="XmlImportUtil.java" startLine="363" startPosition="0" endLine="378" endPosition="0">
+    <scopeInfo nodeId="4149404141877854339" fileName="XmlImportUtil.java" startLine="387" startPosition="0" endLine="402" endPosition="0">
       <varInfo nodeId="4149404141877854372" varName="lexemType" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037444" fileName="XmlImportUtil.java" startLine="167" startPosition="57" endLine="183" endPosition="23">
+    <scopeInfo nodeId="6210958163198037444" fileName="XmlImportUtil.java" startLine="191" startPosition="57" endLine="207" endPosition="23">
       <varInfo nodeId="6210958163198037462" varName="myMatchCase" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037487" fileName="XmlImportUtil.java" startLine="203" startPosition="70" endLine="219" endPosition="27">
+    <scopeInfo nodeId="6210958163198037487" fileName="XmlImportUtil.java" startLine="227" startPosition="70" endLine="243" endPosition="27">
       <varInfo nodeId="6210958163198207006" varName="myMatchCaseItem" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950260" fileName="XmlImportUtil.java" startLine="247" startPosition="0" endLine="263" endPosition="0">
+    <scopeInfo nodeId="5582741779552950260" fileName="XmlImportUtil.java" startLine="271" startPosition="0" endLine="287" endPosition="0">
       <varInfo nodeId="5582741779552950274" varName="distantContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5582741779552950556" fileName="XmlImportUtil.java" startLine="185" startPosition="0" endLine="202" endPosition="0">
+    <scopeInfo nodeId="5582741779552950556" fileName="XmlImportUtil.java" startLine="209" startPosition="0" endLine="226" endPosition="0">
       <varInfo nodeId="5582741779552950560" varName="matchCaseCondition" />
     </scopeInfo>
-    <scopeInfo nodeId="4241803741553728036" fileName="XmlImportUtil.java" startLine="332" startPosition="0" endLine="349" endPosition="0">
+    <scopeInfo nodeId="4241803741553728036" fileName="XmlImportUtil.java" startLine="356" startPosition="0" endLine="373" endPosition="0">
       <varInfo nodeId="4241803741553728044" varName="blockItem" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037280" fileName="XmlImportUtil.java" startLine="166" startPosition="0" endLine="185" endPosition="0">
+    <scopeInfo nodeId="6210958163198037280" fileName="XmlImportUtil.java" startLine="190" startPosition="0" endLine="209" endPosition="0">
       <varInfo nodeId="6210958163198037289" varName="matchCase" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198037484" fileName="XmlImportUtil.java" startLine="202" startPosition="0" endLine="221" endPosition="0">
+    <scopeInfo nodeId="6210958163198037484" fileName="XmlImportUtil.java" startLine="226" startPosition="0" endLine="245" endPosition="0">
       <varInfo nodeId="6210958163198037488" varName="matchCaseItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854163" fileName="XmlImportUtil.java" startLine="274" startPosition="46" endLine="293" endPosition="19">
+    <scopeInfo nodeId="4149404141877854163" fileName="XmlImportUtil.java" startLine="298" startPosition="46" endLine="317" endPosition="19">
       <varInfo nodeId="4149404141877854697" varName="blockItems" />
       <varInfo nodeId="4149404141877854170" varName="myBlock" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198032824" fileName="XmlImportUtil.java" startLine="405" startPosition="81" endLine="426" endPosition="27">
+    <scopeInfo nodeId="6210958163198032824" fileName="XmlImportUtil.java" startLine="429" startPosition="81" endLine="450" endPosition="27">
       <varInfo nodeId="6210958163198033208" varName="myClassProperty" />
     </scopeInfo>
-    <scopeInfo nodeId="4149404141877854160" fileName="XmlImportUtil.java" startLine="273" startPosition="0" endLine="295" endPosition="0">
+    <scopeInfo nodeId="4149404141877854160" fileName="XmlImportUtil.java" startLine="297" startPosition="0" endLine="319" endPosition="0">
       <varInfo nodeId="4149404141877854178" varName="block" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198032821" fileName="XmlImportUtil.java" startLine="404" startPosition="0" endLine="428" endPosition="0">
+    <scopeInfo nodeId="6210958163198032821" fileName="XmlImportUtil.java" startLine="428" startPosition="0" endLine="452" endPosition="0">
       <varInfo nodeId="6210958163198033281" varName="classProperty" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198032561" fileName="XmlImportUtil.java" startLine="70" startPosition="38" endLine="95" endPosition="53">
-      <varInfo nodeId="6210958163198032577" varName="myClazz" />
+    <scopeInfo nodeId="6210958163198032561" fileName="XmlImportUtil.java" startLine="96" startPosition="38" endLine="124" endPosition="53">
+      <varInfo nodeId="7827303683600266390" varName="myClazz" />
       <varInfo nodeId="6210958163198033312" varName="dictionaryClass" />
       <varInfo nodeId="6210958163198032619" varName="classProperties" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="69" startPosition="67" endLine="97" endPosition="0" />
-    <scopeInfo nodeId="6210958163198033678" fileName="XmlImportUtil.java" startLine="126" startPosition="44" endLine="156" endPosition="56">
+    <scopeInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="95" startPosition="67" endLine="126" endPosition="0" />
+    <scopeInfo nodeId="6210958163198033678" fileName="XmlImportUtil.java" startLine="137" startPosition="44" endLine="180" endPosition="56">
       <varInfo nodeId="6210958163198033684" varName="myTemplate" />
       <varInfo nodeId="6210958163198037233" varName="matchCases" />
       <varInfo nodeId="6210958163198037381" varName="dictionaryTemplate" />
+      <varInfo nodeId="4879613102704184952" varName="properties" />
     </scopeInfo>
-    <scopeInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="125" startPosition="72" endLine="158" endPosition="0" />
-    <scopeInfo nodeId="1655679821852921679" fileName="XmlImportUtil.java" startLine="52" startPosition="92" endLine="164" endPosition="51">
+    <scopeInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="136" startPosition="72" endLine="182" endPosition="0" />
+    <scopeInfo nodeId="1655679821852921679" fileName="XmlImportUtil.java" startLine="53" startPosition="92" endLine="188" endPosition="51">
       <varInfo nodeId="6210958163198032515" varName="classes" />
       <varInfo nodeId="6210958163198032534" varName="templates" />
       <varInfo nodeId="6210958163198021168" varName="myDictionary" />
     </scopeInfo>
-    <scopeInfo nodeId="1655679821852921676" fileName="XmlImportUtil.java" startLine="51" startPosition="0" endLine="166" endPosition="0">
+    <scopeInfo nodeId="1655679821852921676" fileName="XmlImportUtil.java" startLine="52" startPosition="0" endLine="190" endPosition="0">
       <varInfo nodeId="4149404141877854238" varName="_scope" />
       <varInfo nodeId="4149404141877854215" varName="_model" />
       <varInfo nodeId="6210958163198020626" varName="dictionary" />
     </scopeInfo>
-    <unitInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="81" startPosition="60" endLine="85" endPosition="9" unitName="diglex.dsl.utils.XmlImportUtil$2" />
-    <unitInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="100" startPosition="103" endLine="104" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$2" />
-    <unitInfo nodeId="6210958163198033596" fileName="XmlImportUtil.java" startLine="104" startPosition="18" endLine="108" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$3" />
-    <unitInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="145" startPosition="55" endLine="150" endPosition="9" unitName="diglex.dsl.utils.XmlImportUtil$7" />
-    <unitInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="227" startPosition="51" endLine="232" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$8" />
-    <unitInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="286" startPosition="51" endLine="291" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$10" />
-    <unitInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="117" startPosition="50" endLine="123" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$5" />
-    <unitInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="192" startPosition="55" endLine="198" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$7" />
-    <unitInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="253" startPosition="51" endLine="259" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$9" />
-    <unitInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="339" startPosition="48" endLine="345" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$11" />
-    <unitInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="368" startPosition="51" endLine="374" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$12" />
-    <unitInfo nodeId="6210958163198033606" fileName="XmlImportUtil.java" startLine="108" startPosition="20" endLine="115" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$4" />
-    <unitInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="69" startPosition="48" endLine="97" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$1" />
-    <unitInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="125" startPosition="50" endLine="158" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$6" />
-    <unitInfo nodeId="1655679821852921356" fileName="XmlImportUtil.java" startLine="42" startPosition="0" endLine="432" endPosition="0" unitName="diglex.dsl.utils.XmlImportUtil" />
+    <unitInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="77" startPosition="103" endLine="81" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$2" />
+    <unitInfo nodeId="7827303683600266355" fileName="XmlImportUtil.java" startLine="81" startPosition="18" endLine="85" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$3" />
+    <unitInfo nodeId="7827303683600266314" fileName="XmlImportUtil.java" startLine="69" startPosition="48" endLine="74" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$1" />
+    <unitInfo nodeId="6210958163198032642" fileName="XmlImportUtil.java" startLine="109" startPosition="60" endLine="114" endPosition="9" unitName="diglex.dsl.utils.XmlImportUtil$6" />
+    <unitInfo nodeId="6210958163198037265" fileName="XmlImportUtil.java" startLine="157" startPosition="55" endLine="162" endPosition="9" unitName="diglex.dsl.utils.XmlImportUtil$8" />
+    <unitInfo nodeId="5582741779552950510" fileName="XmlImportUtil.java" startLine="251" startPosition="51" endLine="256" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$9" />
+    <unitInfo nodeId="4149404141877854721" fileName="XmlImportUtil.java" startLine="310" startPosition="51" endLine="315" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$11" />
+    <unitInfo nodeId="5176538940868196733" fileName="XmlImportUtil.java" startLine="128" startPosition="50" endLine="134" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$6" />
+    <unitInfo nodeId="5582741779552950630" fileName="XmlImportUtil.java" startLine="216" startPosition="55" endLine="222" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$8" />
+    <unitInfo nodeId="5582741779552950325" fileName="XmlImportUtil.java" startLine="277" startPosition="51" endLine="283" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$10" />
+    <unitInfo nodeId="4241803741553734292" fileName="XmlImportUtil.java" startLine="363" startPosition="48" endLine="369" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$12" />
+    <unitInfo nodeId="4040193445807402897" fileName="XmlImportUtil.java" startLine="392" startPosition="51" endLine="398" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$13" />
+    <unitInfo nodeId="7827303683600266361" fileName="XmlImportUtil.java" startLine="85" startPosition="20" endLine="92" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$4" />
+    <unitInfo nodeId="4879613102704196351" fileName="XmlImportUtil.java" startLine="164" startPosition="55" endLine="174" endPosition="9" unitName="diglex.dsl.utils.XmlImportUtil$8" />
+    <unitInfo nodeId="6210958163198032560" fileName="XmlImportUtil.java" startLine="95" startPosition="48" endLine="126" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$5" />
+    <unitInfo nodeId="6210958163198033677" fileName="XmlImportUtil.java" startLine="136" startPosition="50" endLine="182" endPosition="5" unitName="diglex.dsl.utils.XmlImportUtil$7" />
+    <unitInfo nodeId="1655679821852921356" fileName="XmlImportUtil.java" startLine="43" startPosition="0" endLine="456" endPosition="0" unitName="diglex.dsl.utils.XmlImportUtil" />
   </root>
   <root nodeId="5910725786823191089">
     <nodeInfo nodeId="5910725786823192626" fileName="IdUtil.java" startLine="17" startPosition="44" endLine="18" endPosition="50" />

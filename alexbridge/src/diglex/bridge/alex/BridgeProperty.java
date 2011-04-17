@@ -18,8 +18,8 @@ public class BridgeProperty {
     @Element(name = "Value", required = false)
     private String value = "";
 
-    public BridgeProperty(@Element(name = "Name") String type,
-                          @Element(name = "Type") String name,
+    public BridgeProperty(@Element(name = "Type") String type,
+                          @Element(name = "Name") String name,
                           @Element(name = "Value", required = false) String value) {
         this.type = type;
         this.name = name;
