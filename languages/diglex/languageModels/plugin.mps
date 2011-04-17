@@ -37,7 +37,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <maxImportIndex value="29" />
+  <maxImportIndex value="32" />
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="26" />
   <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)" version="-1" />
@@ -62,6 +62,9 @@
   <import index="27" modelUID="f:java_stub#com.intellij.ide(com.intellij.ide@java_stub)" version="-1" />
   <import index="28" modelUID="f:java_stub#com.intellij.openapi.ide(com.intellij.openapi.ide@java_stub)" version="-1" />
   <import index="29" modelUID="f:java_stub#com.intellij.idea(com.intellij.idea@java_stub)" version="-1" />
+  <import index="30" modelUID="f:java_stub#diglex.bridge.xml.utils(diglex.bridge.xml.utils@java_stub)" version="-1" />
+  <import index="31" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
+  <import index="32" modelUID="f:java_stub#diglex.bridge.xml.model(diglex.bridge.xml.model@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
   <node type="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration:23" id="477404972780598073">
     <property name="name:23" value="Diglex DSL" />
@@ -77,6 +80,9 @@
       </node>
       <node role="reference:23" type="jetbrains.mps.lang.plugin.structure.ActionInstance:23" id="4102009836918334506">
         <link role="action:23" targetNodeId="477404972780598075" resolveInfo="DebugDictionary" />
+      </node>
+      <node role="reference:23" type="jetbrains.mps.lang.plugin.structure.ActionInstance:23" id="2585482140137445684">
+        <link role="action:23" targetNodeId="2278262491898210344" resolveInfo="ImportXml" />
       </node>
     </node>
   </node>
@@ -814,6 +820,183 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <visible index="5" modelUID="r:8e19a0e8-195b-4d98-b3b0-5060cfa0f9ca(diglex.dsl.utils)" />
+  <node type="jetbrains.mps.lang.plugin.structure.ActionDeclaration:23" id="2278262491898210344">
+    <property name="name:23" value="ImportXml" />
+    <property name="caption:23" value="Импорт словаря" />
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration:23" id="2278262491898212380">
+      <property name="name:23" value="scope" />
+      <link role="key:23" targetNodeId="8.~MPSDataKeys.SCOPE" resolveInfo="SCOPE" />
+    </node>
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration:23" id="5176538940868191753">
+      <property name="name:23" value="component" />
+      <link role="key:23" targetNodeId="4.~PlatformDataKeys.CONTEXT_COMPONENT" resolveInfo="CONTEXT_COMPONENT" />
+    </node>
+    <node role="parameter:23" type="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration:23" id="5176538940868202184">
+      <property name="name:23" value="model" />
+      <node role="visibility:23" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="5176538940868202185" />
+      <node role="type:23" type="jetbrains.mps.lang.smodel.structure.SModelType:16" id="5176538940868202186" />
+    </node>
+    <node role="executeFunction:23" type="jetbrains.mps.lang.plugin.structure.ExecuteBlock:23" id="2278262491898210345">
+      <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2278262491898210346">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5176538940868115896">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5176538940868115897">
+            <property name="name:3" value="fileChooser" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5176538940868115898">
+              <link role="classifier:3" targetNodeId="31.~JFileChooser" resolveInfo="JFileChooser" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="5176538940868115902">
+              <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="5176538940868115903">
+                <link role="baseMethodDeclaration:3" targetNodeId="31.~JFileChooser.&lt;init&gt;()" resolveInfo="JFileChooser" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5176538940868115905">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5176538940868115906">
+            <property name="name:3" value="returnValue" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="5176538940868115907" />
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5176538940868178949">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5176538940868115909">
+                <link role="variableDeclaration:3" targetNodeId="5176538940868115897" resolveInfo="fileChooser" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5176538940868191751">
+                <link role="baseMethodDeclaration:3" targetNodeId="31.~JFileChooser.showOpenDialog(java.awt.Component):int" resolveInfo="showOpenDialog" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5176538940868191754">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="5176538940868191755" />
+                  <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation:23" id="5176538940868191756">
+                    <link role="member:23" targetNodeId="5176538940868191753" resolveInfo="component" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="5176538940868106309" />
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement:3" id="5306015734197071002">
+          <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5306015734197071003">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="5306015734197071011">
+              <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5306015734197071012">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5306015734197071013">
+                  <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5306015734197071014">
+                    <property name="name:3" value="file" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5306015734197071015">
+                      <link role="classifier:3" targetNodeId="11.~File" resolveInfo="File" />
+                    </node>
+                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5306015734197071016">
+                      <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071017">
+                        <link role="variableDeclaration:3" targetNodeId="5176538940868115897" resolveInfo="fileChooser" />
+                      </node>
+                      <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5306015734197071018">
+                        <link role="baseMethodDeclaration:3" targetNodeId="31.~JFileChooser.getSelectedFile():java.io.File" resolveInfo="getSelectedFile" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5306015734197071019">
+                  <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5306015734197071020">
+                    <property name="name:3" value="dictionary" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5306015734197071021">
+                      <link role="classifier:3" targetNodeId="32.~Dictionary" resolveInfo="Dictionary" />
+                    </node>
+                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5306015734197071022">
+                      <link role="classConcept:3" targetNodeId="30.~SerializationUtil" resolveInfo="SerializationUtil" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="30.~SerializationUtil.getDictionary(java.io.File):diglex.bridge.xml.model.Dictionary" resolveInfo="getDictionary" />
+                      <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071023">
+                        <link role="variableDeclaration:3" targetNodeId="5306015734197071014" resolveInfo="file" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="7093292192439328822" />
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="5306015734197071024">
+                  <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5306015734197071025">
+                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5306015734197071026">
+                      <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5306015734197071027">
+                        <link role="baseMethodDeclaration:3" targetNodeId="5v.1655679821852921676" resolveInfo="ImportDictionary" />
+                        <link role="classConcept:3" targetNodeId="5v.1655679821852921356" resolveInfo="XmlImportUtil" />
+                        <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071028">
+                          <link role="variableDeclaration:3" targetNodeId="5306015734197071020" resolveInfo="dictionary" />
+                        </node>
+                        <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5306015734197071029">
+                          <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="5306015734197071030" />
+                          <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionParameterReferenceOperation:23" id="5306015734197071031">
+                            <link role="member:23" targetNodeId="5176538940868202184" resolveInfo="model" />
+                          </node>
+                        </node>
+                        <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5306015734197071032">
+                          <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="5306015734197071033" />
+                          <node role="operation:3" type="jetbrains.mps.lang.plugin.structure.ActionDataParameterReferenceOperation:23" id="5306015734197071034">
+                            <link role="member:23" targetNodeId="2278262491898212380" resolveInfo="scope" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="5306015734197071035">
+                    <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="5306015734197071036" />
+                    <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071037">
+                      <link role="variableDeclaration:3" targetNodeId="5306015734197071020" resolveInfo="dictionary" />
+                    </node>
+                  </node>
+                  <node role="ifFalseStatement:3" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="5306015734197071038">
+                    <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5306015734197071039">
+                      <node role="statement:3" type="jetbrains.mps.baseLanguage.logging.structure.LogStatement:0" id="5306015734197071040">
+                        <property name="severity:0" value="error" />
+                        <node role="logExpression:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5306015734197071041">
+                          <property name="value:3" value="Ошибка при импорте словаря" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="5306015734197071042">
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="5306015734197071043">
+                  <link role="classifier:3" targetNodeId="31.~JFileChooser" resolveInfo="JFileChooser" />
+                  <link role="variableDeclaration:3" targetNodeId="31.~JFileChooser.APPROVE_OPTION" resolveInfo="APPROVE_OPTION" />
+                </node>
+                <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071044">
+                  <link role="variableDeclaration:3" targetNodeId="5176538940868115906" resolveInfo="returnValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="catchClause:3" type="jetbrains.mps.baseLanguage.structure.CatchClause:3" id="5306015734197071005">
+            <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5306015734197071006">
+              <property name="name:3" value="e" />
+              <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5306015734197071045">
+                <link role="classifier:3" targetNodeId="12.~Exception" resolveInfo="Exception" />
+              </node>
+            </node>
+            <node role="catchBody:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5306015734197071008">
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.logging.structure.LogStatement:0" id="5306015734197071046">
+                <property name="severity:0" value="error" />
+                <property name="hasException:0" value="true" />
+                <node role="logExpression:0" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="5306015734197071049">
+                  <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5306015734197071053">
+                    <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071052">
+                      <link role="variableDeclaration:3" targetNodeId="5306015734197071006" resolveInfo="e" />
+                    </node>
+                    <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5306015734197071057">
+                      <link role="baseMethodDeclaration:3" targetNodeId="12.~Throwable.getMessage():java.lang.String" resolveInfo="getMessage" />
+                    </node>
+                  </node>
+                  <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5306015734197071047">
+                    <property name="value:3" value="Ошибка при импорте словаря: " />
+                  </node>
+                </node>
+                <node role="exception:0" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5306015734197071048">
+                  <link role="variableDeclaration:3" targetNodeId="5306015734197071006" resolveInfo="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="5306015734197071001" />
       </node>
     </node>
   </node>

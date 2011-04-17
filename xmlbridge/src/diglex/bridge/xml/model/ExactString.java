@@ -1,6 +1,11 @@
 package diglex.bridge.xml.model;
 
+import diglex.bridge.xml.converters.ExactStringValueConverter;
 import org.simpleframework.xml.Element;
+import org.simpleframework.xml.convert.Convert;
+import org.simpleframework.xml.core.Commit;
+import org.simpleframework.xml.core.Complete;
+import org.simpleframework.xml.core.Persist;
 
 /**
  * Created by IntelliJ IDEA.

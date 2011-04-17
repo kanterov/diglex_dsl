@@ -30,4 +30,20 @@ public class MatchCase {
     public void setItems(List<MatchCaseItem> items) {
         this.items = new LinkedList<MatchCaseItem>(items);
     }
+
+    public MatchCaseCondition getPrecondition() {
+        return precondition;
+    }
+
+    public void setPrecondition(MatchCaseCondition precondition) {
+        this.precondition = precondition;
+    }
+
+    public MatchCaseCondition getPostcondition() {
+        return postcondition;
+    }
+
+    public void setPostcondition(MatchCaseCondition postcondition) {
+        this.postcondition = postcondition;
+    }
 }

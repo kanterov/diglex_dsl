@@ -12,10 +12,10 @@ public class Tail {
     public static final int INF = 2000000000;
 
     @Element(name = "MaximumLength")
-    private Integer maximumLength = 0;
+    private Integer maximumLength = INF;
 
     @Element(name = "MinimumLength")
-    private Integer minimumLength = INF;
+    private Integer minimumLength = 0;
 
     public Integer getMaximumLength() {
         return maximumLength;

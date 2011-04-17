@@ -1,5 +1,6 @@
 package diglex.bridge.xml.model;
 
+import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 
 import java.util.Collections;

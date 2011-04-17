@@ -30,6 +30,9 @@ public class BridgeTemplate {
     @ElementList(name = "Properties", entry = "BridgeProperty")
     private List<BridgeProperty> properties;
 
+    @Element(name = "MatchMode")
+    private BridgeMatchMode matchMode;
+
     public BridgeTemplate(@ElementList(name = "MatchCases", entry = "string") List<String> matchCases) {
         this.matchCases = new ArrayList<String>(matchCases.size());
 
@@ -65,5 +68,13 @@ public class BridgeTemplate {
 
     public void setProperties(List<BridgeProperty> properties) {
         this.properties = properties;
+    }
+
+    public BridgeMatchMode getMatchMode() {
+        return matchMode;
+    }
+
+    public void setMatchMode(BridgeMatchMode matchMode) {
+        this.matchMode = matchMode;
     }
 }

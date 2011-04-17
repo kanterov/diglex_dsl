@@ -15,7 +15,7 @@ import java.io.File;
 public class Tester {
     public static void main(String []args) throws Exception {
         Serializer serializer = new Persister();
-        File source = new File("C:\\Users\\Gleb\\Desktop\\AlexDiglexConverter\\AlexDiglexConverter\\AlexDiglexConverter\\bin\\Debug\\output.xml");
+        File source = new File("C:\\Users\\Gleb\\Documents\\Visual Studio 2010\\Projects\\alex_bridge\\AlexBridge\\lib\\output.xml");
 
         BridgeClass rootClass = serializer.read(BridgeClass.class, source);
     }

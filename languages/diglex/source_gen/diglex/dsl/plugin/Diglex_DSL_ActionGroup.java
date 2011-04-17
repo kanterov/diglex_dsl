@@ -17,6 +17,7 @@ public class Diglex_DSL_ActionGroup extends GeneratedActionGroup {
     try {
       Diglex_DSL_ActionGroup.this.addAction("diglex.dsl.plugin.CreateTemplate_Action", "diglex.dsl");
       Diglex_DSL_ActionGroup.this.addAction("diglex.dsl.plugin.DebugDictionary_Action", "diglex.dsl");
+      Diglex_DSL_ActionGroup.this.addAction("diglex.dsl.plugin.ImportXml_Action", "diglex.dsl");
     } catch (Throwable t) {
       LOG.error("User group error", t);
     }

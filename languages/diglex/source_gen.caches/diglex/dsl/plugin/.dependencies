@@ -74,5 +74,24 @@
   <dependency className="diglex.dsl.plugin.Dsl_ProjectPlugin" file="Dsl_ProjectPlugin.java">
     <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
+  <dependency className="diglex.dsl.plugin.ImportXml_Action" file="ImportXml_Action.java">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
+    <classNode dependClassName="diglex.bridge.xml.model.Dictionary" />
+    <classNode dependClassName="diglex.bridge.xml.utils.SerializationUtil" />
+    <classNode dependClassName="diglex.dsl.utils.XmlImportUtil" />
+    <classNode dependClassName="java.awt.Component" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="javax.swing.JFileChooser" />
+    <classNode dependClassName="jetbrains.mps.logging.Logger" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.workbench.MPSDataKeys" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.plugins.pluginparts.actions.GeneratedAction" />
+  </dependency>
 </dependenciesRoot>
 

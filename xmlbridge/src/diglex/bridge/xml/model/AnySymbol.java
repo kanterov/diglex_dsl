@@ -15,10 +15,10 @@ public class AnySymbol {
     private String lexemType = "Unknown";
 
     @Element(name = "TimesMaximum")
-    private Integer timesMaximum = 0;
+    private Integer timesMaximum = INF;
 
     @Element(name = "TimesMinimum")
-    private Integer timesMinimum = INF;
+    private Integer timesMinimum = 0;
 
     public String getLexemType() {
         return lexemType;

@@ -12,10 +12,10 @@ public class Repeat {
     public static final int INF = 2000000000;
 
     @Element(name = "Maximum")
-    private Integer maximum = 0;
+    private Integer maximum = 1;
 
     @Element(name = "Minimum")
-    private Integer minimum = INF;
+    private Integer minimum = 1;
 
     public Integer getMaximum() {
         return maximum;

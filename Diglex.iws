@@ -23,6 +23,12 @@
           <option name="myNumber" value="-1" />
           <option name="myIsNull" value="false" />
         </BookmarkInfo>
+        <BookmarkInfo>
+          <option name="myModelReference" value="r:3707297d-230e-4ba3-aaf2-36de0e55b298(diglex.dsl.plugin)" />
+          <option name="myNodeId" value="5306015734197050438" />
+          <option name="myNumber" value="-1" />
+          <option name="myIsNull" value="false" />
+        </BookmarkInfo>
       </array>
     </option>
   </component>
@@ -42,6 +48,10 @@
       <array>
         <MyRootBreakpointInfo>
           <option name="myModelReference" value="r:3707297d-230e-4ba3-aaf2-36de0e55b298(diglex.dsl.plugin)" />
+          <option name="myNodeId" value="2278262491898210344" />
+        </MyRootBreakpointInfo>
+        <MyRootBreakpointInfo>
+          <option name="myModelReference" value="r:3707297d-230e-4ba3-aaf2-36de0e55b298(diglex.dsl.plugin)" />
           <option name="myNodeId" value="477404972780598075" />
         </MyRootBreakpointInfo>
         <MyRootBreakpointInfo>
@@ -53,22 +63,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f607b7d0-da7b-4311-a387-4b504214fa2f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ExactString_Value_PropertyConstraint.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Базовый" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/MatchCaseItem.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/MatchCaseItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeletePostcondition_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeletePostcondition_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Dictionary_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/LexemType_DefaultSearchScope.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diglex.iws" afterPath="$PROJECT_DIR$/Diglex.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.b725quyrv6nbdra3v4a5iao0pzffk8q" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.-9t931o9b60hehltvozmxjbs6hvk9oac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.-2aalpwe17kq6e5ybs8hmbfi6hfyxku9" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/BridgeImportUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.hash.24wvd8998qqhkfga4981hwggwg3x7rj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckDictionaryNameUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckDictionaryNameUniqueness_NonTypesystemRule.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\languages\diglex\source_gen\diglex\dsl\utils\BridgeImportUtil.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/AnySymbol_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/AnySymbol_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Block_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Block_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddPostcondition_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddPostcondition_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCaseItem_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCaseItem_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteBlockItem_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteBlockItem_Intention.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;languages\diglex\source_gen\diglex\dsl\accessory\Базовыйкласс" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.debug" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;languages\diglex\source_gen\diglex\dsl\utils\Базовыйкласс" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryClass_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DictionaryClass_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.hash.-2aalpwe17kq6e5ybs8hmbfi6hfyxku9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddBlock_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddBlock_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/Repeat.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/Repeat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContext_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContext_Editor.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\xmlbridge\src\diglex\bridge\xml\transform\IntegerTransform.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddMatchCase_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddMatchCase_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexbridge/src/diglex/bridge/alex/BridgeTemplate.java" afterPath="$PROJECT_DIR$/alexbridge/src/diglex/bridge/alex/BridgeTemplate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/diglex.mpl" afterPath="$PROJECT_DIR$/languages/diglex/diglex.mpl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.4knpw837dxlmqd0b5drwkuzuf5yndbc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateReference_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.hash.39qj6vji6ezw539rkroh3vd82blphf1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/MatchMode_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/intentions/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/intentions/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/actions/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertTemplateReferenceAfter_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertTemplateReferenceAfter_Intention.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/converters/ExactStringValueConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddExactString_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddExactString_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.debug" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\utils\.hash.b725quyrv6nbdra3v4a5iao0pzffk8q" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ReplaceWithAnySymbol_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ReplaceWithAnySymbol_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/DistantContextCondition_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCase_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Dictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddPrecondition_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddPrecondition_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateClass_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateClass_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateClassProperty_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/TemplateClassProperty_Editor.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;languages\diglex\source_gen\diglex\dsl\accessory\Базовый" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCaseCondition_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCaseCondition_Intention.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alexbridge/src/diglex/bridge/alex/BridgeMatchMode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/actions/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassProperty.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassProperty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeletePrecondition_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeletePrecondition_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/Diglex_DSL_ActionGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/utils/SerializationUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/intentions/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/intentions/.dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/utils/.hash.6id6ibvq0zjoqffuziwc4kb7pwb2085" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ConstraintsDescriptor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/ConstraintsDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/AnonymousTemplate.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/AnonymousTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/Tail.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/Tail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/Diglex/dsl/sandbox/sandbox1.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassPropertyDatatype_PropertySupport.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassPropertyDatatype_PropertySupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ExactStringBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.debug" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Университет" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateClass.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/ExactString.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/ExactString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseCondition_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseCondition_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/editor/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckSearchSettingsNameUniqueness_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/MatchCase.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/MatchCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckLexemClassificationNameUniqueness_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/behavior/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/NameUniquenessUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/NameUniquenessUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/generator/template/main/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseMenu.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/MatchCaseMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ExactString_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertBlockAfter_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertBlockAfter_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ClassProperty_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/ClassProperty_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCase_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/DeleteMatchCase_Intention.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/ImportXml_Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/AnySymbol.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/AnySymbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ShiftLeft_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ShiftLeft_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/plugin.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnonymousTemplate_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnonymousTemplate_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckTemplateNameUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckTemplateNameUniqueness_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/plugin/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/BlockItem.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/model/BlockItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddTemplateReference_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddTemplateReference_Intention.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\plugin\.hash.8ywy6vd1oxkihjgr6z0cbdd6oqhoezx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/accessory/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/CreateTemplate_Action.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/CreateTemplate_Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateClassProperty.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/TemplateClassProperty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Template.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/Template.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/LexemTypeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/constraints/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/CheckDependencies.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/CheckDependencies.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Dictionary.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/diglex/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/tests/DictionaryDeserializationTests.java" afterPath="$PROJECT_DIR$/xmlbridge/src/diglex/bridge/xml/tests/DictionaryDeserializationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Template_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/Template_Editor.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\solutions\Diglex.sandbox\source_gen.caches\diglex\dsl\sandbox\sandbox1\.hash.-9zjts3jjgrahhmxnzuqo1gf0c9ohjab" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/scripts/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassPropertyDatatype.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/ClassPropertyDatatype.java" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\lib\simple-xml-2.5.1.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/editor/AnySymbol_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/plugin/DebugDictionary_Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ShiftRight_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/ShiftRight_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/structure/.debug" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\languages\diglex\source_gen.caches\diglex\dsl\generator\template\main\.hash.-9t931o9b60hehltvozmxjbs6hvk9oac" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddDistantContext_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/AddDistantContext_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alexbridge/src/diglex/bridge/alex/Tester.java" afterPath="$PROJECT_DIR$/alexbridge/src/diglex/bridge/alex/Tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/TemplateClass_DefaultSearchScope.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/TemplateClass_DefaultSearchScope.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/typesystem/.debug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/Template_templateClass_ReferentConstraint.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/constraints/Template_templateClass_ReferentConstraint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" afterPath="$PROJECT_DIR$/languages/diglex/source_gen.caches/diglex/dsl/stubs/.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" afterPath="$PROJECT_DIR$/languages/diglex/languageModels/utils.mps" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\xmlbridge\src\diglex\bridge\xml\converters\ClassPropertyTransformer.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertDistantContextAfter_Intention.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/intentions/InsertDistantContextAfter_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/TemplateClass_Behavior.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/behavior/TemplateClass_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckMatchCaseItemsAreDefined_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/TypesystemDescriptor.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/TypesystemDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/IdUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/IdUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/typesystem/CheckBaseTemplateClassUniqueness_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DictionaryClass.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/structure/DictionaryClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ClassPropertyDatatypeUtil.java" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/ClassPropertyDatatypeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.dependencies" afterPath="$PROJECT_DIR$/solutions/Diglex.sandbox/source_gen.caches/diglex/dsl/sandbox/sandbox1/.dependencies" />
+      <change type="DELETED" beforePath="C:\Users\Gleb\Desktop\diglex_dsl\&quot;solutions\Diglex.sandbox\source_gen\diglex\dsl\sandbox\sandbox1\Настройкипоиска" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/diglex/source_gen/diglex/dsl/utils/XmlImportUtil.java" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="Diglex.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,88 +239,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Множество строк - пример" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.sandbox.sandbox1/Множество строк - пример">
+      <file leaf-file-name="XmlImportUtil" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.utils/XmlImportUtil">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Template" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/Template">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="1" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMatchCaseItem" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/IMatchCaseItem">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="1" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassProperty" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.structure/ClassProperty">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BridgeImportUtil" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://diglex.dsl.utils/BridgeImportUtil">
+      <file leaf-file-name="[АП РАН]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[АП РАН]">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diglex DSL" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://diglex.dsl.plugin/Diglex DSL">
+      <file leaf-file-name="[АФ ЦСБС СО РАН]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[АФ ЦСБС СО РАН]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[Архив ИСИ СО РАН]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[Архив ИСИ СО РАН]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[БИЕН СО РАН]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[БИЕН СО РАН]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[БИП СО РАН]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[БИП СО РАН]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[ВАСХ]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[ВАСХ]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[ВЦ]" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[ВЦ]">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[ДВО АН]" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://diglex.dsl.sandbox.sandbox1/[ДВО АН]">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
@@ -217,6 +327,13 @@
     <option name="autoscrollToSource" value="true" />
     <option name="info" value="true" />
     <option name="warnings" value="true" />
+  </component>
+  <component name="NodeEditorSearchHistory">
+    <option name="searches">
+      <list>
+        <option value="Exact" />
+      </list>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="true" id="Add" />
@@ -315,6 +432,16 @@
           </PluginState>
         </value>
       </option>
+      <option name="jetbrains.mps.calculator.plugin.Calculator_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.debug.sampleLanguage.plugin.SampleLanguage_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
         <value>
           <PluginState>
@@ -389,7 +516,29 @@
           <PluginState />
         </value>
       </option>
+      <option name="jetbrains.mps.nanoc.plugin.Nanoc_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.nanoc.plugin.ProgramsLocationComponent_PreferencesComponent" />
+                  <params>
+                    <option name="myGDBLocation" />
+                    <option name="myGCCLocation" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
       <option name="jetbrains.mps.quickQueryLanguage.plugin.QuickQueryLanguage_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.samples.lambdaCalculus.plugin.LambdaCalculus_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -422,7 +571,19 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="VCSRoots">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VCS Roots" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
@@ -430,45 +591,14 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <selection />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.xml" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.xml" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textGen" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.xml" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textGen" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Document_TextGen" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,6 +641,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="diglex.dsl.generator.template" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main@generator" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,109 +690,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl.accessory" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intentions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typesystem" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behavior" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constraints" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diglex.dsl" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -719,34 +751,23 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="diglex.dsl" />
+                <option name="myItemId" value="Diglex.sandbox" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="diglex.dsl.sandbox" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="sandbox1" />
+                <option name="myItemType" value="" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="[ДВО АН]" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
           </selection>
-        </subPane>
-      </pane>
-      <pane id="Favorites" />
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diglex" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
-        </subPane>
-      </pane>
-      <pane id="VCSRoots">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VCS Roots" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
         </subPane>
       </pane>
     </panes>
@@ -849,13 +870,13 @@
     <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">$PROJECT_DIR$/../../.subversion</configuration>
+    <configuration useDefault="true">C:\Users\Gleb\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.48521647" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.49814913" order="32" side_tool="false" content_ui="tabs" />
@@ -866,18 +887,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.4918033" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49814913" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32563257" sideWeight="0.36008447" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19088937" sideWeight="0.34722954" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2127772" sideWeight="0.7612761" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21002638" sideWeight="0.80151844" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.6636748" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.4630412" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2310231" sideWeight="0.9852165" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18112798" sideWeight="0.58680737" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2310231" sideWeight="0.011087645" order="21" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19088937" sideWeight="0.6490765" order="21" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10303687" sideWeight="0.49625668" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1089,152 +1110,47 @@
     <MESSAGE value="Fixed DistantContext xml generation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://diglex.dsl.structure/TemplateClass">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/СО">
+    <entry file="mps://diglex.dsl.utils/XmlImportUtil">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Университет">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[АП РАН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.structure/Dictionary">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Настройки поиска">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[АФ ЦСБС СО РАН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/СО РАН">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[Архив ИСИ СО РАН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Dictionary">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[БИЕН СО РАН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Базовый">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[БИП СО РАН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.generator.template.main@generator/ProcessBaseTemplateClass">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[ВАСХ]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.sandbox.sandbox1/Множество строк - пример">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[ВЦ]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
-    <entry file="mps://diglex.dsl.structure/Template">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/IMatchCaseItem">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="1" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.structure/ClassProperty">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="10">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.utils/BridgeImportUtil">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
-      </provider>
-    </entry>
-    <entry file="mps://diglex.dsl.plugin/Diglex DSL">
+    <entry file="mps://diglex.dsl.sandbox.sandbox1/[ДВО АН]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>

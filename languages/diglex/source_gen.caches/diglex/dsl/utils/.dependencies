@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="diglex.dsl.utils.BridgeImportUtil" file="BridgeImportUtil.java" />
   <dependency className="diglex.dsl.utils.CheckDependencies" file="CheckDependencies.java">
     <classNode dependClassName="diglex.dsl.structure.Template" />
     <classNode dependClassName="java.lang.Iterable" />
@@ -74,6 +73,48 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="diglex.dsl.utils.XmlImportUtil" file="XmlImportUtil.java">
+    <classNode dependClassName="diglex.bridge.xml.model.AnonymousTemplateItem" />
+    <classNode dependClassName="diglex.bridge.xml.model.AnySymbol" />
+    <classNode dependClassName="diglex.bridge.xml.model.Block" />
+    <classNode dependClassName="diglex.bridge.xml.model.BlockItem" />
+    <classNode dependClassName="diglex.bridge.xml.model.Class" />
+    <classNode dependClassName="diglex.bridge.xml.model.ClassProperty" />
+    <classNode dependClassName="diglex.bridge.xml.model.Dictionary" />
+    <classNode dependClassName="diglex.bridge.xml.model.DistantContext" />
+    <classNode dependClassName="diglex.bridge.xml.model.DistantContextCondition" />
+    <classNode dependClassName="diglex.bridge.xml.model.MatchCase" />
+    <classNode dependClassName="diglex.bridge.xml.model.MatchCaseCondition" />
+    <classNode dependClassName="diglex.bridge.xml.model.MatchCaseItem" />
+    <classNode dependClassName="diglex.bridge.xml.model.MatchMode" />
+    <classNode dependClassName="diglex.bridge.xml.model.Repeat" />
+    <classNode dependClassName="diglex.bridge.xml.model.Tail" />
+    <classNode dependClassName="diglex.bridge.xml.model.Template" />
+    <classNode dependClassName="diglex.bridge.xml.model.TemplateReference" />
+    <classNode dependClassName="diglex.dsl.utils.LexemTypeUtil" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Wrappers" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>

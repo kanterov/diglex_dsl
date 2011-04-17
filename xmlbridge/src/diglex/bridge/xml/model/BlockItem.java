@@ -33,6 +33,24 @@ public class BlockItem {
         if (type.equals("AnySymbol")) anySymbol = new AnySymbol();
     }
 
+    public String getType() {
+        return type;
+    }
+
+    // Get inner classes
+
+    public AnySymbol getAnySymbol() {
+        return anySymbol;
+    }
+
+    public ExactString getExactString() {
+        return exactString;
+    }
+
+    public StringSet getStringSet() {
+        return stringSet;
+    }
+
     // MatchCaseItem section
 
     public String getLexemType() {
@@ -44,9 +62,9 @@ public class BlockItem {
     }
 
     public void setLexemType(String lexemType) {
-        if (anySymbol != null) anySymbol.setLexemType(lexemType);
-        if (stringSet != null) stringSet.setLexemType(lexemType);
-        if (exactString != null) exactString.setLexemType(lexemType);
+        if (anySymbol != null) { anySymbol.setLexemType(lexemType); return; }
+        if (stringSet != null) { stringSet.setLexemType(lexemType);  return; }
+        if (exactString != null) { exactString.setLexemType(lexemType); return; }
 
         throw new NotImplementedException();
     }

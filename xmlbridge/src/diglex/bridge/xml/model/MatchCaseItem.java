@@ -26,7 +26,7 @@ public class MatchCaseItem {
     private TemplateReference templateReference;
 
     @Element(name = "AnonymousTemplateItem", required = false)
-    private AnonymousTemplate anonymousTemplate;
+    private AnonymousTemplateItem anonymousTemplateItem;
 
     @Attribute(name = "type")
     private final String type;
@@ -37,7 +37,7 @@ public class MatchCaseItem {
         if (type.equals("Block")) block = new Block();
         if (type.equals("DistantContext")) distantContext = new DistantContext();
         if (type.equals("TemplateReference")) templateReference = new TemplateReference();
-        if (type.equals("AnonymousTemplate")) anonymousTemplate = new AnonymousTemplate();
+        if (type.equals("AnonymousTemplateItem")) anonymousTemplateItem = new AnonymousTemplateItem();
     }
 
     @Validate
@@ -47,28 +47,57 @@ public class MatchCaseItem {
         if (block == null) nulled++;
         if (distantContext == null) nulled++;
         if (templateReference == null) nulled++;
-        if (anonymousTemplate == null) nulled++;
+        if (anonymousTemplateItem == null) nulled++;
 
         if (type.equals("Block") && block != null && nulled == 3) return;
         if (type.equals("DistantContext") && distantContext != null && nulled == 3) return;
         if (type.equals("TemplateReference") && templateReference != null && nulled == 3) return;
-        if (type.equals("AnonymousTemplate") && anonymousTemplate != null && nulled == 3) return;
+        if (type.equals("AnonymousTemplateItem") && anonymousTemplateItem != null && nulled == 3) return;
 
         throw new PersistenceException("MatchCaseItem type error");
     }
 
-    // Block section
-
     public Repeat getRepeat() {
-        if (block == null) return null;
-        return block.getRepeat();
+        if (block != null) return block.getRepeat();
+        if (distantContext != null) return distantContext.getRepeat();
+        if (templateReference != null) return templateReference.getRepeat();
+        if (anonymousTemplateItem != null) return anonymousTemplateItem.getRepeat();
+
+        return null;
     }
 
     public void setRepeat(Repeat repeat) {
-        if (block == null) throw new NotImplementedException();
-        block.setRepeat(repeat);
+        if (block != null) { block.setRepeat(repeat); return; }
+        if (distantContext != null) { distantContext.setRepeat(repeat); return; }
+        if (templateReference != null) { templateReference.setRepeat(repeat); return; }
+        if (anonymousTemplateItem != null) { anonymousTemplateItem.setRepeat(repeat); return; }
+
+        throw new NotImplementedException();
     }
 
+    public String getType() {
+        return type;
+    }
+
+    // Get inner classes
+
+    public Block getBlock() {
+        return block;
+    }
+
+    public DistantContext getDistantContext() {
+        return distantContext;
+    }
+
+    public TemplateReference getTemplateReference() {
+        return templateReference;
+    }
+
+    public AnonymousTemplateItem getAnonymousTemplateItem() {
+        return anonymousTemplateItem;
+    }
+
+    // Block section
     public Boolean isCaseSensitive() {
         if (block == null) return null;
         return block.isCaseSensitive();
@@ -133,11 +162,11 @@ public class MatchCaseItem {
 
     // AnonymousTemplate
 
-    public List<MatchCase> getMatchCases() {
-        return anonymousTemplate.getMatchCases();
+    public AnonymousTemplate getAnonymousTemplate() {
+        return anonymousTemplateItem.getAnonymousTemplate();
     }
 
-    public void setMatchCases(List<MatchCase> matchCases) {
-        anonymousTemplate.setMatchCases(matchCases);
+    public void setAnonymousTemplate(AnonymousTemplate anonymousTemplateItem) {
+        this.anonymousTemplateItem.setAnonymousTemplate(anonymousTemplateItem);
     }
 }

@@ -2,9 +2,40 @@
 <debugInfo>
   <unitInfo fileName="Dsl_ProjectPlugin.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ProjectPlugin" />
   <unitInfo fileName="Dsl_ApplicationPlugin.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="diglex.dsl.plugin.Dsl_ApplicationPlugin" />
-  <unitInfo fileName="Diglex_DSL_ActionGroup.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="diglex.dsl.plugin.Diglex_DSL_ActionGroup" />
+  <unitInfo fileName="Diglex_DSL_ActionGroup.java" startLine="9" startPosition="0" endLine="31" endPosition="0" unitName="diglex.dsl.plugin.Diglex_DSL_ActionGroup" />
   <unitInfo fileName="CreateTemplate_Action.java" startLine="20" startPosition="0" endLine="89" endPosition="0" unitName="diglex.dsl.plugin.CreateTemplate_Action" />
+  <unitInfo fileName="ImportXml_Action.java" startLine="20" startPosition="0" endLine="102" endPosition="0" unitName="diglex.dsl.plugin.ImportXml_Action" />
   <unitInfo fileName="DebugDictionary_Action.java" startLine="27" startPosition="0" endLine="175" endPosition="0" unitName="diglex.dsl.plugin.DebugDictionary_Action" />
+  <root nodeId="2278262491898210344">
+    <nodeInfo nodeId="2278262491898212380" fileName="ImportXml_Action.java" startLine="23" startPosition="0" endLine="24" endPosition="23" />
+    <nodeInfo nodeId="5176538940868191753" fileName="ImportXml_Action.java" startLine="24" startPosition="23" endLine="25" endPosition="30" />
+    <nodeInfo nodeId="5176538940868202184" fileName="ImportXml_Action.java" startLine="25" startPosition="30" endLine="26" endPosition="23" />
+    <nodeInfo nodeId="5176538940868115896" fileName="ImportXml_Action.java" startLine="78" startPosition="9" endLine="79" endPosition="52" />
+    <nodeInfo nodeId="5176538940868115905" fileName="ImportXml_Action.java" startLine="79" startPosition="52" endLine="80" endPosition="84" />
+    <nodeInfo nodeId="5176538940868106309" fileName="ImportXml_Action.java" startLine="80" startPosition="84" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="5306015734197071013" fileName="ImportXml_Action.java" startLine="83" startPosition="57" endLine="84" endPosition="52" />
+    <nodeInfo nodeId="5306015734197071019" fileName="ImportXml_Action.java" startLine="84" startPosition="52" endLine="85" endPosition="72" />
+    <nodeInfo nodeId="7093292192439328822" fileName="ImportXml_Action.java" startLine="85" startPosition="72" endLine="86" endPosition="0" />
+    <nodeInfo nodeId="5306015734197071026" fileName="ImportXml_Action.java" startLine="87" startPosition="35" endLine="88" endPosition="113" />
+    <nodeInfo nodeId="5306015734197071040" fileName="ImportXml_Action.java" startLine="89" startPosition="18" endLine="90" endPosition="167" />
+    <nodeInfo nodeId="5306015734197071046" fileName="ImportXml_Action.java" startLine="93" startPosition="29" endLine="94" endPosition="185" />
+    <nodeInfo nodeId="5306015734197071001" fileName="ImportXml_Action.java" startLine="95" startPosition="7" endLine="96" endPosition="0" />
+    <nodeInfo nodeId="5306015734197071038" fileName="ImportXml_Action.java" startLine="89" startPosition="16" endLine="91" endPosition="11" />
+    <nodeInfo nodeId="5306015734197071024" fileName="ImportXml_Action.java" startLine="86" startPosition="0" endLine="91" endPosition="11" />
+    <nodeInfo nodeId="5306015734197071011" fileName="ImportXml_Action.java" startLine="82" startPosition="11" endLine="92" endPosition="9" />
+    <nodeInfo nodeId="5306015734197071002" fileName="ImportXml_Action.java" startLine="81" startPosition="0" endLine="95" endPosition="7" />
+    <scopeInfo nodeId="5306015734197071025" fileName="ImportXml_Action.java" startLine="87" startPosition="35" endLine="88" endPosition="113" />
+    <scopeInfo nodeId="5306015734197071039" fileName="ImportXml_Action.java" startLine="89" startPosition="18" endLine="90" endPosition="167" />
+    <scopeInfo nodeId="5306015734197071005" fileName="ImportXml_Action.java" startLine="93" startPosition="0" endLine="94" endPosition="185">
+      <varInfo nodeId="5306015734197071006" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="5306015734197071008" fileName="ImportXml_Action.java" startLine="93" startPosition="29" endLine="94" endPosition="185" />
+    <scopeInfo nodeId="5306015734197071012" fileName="ImportXml_Action.java" startLine="83" startPosition="57" endLine="91" endPosition="11">
+      <varInfo nodeId="5306015734197071014" varName="file" />
+      <varInfo nodeId="5306015734197071020" varName="dictionary" />
+    </scopeInfo>
+    <scopeInfo nodeId="5306015734197071003" fileName="ImportXml_Action.java" startLine="82" startPosition="11" endLine="92" endPosition="9" />
+  </root>
   <root nodeId="2324373617398588616">
     <nodeInfo nodeId="2324373617398600265" fileName="CreateTemplate_Action.java" startLine="23" startPosition="0" endLine="24" endPosition="23" />
     <nodeInfo nodeId="2324373617398610654" fileName="CreateTemplate_Action.java" startLine="24" startPosition="23" endLine="25" endPosition="26" />
@@ -18,6 +49,7 @@
   <root nodeId="477404972780598073">
     <nodeInfo nodeId="2324373617398588620" fileName="Diglex_DSL_ActionGroup.java" startLine="17" startPosition="9" endLine="18" endPosition="101" />
     <nodeInfo nodeId="4102009836918334506" fileName="Diglex_DSL_ActionGroup.java" startLine="18" startPosition="101" endLine="19" endPosition="102" />
+    <nodeInfo nodeId="2585482140137445684" fileName="Diglex_DSL_ActionGroup.java" startLine="19" startPosition="102" endLine="20" endPosition="96" />
   </root>
   <root nodeId="477404972780598075">
     <nodeInfo nodeId="477404972780598084" fileName="DebugDictionary_Action.java" startLine="30" startPosition="0" endLine="31" endPosition="23" />

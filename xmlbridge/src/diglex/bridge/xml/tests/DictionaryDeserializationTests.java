@@ -8,6 +8,9 @@ import org.simpleframework.xml.convert.AnnotationStrategy;
 import org.simpleframework.xml.core.Persister;
 import org.simpleframework.xml.strategy.Strategy;
 import diglex.bridge.xml.model.Class;
+import org.simpleframework.xml.stream.Format;
+
+import java.io.StringWriter;
 
 /**
  * Created by IntelliJ IDEA.

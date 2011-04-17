@@ -49,6 +49,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
   <languageAspect modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="26" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" />
+  <languageAspect modelUID="r:ec0ffc91-3a14-4002-ac57-dd36c5dcf10a(diglex.xml.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:73355133-3b63-4ae4-8b45-1fe6e5a414f0(diglex.dsl.structure)" version="26" />
@@ -90,14 +91,14 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7612397494931035856">
     <property name="name:2" value="reduce_MatchCaseCondition" />
     <link role="applicableConcept:2" targetNodeId="1.6282999055323993270:26" resolveInfo="MatchCaseCondition" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="7612397494931112907">
-      <property name="name" value="Condition" />
-      <node role="content" type="diglex.xml.structure.Element" id="7612397494931112912">
-        <property name="name" value="NotInclude" />
-        <node role="content" type="diglex.xml.structure.Text" id="7612397494931112916">
-          <property name="name" value="f" />
-          <property name="text" value="false" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931112920">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="7612397494931112907">
+      <property name="name:0" value="Condition" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7612397494931112912">
+        <property name="name:0" value="NotInclude" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="7612397494931112916">
+          <property name="name:0" value="f" />
+          <property name="text:0" value="false" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931112920">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="7612397494931112921">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7612397494931112922">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7612397494931112923">
@@ -117,11 +118,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="7612397494931112942">
-        <property name="name" value="Items" />
-        <node role="content" type="diglex.xml.structure.Element" id="7612397494931112946">
-          <property name="name" value="Item" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="7612397494931112974">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7612397494931112942">
+        <property name="name:0" value="Items" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="7612397494931112946">
+          <property name="name:0" value="Item" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="7612397494931112974">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="7612397494931112975">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7612397494931112976">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7612397494931112977">
@@ -135,35 +136,35 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7612397494931113675">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7612397494931113675">
             <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="reduce_MatchCaseItem" />
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931112972" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931112972" />
     </node>
   </node>
-  <node type="diglex.xml.structure.Document" id="7612397494931065673">
-    <property name="name" value="template.xml" />
-    <node role="rootElement" type="diglex.xml.structure.Element" id="7612397494931065674">
-      <property name="name" value="Template" />
-      <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387281">
+  <node type="diglex.xml.structure.Document:0" id="7612397494931065673">
+    <property name="name:0" value="template.xml" />
+    <node role="rootElement:0" type="diglex.xml.structure.Element:0" id="7612397494931065674">
+      <property name="name:0" value="Template" />
+      <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387281">
         <link role="includeTemplate:2" targetNodeId="8760462257934387157" resolveInfo="Template" />
       </node>
     </node>
-    <node role="rootTemplateAnnotation$attribute" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation:2" id="7612397494931065675">
+    <node role="rootTemplateAnnotation$attribute:0" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation:2" id="7612397494931065675">
       <link role="applicableConcept:2" targetNodeId="1.6282999055323831027:26" resolveInfo="Template" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7612397494931113024">
     <property name="name:2" value="MatchCaseItemTemplate" />
     <link role="applicableConcept:2" targetNodeId="1.7612397494931065957:26" resolveInfo="IMatchCaseItem" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="7612397494931113027">
-      <property name="name" value="MatchCaseItem" />
-      <node role="attribute" type="diglex.xml.structure.Attribute" id="7612397494931113028">
-        <property name="name" value="type" />
-        <property name="value" value="DistantContext" />
-        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931113029">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="7612397494931113027">
+      <property name="name:0" value="MatchCaseItem" />
+      <node role="attribute:0" type="diglex.xml.structure.Attribute:0" id="7612397494931113028">
+        <property name="name:0" value="type" />
+        <property name="value:0" value="DistantContext" />
+        <node role="propertyMacro$property_attribute$value:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931113029">
           <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="7612397494931113030">
             <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7612397494931113031">
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="7612397494931113032">
@@ -243,10 +244,10 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931113115" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547746903">
-        <property name="name" value="DistantContext" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro:2" id="1094196415547746905">
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931113115" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547746903">
+        <property name="name:0" value="DistantContext" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.SwitchMacro:2" id="1094196415547746905">
           <link role="templateSwitch:2" targetNodeId="1094196415547746906" resolveInfo="MatchCaseItemSwitch" />
         </node>
       </node>
@@ -255,14 +256,14 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7612397494931118168">
     <property name="name:2" value="DistantContextConditionTemplate" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342687668:26" resolveInfo="DistantContextCondition" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="7612397494931118271">
-      <property name="name" value="Condition" />
-      <node role="content" type="diglex.xml.structure.Element" id="7612397494931118273">
-        <property name="name" value="NotInclude" />
-        <node role="content" type="diglex.xml.structure.Text" id="7612397494931118276">
-          <property name="name" value="f" />
-          <property name="text" value="false" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931118280">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="7612397494931118271">
+      <property name="name:0" value="Condition" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7612397494931118273">
+        <property name="name:0" value="NotInclude" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="7612397494931118276">
+          <property name="name:0" value="f" />
+          <property name="text:0" value="false" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7612397494931118280">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="7612397494931118281">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7612397494931118282">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7612397494931118283">
@@ -282,12 +283,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="7612397494931118299">
-        <property name="name" value="NodeId" />
-        <node role="content" type="diglex.xml.structure.Text" id="7612397494931118301">
-          <property name="name" value="1" />
-          <property name="text" value="1234567890" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7096421670146225557">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7612397494931118299">
+        <property name="name:0" value="NodeId" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="7612397494931118301">
+          <property name="name:0" value="1" />
+          <property name="text:0" value="1234567890" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7096421670146225557">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="7096421670146225558">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7096421670146225559">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7096421670146225560">
@@ -312,7 +313,7 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931119500" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="7612397494931119500" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="1094196415547746906">
@@ -345,19 +346,19 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547746920">
     <property name="name:2" value="DistantContextTemplate" />
     <link role="applicableConcept:2" targetNodeId="1.6282999055323947696:26" resolveInfo="DistantContext" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547746928">
-      <property name="name" value="DistantContext" />
-      <node role="content" type="diglex.xml.structure.Element" id="7096421670146198169">
-        <property name="name" value="BasicMatchCaseNodes" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146198170">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547746928">
+      <property name="name:0" value="DistantContext" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7096421670146198169">
+        <property name="name:0" value="BasicMatchCaseNodes" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146198170">
           <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="7096421670146200312">
-        <property name="name" value="Conditions" />
-        <node role="content" type="diglex.xml.structure.Element" id="7096421670146200313">
-          <property name="name" value="Condition" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="7096421670146200315">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="7096421670146200312">
+        <property name="name:0" value="Conditions" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="7096421670146200313">
+          <property name="name:0" value="Condition" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="7096421670146200315">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="7096421670146200316">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7096421670146200317">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="7096421670146200989">
@@ -371,29 +372,29 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146222328">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="7096421670146222328">
             <link role="includeTemplate:2" targetNodeId="7612397494931118168" resolveInfo="DistantContextConditionTemplate" />
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547747472" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547747472" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547746929">
     <property name="name:2" value="BlockTemplate" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342749170:26" resolveInfo="Block" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547746933">
-      <property name="name" value="Block" />
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547747471" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748036">
-        <property name="name" value="BasicMatchCaseNodes" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547748038">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547746933">
+      <property name="name:0" value="Block" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547747471" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748036">
+        <property name="name:0" value="BasicMatchCaseNodes" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547748038">
           <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748596">
-        <property name="name" value="Tail" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="1094196415547748598">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748596">
+        <property name="name:0" value="Tail" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="1094196415547748598">
           <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="1094196415547748599">
             <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547748600">
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748601">
@@ -410,12 +411,12 @@
             </node>
           </node>
         </node>
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547775970">
-          <property name="name" value="MaximumLength" />
-          <node role="content" type="diglex.xml.structure.Text" id="1094196415547775972">
-            <property name="name" value="node." />
-            <property name="text" value="1" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547775973">
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547775970">
+          <property name="name:0" value="MaximumLength" />
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547775972">
+            <property name="name:0" value="node." />
+            <property name="text:0" value="1" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547775973">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547775974">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547775975">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547776647">
@@ -440,12 +441,12 @@
             </node>
           </node>
         </node>
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547776677">
-          <property name="name" value="MinimumLength" />
-          <node role="content" type="diglex.xml.structure.Text" id="1094196415547776678">
-            <property name="name" value="2" />
-            <property name="text" value="0" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547776679">
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547776677">
+          <property name="name:0" value="MinimumLength" />
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547776678">
+            <property name="name:0" value="2" />
+            <property name="text:0" value="0" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547776679">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547776680">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547776681">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547776682">
@@ -471,12 +472,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748614">
-        <property name="name" value="CaseSensitive" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547748623">
-          <property name="name" value="" />
-          <property name="text" value="true" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748624">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748614">
+        <property name="name:0" value="CaseSensitive" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547748623">
+          <property name="name:0" value="" />
+          <property name="text:0" value="true" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748624">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547748625">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547748643">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748644">
@@ -496,12 +497,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748655">
-        <property name="name" value="LexemType" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547748661">
-          <property name="name" value="R" />
-          <property name="text" value="RussianLetter" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748662">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748655">
+        <property name="name:0" value="LexemType" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547748661">
+          <property name="name:0" value="R" />
+          <property name="text:0" value="RussianLetter" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748662">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547748663">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547748664">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748665">
@@ -522,11 +523,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748678">
-        <property name="name" value="Items" />
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547748679">
-          <property name="name" value="Item" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="1094196415547748681">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748678">
+        <property name="name:0" value="Items" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748679">
+          <property name="name:0" value="Item" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="1094196415547748681">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="1094196415547748682">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547748683">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748684">
@@ -540,7 +541,7 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547748692">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547748692">
             <link role="includeTemplate:2" targetNodeId="1094196415547748693" resolveInfo="BlockItem" />
           </node>
         </node>
@@ -550,16 +551,16 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547747957">
     <property name="name:2" value="BasicMatchCaseItem" />
     <link role="applicableConcept:2" targetNodeId="1.7612397494931065957:26" resolveInfo="IMatchCaseItem" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547747963">
-      <property name="name" value="MatchCaseItem" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547747964">
-        <property name="name" value="Repeat" />
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547747965">
-          <property name="name" value="Minimum" />
-          <node role="content" type="diglex.xml.structure.Text" id="1094196415547747970">
-            <property name="name" value="1" />
-            <property name="text" value="1" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547747973">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547747963">
+      <property name="name:0" value="MatchCaseItem" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547747964">
+        <property name="name:0" value="Repeat" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547747965">
+          <property name="name:0" value="Minimum" />
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547747970">
+            <property name="name:0" value="1" />
+            <property name="text:0" value="1" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547747973">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547747974">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547747975">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748005">
@@ -584,12 +585,12 @@
             </node>
           </node>
         </node>
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547747969">
-          <property name="name" value="Maximum" />
-          <node role="content" type="diglex.xml.structure.Text" id="1094196415547747971">
-            <property name="name" value="2" />
-            <property name="text" value="1" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547747989">
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547747969">
+          <property name="name:0" value="Maximum" />
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547747971">
+            <property name="name:0" value="2" />
+            <property name="text:0" value="1" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547747989">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547747990">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547747991">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748021">
@@ -614,7 +615,7 @@
             </node>
           </node>
         </node>
-        <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547786022" />
+        <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547786022" />
       </node>
     </node>
   </node>
@@ -622,12 +623,12 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547748693">
     <property name="name:2" value="BlockItem" />
     <link role="applicableConcept:2" targetNodeId="1.1094196415547751543:26" resolveInfo="IBlockItem" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547748698">
-      <property name="name" value="BlockItem" />
-      <node role="attribute" type="diglex.xml.structure.Attribute" id="1094196415547748699">
-        <property name="name" value="type" />
-        <property name="value" value="AnySymbol" />
-        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748701">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547748698">
+      <property name="name:0" value="BlockItem" />
+      <node role="attribute:0" type="diglex.xml.structure.Attribute:0" id="1094196415547748699">
+        <property name="name:0" value="type" />
+        <property name="value:0" value="AnySymbol" />
+        <node role="propertyMacro$property_attribute$value:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547748701">
           <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547748702">
             <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547748703">
               <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547748704">
@@ -645,10 +646,10 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547748723" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547748725">
-        <property name="name" value="AnySymbol" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro:2" id="1094196415547748727">
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547748723" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547748725">
+        <property name="name:0" value="AnySymbol" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.SwitchMacro:2" id="1094196415547748727">
           <link role="templateSwitch:2" targetNodeId="1094196415547748728" resolveInfo="BlockItemSwitch" />
         </node>
       </node>
@@ -678,20 +679,20 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547748731">
     <property name="name:2" value="AnySymbol" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342760034:26" resolveInfo="AnySymbol" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547748733">
-      <property name="name" value="AnySymbol" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751570">
-        <property name="name" value="BasicBlockItem" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751572">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547748733">
+      <property name="name:0" value="AnySymbol" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751570">
+        <property name="name:0" value="BasicBlockItem" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751572">
           <link role="includeTemplate:2" targetNodeId="1094196415547751541" resolveInfo="BasicBlockItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751498">
-        <property name="name" value="TimesMinimum" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547751499">
-          <property name="name" value="2" />
-          <property name="text" value="2" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751502">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751498">
+        <property name="name:0" value="TimesMinimum" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751499">
+          <property name="name:0" value="2" />
+          <property name="text:0" value="2" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751502">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751503">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751504">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751505">
@@ -711,12 +712,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751474">
-        <property name="name" value="TimesMaximum" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547751476">
-          <property name="name" value="" />
-          <property name="text" value="1" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751478">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751474">
+        <property name="name:0" value="TimesMaximum" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751476">
+          <property name="name:0" value="" />
+          <property name="text:0" value="1" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751478">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751479">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751480">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751481">
@@ -736,27 +737,27 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751514" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751514" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547751515">
     <property name="name:2" value="ExactString" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342760041:26" resolveInfo="ExactString" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547751517">
-      <property name="name" value="ExactString" />
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751518" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751574">
-        <property name="name" value="BasicBlockItem" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751575">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547751517">
+      <property name="name:0" value="ExactString" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751518" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751574">
+        <property name="name:0" value="BasicBlockItem" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751575">
           <link role="includeTemplate:2" targetNodeId="1094196415547751541" resolveInfo="BasicBlockItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751540">
-        <property name="name" value="Value" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547751576">
-          <property name="name" value="P" />
-          <property name="text" value="Привет" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751577">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751540">
+        <property name="name:0" value="Value" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751576">
+          <property name="name:0" value="P" />
+          <property name="text:0" value="Привет" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751577">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751578">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751579">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751580">
@@ -777,14 +778,14 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547751541">
     <property name="name:2" value="BasicBlockItem" />
     <link role="applicableConcept:2" targetNodeId="1.1094196415547751543:26" resolveInfo="IBlockItem" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547751549">
-      <property name="name" value="BlockItem" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751550">
-        <property name="name" value="LexemType" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547751551">
-          <property name="name" value="R" />
-          <property name="text" value="RussianLetter" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751553">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547751549">
+      <property name="name:0" value="BlockItem" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751550">
+        <property name="name:0" value="LexemType" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751551">
+          <property name="name:0" value="R" />
+          <property name="text:0" value="RussianLetter" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751553">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751554">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751555">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751556">
@@ -804,26 +805,26 @@
             </node>
           </node>
         </node>
-        <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751568" />
+        <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751568" />
       </node>
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547751587">
     <property name="name:2" value="StringSet" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342760043:26" resolveInfo="StringSet" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547751589">
-      <property name="name" value="StringSet" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751590">
-        <property name="name" value="BasicBlockItem" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751591">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547751589">
+      <property name="name:0" value="StringSet" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751590">
+        <property name="name:0" value="BasicBlockItem" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751591">
           <link role="includeTemplate:2" targetNodeId="1094196415547751541" resolveInfo="BasicBlockItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751594">
-        <property name="name" value="Strings" />
-        <node role="content" type="diglex.xml.structure.Element" id="1094196415547751595">
-          <property name="name" value="String" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="1094196415547751597">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751594">
+        <property name="name:0" value="Strings" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751595">
+          <property name="name:0" value="String" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="1094196415547751597">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="1094196415547751598">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751599">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751600">
@@ -837,10 +838,10 @@
               </node>
             </node>
           </node>
-          <node role="content" type="diglex.xml.structure.Text" id="1094196415547751609">
-            <property name="name" value="П" />
-            <property name="text" value="Привет" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751610">
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751609">
+            <property name="name:0" value="П" />
+            <property name="text:0" value="Привет" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751610">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751611">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751612">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751613">
@@ -857,26 +858,26 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751593" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751593" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1094196415547751635">
     <property name="name:2" value="TemlateReference" />
     <link role="applicableConcept:2" targetNodeId="1.1794194610342762048:26" resolveInfo="TemplateReference" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="1094196415547751639">
-      <property name="name" value="TemplateReference" />
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751678">
-        <property name="name" value="BasicMatchCaseItem" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751680">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="1094196415547751639">
+      <property name="name:0" value="TemplateReference" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751678">
+        <property name="name:0" value="BasicMatchCaseItem" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="1094196415547751680">
           <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="1094196415547751640">
-        <property name="name" value="ReferencesId" />
-        <node role="content" type="diglex.xml.structure.Text" id="1094196415547751641">
-          <property name="name" value="1" />
-          <property name="text" value="123" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751645">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="1094196415547751640">
+        <property name="name:0" value="ReferencesId" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="1094196415547751641">
+          <property name="name:0" value="1" />
+          <property name="text:0" value="123" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1094196415547751645">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1094196415547751660">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1094196415547751661">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1094196415547751662">
@@ -901,20 +902,20 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751676" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1094196415547751676" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8760462257934387157">
     <property name="name:2" value="Template" />
     <link role="applicableConcept:2" targetNodeId="1.6282999055323831027:26" resolveInfo="Template" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="8760462257934387159">
-      <property name="name" value="Template" />
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857144">
-        <property name="name" value="Id" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857145">
-          <property name="name" value="1" />
-          <property name="text" value="123" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857146">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="8760462257934387159">
+      <property name="name:0" value="Template" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857144">
+        <property name="name:0" value="Id" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857145">
+          <property name="name:0" value="1" />
+          <property name="text:0" value="123" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857146">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857147">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857148">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857149">
@@ -934,14 +935,14 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857111">
-        <property name="name" value="ClassIds" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872857112">
-          <property name="name" value="Id" />
-          <node role="content" type="diglex.xml.structure.Text" id="8627407948872857113">
-            <property name="name" value="" />
-            <property name="text" value="1000000000" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857114">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857111">
+        <property name="name:0" value="ClassIds" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857112">
+          <property name="name:0" value="Id" />
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857113">
+            <property name="name:0" value="" />
+            <property name="text:0" value="1000000000" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857114">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857115">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857116">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857134">
@@ -967,11 +968,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857155">
-        <property name="name" value="Properties" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872857156">
-          <property name="name" value="Property" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872857158">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857155">
+        <property name="name:0" value="Properties" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857156">
+          <property name="name:0" value="Property" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872857158">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8627407948872857159">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857160">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857161">
@@ -985,17 +986,17 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872857418">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872857418">
             <link role="includeTemplate:2" targetNodeId="8627407948872857326" resolveInfo="TemplateClassProperty" />
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8770772348876348410">
-        <property name="name" value="MatchMode" />
-        <node role="content" type="diglex.xml.structure.Text" id="8770772348876348413">
-          <property name="name" value="" />
-          <property name="text" value="AbsoluteMeaningful" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8770772348876348415">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8770772348876348410">
+        <property name="name:0" value="MatchMode" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8770772348876348413">
+          <property name="name:0" value="" />
+          <property name="text:0" value="AbsoluteMeaningful" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8770772348876348415">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8770772348876348416">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8770772348876348417">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8770772348876348418">
@@ -1011,12 +1012,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8760462257934387170">
-        <property name="name" value="Name" />
-        <node role="content" type="diglex.xml.structure.Text" id="8760462257934387171">
-          <property name="name" value="Ш" />
-          <property name="text" value="Шаблон" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387172">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387170">
+        <property name="name:0" value="Name" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8760462257934387171">
+          <property name="name:0" value="Ш" />
+          <property name="text:0" value="Шаблон" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387172">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8760462257934387173">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387174">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387175">
@@ -1032,11 +1033,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8760462257934387179">
-        <property name="name" value="MatchCases" />
-        <node role="content" type="diglex.xml.structure.Element" id="8760462257934387180">
-          <property name="name" value="MatchCase" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387181">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387179">
+        <property name="name:0" value="MatchCases" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387180">
+          <property name="name:0" value="MatchCase" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387181">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8760462257934387182">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387183">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387184">
@@ -1050,9 +1051,9 @@
               </node>
             </node>
           </node>
-          <node role="content" type="diglex.xml.structure.Element" id="8760462257934387188">
-            <property name="name" value="Precondition" />
-            <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8760462257934387189">
+          <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387188">
+            <property name="name:0" value="Precondition" />
+            <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8760462257934387189">
               <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="8760462257934387190">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387191">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387192">
@@ -1069,12 +1070,12 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="8760462257934387198">
-              <property name="name" value="NotInclude" />
-              <node role="content" type="diglex.xml.structure.Text" id="8760462257934387199">
-                <property name="name" value="" />
-                <property name="text" value="false" />
-                <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387200">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387198">
+              <property name="name:0" value="NotInclude" />
+              <node role="content:0" type="diglex.xml.structure.Text:0" id="8760462257934387199">
+                <property name="name:0" value="" />
+                <property name="text:0" value="false" />
+                <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387200">
                   <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8760462257934387201">
                     <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387202">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387203">
@@ -1099,11 +1100,11 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="8760462257934387210">
-              <property name="name" value="Items" />
-              <node role="content" type="diglex.xml.structure.Element" id="8760462257934387211">
-                <property name="name" value="Item" />
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387212">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387210">
+              <property name="name:0" value="Items" />
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387211">
+                <property name="name:0" value="Item" />
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387212">
                   <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8760462257934387213">
                     <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387214">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387215">
@@ -1122,15 +1123,15 @@
                     </node>
                   </node>
                 </node>
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387221">
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387221">
                   <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
                 </node>
               </node>
             </node>
           </node>
-          <node role="content" type="diglex.xml.structure.Element" id="8760462257934387222">
-            <property name="name" value="Postcondition" />
-            <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8760462257934387223">
+          <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387222">
+            <property name="name:0" value="Postcondition" />
+            <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8760462257934387223">
               <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="8760462257934387224">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387225">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387226">
@@ -1147,12 +1148,12 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="8760462257934387232">
-              <property name="name" value="NotInclude" />
-              <node role="content" type="diglex.xml.structure.Text" id="8760462257934387233">
-                <property name="name" value="" />
-                <property name="text" value="false" />
-                <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387234">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387232">
+              <property name="name:0" value="NotInclude" />
+              <node role="content:0" type="diglex.xml.structure.Text:0" id="8760462257934387233">
+                <property name="name:0" value="" />
+                <property name="text:0" value="false" />
+                <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387234">
                   <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8760462257934387235">
                     <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387236">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387237">
@@ -1177,11 +1178,11 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="8760462257934387244">
-              <property name="name" value="Items" />
-              <node role="content" type="diglex.xml.structure.Element" id="8760462257934387245">
-                <property name="name" value="Item" />
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387246">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387244">
+              <property name="name:0" value="Items" />
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387245">
+                <property name="name:0" value="Item" />
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387246">
                   <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8760462257934387247">
                     <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387248">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387249">
@@ -1200,17 +1201,17 @@
                     </node>
                   </node>
                 </node>
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387255">
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387255">
                   <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
                 </node>
               </node>
             </node>
           </node>
-          <node role="content" type="diglex.xml.structure.Element" id="8760462257934387256">
-            <property name="name" value="Items" />
-            <node role="content" type="diglex.xml.structure.Element" id="8760462257934387257">
-              <property name="name" value="Item" />
-              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387258">
+          <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387256">
+            <property name="name:0" value="Items" />
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="8760462257934387257">
+              <property name="name:0" value="Item" />
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8760462257934387258">
                 <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8760462257934387259">
                   <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387260">
                     <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387261">
@@ -1224,28 +1225,28 @@
                   </node>
                 </node>
               </node>
-              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387265">
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8760462257934387265">
                 <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8760462257934387279" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8760462257934387279" />
     </node>
   </node>
-  <node type="diglex.xml.structure.Document" id="8760462257934387350">
-    <property name="name" value="dictionary.xml" />
-    <node role="rootTemplateAnnotation$attribute" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation:2" id="8760462257934387352">
+  <node type="diglex.xml.structure.Document:0" id="8760462257934387350">
+    <property name="name:0" value="dictionary.xml" />
+    <node role="rootTemplateAnnotation$attribute:0" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation:2" id="8760462257934387352">
       <link role="applicableConcept:2" targetNodeId="1.8760462257934374004:26" resolveInfo="Dictionary" />
     </node>
-    <node role="rootElement" type="diglex.xml.structure.Element" id="8760462257934387364">
-      <property name="name" value="Dictionary" />
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872668622">
-        <property name="name" value="Classes" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872668624">
-          <property name="name" value="Class" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872668626">
+    <node role="rootElement:0" type="diglex.xml.structure.Element:0" id="8760462257934387364">
+      <property name="name:0" value="Dictionary" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872668622">
+        <property name="name:0" value="Classes" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872668624">
+          <property name="name:0" value="Class" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872668626">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8627407948872668627">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872668628">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="8627407948872669266">
@@ -1452,16 +1453,16 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872669329">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872669329">
             <link role="includeTemplate:2" targetNodeId="8627407948872669462" resolveInfo="TemplateClass" />
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872668607">
-        <property name="name" value="Templates" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872668608">
-          <property name="name" value="Template" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872668609">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872668607">
+        <property name="name:0" value="Templates" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872668608">
+          <property name="name:0" value="Template" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872668609">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8627407948872668610">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872668611">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872668612">
@@ -1480,13 +1481,13 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872668618">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872668618">
             <link role="includeTemplate:2" targetNodeId="8760462257934387157" resolveInfo="Template" />
           </node>
         </node>
       </node>
     </node>
-    <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387375">
+    <node role="propertyMacro$property_attribute$name:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8760462257934387375">
       <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8760462257934387376">
         <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8760462257934387377">
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8760462257934387378">
@@ -1564,21 +1565,21 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6970827918925078737">
     <property name="name:2" value="AnonymousTemplate" />
     <link role="applicableConcept:2" targetNodeId="1.7855981724430980336:26" resolveInfo="AnonymousTemplate" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="6970827918925078740">
-      <property name="name" value="AnonymousTemplateItem" />
-      <node role="content" type="diglex.xml.structure.Element" id="6970827918925078742">
-        <property name="name" value="Repeat" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078745">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="6970827918925078740">
+      <property name="name:0" value="AnonymousTemplateItem" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078742">
+        <property name="name:0" value="Repeat" />
+        <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078745">
           <link role="includeTemplate:2" targetNodeId="1094196415547747957" resolveInfo="BasicMatchCaseItem" />
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="6970827918925078858">
-        <property name="name" value="AnonymousTemplate" />
-        <node role="content" type="diglex.xml.structure.Element" id="6970827918925078859">
-          <property name="name" value="MatchCases" />
-          <node role="content" type="diglex.xml.structure.Element" id="6970827918925078860">
-            <property name="name" value="MatchCase" />
-            <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078861">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078858">
+        <property name="name:0" value="AnonymousTemplate" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078859">
+          <property name="name:0" value="MatchCases" />
+          <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078860">
+            <property name="name:0" value="MatchCase" />
+            <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078861">
               <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078862">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078863">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078864">
@@ -1592,9 +1593,9 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="6970827918925078868">
-              <property name="name" value="Precondition" />
-              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078869">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078868">
+              <property name="name:0" value="Precondition" />
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078869">
                 <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="6970827918925078870">
                   <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078871">
                     <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078872">
@@ -1611,12 +1612,12 @@
                   </node>
                 </node>
               </node>
-              <node role="content" type="diglex.xml.structure.Element" id="6970827918925078878">
-                <property name="name" value="NotInclude" />
-                <node role="content" type="diglex.xml.structure.Text" id="6970827918925078879">
-                  <property name="name" value="" />
-                  <property name="text" value="false" />
-                  <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078880">
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078878">
+                <property name="name:0" value="NotInclude" />
+                <node role="content:0" type="diglex.xml.structure.Text:0" id="6970827918925078879">
+                  <property name="name:0" value="" />
+                  <property name="text:0" value="false" />
+                  <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078880">
                     <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="6970827918925078881">
                       <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078882">
                         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078883">
@@ -1641,11 +1642,11 @@
                   </node>
                 </node>
               </node>
-              <node role="content" type="diglex.xml.structure.Element" id="6970827918925078890">
-                <property name="name" value="Items" />
-                <node role="content" type="diglex.xml.structure.Element" id="6970827918925078891">
-                  <property name="name" value="Item" />
-                  <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078892">
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078890">
+                <property name="name:0" value="Items" />
+                <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078891">
+                  <property name="name:0" value="Item" />
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078892">
                     <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078893">
                       <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078894">
                         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078895">
@@ -1664,15 +1665,15 @@
                       </node>
                     </node>
                   </node>
-                  <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078901">
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078901">
                     <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
                   </node>
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="6970827918925078902">
-              <property name="name" value="Postcondition" />
-              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078903">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078902">
+              <property name="name:0" value="Postcondition" />
+              <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="6970827918925078903">
                 <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="6970827918925078904">
                   <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078905">
                     <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078906">
@@ -1689,12 +1690,12 @@
                   </node>
                 </node>
               </node>
-              <node role="content" type="diglex.xml.structure.Element" id="6970827918925078912">
-                <property name="name" value="NotInclude" />
-                <node role="content" type="diglex.xml.structure.Text" id="6970827918925078913">
-                  <property name="name" value="" />
-                  <property name="text" value="false" />
-                  <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078914">
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078912">
+                <property name="name:0" value="NotInclude" />
+                <node role="content:0" type="diglex.xml.structure.Text:0" id="6970827918925078913">
+                  <property name="name:0" value="" />
+                  <property name="text:0" value="false" />
+                  <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="6970827918925078914">
                     <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="6970827918925078915">
                       <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078916">
                         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078917">
@@ -1719,11 +1720,11 @@
                   </node>
                 </node>
               </node>
-              <node role="content" type="diglex.xml.structure.Element" id="6970827918925078924">
-                <property name="name" value="Items" />
-                <node role="content" type="diglex.xml.structure.Element" id="6970827918925078925">
-                  <property name="name" value="Item" />
-                  <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078926">
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078924">
+                <property name="name:0" value="Items" />
+                <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078925">
+                  <property name="name:0" value="Item" />
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078926">
                     <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078927">
                       <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078928">
                         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078929">
@@ -1742,17 +1743,17 @@
                       </node>
                     </node>
                   </node>
-                  <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078935">
+                  <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078935">
                     <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
                   </node>
                 </node>
               </node>
             </node>
-            <node role="content" type="diglex.xml.structure.Element" id="6970827918925078936">
-              <property name="name" value="Items" />
-              <node role="content" type="diglex.xml.structure.Element" id="6970827918925078937">
-                <property name="name" value="Item" />
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078938">
+            <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078936">
+              <property name="name:0" value="Items" />
+              <node role="content:0" type="diglex.xml.structure.Element:0" id="6970827918925078937">
+                <property name="name:0" value="Item" />
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="6970827918925078938">
                   <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6970827918925078939">
                     <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6970827918925078940">
                       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6970827918925078941">
@@ -1766,7 +1767,7 @@
                     </node>
                   </node>
                 </node>
-                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078945">
+                <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="6970827918925078945">
                   <link role="includeTemplate:2" targetNodeId="7612397494931113024" resolveInfo="MatchCaseItemTemplate" />
                 </node>
               </node>
@@ -1774,20 +1775,20 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="6970827918925078856" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="6970827918925078856" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8627407948872669462">
     <property name="name:2" value="TemplateClass" />
     <link role="applicableConcept:2" targetNodeId="1.8163933354909661620:26" resolveInfo="TemplateClass" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="8627407948872669464">
-      <property name="name" value="Class" />
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872669468">
-        <property name="name" value="Id" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872669469">
-          <property name="name" value="" />
-          <property name="text" value="1000000000" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872669473">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="8627407948872669464">
+      <property name="name:0" value="Class" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872669468">
+        <property name="name:0" value="Id" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872669469">
+          <property name="name:0" value="" />
+          <property name="text:0" value="1000000000" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872669473">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872669474">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872669475">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872669484">
@@ -1807,12 +1808,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872865745">
-        <property name="name" value="Name" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872865749">
-          <property name="name" value="B" />
-          <property name="text" value="Basic class" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872865751">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872865745">
+        <property name="name:0" value="Name" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872865749">
+          <property name="name:0" value="B" />
+          <property name="text:0" value="Basic class" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872865751">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872865752">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872865753">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872865757">
@@ -1828,11 +1829,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872669494">
-        <property name="name" value="ParentIds" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872669495">
-          <property name="name" value="Id" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8627407948872669497">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872669494">
+        <property name="name:0" value="ParentIds" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872669495">
+          <property name="name:0" value="Id" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="8627407948872669497">
             <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="8627407948872669498">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872669499">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872669500">
@@ -1849,10 +1850,10 @@
               </node>
             </node>
           </node>
-          <node role="content" type="diglex.xml.structure.Text" id="8627407948872669512">
-            <property name="name" value="" />
-            <property name="text" value="1000000001" />
-            <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872669514">
+          <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872669512">
+            <property name="name:0" value="" />
+            <property name="text:0" value="1000000001" />
+            <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872669514">
               <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872669515">
                 <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872669516">
                   <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872669517">
@@ -1878,11 +1879,11 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857420">
-        <property name="name" value="Properties" />
-        <node role="content" type="diglex.xml.structure.Element" id="8627407948872857421">
-          <property name="name" value="Property" />
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872857423">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857420">
+        <property name="name:0" value="Properties" />
+        <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857421">
+          <property name="name:0" value="Property" />
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.LoopMacro:2" id="8627407948872857423">
             <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="8627407948872857424">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857425">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857426">
@@ -1896,12 +1897,12 @@
               </node>
             </node>
           </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872857435">
+          <node role="nodeMacro$attribute:0" type="jetbrains.mps.lang.generator.structure.IncludeMacro:2" id="8627407948872857435">
             <link role="includeTemplate:2" targetNodeId="8627407948872857169" resolveInfo="ClassProperty" />
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872669483" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872669483" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingScript:2" id="8627407948872681937">
@@ -2283,14 +2284,14 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8627407948872857169">
     <property name="name:2" value="ClassProperty" />
     <link role="applicableConcept:2" targetNodeId="1.8163933354909846985:26" resolveInfo="ClassProperty" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="8627407948872857171">
-      <property name="name" value="Property" />
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857172">
-        <property name="name" value="Name" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857195">
-          <property name="name" value="n" />
-          <property name="text" value="name" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857196">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="8627407948872857171">
+      <property name="name:0" value="Property" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857172">
+        <property name="name:0" value="Name" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857195">
+          <property name="name:0" value="n" />
+          <property name="text:0" value="name" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857196">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857197">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857198">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857199">
@@ -2306,12 +2307,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857174">
-        <property name="name" value="Type" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857208">
-          <property name="name" value="s" />
-          <property name="text" value="string" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857211">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857174">
+        <property name="name:0" value="Type" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857208">
+          <property name="name:0" value="s" />
+          <property name="text:0" value="string" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857211">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857212">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857213">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872862886">
@@ -2331,12 +2332,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857178">
-        <property name="name" value="DefaultValue" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857180">
-          <property name="name" value="1" />
-          <property name="text" value="qwerty" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857182">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857178">
+        <property name="name:0" value="DefaultValue" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857180">
+          <property name="name:0" value="1" />
+          <property name="text:0" value="qwerty" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857182">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857183">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857184">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857185">
@@ -2352,20 +2353,20 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872857192" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872857192" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8627407948872857326">
     <property name="name:2" value="TemplateClassProperty" />
     <link role="applicableConcept:2" targetNodeId="1.8163933354909661621:26" resolveInfo="TemplateClassProperty" />
-    <node role="contentNode:2" type="diglex.xml.structure.Element" id="8627407948872857328">
-      <property name="name" value="Property" />
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857332">
-        <property name="name" value="Name" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857406">
-          <property name="name" value="n" />
-          <property name="text" value="name" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857407">
+    <node role="contentNode:2" type="diglex.xml.structure.Element:0" id="8627407948872857328">
+      <property name="name:0" value="Property" />
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857332">
+        <property name="name:0" value="Name" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857406">
+          <property name="name:0" value="n" />
+          <property name="text:0" value="name" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857407">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857408">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857409">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857410">
@@ -2381,12 +2382,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857334">
-        <property name="name" value="Type" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857350">
-          <property name="name" value="" />
-          <property name="text" value="int" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857352">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857334">
+        <property name="name:0" value="Type" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857350">
+          <property name="name:0" value="" />
+          <property name="text:0" value="int" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857352">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857353">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857354">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872862895">
@@ -2406,12 +2407,12 @@
           </node>
         </node>
       </node>
-      <node role="content" type="diglex.xml.structure.Element" id="8627407948872857336">
-        <property name="name" value="DefaultValue" />
-        <node role="content" type="diglex.xml.structure.Text" id="8627407948872857338">
-          <property name="name" value="" />
-          <property name="text" value="123" />
-          <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857340">
+      <node role="content:0" type="diglex.xml.structure.Element:0" id="8627407948872857336">
+        <property name="name:0" value="DefaultValue" />
+        <node role="content:0" type="diglex.xml.structure.Text:0" id="8627407948872857338">
+          <property name="name:0" value="" />
+          <property name="text:0" value="123" />
+          <node role="propertyMacro$property_attribute$text:0" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="8627407948872857340">
             <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="8627407948872857341">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8627407948872857342">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8627407948872857343">
@@ -2427,7 +2428,7 @@
           </node>
         </node>
       </node>
-      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872857398" />
+      <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="8627407948872857398" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingScript:2" id="8627407948872875834">
